@@ -1,0 +1,78 @@
+{
+    "condition": [
+        {
+            "src": "/images/pages/kids/digestive.webp",
+            "alt": "A boy eating honey",
+            "name": "Digestive Issues",
+            "content": "Flatulence, burping, bloating, IBS, constipation, diarrhea, overeating"
+        },
+        {
+            "src": "/images/pages/kids/skin.webp",
+            "alt": "A girl squeezing pimple",
+            "name": "Skin Conditions",
+            "content": "Eczema, rosacea, acne, psoriasis, and rash"
+        },
+        {
+            "src": "/images/pages/kids/immunity.webp",
+            "alt": "Some children wearing masks",
+            "name": "Immunity Problems",
+            "content": "Frequent colds, coughs, and sore throat"
+        },
+        
+        {
+            "src": "/images/pages/kids/stress.webp",
+            "alt": "An anxious teenage girl",
+            "name": "Stress Management",
+            "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension"
+        },
+        {
+            "src": "/images/pages/kids/energy.webp",
+            "alt": "A sleepy little girl",
+            "name": "Energy Problems",
+            "content": "Erratic energy and fatigue"
+        },
+        {
+            "src": "/images/pages/kids/pms.webp",
+            "alt": "A teenager with PMS",
+            "name": "Reproductive Issues",
+            "content": "PMS"
+        },
+        
+        {
+            "src": "/images/pages/kids/allergies.webp",
+            "alt": "A boy in a field of flowers",
+            "name": "Allergies",
+            "content": "Allergic Rhinitis, seasonal allergies"
+        },
+        {
+            "src": "/images/pages/kids/weight-management.webp",
+            "alt": "A boy full of energy",
+            "name": "Weight Management",
+            "content": ""
+        },
+        {
+            "src": "/images/pages/kids/asthma.webp",
+            "alt": "A smiling boy",
+            "name": "Asthma",
+            "content": ""
+        },
+        {
+            "src": "/images/pages/kids/headache.webp",
+            "alt": "A boy with a headache",
+            "name": "Headaches",
+            "content": ""
+        },
+        {
+            "src": "/images/pages/kids/anemia.webp",
+            "alt": "A girl getting a bandaid",
+            "name": "Anemia",
+            "content": ""
+        },
+        {
+            "src": "/images/pages/kids/pain.webp",
+            "alt": "A girl crying",
+            "name": "Pain",
+            "content": ""
+        }
+    ]
+}

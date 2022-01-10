@@ -1,0 +1,18 @@
+@import "../custom/variables.scss";
+
+.error {
+    h1 {
+        font-size: $error-page-header-size-mobile;
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+
+    @media only screen and (min-width: $small) {
+        h1 {
+            font-size: $error-page-header-size;
+        }
+    }
+}

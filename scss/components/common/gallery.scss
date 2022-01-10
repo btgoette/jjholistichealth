@@ -1,0 +1,104 @@
+.photo-gallery {
+    .photos {
+        cursor: pointer;
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .photo-1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .photo-2 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .photo-3 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .photo-4 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+
+        .photo-5 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        .photo-6 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+
+        @media only screen and (min-width: 786px) {
+            grid-gap: 1rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+
+            .photo-1 {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            .photo-2 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .photo-3 {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .photo-4 {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+
+            .photo-5 {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            .photo-6 {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+        }
+    }
+}

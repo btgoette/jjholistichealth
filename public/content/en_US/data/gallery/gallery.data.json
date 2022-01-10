@@ -1,0 +1,40 @@
+{
+    "images": [
+        {
+            "order": "photo-1",
+            "image": "/images/pages/about/gallery/1.webp",
+            "fullImage": "/images/pages/about/gallery/full/1.webp",
+            "alt": "A holistic practioner checking a patient's eye with a light"
+        },
+        {
+            "order": "photo-2",
+            "image": "/images/pages/about/gallery/2.webp",
+            "fullImage": "/images/pages/about/gallery/full/2.webp",
+            "alt": "A holistic practioner feeling a patient's abdomen"
+        },
+        {
+            "order": "photo-3",
+            "image": "/images/pages/about/gallery/3.webp",
+            "fullImage": "/images/pages/about/gallery/full/3.webp",
+            "alt": "A holistic practioner checking a patient's palm"
+        },
+        {
+            "order": "photo-4",
+            "image": "/images/pages/about/gallery/4.webp",
+            "fullImage": "/images/pages/about/gallery/full/4.webp",
+            "alt": "A holistic practioner checking a patient's shoulder"
+        },
+        {
+            "order": "photo-5",
+            "image": "/images/pages/about/gallery/5.webp",
+            "fullImage": "/images/pages/about/gallery/full/5.webp",
+            "alt": "A holistic practioner typing a Functional Exam report"
+        },
+        {
+            "order": "photo-6",
+            "image": "/images/pages/about/gallery/6.webp",
+            "fullImage": "/images/pages/about/gallery/full/6.webp",
+            "alt": "A holistic practioner checking a patient's arm"
+        }
+    ]
+}

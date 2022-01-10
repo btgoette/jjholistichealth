@@ -1,0 +1,103 @@
+{
+    "title": "Kovid Kocktail - JJ Holistic Nutritional Therapy",
+    "description": "Aromatherapy and Kovid Kocktail. After submission you will be redirected to our booking service. We will contact you as soon as possible.",
+    "url": "https://jjholistichealth.com/kovid-kocktail",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/promos/jj-covid-cocktail-immunity-booster.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Kovid Kocktail",
+    "promo": {
+        "mobile": {
+            "image": {
+                "src": "/images/pages/promos/mobile/jj-kovid-kocktail.webp",
+                "alt": "Book Your Appointment for Aromatherapy & Kovid Kocktail",
+                "link": "/book-now"
+            }
+        },
+        "desktop": {
+            "image": {
+                "src": "/images/pages/promos/desktop/jj-kovid-kocktail.png",
+                "alt": "Book Your Appointment for Aromatherapy & Kovid Kocktail",
+                "link": "/book-now"
+            }
+        }
+    },
+    "hero": {
+        "background": "",
+        "title": "",
+        "p": [
+            {
+                "li": ""
+            }
+        ]
+    },
+    "section1": {
+        "block1": {
+            "title": "J&J Holistic Nutritional Therapy Kovid Kocktail",
+            "p": [
+                {
+                    "li": "It is common knowledge that having a robust immune system is essential for maintaining good health and well-being. With Covid-19 still at large and the flu season looming just around the corner, a strong immune system is critical."
+                },
+                {
+                    "li": "While there’s no guarantee that a good immune system will prevent you from catching the virus, it surely helps the fight against it. With more variants of the virus popping up almost every month, the need to be increasingly careful about your immunity is more than ever."
+                }
+            ]
+        },
+        "block2": {
+            "p": "There are many different things you can do to boost your immunity, including:",
+            "ul": [
+                {
+                    "bold": "Eating a healthy, balanced diet – ",
+                    "li": "a diet high in fruits and vegetables, as well as the right portions of proteins, carbs, and fats, are essential for your immune system"
+                },
+                {
+                    "bold": "Getting plenty of exercise – ",
+                    "li": "experts recommend at least 150 minutes of moderate exercise every week."
+                },
+                {
+                    "bold": "Maintaining a healthy weight – ",
+                    "li": "it is recommended to aim for a BMI of 25 and lower to keep your immune system working effectively."
+                },
+                {
+                    "bold": "Good quality sleep – ",
+                    "li": "set a sleep routine that gives you at least 6 hours of sleep and stick to it."
+                },
+                {
+                    "bold": "Quitting smoking – ",
+                    "li": "if you smoke, you can get support to help you stop."
+                }
+            ]
+        },
+        "block3": {
+            "title": "The J&J Holistic Nutritional Therapy Kovid Kocktail",
+            "p": [
+                {
+                    "li": "Nonetheless, these are not your only options. Another great way to boost your immune system is with The J&J Holistic Nutritional Therapy Kovid Kocktail."
+                },
+                {
+                    "li": "Like the Army, our immune system is a highly complex defensive network of individual units that work together to combat disease-causing agents such as bacteria, viruses, and other ‘enemies’."
+                },
+                {
+                    "li": "Since it is made up of many parts acting as one, there cannot be a one-size-fits-all approach to boosting the immune system. Nonetheless, using the right ingredients, this network can be strengthened to run more efficiently and fight the majority of diseases. The J&J Holistic Nutritional Therapy Kovid Kocktail is curated from powerful herbs with the highest quality ingredients to ensure that you are getting the right amount of immune support every day.†"
+                },
+                {
+                    "li": "The J&J Holistic Nutritional Therapy Kovid Kocktail strengthens the immune systems and prevents the body from being weak. This clears the lungs and helps from uncomfortable breathing. Using the different herbal mixtures of the Kovid Kocktail prevents the body from getting viral and bacterial infections and illnesses some of them include sore throat, common colds, flu, bronchitis, cough, influenza, pneumonia, herpes, AIDS/HIV, and more."
+                },
+                {
+                    "li": "The Kovid Kocktail also supports indigestion and body pains."
+                },
+                {
+                    "li": "To learn more about how the J&J Holistic Nutritional Therapy Kovid Kocktail provides a range of benefits in the immune system, call us today at (800) 634-3363 or book an online consultation today!"
+                }
+            ],
+            "disclaimer": "This statement has not been approved by the Food and Drug Administration. This product is a dietary supplement and not intended to diagnose, treat, cure, or prevent disease."
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.fas,
+.far,
+.fab,
+.svg-inline--fa {
+    margin-right: 1rem;
+}
+
+.fa-dot-circle {
+    margin: 0;
+}
+
+.fa-mortar-pestle {
+    margin-right: 1rem;
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-bottom: 3rem;
+    .fa-li {
+        width: 1rem;
+    }
+}
+
+.fa-envira {
+    color: $green !important;
+    width: $small-bullets;
+    min-width: $small-bullets;
+}
+
+.fa-mortar-pestle {
+    color: $beige !important;
+    width: $large-bullets;
+    min-width: $large-bullets;
+}

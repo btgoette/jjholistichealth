@@ -1,0 +1,165 @@
+{
+    "title": "Cardiovascular - JJ Holistic Nutritional Therapy",
+    "description": "The information below represents a sample of the protocol normally presented in a client report. Of course, we recognize that every client is an individual with very particular needs. As a result, this protocol is simply a starting point or guideline. Moreover, the client protocol is followed by a report on cardiovascular health for your information. By using lab and functional testing, you will be able to refine and individualize the program for specific clients.",
+    "url": "https://jjholistichealth.com/conditions/cardiovascular",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/conditions/cardio/cold-water-fish.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Conditions",
+            "link": "/conditions/"
+        }
+    ],
+    "finalcrumb": "Cardiovascular",
+    "hero": {
+        "background": "hero hero-tomatoes",
+        "title": "Cardiovascular",
+        "p": [
+            {
+                "li": "The information below represents a sample of the protocol normally presented in a client report. Of course, we recognize that every client is an individual with very particular needs. As a result, this protocol is simply a starting point or guideline. Moreover, the client protocol is followed by a report on cardiovascular health for your information. By using lab and functional testing, you will be able to refine and individualize the program for specific clients."
+            }
+        ]
+    },
+    "section2": {
+        "block1": {
+            "list1": [
+                {
+                    "h4": "Avoid deep‐fried food, hydrogenated oil, and partially hydrogenated oil:",
+                    "p": "Avoid margarine and all sources of hydrogenated oil, these are linked to heart disease"
+                },
+                {
+                    "h4": "Avoid refined sugar and refined carbohydrate:",
+                    "p": "Syndrome X, a situation where the total cholesterol, triglycerides, and LDL (bad cholesterol) are increased and the HDL (good cholesterol) is decreased, is linked to the consumption of too many refined carbohydrates and poor carbohydrate tolerance."
+                }
+            ]
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/fried-foods.webp",
+                "alt": "A plate of Fried Foods"
+            }
+        }
+    },
+    "section3": {
+        "block1": {
+            "list1": [
+                {
+                    "image1": {
+                        "src": "/images/pages/conditions/cardio/cold-water-fish.webp",
+                        "alt": "A plate of cooked Cold Water Fish"
+                    },
+                    "h4": "Eat plenty of cold-water fish, flaxseed, and other sources of Omega 3 oils."
+                },
+                {
+                    "image1": {
+                        "src": "/images/pages/conditions/cardio/reduce-stress-meditate.webp",
+                        "alt": "A woman meditating"
+                    },
+                    "h4": "Reduce stress; meditate or take up a hobby."
+                },
+                {
+                    "image1": {
+                        "src": "/images/pages/conditions/cardio/exercise-and-stretching.webp",
+                        "alt": "Do moderate exercise and stretching."
+                    },
+                    "h4": "A woman stretching her leg muscles."
+                },
+                {
+                    "image1": {
+                        "src": "/images/pages/conditions/cardio/drink-plenty-of-water.webp",
+                        "alt": "A man drinking a bottle of water."
+                    },
+                    "h4": "Drink plenty of water."
+                },
+                {
+                    "image1": {
+                        "src": "/images/pages/conditions/cardio/fresh-vegetables.webp",
+                        "alt": "A bowl of salad."
+                    },
+                    "h4": "Eat plenty of fresh vegetables."
+                }
+            ]
+        }
+    },
+    "section4": {
+        "block1": {
+            "p": "This is one area in which, if you suspect problems, you want to do a more traditional cardiac workup or make a referral to a cardiologist. Nutritional support can coincide with traditional methods. The important thing is to protect the life of the client. Nutritional and other natural therapies take time to work and are best for chronic problems. Traditional medical practitioners are the best choice for treating acute medical emergencies."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/cardiologist.webp",
+                "alt": "A cardiologist showing his patient a diagram of the heart"
+            }
+        },
+        "block3": {
+            "p": "There are Chapman Reflex points and spinal reflex points that can be gauged for tenderness. The Chapman Reflex points are at the 3rd intercostal space, next to the sternum. Tenderness at the transverse process of T1 can be an indicator of the need to support the heart. Tenderness at the transverse process of T2 can be an indicator of a need to support the myocardium. T1 tenderness is more an indication of possible myocardial infarction, T2 tenderness is more of an indication of possible congestive heart failure (CHF)."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/chapman-reflex.webp",
+                "alt": "A Holistic Practitioner checking a patient's Chapman Reflex"
+            }
+        },
+        "block5": {
+            "p": "Everyone is concerned with cholesterol and the number of fat clients eats. This is a one‐dimensional idea and the dietary issues here are much more complex than simply avoiding fat. The issue may not be the amount of fat or oil, but the quality of the fats eaten; Omega 3 essential fatty acids may be cardio-protective. Consuming hydrogenated oil is dangerous to the heart (among other things). Not many people pay attention to sugar and refined foods. Refined sugar and flour may play an important role in increasing cholesterol. Anticholesterol medications work by suppressing a liver enzyme, HMG CoA reductase. Increasing insulin increases the activity of this enzyme, so eating sugar can have an unfavorable effect on cholesterol. Sugar and refined grains also increase the growth of yeast and other dysbiotic organisms in the gut. Bile salts can be deconjugated by these organisms and turned into bile acids; this may trigger the production of cholesterol by the liver. Epidemiologic studies show that native populations have increased heart disease when exposed to the Western diet, but their fat consumption doesn’t go up; their consumption of refined carbohydrates does."
+        },
+        "block6": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/healthy-fats.webp",
+                "alt": "An Avocado and a tuna steak"
+            }
+        }
+    },
+    "section5": {
+        "background": "img-title bg-vegetables-1",
+        "title": "Beyond Saturated Fats—How to Improve Your Cardiac Health using Diet",
+        "block1": {
+            "h4": "Avoid refined Sugars and refined carbohydrates:",
+            "p": "Refined food is just as bad as saturated fat when it comes to its harmful effects on the cardiovascular system. Also, a refined food diet is low in folic acid, B12, and B6, all of which are necessary to keep homocysteine levels low. High homocysteine levels increase the risks of cardiac problems as much as cholesterol."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/cupcakes.webp",
+                "alt": "A tray of cupcakes"
+            }
+        },
+        "block3": {
+            "h4": "Strictly avoid hydrogenated and partially‐hydrogenated oils:",
+            "p": "You find these in packaged food and margarine. Keep this in mind; there are still physicians out there who have their cardiac patients eating margarine. Also, limit your intake of saturated fats."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/french-fries.webp",
+                "alt": "A plate of chili cheese French Fries"
+            }
+        }
+    },
+    "section6": {
+        "block1": {
+            "h4": "Exercise:",
+            "p": "Simple aerobic exercise is enough, never become out of breath or be unable to talk while working out. Get older clients to walk."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/group-exercise.webp",
+                "alt": "Women doing Group Exercises"
+            }
+        },
+        "block3": {
+            "h4": "Eat plenty of green vegetables:",
+            "p": "Fiber and folic acid are only two of the reasons why clients should eat vegetables. Folic acid helps reduce homocysteine levels, and fiber reduces the absorption of fats and sugars and helps intestinal and liver health. Magnesium is important for good cardiac function and can reduce blood pressure. Two of the best ways to reduce cholesterol and blood pressure isby taking plenty of fiber and doing exercise."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/cardio/salad.webp",
+                "alt": "Ingredients in bowls for a Salad"
+            }
+        }
+    }
+}

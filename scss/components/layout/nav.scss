@@ -1,0 +1,185 @@
+nav {
+    border-bottom: 1px solid $transparent-green;
+
+    .navbar-light {
+        padding: 0.5rem 1rem;
+
+        .logo {
+            margin: 0 0;
+            max-width: 140px;
+            cursor: pointer;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                margin: 0 0;
+                padding: 0 5px;
+                &:not(:last-child) {
+                    border-bottom: 1px solid $transparent-green;
+                }
+
+                &.dropdown {
+                    .dropdown-menu {
+                        background: none;
+                        border: none;
+                        padding: 0;
+
+                        .dropdown-divider {
+                            display: none;
+                        }
+
+                        .dropdown-item {
+                            font-family: $nav-font-family;
+                            font-size: $nav-font-size-dropdown;
+                            color: $green;
+                            letter-spacing: 1px;
+                            padding: 10px 1rem;
+                            text-align: left;
+
+                            &:hover {
+                                background: none;
+                            }
+
+                            &.active,
+                            &:active {
+                                color: $dark-green;
+                                text-decoration: none;
+                                background: none;
+                            }
+                        }
+                    }
+
+                    .dropdown-toggle[aria-expanded="true"]:after {
+                        transform: rotate(180deg);
+                    }
+
+                    .dropdown-toggle {
+                        &:after {
+                            text-align: right;
+                            position: absolute;
+                            right: 10px;
+                            top: 20px;
+                            transition: 0.2s;
+                        }
+                    }
+                }
+
+                .nav-link {
+                    font-family: $nav-font-family;
+                    color: $green;
+                    letter-spacing: 1px;
+                    font-size: $nav-font-size;
+                    font-weight: $header-font-weight;
+                    text-align: left;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+
+                    &:hover,
+                    &.active,
+                    &.show {
+                        color: $dark-green;
+                    }
+                }
+
+                .active,
+                .show {
+                    .nav-link {
+                        color: $dark-green;
+                    }
+                }
+            }
+        }
+
+        .navbar-toggler {
+            color: $transparent-green;
+            border: none;
+            margin-right: 1rem;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+.offcanvas {
+
+    &.offcanvas-end {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    .offcanvas-header {
+        background-color: $green;
+        padding: 2.22rem 1rem;
+
+        .offcanvas-title {
+            color: $white;
+            margin-bottom: 0;
+        }
+
+        .btn-close {
+            opacity: 1;
+            margin-right: .5rem;
+        }
+    }
+
+    .offcanvas-body {
+        .navbar-nav {
+            .nav-item {
+                border-bottom: $transparent-green;
+                .nav-link {
+                    color: $green;
+                }
+            }
+            .dropdown-menu {
+                border: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $large) {
+    nav {
+        .navbar-light {
+            .navbar-nav {
+                .nav-item {
+                    &:not(:last-child) {
+                        border-bottom: none !important;
+                    }
+
+                    &.dropdown {
+                        .dropdown-menu {
+                            background: $white;
+                            border: 1px solid $transparent-green;
+
+                            .dropdown-divider {
+                                display: block;
+                                margin: 0;
+                                padding: 0;
+                            }
+
+                            .dropdown-item {
+                                &:hover {
+                                    background-color: $dark-green;
+                                    color: $white;
+                                }
+                            }
+                        }
+
+                        .dropdown-toggle {
+                            &:after {
+                                text-align: right;
+                                position: relative;
+                                right: 0px;
+                                top: 3px;
+                                transition: 0.2s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "title": "Forms - JJ Holistic Nutritional Therapy",
+    "description": "Index of all forms for J&J Holistic Nutritional Therapy. Quick access to all form links for office and client use.",
+    "url": "https://jjholistichealth.com/forms/",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Forms",
+    "hero": {
+        "background": "",
+        "title": "",
+        "p": [
+            {
+                "li": ""
+            }
+        ]
+    },
+    "section1": {
+        "block1": {
+            "title": "Forms",
+            "p": "Feel free to contact us at any time. We will get back to you as soon as we can. If you want to book a consultation, please visit our booking page and fill out the form. We look forward to working with you!",
+            "ul": [
+                {
+                    "li": "Book Now Form",
+                    "link": "/forms/book-now"
+                },
+                {
+                    "li": "Consent Form",
+                    "link": "/forms/consent"
+                },
+                {
+                    "li": "Contact Form",
+                    "link": "/forms/contact"
+                },
+                {
+                    "li": "Covid-19 Form",
+                    "link": "/forms/covid-19"
+                },
+                {
+                    "li": "Endocrine Steam Intake Form",
+                    "link": "/forms/endocrine-steam-intake"
+                },
+                {
+                    "li": "Food Intolerance Form",
+                    "link": "/forms/food-intolerance"
+                },{
+                    "li": "Follow Up Questionnaire",
+                    "link": "/forms/follow-up"
+                },
+                {
+                    "li": "Functional Exam Questionnaire",
+                    "link": "/forms/functional-exam"
+                },
+                {
+                    "li": "Herbal V Steam Intake form",
+                    "link": "/forms/herbal-v-steam-intake"
+                },
+                {
+                    "li": "Pediatric Assessment Questionnaire",
+                    "link": "/forms/pediatric-assessment-questionnaire"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,132 @@
+.footer {
+    font-size: $footer-font-size;
+    font-weight: $footer-font-weight;
+    text-align: center;
+    padding: 1rem 0 !important;
+    a:hover {
+        text-decoration: none;
+    }
+
+    .container {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .footer-bbb {
+        margin-top: 1rem;
+        text-align: center;
+        cursor: pointer;
+        
+        img {
+            max-width: 150px;
+        }
+    }
+
+    .footer-contact {
+        li {
+            display: flex;
+            align-items: center;
+            font-size: $footer-font-size;
+            margin: 0.5rem 0;
+            justify-content: center;
+
+            svg {
+                width: $small-bullets;
+            }
+
+            a {
+                font-size: $footer-font-size;
+            }
+        }
+    }
+
+    .footer-logo {
+        text-align: center;
+        max-width: 200px;
+        margin: -1.94rem auto 1rem;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+
+        svg,
+        i {
+            font-size: $footer-icon-size;
+            width: $footer-icon-size;
+            color: $beige;
+
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+
+    h3 {
+        font-family: $footer-header-font-family;
+        font-weight: $footer-font-weight;
+        color: $green;
+        font-size: 2rem;
+        text-transform: none;
+    }
+
+    i {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+}
+
+.footer-copyright {
+    padding: 1rem 0 !important;
+    color: $white;
+    text-align: center;
+    font-size: $font-size-small;
+
+    .container {
+        padding: 0 0;
+    }
+}
+
+.footer-policy-links a{
+    color: $green !important;
+}
+
+.holistic-counseling {
+    font-family: $body-font-family;
+    font-weight: $body-font-weight;
+    color: $white;
+    position:relative;
+    z-index: 1;
+
+
+    .holistic-counseling-block {
+        background-color: $transparent-black;
+        border-radius: $border-rounded;
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (min-width: $small) {
+    .holistic-counseling {
+        .holistic-counseling-block {
+            margin: 1rem auto;
+            padding: 2rem;
+        }
+    }
+}
+
+@media only screen and (min-width: $large) {
+    .footer {
+        text-align: left;
+
+        .footer-contact {
+            li {
+                justify-content: start;
+            }
+        }
+    }
+}

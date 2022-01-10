@@ -1,0 +1,106 @@
+{
+    "title": "Conditions - JJ Holistic Nutritional Therapy",
+    "description": "We treat digestive issues, immunity problems, weight management, skin conditions, reproductive issues, chronic conditions, hormone imbalances, cancer, stress management, energy, allergies, and neurological conditions.",
+    "url": "https://jjholistichealth.com/conditions/",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/conditions/fe-chart-human-anatomy.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Conditions",
+    "hero": {
+        "background": "hero hero-vegetables-1",
+        "title": "Health Conditions",
+        "p": [
+            {
+                "li": "At J&J Nutritional Therapy, we treat a wide range of conditions. Many conditions can be alleviated or at least improved using nutrition, including some of today’s most common issues, these include digestive issues, immunity problems, weight management, skin conditions, reproductive issues, chronic conditions, hormone imbalances, cancer, stress management, energy, allergies, and neurological conditions."
+            }
+        ]
+    },
+    "section1": {
+        "title": "We Support",
+        "background": "img-title bg-vitamin-c"
+    },
+    "section2": {
+        "title": "Our System",
+        "background": "bg-tomato img-title",
+        "block1": {
+            "list1": [
+                {
+                    "brand": {
+                        "src": "images/conditions/better-practice-logo.webp",
+                        "alt": "Better Practice Logo"
+                    },
+                    "image1": {
+                        "src": "images/conditions/better-practice.webp",
+                        "alt": "Better Practice Screenshot"
+                    },
+                    "p": "Better Practice is used to:",
+                    "ul": [
+                        {
+                            "li": "Set appointments"
+                        },
+                        {
+                            "li": "Communicate with Clients"
+                        },
+                        {
+                            "li": "Share recommendations/protocols"
+                        },
+                        {
+                            "li": "Share documentation and lab results"
+                        },
+                        {
+                            "li": "Send bills"
+                        }
+                    ]
+                },
+                {
+                    "brand": {
+                        "src": "images/conditions/nutri-q-logo.webp",
+                        "alt": "Nutri-Q Logo"
+                    },
+                    "image1": {
+                        "src": "images/conditions/nutri-q.webp",
+                        "alt": "Nutri-Q Screenshot"
+                    },
+                    "p": "Nutri-Q is used to:",
+                    "ul": [
+                        {
+                            "li": "Issue standard questioniares (including the Nutritional Assement Questionnaire)"
+                        },
+                        {
+                            "li": "Analyze and monitor the needs of the client"
+                        }
+                    ]
+                },
+                {
+                    "brand": {
+                        "src": "images/conditions/fullscript-logo.webp",
+                        "alt": "Fullscript Logo"
+                    },
+                    "image1": {
+                        "src": "images/conditions/fullscript.webp",
+                        "alt": "Fullscript Screenshot"
+                    },
+                    "p": "Fullscript is used to:",
+                    "ul": [
+                        {
+                            "li": "Dispense herbs and supplements to clients"
+                        },
+                        {
+                            "li": "Allow online purchases"
+                        },
+                        {
+                            "li": "Deliver prescriptions"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

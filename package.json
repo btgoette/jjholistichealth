@@ -1,0 +1,77 @@
+{
+  "name": "jjholistichealth",
+  "version": "2.0.6",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@next/mdx": "^12.0.4",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.3",
+    "moment": "^2.29.1",
+    "next": "12.0.4",
+    "next-i18next": "^9.1.0",
+    "next-share": "^0.12.1",
+    "next-simple-google-analytics": "^1.1.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.2",
+    "react-dom": "17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-lazyload": "^3.2.0",
+    "react-modal": "^3.14.4",
+    "react-slick": "^0.28.1",
+    "remark": "^14.0.1",
+    "remark-html": "^15.0.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "slick-carousel": "^1.8.1",
+    "vanilla-back-to-top": "^7.2.1",
+    "webpconvert": "^1.1.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btgoette/jjholistichealth.git"
+  },
+  "keywords": [
+    "health",
+    "body",
+    "functional",
+    "nutritional",
+    "therapy",
+    "holistic",
+    "medicine",
+    "treatment",
+    "eating",
+    "diet",
+    "lifestyle",
+    "exercise"
+  ],
+  "author": "Bryan Goette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btgoette/jjholistichealth/issues"
+  },
+  "homepage": "https://github.com/btgoette/jjholistichealth#readme"
+}
