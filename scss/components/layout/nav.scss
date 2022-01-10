@@ -48,7 +48,6 @@ nav {
                             }
                         }
                     }
-
                     .dropdown-toggle[aria-expanded="true"]:after {
                         transform: rotate(180deg);
                     }
@@ -103,12 +102,10 @@ nav {
 }
 
 .offcanvas {
-
     &.offcanvas-end {
         width: 100%;
-        max-width: 350px;
+        max-width: 300px;
     }
-
 
     .offcanvas-header {
         background-color: $green;
@@ -121,7 +118,7 @@ nav {
 
         .btn-close {
             opacity: 1;
-            margin-right: .5rem;
+            margin-right: 0.5rem;
         }
     }
 
@@ -135,6 +132,27 @@ nav {
             }
             .dropdown-menu {
                 border: none;
+
+                .dropdown-item {
+                    color: $green;
+                    &:hover {
+                        background-color: $dark-green;
+                        color: $white;
+                    }
+                }
+            }
+            .dropdown-toggle[aria-expanded="true"]:after {
+                transform: rotate(180deg);
+            }
+
+            .dropdown-toggle {
+                &:after {
+                    text-align: right;
+                    position: absolute;
+                    right: 10px;
+                    top: 20px;
+                    transition: 0.2s;
+                }
             }
         }
     }
