@@ -1,0 +1,17 @@
+.cookie-policy,
+.privacy-policy {
+    .cookie-section,
+    .privacy-section {
+        padding-top: 0.5rem;
+        padding-bottom: 0;
+
+        .privacy-block {
+            .privacy {
+                .underline {
+                    text-decoration: underline;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

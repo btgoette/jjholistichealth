@@ -1,0 +1,50 @@
+{
+    "title": "Christmas Raffle Registration - JJ Holistic Nutritional Therapy",
+    "description": "Please fill out all fields to register for our Christmas Raffle Giveaway.",
+    "url": "https://jjholistichealth.com/forms/christmas-raffle-registration",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "NOINDEX, NOFOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Forms",
+            "link": "/forms/"
+        }
+    ],
+    "finalcrumb": "Christmas Raffle Registration",
+    "hero": {
+        "background": "",
+        "title": "",
+        "p": [
+            {
+                "li": ""
+            }
+        ]
+    },
+    "section1": {
+        "block1": {
+            "title": "Christmas Raffle Registration",
+            "p": "We are grateful that you are a part of the J&J Holistic Nutritional Therapy Family. In return we would like to invite you to join or raffle via Zoom on the 17th of December at 5pm."
+        },
+        "block2": {
+            "h2": "Get a chance to win $500 and more fun surprises!",
+            "h5": "Guidelines:",
+            "ul": [
+                {
+                    "li": "Invite as many family members, relatives, and friends on the day of the event."
+                },
+                {
+                    "li": "The more guests that you can bring in the Zoom event the more chances of bringing home $500."
+                },
+                {
+                    "li": "In order to qualify, guests must be present from start until the end of the Zoom event."
+                }
+            ]
+        }
+    }
+}

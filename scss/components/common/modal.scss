@@ -1,0 +1,39 @@
+.modal {
+    padding-left: 0 !important;
+
+    .modal-dialog {
+        width: 100%;
+        max-width: 350px;
+        margin: 6rem auto 0;
+
+        .modal-content {
+            .modal-close {
+                position: absolute;
+                width: 15px;
+                top: 0px;
+                right: 10px;
+                // color: $white;
+                z-index: 1;
+                a {
+                    // color: $white;
+                    svg {
+                        width: 15px;
+                        color: $white;
+                    }
+                }
+            }
+            .modal-body {
+                padding: 0 0;
+                position: relative;
+            }
+        }
+        @media only screen and (min-width: $small) {
+            max-width: 500px;
+        }
+
+        @media only screen and (min-width: $large) {
+            max-width: min-content;
+            width: 100%;
+        }
+    }
+}

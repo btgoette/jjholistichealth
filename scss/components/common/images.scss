@@ -1,0 +1,44 @@
+figure {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    &.logo {
+        cursor: pointer;
+    }
+
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.rounded {
+    img {
+        border-radius: $border-rounded;
+    }
+}
+
+.round {
+    img {
+        border-radius: $border-round;
+    }
+}
+
+article {
+    img {
+        width: 100%;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: $large) {
+    figure {
+        margin-bottom: 0; 
+    }
+
+    .logo {
+        img {
+            max-width: 220px;
+        }
+    }
+}

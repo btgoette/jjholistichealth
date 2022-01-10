@@ -1,0 +1,87 @@
+# Set the Time Zone of your Server
+SetEnv TZ America/Chicago
+
+# ServerAdmin:  This address appears on some server-generated pages, such as error documents.
+SetEnv SERVER_ADMIN bryan@dkiholdings.com
+
+# Commonly used filename extensions to character sets.
+AddDefaultCharset UTF-8
+
+# Default Language
+DefaultLanguage en-US
+
+## REWRITE DEFAULTS
+RewriteEngine On
+RewriteBase /
+DirectorySlash Off
+
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
+
+# Enforce https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove www
+RewriteCond %{HTTP_HOST} ^www.jjholistichealth.com [NC]
+RewriteRule ^(.*)$ https://jjholistichealth.com/$1 [L,R=301,NC]
+
+# Remove .html at end of url
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+# Alias directories
+RewriteRule ^/?about/(\w+)/?$  /about/$1 [END]
+
+# Disable Directory Browsing
+Options All -Indexes
+
+# 301 Redirects
+Redirect 301 /the-j-and-j-team about/the-j-and-j-team
+Redirect 301 /thejandjteam about/the-j-and-j-team
+Redirect 301 /why-choose-j-and-j about/why-choose-j-and-j
+Redirect 301 /whychoosejandj about/why-choose-j-and-j
+Redirect 301 /testimonials about/testimonials
+Redirect 301 /cardiovascular conditions/cardiovascular
+Redirect 301 /immune-system conditions/immune-system
+Redirect 301 /immunesystem conditions/immune-system
+Redirect 301 /stress-and-adrenal-system conditions/stress-and-adrenal-system
+Redirect 301 /stressandadrenalsystem conditions/stress-and-adrenal-system
+Redirect 301 /womens-health-issues conditions/womens-health-issues
+Redirect 301 /womenshealthissues conditions/womens-health-issues
+Redirect 301 /contactus forms/contact
+Redirect 301 /booknow forms/book-now
+Redirect 301 /contact forms/contact
+Redirect 301 /book-now forms/book-now
+Redirect 301 /consent forms/consent
+Redirect 301 /covid-19 forms/covid-19
+Redirect 301 /success forms/success
+Redirect 301 /function-exam forms/functional-exam
+Redirect 301 /food-intolerance forms/food-intolerance
+Redirect 301 /pediatric-assessment-questionnaire forms/pediatric-assessment-questionnaire
+Redirect 301 /forms/thanksgiving-raffle-registration.html /forms/contact
+Redirect 301 /forms/christmas-raffle-registration.html /forms/contact
+Redirect 301 /privacypolicy policies/privacy-policy
+Redirect 301 /privacy-policy policies/privacy-policy
+Redirect 301 /cookiepolicy policies/cookie-policy
+Redirect 301 /cookie-policy policies/cookie-policy
+Redirect 301 /cancellation-rescheduling-policy policies/cancellation-rescheduling-policy
+Redirect 301 /contact forms/contact
+Redirect 301 /covid-cocktail promos/kovid-kocktail
+Redirect 301 /kovid-kocktail promos/kovid-kocktail
+Redirect 301 /back-to-school promos/back-to-school
+
+# ERRORDOCUMENTS
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+
+# Don't allow anyone to see my .htaccess file
+<Files .htaccess>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>

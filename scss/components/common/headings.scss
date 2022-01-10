@@ -1,0 +1,43 @@
+h1,
+h2 {
+    color: $green;
+    font-family: $header-font-family-medium;
+    margin-bottom: $header-margin-bottom;
+    line-height: $header-line-height;
+    font-weight: $header-font-weight;
+}
+
+h3 {
+    font-family: $header-font-family;
+    color: $beige;
+    margin-bottom: $header-margin-bottom;
+    line-height: $header-line-height;
+    font-weight: $header-font-weight;
+}
+
+
+h4, .h4 {
+    display: flex;
+    align-items: center;
+}
+
+.img-title h2 {
+    text-align: center;
+    color: $white;
+    background-color: $transparent-black;
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+    border-radius: $border-rounded;
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6 {
+    color: $green;
+    font-family: $body-font-family-medium;
+    margin-bottom: $header-margin-bottom;
+    line-height: $header-line-height;
+    font-weight: $header-font-weight;
+}

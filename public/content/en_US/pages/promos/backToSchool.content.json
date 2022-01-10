@@ -1,0 +1,109 @@
+{
+    "title": "Back to School Assessment - JJ Holistic Nutritional Therapy",
+    "description": "Back to School Assessment. After submission you will be redirected to our booking service. We will contact you as soon as possible.",
+    "url": "https://jjholistichealth.com/back-to-school",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/promos/jj-kids-kovid-booster-cocktail.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Back to School",
+    "promo": {
+        "mobile": {
+            "image": {
+                "src": "/images/pages/promos/mobile/jj-kids-kovid-booster-cocktail.webp",
+                "alt": "JJ Kids Kovid Booster Cocktail",
+                "link": "/book-now"
+            }
+        },
+        "desktop": {
+            "image": {
+                "src": "/images/pages/promos/desktop/jj-kids-kovid-booster-cocktail.png",
+                "alt": "JJ Kids Kovid Booster Cocktail",
+                "link": "/book-now"
+            }
+        }
+    },
+    "hero": {
+        "background": "",
+        "title": "",
+        "p": [
+            {
+                "li": ""
+            }
+        ]
+    },
+    "section1": {
+        "block1": {
+            "title": "Back to School Kids Kovid Booster Cocktail",
+            "p": [
+                {
+                    "li": "As children return to in-person schooling every year, most parents are usually prepared for their kids’ immune system to put up with a few weeks of colds and other transmissible illnesses."
+                },
+                {
+                    "li": "This year, the list of illnesses gets even longer due to the deadly Covid-19 pandemic which comes with symptoms that can mimic other illnesses. As children head to school now, Covid-19 cases keep rising and children under the age of 12 cannot be vaccinated against the novel virus, leaving parents with fewer options."
+                }
+            ]
+        },
+        "block2": {
+            "title": "Immune Booster Shots – Safety considerations for your child",
+            "p": "Research has shown that a well-functioning immune system strengthened by lifestyle habits such as",
+            "ul": [
+                {
+                    "bold": "Eating a healthy, balanced diet – ",
+                    "li": "a diet high in fruits and vegetables, as well as the right portions of proteins, carbs, and fats, are essential for your immune system"
+                },
+                {
+                    "bold": "Getting plenty of exercise – ",
+                    "li": "experts recommend at least 150 minutes of moderate exercise every week."
+                },
+                {
+                    "bold": "Maintaining a healthy weight – ",
+                    "li": "it is recommended to aim for a BMI of 25 and lower to keep your immune system working effectively."
+                },
+                {
+                    "bold": "Good quality sleep – ",
+                    "li": "set a sleep routine that gives you at least 6 hours of sleep and stick to it."
+                },
+                {
+                    "bold": "Quitting smoking – ",
+                    "li": "if you smoke, you can get support to help you stop."
+                }
+            ],
+            "p2": [
+                {
+                    "li": "That being said, there is also evidence to suggest that excessive immunity can be harmful to your child. For children especially those below five years old, their immune system is highly inexperienced. Giving excess immunity boosters can harm a child’s body. An excessively strong immune system may start attacking the healthy cells in the body, thus damaging some organs."
+                },
+                {
+                    "li": "Therefore, when it comes to giving your child an immunity shot, it is best to get the help of a certified dietician."
+                }
+            ]
+        },
+        "block3": {
+            "title": "The J&J Back to School Kids Kovid Booster Cocktail",
+            "p": [
+                {
+                    "li": "Here at J&J Holistic Nutritional Therapy, we make the perfect Back to School Kids Kovid Booster Cocktail with just the right mix of ingredients to ensure that your child is getting the proper amount of immune defense.† Our cocktail is designed using natural and organic products that are safe for the kids."
+                },
+                {
+                    "li": "The J&J Back to School Kids Kovid Booster Cocktail supports the immune and respiratory systems and helps restore your child's energy. The cocktail consists of natural antibacterial and antiviral properties that enable the body to fight infections. It also cleanses the lungs and relieves the tightness of breathing. The different herbal mixture of the Kids Kovid Cocktail prevents your kids from getting a sore throat, cough, colds, flu, bronchitis, influenza, pneumonia, herpes, and AIDS/HIV."
+                },
+                {
+                    "li": "This does not only function for the respiratory system but also helps relieves indigestion and body aches."
+                },
+                {
+                    "li": "Visit us today with your child and learn more on how you can protect your child from not only Covid 19 but also many other viral and bacterial illnesses that are common during this time of year."
+                },
+                {
+                    "li": "To learn more about how the J&J’s Covid Cocktail can benefit your immune system and overall health, call us today at (800) 634-3363 or book an online consultation today!"
+                }
+            ],
+            "disclaimer": "This statement has not been approved by the Food and Drug Administration. This product is a dietary supplement and not intended to diagnose, treat, cure, or prevent disease."
+        }
+    }
+}

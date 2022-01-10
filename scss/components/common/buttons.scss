@@ -1,0 +1,50 @@
+.btn {
+    padding: $button-padding;
+    border-radius: $border-rounded-button;
+    font-family: $button-font-family;
+    letter-spacing: 1px;
+    font-weight: $button-font-weight;
+    color: $white;
+
+    &.btn-dark {
+        background-color: $dark;
+        border: 0;
+        color: $green;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $dark-green;
+            background: none;
+            box-shadow: none;
+        }
+    }
+
+    &.btn-primary {
+        background-color: $green;
+        border-color: $green;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $dark-green;
+            border-color: $dark-green;
+            box-shadow: none;
+        }
+    }
+
+    &.btn-secondary {
+        color: $white;
+        background-color: $beige;
+        border-color: $beige;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $white;
+            background-color: $dark-beige;
+            border-color: $dark-beige;
+            box-shadow: none;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Blog - JJ Holistic Nutritional Therapy",
+    "description": "Our J&amp;J Blog features articles that can help you find a healthier life and help you in your holistic nutritional journey.",
+    "url": "https://jjholistichealth.com/blog",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/blog/preview/the-adverse-effects-of-stress-on-the-adrenal-gland.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Blog"
+}

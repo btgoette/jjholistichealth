@@ -1,0 +1,19 @@
+---
+---
+
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Disallow: /junk/
+
+User-agent: *
+Disallow: /privacy-policy.html
+
+User-agent: Googlebot-Image
+Disallow: /images/test.jpg
+
+Sitemap: {{ site.url }}/sitemap.xml

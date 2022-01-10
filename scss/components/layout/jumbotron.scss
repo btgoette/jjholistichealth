@@ -1,0 +1,21 @@
+.jumbotron {
+    border-bottom: 1px solid $transparent-green;
+}
+
+.jumbotron-mobile {
+    display: block;
+}
+
+.jumbotron-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: $large) {
+    .jumbotron-mobile {
+        display: none;
+    }
+    
+    .jumbotron-desktop {
+        display: block;
+    }
+}

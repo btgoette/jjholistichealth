@@ -1,0 +1,139 @@
+{
+    "title": "Women's Health Issues - JJ Holistic Nutritional Therapy",
+    "description": "The following information is an excerpt of the protocol in a  standard client report. Every client is different, and this protocol only works as a starting point or guideline. As a result, the protocol is followed by a report on women’s health issues for further information. The use of lab and functional testing will help you to refine and individualize the program for your client.",
+    "url": "https://jjholistichealth.com/conditions/womens-health-issues",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/conditions/womens-health-issues/pms.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Conditions",
+            "link": "/conditions/"
+        }
+    ],
+    "finalcrumb": "Women's Health Issues",
+    "hero": {
+        "background": "hero hero-fruit",
+        "title": "Women's Health Issues",
+        "p": [
+            {
+                "li": "The following information is an excerpt of the protocol in a standard client report. Every client is different, and this protocol only works as a starting point or guideline. As a result, the protocol is followed by a report on women’s health issues for further information. The use of lab and functional testing will help you to refine and individualize the program for your client."
+            }
+        ]
+    },
+    "section2": {
+        "block1": {
+            "h4": "Avoid refined sugar and refined carbohydrates:",
+            "p": "Refined food actually decreases the effectiveness of immune cells."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/candy.webp",
+                "alt": "A pile of candy"
+            }
+        },
+        "block3": {
+            "h4": "Avoid hydrogenated and partially‐hydrogenated oils:",
+            "p": "These will actually decrease the integrity of your cells, making them more prone to invasion."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/pizza.webp",
+                "alt": "A closeup of a cheese pizza"
+            }
+        }
+    },
+    "section3": {
+        "block1": {
+            "h4": "Drink enough water:",
+            "p": "Drink eight 8‐ounces glasses of water each day. "
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/middle-age-woman-drinking-water.webp",
+                "alt": "A woman drinking a glass of water"
+            }
+        },
+        "block3": {
+            "h4": "Avoid chemical additives:",
+            "p": "The liver plays a role in conjugating old hormones and removing them from the body. Burdening it with chemical additives makes it less effective at detoxifying."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/chemicals.webp",
+                "alt": "A series of chemicals in flasks"
+            }
+        }
+    },
+    "section4": {
+        "background": "bg-spices-3 img-title",
+        "title": "Natural Approaches to PMS",
+        "block1": {
+            "p": "The information below represents a sample of the protocol normally presented in a client report. Of course, we recognize that every client is an individual with very particular needs. As a result, this protocol is simply a starting point or guideline. Moreover, the client protocol is followed by a report on cardiovascular health for your information. By using lab and functional testing, you will be able to refine and individualize the program for specific clients."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/pms.webp",
+                "alt": "A woman making a heart sign over her stomach"
+            }
+        },
+        "block3": {
+            "h4": "Complete Blood Count and Differential (CBC with Diff):",
+            "p": "Some of the symptoms of PMS may be due to anemia or other abnormality found in a blood count. Sometimes you can see nutritional deficiencies in “normal” blood tests."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/blood-works.webp",
+                "alt": "A woman testing a blood sample"
+            }
+        }
+    },
+    "section5": {
+        "block1": {
+            "h4": "Blood Chemistry Panel:",
+            "p": "This is a good overview of general health. Since PMS usually has many factors, correcting general health will often improve PMS."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/blood-chemistry.webp",
+                "alt": "A test tube of blood."
+            }
+        },
+        "block3": {
+            "h4": "Thyroid Panel:",
+            "p": "Many of the symptoms of PMS may reveal an under-functioning thyroid. The thyroid has been called “the third ovary.” Another easy test to perform for the thyroid is the Barnes Basal Body Temperature Test. Have the client take her axillary temperature immediately upon awakening. The temperature should be between 97.8°F and 98.2°F. A lower temperature is a possible indication of hypothyroidism."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/thyroid-panel.webp",
+                "alt": "A doctor feeling a woman's thyroid gland"
+            }
+        },
+        "block5": {
+            "h4": "Hormones Panel:",
+            "p": "The obvious thing to look for in PMS is hormone imbalance. Several laboratory panels will test for progesterone, estrogen, prolactin, and other pertinent hormones."
+        },
+        "block6": {
+            "image1": {
+                "src": "/images/pages/conditions/womens-health-issues/hormones.webp",
+                "alt": "A woman taking hormone medications"
+            }
+        },
+        "block7": {
+            "h4": "Other Tests",
+            "p": [
+                {
+                    "li": "If the desired information is not obtained from the aforementioned tests, or if treatment based on these findings does not get the desired result, other laboratory tests may be of importance. They include liver detoxification, adrenal stress index, food allergy panel, and comprehensive digestive stool analysis."
+                },
+                {
+                    "li": "PMS is multifactorial; in other words, there is no single cause that will explain every case of PMS. Excess estrogen can cause problems by reducing the production of serotonin, decreasing the action of vitamin B6, causing other hormone imbalances, reducing endorphin levels, creating breast tenderness, and adversely affecting liver function. Excess estrogen can be caused by a deficiency of B vitamins, lack of sulfur‐containing amino acids, stasis of bile (due to thickening—commonly called “sluggish liver). By the same token, biliary stasis, and poor liver function may cause excess estrogen through poor detoxification of estrogen. The thyroid or adrenal glands may be involved, or there may be problems with bowel flora (dysbiosis) or hidden allergies."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1400px !important;
+    padding: 1rem;
+}
+
+.container-fluid {
+    padding: 4rem 1rem;
+}
+
+.img-title {
+    padding: 4rem 2rem !important;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.custom-row {
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: $small) {
+    .container {
+        padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: $large) {
+
+    .custom-row {
+        margin-bottom: 6rem;
+    }
+}

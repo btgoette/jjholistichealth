@@ -1,0 +1,67 @@
+@import "../custom/variables.scss";
+
+.home {
+    .youAreWhatYouEat {
+        .youAreWhatYouEatImage {
+            display: none;
+        }
+    }
+
+    .fruit {
+        img {
+            max-width: 300px;
+        }
+    }
+
+    @media only screen and (min-width: $medium) {
+        .youAreWhatYouEat {
+            .youAreWhatYouEatImage {
+                display: block;
+                position: relative;
+                text-align: center;
+
+                @keyframes FadeInOut {
+                    0% {
+                        opacity: 1;
+                    }
+                    45% {
+                        opacity: 1;
+                    }
+                    55% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+
+                .healthyWoman {
+                    position: absolute;
+                    left: 25%;
+                    animation-name: FadeInOut;
+                    animation-timing-function: ease-in-out;
+                    animation-iteration-count: infinite;
+                    animation-duration: 10s;
+                    animation-direction: alternate;
+
+                    img {
+                        max-width: 300px;
+                    }
+                }
+
+                .healthyMan {
+                    position: relative;
+                    animation-name: FadeInOut;
+                    animation-timing-function: ease-in-out;
+                    animation-iteration-count: infinite;
+                    animation-duration: 10s;
+                    animation-direction: alternate-reverse;
+
+                    img {
+                        max-width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

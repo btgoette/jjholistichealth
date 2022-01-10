@@ -1,0 +1,95 @@
+{
+    "title": "Stress and Adrenal Function - JJ Holistic Nutritional Therapy",
+    "description": "In the following section, you will find a sample of the protocol presented in a stress and adrenaline client report. Every client is unique and the protocol only acts as a starting point or guideline. Additionally, the protocol is followed by a report on stress and adrenaline function for further information.",
+    "url": "https://jjholistichealth.com/conditions/stress-and-adrenal-function",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/conditions/stress/diet.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Conditions",
+            "link": "/conditions/"
+        }
+    ],
+    "finalcrumb": "Stress and Adrenal Function",
+    "hero": {
+        "background": "hero hero-beans",
+        "title": "Stress & Adrenal Function",
+        "p": [
+            {
+                "li": "In the following section, you will find a sample of the protocol presented in a stress and adrenaline client report. Every client is unique and the protocol only acts as a starting point or guideline. Additionally, the protocol is followed by a report on stress and adrenaline function for further information."
+            }
+        ]
+    },
+    "section2": {
+        "block1": {
+            "image1": {
+                "src": "/images/pages/conditions/stress/exercise.webp",
+                "alt": "A group of people exercising"
+            },
+            "h4": "Exercise:",
+            "p": "Moderate aerobic exercise is good. This is an exercise that uses large muscles repetitively and is mild enough that you can carry on a normal conversation during the activity. Anaerobic exercise (exercising so hard that you can’t carry on a normal conversation) can be stressful and should be limited while the adrenal glands are recovering."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/conditions/stress/sports-and-hobbies.webp",
+                "alt": "A woman jogging"
+            },
+            "h4": "Sports & Hobbies:",
+            "p": "Meditation and Yoga maybe a little ʺNew Ageʺ for some people. Hobbies are a good solution for these people. Most hobbies are relaxing; your mind has to focus on a simple task rather than on sources of stress."
+        },
+        "block3": {
+            "image1": {
+                "src": "/images/pages/conditions/stress/diet.webp",
+                "alt": "A woman enjoying a salad"
+            },
+            "h4": "Diet:",
+            "p": "There are many types of stress. Chemical, physical, thermal, and mental stresses can all cause harm to the body. Stress is cumulative. A stressful job situation is compounded by a poor diet. Eat small, frequent meals; avoid chemical additives and sugar, refined carbohydrates, and hydrogenated oil. Eat plenty of vegetables and make sure that you get enough protein. At mealtime relax and focus on enjoying your food; don’t eat on the run."
+        },
+        "block4": {
+            "image1": {
+                "src": "/images/pages/conditions/stress/meditate.webp",
+                "alt": "A woman meditating"
+            },
+            "h4": "Meditation:",
+            "p": "Meditation, Yoga, Tai Chi or simply deep breathing exercises can help you bring stress under control. Much of the damage that stress does to your health is not due to any external factors, but rather how your mind interprets those factors. Meditation and other techniques help to reduce the harm of stress by quieting the mind."
+        }
+    },
+    "section3": {
+        "background": "img-title bg-green-herbs",
+        "title": "Finding Problems with Stress and the Adrenal Glands",
+        "block1": {
+            "list1": [
+                {
+                    "h4": "Laboratory Tests:",
+                    "p": "You can test cortisol/dehydroepiandrosterone (DHEA) ratios and get a very accurate representation of how much adrenal hormone is being produced and how much stress is affecting the body."
+                },
+                {
+                    "h4": "History: ",
+                    "p": "Your practitioner will discuss water quality and quantity with you. "
+                },
+                {
+                    "h4": "Rebound Pupil:",
+                    "p": "Shine a light in the client’s eye. The pupil should constrict and stay constricted. Mineral corticoid production upsets potassium/sodium balance and interferes with the muscle constricting the pupil. This is called a “rebound pupil,” a pupil that constricts initially but then opens or oscillates under the light."
+                },
+                {
+                    "h4": "Tenderness in the pes anserinus at the medial aspect of the knee: ",
+                    "p": "This is the insertion of the sartorius. Tenderness at the anterior superior iliac spine (ASIS), which is the origin of the sartorius, is also an indicator of adrenal involvement."
+                },
+                {
+                    "h4": "Ragland Test:",
+                    "p": "If you measure the client’s blood pressure when he or she is supine and then immediately when he or she stands up, the systolic value should be 10 points higher when standing. If the blood pressure stays the same or drops, it is an indication of hypoadrenia."
+                },
+                {
+                    "h4": "Chapman Reflex:",
+                    "p": "The Chapman Reflexes for the adrenal glands are 1 inch superior and lateral to the umbilicus. Tenderness of the reflexes may indicate a need to support the adrenal glands."
+                }
+            ]
+        }
+    }
+}

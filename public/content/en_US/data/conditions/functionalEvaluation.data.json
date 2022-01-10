@@ -1,0 +1,292 @@
+{
+    "block1": {
+        "image1": {
+            "src": "/images/pages/conditions/fe-chart-human-anatomy.webp",
+            "alt": "Human Anatomy Chart"
+        },
+        "list1": [
+            {
+                "id": "#ha-3",
+                "classes": "ha ha-3",
+                "number": "3",
+                "condition": "3. Pancreas"
+            },
+            {
+                "id": "#ha-4",
+                "classes": "ha ha-4",
+                "number": "4",
+                "condition": "4. Murphy's Sign"
+            },
+            {
+                "id": "#ha-5",
+                "classes": "ha ha-5",
+                "number": "5",
+                "condition": " 5. Chapman Reflex – Liver/Chapman Reflex – Gallbladder (Acute)"
+            },
+            {
+                "id": "#ha-6",
+                "classes": "ha ha-6",
+                "number": "6",
+                "condition": "6. Right Thumb Web"
+            },
+            {
+                "id": "#ha-7",
+                "classes": "ha ha-7",
+                "number": "7",
+                "condition": "7. Chapman Reflex - Small Intestine"
+            },
+            {
+                "id": "#ha-8a",
+                "classes": "ha ha-8a",
+                "number": "8",
+                "condition": "8. Bennett Reflexes"
+            },
+            {
+                "id": "#ha-8a",
+                "classes": "ha ha-8a",
+                "number": "8",
+                "condition": "8. Bennett Reflexes"
+            },
+            {
+                "id": "#ha-9",
+                "classes": "ha ha-9",
+                "number": "9",
+                "condition": "9. Ileocecal Valve"
+            },
+            {
+                "id": "#ha-10a",
+                "classes": "ha ha-10a",
+                "number": "10",
+                "condition": "10. Large Intestine"
+            },
+            {
+                "id": "#ha-10b",
+                "classes": "ha ha-10b",
+                "number": "10",
+                "condition": "10. Large Intestine"
+            },
+            {
+                "id": "#ha-11a",
+                "classes": "ha ha-11a",
+                "number": "11",
+                "condition": "11. Chapman Reflex - Colon"
+            },
+            {
+                "id": "#ha-11b",
+                "classes": "ha ha-11b",
+                "number": "11",
+                "condition": "11. Chapman Reflex - Colon"
+            },
+            {
+                "id": "#ha-12",
+                "classes": "ha ha-12",
+                "number": "12",
+                "condition": "12. Chapman Reflex - Adrenals"
+            },
+            {
+                "id": "#ha-15",
+                "classes": "ha ha-15",
+                "number": "15",
+                "condition": "15. Right Thenar Pad"
+            },
+            {
+                "id": "#ha-16",
+                "classes": "ha ha-16",
+                "number": "16",
+                "condition": "16. T6/T7"
+            },
+            {
+                "id": "#ha-17",
+                "classes": "ha ha-17",
+                "number": "17",
+                "condition": "17. Chapman Reflex - Kidney"
+            },
+            {
+                "id": "#ha-18",
+                "classes": "ha ha-18",
+                "number": "18",
+                "condition": "18. Pituitary/Hypothalmus Point"
+            },
+            {
+                "id": "#ha-19a",
+                "classes": "ha ha-19a",
+                "number": "19",
+                "condition": "19. Costochondral Tenderness/Chapman Reflex - Thyroid/Heart"
+            },
+            {
+                "id": "#ha-19b",
+                "classes": "ha ha-19b",
+                "number": "19",
+                "condition": "19. Costochondral Tenderness/Chapman Reflex - Thyroid/Heart"
+            },
+            {
+                "id": "#ha-20",
+                "classes": "ha ha-20",
+                "number": "20",
+                "condition": "20. Chapman Reflex - Thyroid/Heart"
+            },
+            {
+                "id": "#ha-21",
+                "classes": "ha ha-21",
+                "number": "21",
+                "condition": "21. Pretibial Edema"
+            },
+            {
+                "id": "#ha-22",
+                "classes": "ha ha-22",
+                "number": "22",
+                "condition": "22. Medial Heel"
+            },
+            {
+                "id": "#ha-23a",
+                "classes": "ha ha-23a",
+                "number": "23",
+                "condition": "23. Chapman Reflex - Uterus/Prostate"
+            },
+            {
+                "id": "#ha-23b",
+                "classes": "ha ha-23b",
+                "number": "23",
+                "condition": "23. Chapman Reflex - Uterus/Prostate"
+            },
+            {
+                "id": "#ha-24",
+                "classes": "ha ha-24",
+                "number": "24",
+                "condition": "24. Chapman Reflex - Ovaries/Testicles"
+            },
+            {
+                "id": "#ha-25",
+                "classes": "ha ha-25",
+                "number": "25",
+                "condition": "25. Inside Arch"
+            },
+            {
+                "id": "#ha-26",
+                "classes": "ha ha-26",
+                "number": "26",
+                "condition": "26. Chapman Reflex - Sinuses"
+            },
+            {
+                "id": "#ha-27",
+                "classes": "ha ha-27",
+                "number": "27",
+                "condition": "27. Chapman Reflex - Lungs"
+            },
+            {
+                "id": "#ha-28",
+                "classes": "ha ha-28",
+                "number": "28",
+                "condition": "28. Chapman Reflex - Thymus"
+            },
+            {
+                "id": "#ha-29",
+                "classes": "ha ha-29",
+                "number": "29",
+                "condition": "29. Histamine Point"
+            },
+            {
+                "id": "#ha-30",
+                "classes": "ha ha-30",
+                "number": "30",
+                "condition": "30. Left Thenar"
+            }
+        ]
+    },
+    "block2": {
+        "h2": "Functional Evaluation",
+        "p": "The Functional Evaluation (FE) consists of lingual-neuro, muscle, reflex and energetic testing in order to further assess your biochemical needs and make appropriate, personalized diet and lifestyle recommendations. Other treatments and test may be offered to help determine the root cause of certain ailments.",
+        "list1": [
+            {
+                "li": "HCL Point"
+            },
+            {
+                "li": "Chapman Reflex – Stomach"
+            },
+            {
+                "li": "Pancreas"
+            },
+            {
+                "li": "Murphy’s Sign"
+            },
+            {
+                "li": "Chapman Reflex – Liver/Chapman Reflex – Gallbladder (Acute)"
+            },
+            {
+                "li": "Right Thumb Web"
+            },
+            {
+                "li": "Chapman Reflex – Small Intestine"
+            },
+            {
+                "li": "Bennett Reflexes"
+            },
+            {
+                "li": "Ileocecal Valve"
+            },
+            {
+                "li": "Large Intestine"
+            },
+            {
+                "li": "Chapman Reflex – Colon"
+            },
+            {
+                "li": "Chapman Reflex – Adrenals"
+            },
+            {
+                "li": "Liver Point"
+            },
+            {
+                "li": "Chapman Reflex – Pancreas"
+            },
+            {
+                "li": "Right Thenar Pad"
+            },
+            {
+                "li": "T6/T7"
+            },
+            {
+                "li": "Chapman Reflex – Kidney"
+            },
+            {
+                "li": "Pituitary/Hypothalamus Point"
+            },
+            {
+                "li": "Costochondral Tenderness/Chapman Reflex – Thyroid/Heart"
+            },
+            {
+                "li": "Chapman Reflex – Thyroid/Heart"
+            },
+            {
+                "li": "Pretibial Edema"
+            },
+            {
+                "li": "Medial Heel"
+            },
+            {
+                "li": "Chapman Reflex – Uterus/Prostate"
+            },
+            {
+                "li": "Chapman Reflex – Ovaries/Testicles"
+            },
+            {
+                "li": "Inside Arch"
+            },
+            {
+                "li": "Chapman Reflex – Sinuses"
+            },
+            {
+                "li": "Chapman Reflex – Lungs"
+            },
+            {
+                "li": "Chapman Reflex – Thymus"
+            },
+            {
+                "li": "Histamine Point"
+            },
+            {
+                "li": "Left Thenar"
+            }
+        ]
+    }
+}

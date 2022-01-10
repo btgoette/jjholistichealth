@@ -1,0 +1,16 @@
+{
+    "title": "Cancellation Policy - JJ Holistic Nutritional Therapy",
+    "description": "If you fail to show up in your scheduled appointment, have no advice to reschedule 24 hrs ahead of the scheduled appointment, are 15 minutes late or notification to reschedule or cancellation of the appointment is less than 24 hours, a No Show Fee of $75 will apply.",
+    "url": "https://jjholistichealth.com/policies/cancellation-rescheduling-policy",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Cancellation or Rescheduling Policy"
+}

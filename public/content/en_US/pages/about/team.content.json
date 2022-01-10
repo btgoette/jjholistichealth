@@ -1,0 +1,32 @@
+{
+    "title": "The J&J Team - JJ Holistic Nutritional Therapy",
+    "description": "Our team has a commendable pool of knowledge concerning many foods, diets, foodprotocols, and nutritional supplements. Therefore, we use this knowledge in devising a diet and nutrient plan suitable for individual patients. We use a natural and differentapproach to each individual.",
+    "url": "https://jjholistichealth.com/about/the-j-and-j-team",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/about/team/krystal-johnson.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "About",
+            "link": "/about/"
+        },
+        {
+            "page": "The J&J Team"
+        }
+    ],
+    "finalcrumb": "The J&J Team",
+    "hero": {
+        "background": "hero hero-herbs-2",
+        "title": "The J&J Team",
+        "p": [
+            {
+                "li": "Our team has a commendable pool of knowledge concerning many foods, diets, food protocols, and nutritional supplements. Therefore, we use this knowledge in devising a diet and nutrient plan suitable for individual patients. We use a natural and different approach to each individual."
+            }
+        ]
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "title": "About J&J - JJ Holistic Nutritional Therapy",
+    "description": "At Johnson and Johnson Holistic Nutritional Therapy, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. At J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that.",
+    "url": "https://jjholistichealth.com/about/",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "About",
+    "hero": {
+        "background": "hero hero-herbs-1",
+        "title": "About J&J",
+        "h2": "Our belief is our guide",
+        "p": [
+            {
+                "li": "At Johnson and Johnson Holistic Nutritional Therapy, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. This summarizes the traditional approach to medicine at J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that."
+            },
+            {
+                "li": "Here, we welcome who you are and treat you with natural care to reset your body back to its original state. We recognize that disease is complex, that’s why we focus on the concept of bio-individuality; where every individual has a specific genetic, ancestral, and geographic makeup that determines their own unique nutritional needs. Many nutrition programs fail because they take a “one size fits all” approach that ignores bio-individuality."
+            }
+        ]
+    },
+    "section1": {
+        "block1": {
+            "h2": "We take your comfort seriously",
+            "p": "We take pride in providing our patients with outstanding care in a warm, cozy, and inclusive environment. Our premises are designed to allow you to relax and feel at home while receiving treatment for your body and mind. Patients can enjoy a warm cup of herbal tea while they wait and mothers and babies have a friendly space for breastfeeding and changing."
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/about/jj-lobby.webp",
+                "alt": "The J&J Holistic Nutritonal Therapy Lobby"
+            }
+        }
+    },
+    "section2": {
+        "title": "Our Mission",
+        "background": "bg-herbs-4 img-title",
+        "block1": {
+            "p": [
+                {
+                    "li": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
+                },
+                {
+                    "li": "Our team of dedicated practitioners is experienced and dedicated to offering the most advanced and comprehensive solutions to all your health needs outside of an emergency."
+                },
+                {
+                    "li": "We help our patients understand their unique symptoms and form a lasting partnership with them to eliminate the underlying cause of disease using safe, effective, and tailored treatment plans."
+                }
+            ]
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/about/jj-child-consultation.webp",
+                "alt": "A staff member consulting a child and parent"
+            }
+        }
+    },
+    "section3": {
+        "title": "Our Vision",
+        "background": "bg-herbs-2 img-title",
+        "block1": {
+            "p": "Our vision is to inspire, educate, and empower our clients to overcome illness and switch their focus to leading a healthier and rewarding lifestyle.",
+            "h2": "Core Values",
+            "list1": [
+                {
+                    "li": "Communication and transparency"
+                },
+                {
+                    "li": "Accountability"
+                },
+                {
+                    "li": "Honoring Individuality"
+                },
+                {
+                    "li": "Positivity"
+                },
+                {
+                    "li": "Excellence"
+                }
+            ]
+        },
+        "block2": {
+            "image1": {
+                "src": "/images/pages/about/jj-krystal-johnson-working.webp",
+                "alt": "Krystal Johnson Working"
+            }
+        }
+    },
+    "section4": {
+        "title": "How we take care of our patients",
+        "background": "bg-spices-2 img-title",
+        "block1": {
+            "p": [
+                {
+                    "li": "By considering the wellbeing of the whole body, each component can be seen on a biochemical, cellular, and systematic level. Furthermore, it becomes clear that all components are interconnected. It also means that when assessing health problems, we consider all other possible influencing factors to the patient, including their physical, mental, emotional, and spiritual well-being."
+                }
+            ]
+        },
+        "block2": {
+            "list1": [
+                {
+                    "li": "Medication"
+                },
+                {
+                    "li": "Lifestyle"
+                },
+                {
+                    "li": "Emotional State"
+                },
+                {
+                    "li": "Desired Outcome"
+                },
+                {
+                    "li": "Diet"
+                },
+                {
+                    "li": "Needs"
+                }
+            ]
+        },
+        "block3": {
+            "p": [
+                {
+                    "li": "So for example, if a patient comes to us with symptoms of IBS, we will not simply focus on the disease, or treat just the digestive system. Instead, we will take into account all other historical and current health issues, such as:"
+                },
+                {
+                    "li": "We do not advocate one type of diet, like low GI, gluten-free foods, paleo, GAPS, vegan, raw, or macrobiotic diets. Similarly, we do not promote any food or supplement related to fads or fashion."
+                }
+            ]
+        }
+    }
+}

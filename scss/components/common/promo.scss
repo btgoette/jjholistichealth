@@ -1,0 +1,25 @@
+.promo-landing-page {
+    background-color: $white;
+
+    .disclaimer {
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 2rem;
+    }
+    .promo {
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+
+        .promo-image {
+            width: 100%;
+            margin: auto;
+            // border: 1px solid $transparent-green;
+
+            @media only screen and (min-width: $large) {
+                // width:unset;
+                // max-height: 650px;
+            }
+        }
+    }
+}
