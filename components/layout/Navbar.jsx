@@ -47,7 +47,7 @@ export default function CustomNav() {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
 
-                <Nav.Item className="d-flex d-lg-none">
+                <Nav.Item>
                   <Link href={data.nav.navbar.home.link} passHref>
                     <Nav.Link >
                       {data.nav.navbar.home.li}
@@ -57,7 +57,7 @@ export default function CustomNav() {
 
                 <NavDropdown.Divider />
 
-                <Nav.Item className="d-flex d-lg-none">
+                <Nav.Item>
                   <Link href={data.nav.navbar.kids.link} passHref>
                     <Nav.Link >
                       {data.nav.navbar.kids.li}
@@ -153,9 +153,9 @@ export default function CustomNav() {
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
-          <Navbar.Collapse className="d-none d-lg-flex" id="basic-navbar-nav">
+          <Navbar.Collapse className="d-none d-xl-flex" id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Item className="d-flex d-lg-none">
+              <Nav.Item className="d-flex d-xl-none">
                 <Link href={data.nav.navbar.kids.link} passHref>
                   <Nav.Link >
                     {data.nav.navbar.kids.li}
@@ -229,7 +229,7 @@ export default function CustomNav() {
                 ))}
               </NavDropdown>
               <Nav.Item>
-                <Nav.Link className="d-block d-lg-none" href={data.nav.navbar.bookNow.link} target="blank" passHref>
+                <Nav.Link className="d-block d-xl-none" href={data.nav.navbar.bookNow.link} target="blank" passHref>
                   {data.nav.navbar.bookNow.li}
                 </Nav.Link>
                 <Link className="d-none d-lg-block"
