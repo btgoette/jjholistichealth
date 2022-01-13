@@ -10,7 +10,7 @@ export default function ConditionsKids() {
         <>
             {data.condition.map(({ src, alt, name, content }, i) => (
 
-                <Col key={i} sm={6} lg={4} xl={3} className="card-block">
+                <Col key={i} md={6} lg={4} className="card-block">
                     <Card data-aos="fade-up">
                         <Card.Body>
                             <Card.Img

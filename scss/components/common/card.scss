@@ -1,7 +1,7 @@
 .card {
     border: 0;
-    margin: .75rem 0;
-    border-radius: $border-rounded;
+    margin: 1.5rem;
+    border-radius: $border-round;
 
     .card-body {
         position: relative;
@@ -9,18 +9,17 @@
         flex: none;
         padding: 0;
         background-color: $black;
-        border-radius: $border-rounded;
+        border-radius: $border-round;
 
         .card-img,
         .card-image {
             position: relative;
             z-index: 1;
             opacity: 0.50;
-            border-radius: $border-rounded;
+            border-radius: $border-round;
 
             img {
                 width: 100%;
-                border-radius: $border-rounded;
             }
         }
 

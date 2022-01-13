@@ -15,7 +15,7 @@ export default function ConditionsIndex() {
 
                     {data.condition.map(({ src, alt, name, bullet }, i) => (
 
-                        <Col key={i} lg={4} md={6} data-aos-delay="0" data-aos="fade-up">
+                        <Col key={i} md={6} lg={4} data-aos-delay="0" data-aos="fade-up">
                             <figure className="round">
                                 <LazyLoadImage
                                     src={src}
