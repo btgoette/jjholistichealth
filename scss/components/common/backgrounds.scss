@@ -171,14 +171,6 @@ body {
     color: $white;
 }
 
-body {
-    background-image: url('/images/backgrounds/mobile/jj.webp');
-    background-position: $background-center;
-    background-repeat: no-repeat;
-    background-size: $background-cover;
-    background-attachment: fixed;
-}
-
 .bg-sage {
     background-image: url('/images/backgrounds/mobile/sage.webp');
     background-position: $background-center;
@@ -508,10 +500,6 @@ body {
 
     .bg-ivy-2 {
         background-image: url('/images/backgrounds/desktop/ivy-2.webp');
-    }
-
-    body {
-        background-image: url('/images/backgrounds/desktop/jj.webp');
     }
 
     .bg-sage {
