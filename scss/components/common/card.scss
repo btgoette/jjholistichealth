@@ -1,5 +1,6 @@
 .card {
     border: 0;
+    background: transparent;
     margin: 1.5rem;
     border-radius: $border-round;
 
@@ -9,7 +10,12 @@
         flex: none;
         padding: 0;
         background-color: $black;
+        box-shadow: inset 1px -1px 4px 0px $transparent-white;
+        border: .35rem solid $brown;
+        outline: 0.25rem solid $transparent-brown;
         border-radius: $border-round;
+        max-width: 350px;
+        margin: 0 auto;
 
         .card-img,
         .card-image {

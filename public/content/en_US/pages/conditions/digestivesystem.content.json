@@ -1,0 +1,29 @@
+{
+    "title": "Digestive System - JJ Holistic Nutritional Therapy",
+    "description": "The following information is an excerpt of the protocol in a  standard client report. Every client is different, and this protocol only works as a starting point or guideline. As a result, the protocol is followed by a report on women’s health issues for further information. The use of lab and functional testing will help you to refine and individualize the program for your client.",
+    "url": "https://jjholistichealth.com/conditions/digestive-system",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/pages/conditions/digestive-system/pms.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Conditions",
+            "link": "/conditions/"
+        }
+    ],
+    "finalcrumb": "Digestive System",
+    "hero": {
+        "background": "hero hero-fruit",
+        "title": "Digestive System",
+        "p": [
+            {
+                "li": "The following information is an excerpt of the protocol in a standard client report. Every client is different, and this protocol only works as a starting point or guideline. As a result, the protocol is followed by a report on women’s health issues for further information. The use of lab and functional testing will help you to refine and individualize the program for your client."
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "block1": {
+        "h2": "We treat every individual uniquely",
+        "p": "Everyone is treated uniquely because it has never been the case that one type of diet worked for everyone. Think about it, we all have different body shapes, different lifestyles, likes, and dislikes. We are all motivated or demotivated by different things. We react to foods very differently, both physically and emotionally.",
+        "image": {
+            "src": "/images/pages/services/jj-holistic-nutritional-therapy-clinic.webp",
+            "alt": "Krystal Johnson and a child"
+        }
+    },
+    "block2" : {
+        "ul": [
+            {
+                "li": "At J&J Holistic Nutritional Therapy, dealing with people is a calling. Besides learning new and exciting ways on how to improve our patient's health, we get to share the same knowledge with our loved ones. Moreover, it is satisfying to see the progress of a client's journey with their health issues and getting to know and educate clients on healthy eating and nutrition."
+            },
+            {
+                "li": "Our services are based on scientific tests that inform our treatment options and health recommendations."
+            }
+        ],
+        "image": {
+            "src": "/images/pages/services/child-nurse.webp",
+            "alt": "Laurinda Lea with a child"
+        }
+    }
+}

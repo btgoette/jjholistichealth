@@ -1,0 +1,17 @@
+{
+    "block1": {
+        "h2": "Food Intolerance & Sensitivity Test",
+        "h4": [
+            {
+                "li": "$137 for 5 Foods"
+            },
+            {
+                "li": "$275 for 10 Foods"
+            }
+        ],
+        "image": {
+            "src": "/images/pages/about/jj-food-intolerance-and-sensitivity-test.webp",
+            "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritonal Therapy"
+        }
+    }
+}

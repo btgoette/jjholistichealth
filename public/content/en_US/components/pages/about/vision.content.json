@@ -1,0 +1,29 @@
+{
+    "sectionTitle": "Our Vision",
+    "sectionTitleBackground": "bg-herbs-2 img-title",
+    "block1": {
+        "p": "Our vision is to inspire, educate, and empower our clients to overcome illness and switch their focus to leading a healthier and rewarding lifestyle.",
+        "h2": "Core Values",
+        "ul": [
+            {
+                "li": "Communication and transparency"
+            },
+            {
+                "li": "Accountability"
+            },
+            {
+                "li": "Honoring Individuality"
+            },
+            {
+                "li": "Positivity"
+            },
+            {
+                "li": "Excellence"
+            }
+        ],
+        "image": {
+            "src": "/images/pages/about/jj-krystal-johnson-working.webp",
+            "alt": "Krystal Johnson Working"
+        }
+    }
+}

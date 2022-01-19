@@ -1,0 +1,41 @@
+{
+    "block1": {
+        "ul": [
+            {
+                "image": {
+                    "src": "/images/pages/conditions/cardio/cold-water-fish.webp",
+                    "alt": "A plate of cooked Cold Water Fish"
+                },
+                "h4": "Eat plenty of cold-water fish, flaxseed, and other sources of Omega 3 oils."
+            },
+            {
+                "image": {
+                    "src": "/images/pages/conditions/cardio/reduce-stress-meditate.webp",
+                    "alt": "A woman meditating"
+                },
+                "h4": "Reduce stress; meditate or take up a hobby."
+            },
+            {
+                "image": {
+                    "src": "/images/pages/conditions/cardio/exercise-and-stretching.webp",
+                    "alt": "Do moderate exercise and stretching."
+                },
+                "h4": "A woman stretching her leg muscles."
+            },
+            {
+                "image": {
+                    "src": "/images/pages/conditions/cardio/drink-plenty-of-water.webp",
+                    "alt": "A man drinking a bottle of water."
+                },
+                "h4": "Drink plenty of water."
+            },
+            {
+                "image": {
+                    "src": "/images/pages/conditions/cardio/fresh-vegetables.webp",
+                    "alt": "A bowl of salad."
+                },
+                "h4": "Eat plenty of fresh vegetables."
+            }
+        ]
+    }
+}

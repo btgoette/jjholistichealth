@@ -1,14 +1,14 @@
-// React Components
-import { Container, Col, Row } from 'react-bootstrap'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+/* Testimonials Page */
 
-// Custom Components
+// Layout Components
 import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
-import Testimonials from 'components/common/Testimonials'
+
+// Page Components
+import TestimonialHero from 'components/pages/about/TestimonialHero'
+import Testimonials from 'components/pages/about/Testimonials'
 import GoogleReviews from 'components/common/GoogleReviews'
 
-// Custom Content
+// Page Content
 import content from 'public/content/en_US/pages/about/testimonials.content'
 
 
@@ -20,47 +20,17 @@ export default function JJTestimonials() {
 
             <Head {...content} />
 
-            <div className="testimonials">
+            <div className={content.pageName}>
 
-                <Container fluid className="testimonials-section">
-                    <Container>
-                        <Breadcrumbs {...content} />
-                        <Row>
-                            <Col>
-                                <h1>{content.hero.title}</h1>
-                            </Col>
-                        </Row>
-                        <Row className="custom-row service-testimonial">
-                            <Col lg={{ span: 4, order: 1 }}>
-                                <figure className="service-testimonial-image">
-                                    <LazyLoadImage
-                                        src={content.hero.image}
-                                        alt={content.hero.alt}
-                                    />
-                                </figure>
-                                <p className="testimonial-name h5">-{content.hero.name}</p>
-                            </Col>
-                            <Col lg={{ spand: 8, order: 0 }}>
-                                <div className="content">
-                                    <h2 className="left-quote">&ldquo;</h2>
-                                    <div className="service-quote">
-                                        {content.hero.p.map(({ li }, i) => (
-                                            <p key={i}>
-                                                {li}
-                                            </p>
-                                        ))}
-                                    </div>
-                                    <h2 className="right-quote">&rdquo;</h2>
-                                </div>
-                            </Col>
-                        </Row>
-                        <Testimonials />
-                        <GoogleReviews />
-                    </Container>
-                </Container>
+                <TestimonialHero />
+
+                <Testimonials />
+
+                <GoogleReviews />
 
             </div>
 
         </>
+
     )
 }
