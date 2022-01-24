@@ -1,0 +1,23 @@
+{
+    "block1": {
+        "p": "This is one area in which, if you suspect problems, you want to do a more traditional cardiac workup or make a referral to a cardiologist. Nutritional support can coincide with traditional methods. The important thing is to protect the life of the client. Nutritional and other natural therapies take time to work and are best for chronic problems. Traditional medical practitioners are the best choice for treating acute medical emergencies.",
+        "image": {
+            "src": "/images/pages/conditions/cardio/cardiologist.webp",
+            "alt": "A cardiologist showing his patient a diagram of the heart"
+        }
+    },
+    "block2": {
+        "p": "There are Chapman Reflex points and spinal reflex points that can be gauged for tenderness. The Chapman Reflex points are at the 3rd intercostal space, next to the sternum. Tenderness at the transverse process of T1 can be an indicator of the need to support the heart. Tenderness at the transverse process of T2 can be an indicator of a need to support the myocardium. T1 tenderness is more an indication of possible myocardial infarction, T2 tenderness is more of an indication of possible congestive heart failure (CHF).",
+        "image": {
+            "src": "/images/pages/conditions/cardio/chapman-reflex.webp",
+            "alt": "A Holistic Practitioner checking a patient's Chapman Reflex"
+        }
+    },
+    "block3": {
+        "p": "Everyone is concerned with cholesterol and the number of fat clients eats. This is a one‐dimensional idea and the dietary issues here are much more complex than simply avoiding fat. The issue may not be the amount of fat or oil, but the quality of the fats eaten; Omega 3 essential fatty acids may be cardio-protective. Consuming hydrogenated oil is dangerous to the heart (among other things). Not many people pay attention to sugar and refined foods. Refined sugar and flour may play an important role in increasing cholesterol. Anticholesterol medications work by suppressing a liver enzyme, HMG CoA reductase. Increasing insulin increases the activity of this enzyme, so eating sugar can have an unfavorable effect on cholesterol. Sugar and refined grains also increase the growth of yeast and other dysbiotic organisms in the gut. Bile salts can be deconjugated by these organisms and turned into bile acids; this may trigger the production of cholesterol by the liver. Epidemiologic studies show that native populations have increased heart disease when exposed to the Western diet, but their fat consumption doesn’t go up; their consumption of refined carbohydrates does.",
+        "image": {
+            "src": "/images/pages/conditions/cardio/healthy-fats.webp",
+            "alt": "An Avocado and a tuna steak"
+        }
+    }
+}

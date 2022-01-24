@@ -1,0 +1,130 @@
+{
+    "block1": {
+        "h2": "Full Functional Evaluation",
+        "p": [
+            {
+                "li": "We perform a Full Functional Evaluation to gain as much information from your body as possible on where deficiencies are and where we need to support you first."
+            },
+            {
+                "li": "The Functional Evaluation (FE) consists of lingual-neuro, muscle, reflex and energetic testing in order to further assess your biochemical needs and make appropriate, personalized diet and lifestyle recommendations. Other treatments and test may be offered to help determine the root cause of certain ailments. This includes:"
+            }
+        ],
+        "image": {
+            "src": "/images/pages/services/blood-pressure-check.webp",
+            "alt": "Krystal Johnson taking the blood pressure of a patient"
+        }
+    },
+    "block2": {
+        "list": [
+            {
+                "li": "Blood Sugar LNT",
+                "ul": [
+                    {
+                        "li": "Adrenal Glands"
+                    },
+                    {
+                        "li": "Liver"
+                    },
+                    {
+                        "li": "LNT Pancreas"
+                    }
+                ]
+            },
+            {
+                "li": "Digestion LNT",
+                "ul": [
+                    {
+                        "li": "Gallbladder"
+                    },
+                    {
+                        "li": "Large Intestines"
+                    },
+                    {
+                        "li": "Small Intestines"
+                    },
+                    {
+                        "li": "Stomach"
+                    }
+                ]
+            },
+            {
+                "li": "Endocrine LNT",
+                "ul": [
+                    {
+                        "li": "Breast Tissue"
+                    },
+                    {
+                        "li": "Ovaries/Testicles"
+                    },
+                    {
+                        "li": "Pituitary Gland"
+                    },
+                    {
+                        "li": "Thyroid Gland"
+                    },
+                    {
+                        "li": "Uterus/Prostate"
+                    }
+                ]
+            }
+        ]
+    },
+    "block3" : {
+        "h4":"Other Services:"
+    },
+    "block4" : {
+        "list": [
+            {
+                "li": "Immune & Allergy LNT"
+            },
+            {
+                "li": "Fatty Acid Postural & Non-Postural Muscle LNT"
+            },
+            {
+                "li": "Hydration LNT Kidney"
+            },
+            {
+                "li": "Mineral LNT Kidney"
+            },
+            {
+                "li": "Neurological/Detoxification LNT Balance"
+            },
+            {
+                "li": "J&J All in Wellness Plan"
+            },
+            {
+                "li": "Child Assessment"
+            },
+            {
+                "li": "Food Intolerance/Sensitivity Test"
+            },
+            {
+                "li": "Cupping Therapy"
+            },
+            {
+                "li": "High Frequency Treatment"
+            },
+            {
+                "li": "High Frequency Treatment with Aromatherapy"
+            },
+            {
+                "li": "High Frequency with Aromatherapy Scalp Treatment"
+            },
+            {
+                "li": "Aromatherapy with Acne Extraction"
+            },
+            {
+                "li": "Essential Treatment"
+            },
+            {
+                "li": "Herbal Endocrine Steam"
+            },
+            {
+                "li": "Herbal Endocrine Steam for Vagina and Pelvis"
+            },
+            {
+                "li": "Personalized Meal Planning"
+            }
+        ]
+    }
+}

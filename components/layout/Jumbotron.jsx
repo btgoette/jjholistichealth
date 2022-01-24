@@ -2,7 +2,10 @@
 import React, { useState } from 'react'
 import { Carousel } from 'react-bootstrap'
 
-export default function Jumbotron(promo) {
+// Custom Data
+import content from 'public/content/en_US/components/layout/jumbotron/jumbotron.content'
+
+export default function Jumbotron() {
 
     const [index, setIndex] = useState(0);
 
@@ -12,9 +15,10 @@ export default function Jumbotron(promo) {
 
     return (
         <>
+        {/* Mobile Jumbotron */}
             <div className="jumbotron jumbotron-mobile">
                 <Carousel prevLabel={null} nextLabel={null} fade activeIndex={index} onSelect={handleSelect} variant="dark">
-                    {promo.mobile.map(({ image }, i) => (
+                    {content.mobile.map(({ image }, i) => (
                         <Carousel.Item key={i} interval={3000}>
                             <a href={image.link}>
                                 <img
@@ -27,9 +31,11 @@ export default function Jumbotron(promo) {
                     ))}
                 </Carousel>
             </div>
+
+            {/* Desktop Jumbotron */}
             <div className="jumbotron jumbotron-desktop">
                 <Carousel prevLabel={null} nextLabel={null} fade activeIndex={index} onSelect={handleSelect} variant="dark">
-                    {promo.desktop.map(({ image }, i) => (
+                    {content.desktop.map(({ image }, i) => (
                         <Carousel.Item key={i} interval={3000}>
                             <a href={image.link}>
                                 <img

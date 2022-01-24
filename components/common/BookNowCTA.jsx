@@ -7,7 +7,7 @@ export default function BookNowCTA() {
     return (
         <Link
             href="/forms/book-now" passHref>
-            <Button>
+            <Button className="book-now-cta">
                 Book Your Free Consultation
             </Button>
         </Link>

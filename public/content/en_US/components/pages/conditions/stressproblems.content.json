@@ -1,0 +1,32 @@
+{
+    "sectionTitleBackground": "img-title bg-green-herbs",
+    "sectionTitle": "Finding Problems with Stress and the Adrenal Glands",
+    "block1": {
+        "ul": [
+            {
+                "h4": "Laboratory Tests:",
+                "p": "You can test cortisol/dehydroepiandrosterone (DHEA) ratios and get a very accurate representation of how much adrenal hormone is being produced and how much stress is affecting the body."
+            },
+            {
+                "h4": "History: ",
+                "p": "Your practitioner will discuss water quality and quantity with you. "
+            },
+            {
+                "h4": "Rebound Pupil:",
+                "p": "Shine a light in the client’s eye. The pupil should constrict and stay constricted. Mineral corticoid production upsets potassium/sodium balance and interferes with the muscle constricting the pupil. This is called a “rebound pupil,” a pupil that constricts initially but then opens or oscillates under the light."
+            },
+            {
+                "h4": "Tenderness in the pes anserinus at the medial aspect of the knee: ",
+                "p": "This is the insertion of the sartorius. Tenderness at the anterior superior iliac spine (ASIS), which is the origin of the sartorius, is also an indicator of adrenal involvement."
+            },
+            {
+                "h4": "Ragland Test:",
+                "p": "If you measure the client’s blood pressure when he or she is supine and then immediately when he or she stands up, the systolic value should be 10 points higher when standing. If the blood pressure stays the same or drops, it is an indication of hypoadrenia."
+            },
+            {
+                "h4": "Chapman Reflex:",
+                "p": "The Chapman Reflexes for the adrenal glands are 1 inch superior and lateral to the umbilicus. Tenderness of the reflexes may indicate a need to support the adrenal glands."
+            }
+        ]
+    }
+}

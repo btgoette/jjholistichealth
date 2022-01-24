@@ -6,6 +6,7 @@
     "image": "https://jjholistichealth.com/images/pages/kids/mission.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "pageName": "kids",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -13,26 +14,6 @@
         }
     ],
     "finalcrumb": "Kids",
-    "promo": {
-        "mobile": [
-            {
-                "image": {
-                    "src": "/images/pages/promos/mobile/back-to-school.webp",
-                    "alt": "Back to School Nutritional Assessment",
-                    "link": "/book-now"
-                }
-            }
-        ],
-        "desktop": [
-            {
-                "image": {
-                    "src": "/images/pages/promos/desktop/back-to-school.webp",
-                    "alt": "Back to School Nutritional Assessment",
-                    "link": "/book-now"
-                }
-            }
-        ]
-    },
     "hero": {
         "background": "hero hero-carrots-2",
         "title": "We will take care of your child",
@@ -45,155 +26,5 @@
                 "li": "When assessing health problems, we consider all other possible influencing factors to the patient, including their physical, mental, emotional, and spiritual well-being. We use our vast knowledge of food and nutrients to devise the most appropriate course of action to bring your child's body back to its best state."
             }
         ]
-    },
-    "section1": {
-        "block1": {
-            "title": "Our Mission",
-            "p": "At J&J Holistic Nutritional Kids, our main objective of holistic alternative medicine is to maintain good health by using the holistic approach as it investigates the whole person in revealing and correcting the profound root causes for ill-being or disease. Holistic Alternative medicine relies on activating the body’s inherent healing capacities, supporting them with natural substances or treatments."
-        },
-        "block2": {
-            "image1": {
-                "src": "/images/pages/kids/mission.webp",
-                "alt": "A little girl hugging a little boy"
-            }
-        }
-    },
-    "section2": {
-        "block1": {
-            "title": "Our Vision",
-            "p": "We believe that health and wellness are essential to a child’s well-being. We are here to inspire, educate, and empower your children. We focus on teaching the importance of good nutrition and prevention of disease as well as offering a full range of services to reach optimal health. We know that optimal health is more than the absence of disease. It involves living the sort of lifestyle that promotes and embraces a healthy lifestyle."
-        },
-        "block2": {
-            "image1": {
-                "src": "/images/pages/kids/vision.webp",
-                "alt": "A little girl in a mask"
-            }
-        }
-    },
-    "section3": {
-        "block1": {
-            "title": "Core Values",
-            "ul": [
-                {
-                    "li": "Communication and Transparency"
-                },
-                {
-                    "li": "Honoring Individuality"
-                },
-                {
-                    "li": "Positivity"
-                },
-                {
-                    "li": "Excellence"
-                }
-            ]
-        },
-        "block2": {
-            "image1": {
-                "src": "/images/pages/kids/core-values.webp",
-                "alt": "A toddler playing with toys"
-            }
-        }
-    },
-    "section4": {
-        "block1": {
-            "title": "Nutritional Medicine",
-            "p": [
-                {
-                    "li": "Nutritional medicine is founded on the fact that the body requires nutrients (including essential micronutrients) to function properly. These nutrients are mainly responsible for supporting the vast number of critical biochemical processes that keep us alive and healthy."
-                },
-                {
-                    "li": "When treating symptoms and diseases from a nutritional medicine perspective, the practitioner looks at the root causes. We use food and individual nutrients for medicinal and therapeutic effects, in doses only achievable in supplement form."
-                }
-            ]
-        },
-        "block2": {
-            "image1": {
-                "src": "/images/pages/kids/medicine.webp",
-                "alt": "A little boy getting his temperature taken"
-            }
-        }
-    },
-    "section5": {
-        "block1": {
-            "title": "We are what we consume",
-            "p": [
-                {
-                    "li": "In most areas of life, what your child consumes forms who he is, both physically, mentally, emotionally, and spiritually."
-                },
-                {
-                    "li": "Nutrients are involved in the formation of every cell and the maintenance of every system in our bodies. To give you some perspective, the body needs more than 45 nutrients to function optimally and maintain good health."
-                },
-                {
-                    "li": "Nutritional medicine aims to optimize nutrition to suit the various and individual biochemical, environmental, and health status of the patients."
-                }
-            ]
-        },
-        "block2": {
-            "image1": {
-                "src": "/images/pages/kids/consume.webp",
-                "alt": "A smiling little girl"
-            }
-        }
-    },
-    "section6": {
-        "block1": {
-            "title": "Conditions that can be improved with the right nutrition",
-            "p": "We use a holistic way of healing on how to deal with the conditions mentioned above. We use aromatherapy, massages, herbal supplements, essential oils, and a proper healthy diet in treating our clients."
-        }
-    },
-    "section7": {
-        "block1": {
-            "title": "For pre-teens and teenagers",
-            "p": [
-                {
-                    "li": "Being a teenager is tough — and exciting! J&J Holistic Nutritional Kids is here to navigate these years with you, providing care that will keep your teen healthy physically and mentally. Pre-teen and teenage years are full of enthusiasm and challenges, including changes in physical development that adolescents and their families may not understand."
-                },
-                {
-                    "li": "Typically, adolescents (beginning around 12-14 years of age) will recognize significant changes in their bodies that come as a result of normal hormonal changes associated with puberty and development. We’ll help adolescents, parents and siblings manage these changes positively during this confusing time. Teens often have issues or concerns they don't feel comfortable addressing with their families; our team can answer their questions and be a source for accurate health-related information. What’s more, we tap into J&J Holistic Nutritional Kids’ network of specialists, including experts on behavioral and mood concerns, weight management, and more."
-                }
-            ]
-        },
-        "block2": {
-            "image1": {
-                "src": "/images/pages/kids/teen.webp",
-                "alt": "A teenage girl reading a book"
-            }
-        },
-        "block3": {
-            "p": "We especially help adolescents face these health-related issues:",
-            "ul": [
-                {
-                    "li": "Puberty"
-                },
-                {
-                    "li": "Menstruation"
-                },
-                {
-                    "li": "Acne"
-                },
-                {
-                    "li": "Stress and Anxiety"
-                },
-                {
-                    "li": "Birth Control Deficiencies"
-                },
-                {
-                    "li": "Eating Disorders"
-                },
-                {
-                    "li": "Behavioral Health (including Depression and ADHD"
-                },
-                {
-                    "li": "Prophylactic diet for STI ( Sexually Transmitted Infection)"
-                }
-            ]
-        },
-        "block4": {
-            "image1": {
-                "src": "/images/pages/kids/pre-teen.webp",
-                "alt": "A Pre-Teen girl taking a picture of herself"
-            }
-        }
     }
 }

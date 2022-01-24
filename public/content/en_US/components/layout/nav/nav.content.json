@@ -1,0 +1,113 @@
+{
+    "nav": {
+        "background": "bg-light-green",
+        "title": "nav",
+        "brand": {
+            "jjLogo": {
+                "li": "Home",
+                "link": "/",
+                "image": {
+                    "src": "/images/logos/jj-logo.webp",
+                    "alt": "J&J Holistic Nutritional Therapy Logo. Link to Home page."
+                }
+            },
+            "jjKidsLogo": {
+                "li": "J&J Kids",
+                "link": "/kids/",
+                "image": {
+                    "src": "/images/logos/jj-kids-logo.webp",
+                    "alt": "J&J Holistic Kids Logo. Link to J&J Kids page"
+                }
+            },
+            "social": {
+                "facebook": "https://www.facebook.com/jjholisticnutritionaltherapy/",
+                "instagram": "https://www.instagram.com/jj.holisticnutritionaltherapy/",
+                "twitter": "https://twitter.com/HolisticJohnson?fbclid=IwAR2uYxJyEIDktPtLBoxoe4F2kPFUn1IhlFolztiTNCYRM-O52rj_yk0WmPU"
+            }
+        },
+        "navbar": {
+            "home": {
+                "li": "Home",
+                "link": "/"
+            },
+            "kids": {
+                "li": "J&J Kids",
+                "link": "/kids/"
+            },
+            "about": [
+                {
+                    "li": "About J&J",
+                    "link": "/about/"
+                },
+                {
+                    "li": "The J&J Team",
+                    "link": "/about/the-j-and-j-team"
+                },
+                {
+                    "li": "Why Choose J&J",
+                    "link": "/about/why-choose-j-and-j"
+                },
+                {
+                    "li": "Testimonials",
+                    "link": "/about/testimonials"
+                }
+            ],
+            "services": {
+                "li": "Services",
+                "link": "/services/"
+            },
+            "conditions": [
+                {
+                    "li": "Health Conditions",
+                    "link": "/conditions/"
+                },
+                {
+                    "li": "Cardiovascular",
+                    "link": "/conditions/cardiovascular"
+                },
+                {
+                    "li": "Digestive System",
+                    "link": "/conditions/digestive-system"
+                },
+                {
+                    "li": "Immune System",
+                    "link": "/conditions/immune-system"
+                },
+                {
+                    "li": "Stress & Adrenal Function",
+                    "link": "/conditions/stress-and-adrenal-function"
+                },
+                {
+                    "li": "Women's Health",
+                    "link": "/conditions/womens-health"
+                }
+            ],
+            "shop": {
+                "li": "Shop",
+                "link": "https://poporganics.net"
+            },
+            "blog": {
+                "li": "Blog",
+                "link": "/blog/"
+            },
+            "forms": {
+                "li": "Forms",
+                "link": "/forms/"
+            },
+            "promos": [
+                {
+                    "li": "Kids Kovid Booster",
+                    "link": "/promos/back-to-school"
+                },
+                {
+                    "li": "Kovid Kocktail",
+                    "link": "/promos/kovid-kocktail"
+                }
+            ],
+            "bookNow": {
+                "li": "Book Now",
+                "link": "/forms/book-now"
+            }
+        }
+    }
+}

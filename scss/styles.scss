@@ -28,7 +28,13 @@
 @import 'components/layout/nav.scss';
 
 /* Pages */
+
+@import 'pages/about.module.scss';
+@import 'pages/blog.module.scss';
 @import 'pages/conditions.module.scss';
+@import 'pages/errorpage.module.scss';
+@import 'pages/forms.module.scss';
+@import 'pages/home.module.scss';
 @import 'pages/policypages.module.scss';
 @import 'pages/services.module.scss';
 @import 'pages/testimonials.module.scss';

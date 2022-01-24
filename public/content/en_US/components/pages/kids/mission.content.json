@@ -1,0 +1,10 @@
+{
+    "block1": {
+        "h2": "Our Mission",
+        "p": "At J&J Holistic Nutritional Kids, our main objective of holistic alternative medicine is to maintain good health by using the holistic approach as it investigates the whole person in revealing and correcting the profound root causes for ill-being or disease. Holistic Alternative medicine relies on activating the body’s inherent healing capacities, supporting them with natural substances or treatments.",
+        "image": {
+            "src": "/images/pages/kids/mission.webp",
+            "alt": "A little girl hugging a little boy"
+        }
+    }
+}

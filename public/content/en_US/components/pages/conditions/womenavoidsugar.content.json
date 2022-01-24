@@ -1,0 +1,18 @@
+{
+    "block1": {
+        "h4": "Avoid refined sugar and refined carbohydrates:",
+        "p": "Refined food actually decreases the effectiveness of immune cells.",
+        "image": {
+            "src": "/images/pages/conditions/womens-health-issues/candy.webp",
+            "alt": "A pile of candy"
+        }
+    },
+    "block2": {
+        "h4": "Avoid hydrogenated and partially‐hydrogenated oils:",
+        "p": "These will actually decrease the integrity of your cells, making them more prone to invasion.",
+        "image": {
+            "src": "/images/pages/conditions/womens-health-issues/pizza.webp",
+            "alt": "A closeup of a cheese pizza"
+        }
+    }
+}

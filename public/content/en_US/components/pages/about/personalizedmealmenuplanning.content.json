@@ -1,0 +1,17 @@
+{
+    "block1": {
+        "h2": "Personalized Meal/Menu Planning",
+        "h4": [
+            {
+                "li": "$150 Weekly"
+            },
+            {
+                "li": "$550 fot the whole month (One-time payment)"
+            }
+        ],
+        "image": {
+            "src": "/images/pages/about/jj-personalized-meal-plan.webp",
+            "alt": "J&J Holistic Nutritional Therapy can prepare for you a Personalized Meal Plan"
+        }
+    }
+}
