@@ -11,8 +11,6 @@
         padding: 0;
         background-color: $black;
         box-shadow: inset 1px -1px 4px 0px $transparent-white;
-        border: .35rem solid $brown;
-        outline: 0.25rem solid $transparent-brown;
         border-radius: $border-round;
         max-width: 350px;
         margin: 0 auto;
@@ -21,7 +19,7 @@
         .card-image {
             position: relative;
             z-index: 1;
-            opacity: 0.50;
+            opacity: 0.5;
             border-radius: $border-round;
 
             img {
@@ -43,6 +41,7 @@
                 font-family: $header-font-family-medium;
                 font-size: 2rem;
                 color: $beige;
+                text-shadow: 1px 1px 2px $black;
             }
             .card-text {
                 font-weight: 500;
