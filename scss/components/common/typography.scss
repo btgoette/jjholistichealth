@@ -1,68 +1,70 @@
+@font-face {
+  font-family: "Addington Thin";
+  src: url("/fonts/Addington.CF/AddingtonCF-Thin.ttf");
+}
+@font-face {
+  font-family: "Addington";
+  src: url("/fonts/Addington.CF/AddingtonCF-Regular.ttf");
+}
+@font-face {
+  font-family: "Addington Medium";
+  src: url("/fonts/Addington.CF/AddingtonCF-Medium.ttf");
+}
+@font-face {
+  font-family: "Addington Bold";
+  src: url("/fonts/Addington.CF/AddingtonCF-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat Thin";
+  src: url("/fonts/Montserrat/Montserrat-Thin.otf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("/fonts/Montserrat/Montserrat-Medium.otf");
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("/fonts/Montserrat/Montserrat-Bold.otf");
+}
 
-  @font-face {
-    font-family: 'Addington Thin';
-    src: url('/fonts/Addington.CF/AddingtonCF-Thin.ttf');
-  }
-  @font-face {
-    font-family: 'Addington';
-    src: url('/fonts/Addington.CF/AddingtonCF-Regular.ttf');
-  }
-  @font-face {
-    font-family: 'Addington Medium';
-    src: url('/fonts/Addington.CF/AddingtonCF-Medium.ttf');
-  }
-  @font-face {
-    font-family: 'Addington Bold';
-    src: url('/fonts/Addington.CF/AddingtonCF-Bold.ttf');
-  }
-  @font-face {
-    font-family: 'Montserrat Thin';
-    src: url('/fonts/Montserrat/Montserrat-Thin.otf');
-  }
-  @font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/Montserrat/Montserrat-Regular.otf');
-  }
-  @font-face {
-    font-family: 'Montserrat Medium';
-    src: url('/fonts/Montserrat/Montserrat-Medium.otf');
-  }
-  @font-face {
-    font-family: 'Montserrat Bold';
-    src: url('/fonts/Montserrat/Montserrat-Bold.otf');
-  }
+.text-small {
+  font-size: $font-size-small;
+}
 
-  .text-small {
-    font-size: $font-size-small;
-  }
+body {
+  color: $black;
+  font-family: $body-font-family;
+  font-size: $body-font-size-mobile;
+  font-weight: $body-font-weight;
+  letter-spacing: $body-letter-spacing;
+  line-height: $body-line-height;
+  vertical-align: $body-vertical-align;
+}
 
-  body {
-    font-family: $body-font-family;
-    font-size: $body-font-size-mobile;
-    font-weight: $body-font-weight;
-    color: $black;
-  }
+a {
+  color: $green;
+  font-weight: $link-weight;
+  text-decoration: none;
+}
 
-  a {
-    color: $green;
-    font-weight: $link-weight;
-    text-decoration: none;
-  }
+.jj {
+  color: $beige;
+}
 
-  .jj {
-    color: $beige;
-  }
-  
-  a:hover > .jj {
-    color: $dark-beige;
-  }
+a:hover > .jj {
+  color: $dark-beige;
+}
 
 a:hover {
-   color: $dark-green;
+  color: $dark-green;
 }
 
 @media only screen and (min-width: $large) {
   body {
-      font-size: $body-font-size;
+    font-size: $body-font-size;
   }
 }

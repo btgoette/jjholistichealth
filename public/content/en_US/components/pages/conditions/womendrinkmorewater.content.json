@@ -1,0 +1,18 @@
+{
+    "block1": {
+        "h4": "Drink enough water:",
+        "p": "Drink eight 8‐ounces glasses of water each day.",
+        "image": {
+            "src": "/images/pages/conditions/womens-health-issues/middle-age-woman-drinking-water.webp",
+            "alt": "A woman drinking a glass of water"
+        }
+    },
+    "block2": {
+        "h4": "Avoid chemical additives:",
+        "p": "The liver plays a role in conjugating old hormones and removing them from the body. Burdening it with chemical additives makes it less effective at detoxifying.",
+        "image": {
+            "src": "/images/pages/conditions/womens-health-issues/chemicals.webp",
+            "alt": "A series of chemicals in flasks"
+        }
+    }
+}

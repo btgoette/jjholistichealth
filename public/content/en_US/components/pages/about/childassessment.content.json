@@ -1,0 +1,25 @@
+{
+    "block1": {
+        "h2": "Child Assessment",
+        "h4": "$75 per Child",
+        "listTitle": "$50 per Child for 2 or more",
+        "ul": [
+            {
+                "li": "In office"
+            },
+            {
+                "li": "Initial Interview"
+            },
+            {
+                "li": "To check: Digestive, Immune, Allergy & Hydration"
+            },
+            {
+                "li": "Food Recommendations"
+            }
+        ],
+        "image": {
+            "src": "/images/pages/about/jj-why-choose.webp",
+            "alt": "Miajah Johnson taking child's blood pressure"
+        }
+    }
+}

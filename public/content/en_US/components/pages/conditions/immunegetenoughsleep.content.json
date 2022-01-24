@@ -1,0 +1,17 @@
+{
+        "block1": {
+            "h4": "Make sure that you are getting enough rest.",
+            "image": {
+                "src": "/images/pages/conditions/immune/take-enough-rest.webp",
+                "alt": "A man taking a daytime nap"
+            }
+        },
+        "block2": {
+            "h4": "Exercise (according to your practitioner’s guidelines):",
+            "p": "There is one caveat, don’t exercise when you are fighting off an illness.",
+            "image": {
+                "src": "/images/pages/conditions/immune/exercise-often.webp",
+                "alt": "A woman getting trained by a personal trainer"
+            }
+        }
+    }

@@ -6,6 +6,7 @@
     "image": "https://jjholistichealth.com/images/pages/about/testimonials/michelle-moore.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "pageName": "testimonials",
     "breadcrumbs": [
         {
             "page": "Home",

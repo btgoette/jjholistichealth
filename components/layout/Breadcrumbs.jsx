@@ -1,6 +1,5 @@
 // React Components
-import Link from 'next/link'
-import { Breadcrumb, Col, Row } from 'react-bootstrap'
+import { Breadcrumb, Row } from 'react-bootstrap'
 
 
 export default function breadcrumbs(page) {

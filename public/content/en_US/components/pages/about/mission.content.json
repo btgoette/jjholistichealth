@@ -1,0 +1,21 @@
+{
+    "sectionTitle": "Our Mission",
+    "sectionTitleBackground": "bg-herbs-4 img-title",
+    "block1": {
+        "p": [
+            {
+                "li": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
+            },
+            {
+                "li": "Our team of dedicated practitioners is experienced and dedicated to offering the most advanced and comprehensive solutions to all your health needs outside of an emergency."
+            },
+            {
+                "li": "We help our patients understand their unique symptoms and form a lasting partnership with them to eliminate the underlying cause of disease using safe, effective, and tailored treatment plans."
+            }
+        ],
+        "image": {
+            "src": "/images/pages/about/jj-child-consultation.webp",
+            "alt": "A staff member consulting a child and parent"
+        }
+    }
+}

@@ -36,9 +36,10 @@ module.exports = {
             '/about/testimonials': { page: '/about/testimonials' },
             '/conditions/index': { page: '/conditions' },
             '/conditions/cardiovascular': { page: '/conditions/cardiovascular' },
+            '/conditions/digestive-system': { page: '/conditions/digestive-system' },
             '/conditions/immune-system': { page: '/conditions/immune-system' },
             '/conditions/stress-and-adrenal-function': { page: '/conditions/stress-and-adrenal-function' },
-            '/conditions/womens-health-issues': { page: '/conditions/womens-health-issues' },
+            '/conditions/womens-health': { page: '/conditions/womens-health' },
             '/blog/index': { page: '/blog' }
         };
     },
@@ -80,6 +81,19 @@ module.exports = {
                 permanent: true,
             },
             {
+                source: '/digestive-system',
+                destination: '/conditions/digestive-system',
+                permanent: true,
+            },{
+                source: '/digestive-system-issues',
+                destination: '/conditions/digestive-system',
+                permanent: true,
+            },{
+                source: '/digestive-issues',
+                destination: '/conditions/digestive-system',
+                permanent: true,
+            },
+            {
                 source: '/stress-and-adrenal-function',
                 destination: '/conditions/stress-and-adrenal-function',
                 permanent: true,
@@ -91,13 +105,18 @@ module.exports = {
             },
             {
                 source: '/womens-health-issues',
-                destination: '/conditions/womens-health-issues',
+                destination: '/conditions/womens-health',
                 permanent: true,
             },
             {
                 source: '/womenshealthissues',
-                destination: '/conditions/womens-health-issues',
+                destination: '/conditions/womens-health',
                 permanent: true
+            },
+            {
+                source: '/conditions/womens-health-issues',
+                destination: '/conditions/womens-health',
+                permanent: true,
             },
             {
                 source: '/blog/posts',

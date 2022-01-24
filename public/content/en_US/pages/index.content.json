@@ -6,54 +6,7 @@
     "image": "https://jjholistichealth.com/images/pages/home/herb-bowl.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
-    "promo": {
-        "mobile": [
-            {
-                "image": {
-                    "src": "/images/pages/promos/mobile/jj-kids-kovid-booster-cocktail.webp",
-                    "alt": "Kids Kovid Booster Cocktail",
-                    "link": "/promos/back-to-school"
-                }
-            },
-            {
-                "image": {
-                    "src": "/images/pages/promos/mobile/jj-kovid-kocktail.webp",
-                    "alt": "Book Your Appointment for Aromatherapy & Kovid Kocktail",
-                    "link": "/promos/kovid-kocktail"
-                }
-            },
-            {
-                "image": {
-                    "src": "/images/pages/promos/mobile/jj-organic-oat-milk-soap.webp",
-                    "alt": "J&J Organic Oat Milk is an all-natural, handmade soap made from Oatmeal, Honey, Sea Buckthorn, Turmeric, and Essential oils. These soothe sensitive skin and exfoliates with a gentle touch.",
-                    "link": "https://poporganics.net/products/j-j-organic-oat-milk"
-                }
-            }
-        ],
-        "desktop": [
-            {
-                "image": {
-                    "src": "/images/pages/promos/desktop/jj-kids-kovid-booster-cocktail.png",
-                    "alt": "Back to School Kids Kovid Booster Cocktail",
-                    "link": "/promos/back-to-school"
-                }
-            },
-            {
-                "image": {
-                    "src": "/images/pages/promos/desktop/jj-kovid-kocktail.png",
-                    "alt": "Book Your Appointment for Aromatherapy & Kovid Kocktail",
-                    "link": "/promos/kovid-kocktail"
-                }
-            },
-            {
-                "image": {
-                    "src": "/images/pages/promos/desktop/jj-organic-oat-milk-soap.png",
-                    "alt": "J&J Organic Oat Milk is an all-natural, handmade soap made from Oatmeal, Honey, Sea Buckthorn, Turmeric, and Essential oils. These soothe sensitive skin and exfoliates with a gentle touch.",
-                    "link": "https://poporganics.net/products/j-j-organic-oat-milk"
-                }
-            }
-        ]
-    },
+    "pageName":"home",
     "hero": {
         "background": "hero hero-spices",
         "title": "Wellness made for You!",
@@ -65,31 +18,5 @@
         ],
         "image": "/images/pages/home/herb-bowl.webp",
         "alt": "Herb Bowl"
-    },
-    "section1": {
-        "background": "hero hero-spices",
-        "title": "",
-        "block1": {
-            "h2": "'You are what you eat... Literally'",
-            "p": "The medicinal and therapeutic value of nutrition has a long and significant history. Many ancient and traditional cultures recognized the power of food in the elimination of toxins that create illness and disease as well as the support of an individual’s health. Increasingly, contemporary cultures are re-discovering and embracing the healing power of food.",
-            "fruit": {
-                "src": "/images/pages/home/fruit.webp",
-                "alt": "Fruit"
-            }
-        },
-        "block2": {
-            "healthyWoman": {
-                "src": "/images/pages/home/healthy-woman.webp",
-                "alt": "Healthy Woman"
-            },
-            "healthyMan": {
-                "src": "/images/pages/home/healthy-man.webp",
-                "alt": "Healthy Man"
-            }
-        }
-    },
-    "section2": {
-        "title": "Which conditions can nutritional medicine help?",
-        "background": "bg-herbs-table img-title"
     }
 }

@@ -1,10 +1,13 @@
-// Custom Components
+/* The J&J Team Page */
+
+// Layout Components
 import Head from 'components/layout/Head'
 import Hero from 'components/layout/Hero'
-import TeamMembers from 'components/common/Team'
 
-// Custom Styles and Content
-import styles from 'scss/pages/about.module.scss'
+// Page Components
+import Team from 'components/pages/about/Team'
+
+// Page Content
 import content from 'public/content/en_US/pages/about/team.content'
 
 
@@ -16,14 +19,15 @@ export default function JJTeam() {
 
             <Head {...content}/>
 
-            <div className={styles.theJandJTeam}>
+            <div className={content.pageName}>
 
                 <Hero {...content}/>
                             
-                <TeamMembers />
+                <Team />
 
             </div>
 
         </>
+
     )
 }

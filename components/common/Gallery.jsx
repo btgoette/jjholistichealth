@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Row, Col } from 'react-bootstrap'
 // Custom Data
-import gallery from 'public/content/en_US/data/gallery/gallery.data'
+import gallery from 'public/content/en_US/components/common/gallery/gallery.content'
 
 
 export default function Gallery() {

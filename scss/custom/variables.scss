@@ -1,6 +1,7 @@
 // Colors
 $beige: #d3b17d;
-$black: #121212;
+$black: #121212bf;
+$brown: #492a15bf;
 $green: #6b9362;
 // $green: #4A7441ee;
 $grey: #5c5c5c;
@@ -20,6 +21,7 @@ $light-grey: #020101;
 $transparent-hero: #e4d2c477;
 $transparent-beige: #e4d2c4dd;
 $transparent-black: #00000057;
+$transparent-brown: #492a15bf;
 $transparent-dots: #e4d2c457;
 $transparent-green: #4b664557;
 $transparent-grey: #b4c4b437;
@@ -35,13 +37,16 @@ $xx-large: 1400px;
 
 
 // Fonts
-$body-font-family: 'Montserrat';
-$body-font-family-bold: 'Montserrat Bold';
-$body-font-family-medium: 'Montserrat Medium';
-$body-font-family-thin: 'Montserrat Thin';
-$body-font-size: 1.25rem;
+$body-font-family: 'Montserrat', sans-serif;
+$body-font-family-bold: 'Montserrat Bold', sans-serif;
+$body-font-family-medium: 'Montserrat Medium', sans-serif;
+$body-font-family-thin: 'Montserrat Thin', sans-serif;
+$body-font-size: 1rem;
 $body-font-size-mobile: 1rem;
 $body-font-weight: 400;
+$body-line-height: 28.8px;
+$body-vertical-align: baseline;
+$body-letter-spacing: 0.6px;
 
 $font-size-small: .9rem;
 

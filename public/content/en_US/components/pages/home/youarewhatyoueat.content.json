@@ -1,0 +1,20 @@
+{
+    "background": "hero hero-spices",
+    "title": "You Are What You Eat",
+    "block1": {
+        "h2": "'You are what you eat... Literally'",
+        "p": "The medicinal and therapeutic value of nutrition has a long and significant history. Many ancient and traditional cultures recognized the power of food in the elimination of toxins that create illness and disease as well as the support of an individual’s health. Increasingly, contemporary cultures are re-discovering and embracing the healing power of food.",
+        "fruit": {
+            "src": "/images/pages/home/fruit.webp",
+            "alt": "Fruit"
+        },
+        "healthyWoman": {
+            "src": "/images/pages/home/healthy-woman.webp",
+            "alt": "Healthy Woman"
+        },
+        "healthyMan": {
+            "src": "/images/pages/home/healthy-man.webp",
+            "alt": "Healthy Man"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "block1": {
+        "image": {
+            "src": "/images/pages/conditions/stress/exercise.webp",
+            "alt": "A group of people exercising"
+        },
+        "h4": "Exercise:",
+        "p": "Moderate aerobic exercise is good. This is an exercise that uses large muscles repetitively and is mild enough that you can carry on a normal conversation during the activity. Anaerobic exercise (exercising so hard that you can’t carry on a normal conversation) can be stressful and should be limited while the adrenal glands are recovering."
+    },
+    "block2": {
+        "image": {
+            "src": "/images/pages/conditions/stress/sports-and-hobbies.webp",
+            "alt": "A woman jogging"
+        },
+        "h4": "Sports & Hobbies:",
+        "p": "Meditation and Yoga maybe a little ʺNew Ageʺ for some people. Hobbies are a good solution for these people. Most hobbies are relaxing; your mind has to focus on a simple task rather than on sources of stress."
+    }
+}

@@ -46,10 +46,15 @@ Redirect 301 /testimonials about/testimonials
 Redirect 301 /cardiovascular conditions/cardiovascular
 Redirect 301 /immune-system conditions/immune-system
 Redirect 301 /immunesystem conditions/immune-system
+Redirect 301 /digestive-issues conditions/digestive-system
+Redirect 301 /digestive-system conditions/digestive-system
+Redirect 301 /digestive-system-issues conditions/digestive-system
 Redirect 301 /stress-and-adrenal-system conditions/stress-and-adrenal-system
 Redirect 301 /stressandadrenalsystem conditions/stress-and-adrenal-system
-Redirect 301 /womens-health-issues conditions/womens-health-issues
-Redirect 301 /womenshealthissues conditions/womens-health-issues
+Redirect 301 /womens-health-issues conditions/womens-health
+Redirect 301 /womenshealthissues conditions/womens-health
+Redirect 301 /womens-health conditions/womens-health
+Redirect 301 /conditions/womens-health-issues conditions/womens-health
 Redirect 301 /contactus forms/contact
 Redirect 301 /booknow forms/book-now
 Redirect 301 /contact forms/contact
