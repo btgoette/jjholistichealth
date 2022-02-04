@@ -31,10 +31,6 @@
   src: url("/fonts/Montserrat/Montserrat-Bold.otf");
 }
 
-.text-small {
-  font-size: $font-size-small;
-}
-
 body {
   color: $black;
   font-family: $body-font-family;
@@ -61,6 +57,14 @@ a:hover > .jj {
 
 a:hover {
   color: $dark-green;
+}
+
+strong {
+  font-family: $body-font-family-medium;
+}
+
+.text-small {
+  font-size: $font-size-small;
 }
 
 @media only screen and (min-width: $large) {
