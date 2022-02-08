@@ -1,3 +1,10 @@
+/* Layout Components */
+@import 'breadcrumbs.scss';
+@import 'footer.scss';
+@import 'hero.scss';
+@import 'jumbotron.scss';
+@import 'nav.scss';
+
 body {
     max-width: 100vw;
     overflow-x: hidden;

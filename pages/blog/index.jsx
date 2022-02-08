@@ -29,7 +29,6 @@ export default function BlogIndexPage({ allPostsData }) {
 
     <>
 
-      {console.log(allPostsData)}
       <Head {...content} />
 
       <div className={styles.blog}>
@@ -48,7 +47,7 @@ export default function BlogIndexPage({ allPostsData }) {
                 </Row>
                 <Row>
                   {allPostsData.map(({ id, formalDate, title, preview, description }, i) => (
-                    <Col key={i} lg={6}>
+                    <Col key={i} md={6}>
                       <article>
                         <div className={styles.blogHead}>
                           <Link href={`/blog/posts/${id}`} passHref>
