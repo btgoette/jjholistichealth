@@ -112,6 +112,13 @@ export default function BookNowForm() {
                 </div>
             </fieldset><br/>
 
+            <fieldset>
+                <div>
+                    <label htmlFor="referredBy">Referred by:</label>
+                    <input id="referredBy" type="text" name="referredBy" pattern="[a-zA-Z][a-zA-Z ]+" required />
+                </div>
+            </fieldset><br/>
+
             <div className="g-recaptcha" data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"></div>
 
             <fieldset>
