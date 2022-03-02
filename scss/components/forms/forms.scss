@@ -15,113 +15,11 @@
     margin: 0 auto;
     border-radius: 50px;
 
-    form {
-        margin: 0 auto;
-
-        fieldset {
-            display: flex;
-            width: 100%;
-            align-items: center;
-            gap: 1rem;
-            flex-wrap: wrap;
-
-            div {
-                flex-grow: 1;
-            }
-        }
-
-        label {
-            font-weight: $label-font-weight;
-            display: block;
-            margin-right: 1rem;
-        }
-
-        input:not([type="submit"]),
-        textarea {
-            text-rendering: auto;
-            color: -internal-light-dark(black, white);
-            letter-spacing: normal;
-            word-spacing: normal;
-            line-height: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-            text-align: start;
-            appearance: auto;
-            -webkit-rtl-ordering: logical;
-            cursor: text;
-            margin: 0em;
-            padding: 1px 2px;
-            border-width: 2px;
-            border-style: inset;
-            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-            border-image: initial;
-            background-color: $white;
-            padding: 12px 1rem;
-            border-radius: $border-rounded-input;
-            margin: 1rem 0;
-        }
-
-        input[type="email"],
-        input[type="text"],
-        input[type="tel"] {
-            width: 100%;
-        }
-        textarea {
-            width: 100%;
-        }
-
-        input[type="number"] {
-            width: 120px;
-        }
-
-        input[type="date"] {
-            width: 220px;
-        }
-
-        input[type="checkbox"],
-        input[type="radio"] {
-            margin: .6rem 0.5rem .4rem .4rem;
-        }
-
-        select {
-            background-color: $white;
-            margin: 1rem 0;
-            width: 100%;
-            max-width: 320px;
-            padding: 0.8rem 1rem;
-            border-radius: $border-rounded-input;
-        }
-
-        button,
-        input[type="submit"] {
-            padding: $button-padding;
-            border-radius: $border-rounded-button;
-            font-family: $button-font-family;
-            letter-spacing: 1px;
-            font-weight: $button-font-weight;
-            margin-top: 1rem;
-            min-width: 150px;
-            color: $white;
-            background-color: $green;
-            border: 0;
-
-            &:hover,
-            &:focus,
-            &:active {
-                background-color: $dark-green;
-                box-shadow: none;
-            }
-        }
-
-        .required {
-            color: #ed0000;
-        }
-    }
     @media only screen and (min-width: $medium) {
         max-width: 800px;
         margin: 2rem auto;
         padding: 2rem;
     }
 }
+
+@import "newsletter.scss"

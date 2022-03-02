@@ -157,7 +157,7 @@ export default function CustomNav() {
             <Nav className="ms-auto">
               <Nav.Item className="d-flex d-xl-none">
                 <Link href={content.nav.navbar.kids.link} passHref>
-                  <Nav.Link >
+                  <Nav.Link passHref>
                     {content.nav.navbar.kids.li}
                   </Nav.Link>
                 </Link>
@@ -243,7 +243,7 @@ export default function CustomNav() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </nav >
+    </nav>
 
   );
 }

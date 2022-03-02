@@ -10,7 +10,7 @@ module.exports = {
             '/kids/index': { page: '/kids' },
             '/404': { page: '/404' },
             '/403': { page: '/403' },
-            '/forms/success': { page: '/forms/success' },
+            '/thank-you': { page: '/thank-you' },
             '/promos/back-to-school': { page: '/promos/back-to-school' },
             '/promos/kovid-kocktail': { page: '/promos/kovid-kocktail' },
             '/forms/index': { page: '/forms' },
@@ -144,8 +144,8 @@ module.exports = {
                 permanent: true,
             },
             {
-                source: '/success',
-                destination: '/forms/success',
+                source: '/forms/success',
+                destination: '/thank-you',
                 permanent: true,
             },
             {

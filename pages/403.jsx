@@ -29,7 +29,7 @@ export default function ForbiddenPage() {
                                             alt={content.section1.block1.logo.alt}
                                         />
                                     </figure>
-                                </Link><br /><br />
+                                </Link><br/>
                                 <Link href={content.section1.block1.link} passHref>
                                     {content.section1.block1.p}
                                 </Link>
