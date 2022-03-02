@@ -1,29 +1,50 @@
-// React Components
-import ReCAPTCHA from "react-google-recaptcha";
+export default function Newsletter() {
 
-export default function ContactForm() {
+    function handleSubmit(event) {
+        event.preventDefault();
+        alert("Thank You For Subscribing!");
+        document.getElementById("newsletterForm").submit();
+        document.getElementById("newsletterForm").reset();
+    }
 
   return (
-    <>
+    <div className="newsletter">
+      <h2 className="text-lg-start">Join our mailing list!</h2>
+      <p className="text-lg-start">
+        Sign Up to receive email updates on announcements, gifts, special
+        promotions, and sales on P.O.P. Organic products and more!
+      </p>
       <form
-        id="contactForm"
+        onSubmit={handleSubmit}
+        id="newsletterForm"
+        className="newsletter-form align-items-center"
+        action="https://forms.ontraport.com/v2.4/form_processor.php?"
         method="POST"
-        action="https://forms.ontraport.com/v2.4/form_processor.php"
-        action=""
+        acceptCharset="UTF-8"
       >
-        <fieldset>
+        <fieldset className="newsletter-first-name">
           <input
             aria-label="Name"
             type="text"
             name="firstname"
             pattern="[a-zA-Z][a-zA-Z ]+"
-            placeholder="Name"
+            placeholder="First Name"
             id="mr-field-element-665400750684"
             required
           />
         </fieldset>
-
-        <fieldset>
+        <fieldset className="newsletter-last-name">
+          <input
+            aria-label="Name"
+            type="text"
+            name="lastname"
+            pattern="[a-zA-Z][a-zA-Z ]+"
+            placeholder="Last Name"
+            id="mr-field-element-963842744489"
+            required
+          />
+        </fieldset>
+        <fieldset className="newsletter-email">
           <input
             aria-label="Email"
             type="email"
@@ -34,38 +55,16 @@ export default function ContactForm() {
             required
           />
         </fieldset>
-
-        <fieldset>
+        <fieldset className="newsletter-submit">
           <input
-            aria-label="Phone"
-            type="tel"
-            name="office_phone"
-            pattern="[0-9]{10}"
-            placeholder="Phone Number"
-            id="mr-field-element-982783901333"
-            required
+            type="submit"
+            name="submit-button"
+            value="Submit"
+            className="btn btn-primary"
+            id="mr-field-element-396621743854"
           />
         </fieldset>
 
-        <fieldset>
-          <textarea
-            aria-label="Message"
-            name="message"
-            placeholder="Message"
-            id="mr-field-element-167372072412"
-            required
-          />
-        </fieldset>
-
-        <div
-          className="g-recaptcha"
-          data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"
-        ></div>
-
-        <fieldset>
-          <input type="submit" name="submit-button" value="Submit" id="mr-field-element-396621743854" />
-        </fieldset>
-        
         <input name="afft_" type="hidden" value="" />
         <input name="aff_" type="hidden" value="" />
         <input name="sess_" type="hidden" value="" />
@@ -83,19 +82,19 @@ export default function ContactForm() {
         <input name="_op_gcid" type="hidden" value="" />
         <input name="_fbc" type="hidden" value="" />
         <input name="_fbp" type="hidden" value="" />
-        <input name="uid" type="hidden" value="p2c240683f7" />
-        <input name="uniquep2c240683f7" type="hidden" value="0" />
+        <input name="uid" type="hidden" value="p2c240683f9" />
+        <input name="uniquep2c240683f9" type="hidden" value="0" />
         <input
           name="mopsbbk"
           type="hidden"
-          value="5AF5861955D39927403DBFD3:3208B3100E3EC1A40ADE303C"
+          value="A6C450349E3BCF5BF44C87DC:0D1B7860EEEB951D56945A18"
         />
         <input
           name="mopbelg"
           type="hidden"
-          value="0150444:60598C592079FB7635DBFC7D:2736E27F58E5B12BA2CEFAF1"
+          value="0150444:09EA9C469556483767F3FB84:EB74917CCEB161F908191589"
         />
       </form>
-    </>
+    </div>
   );
 }
