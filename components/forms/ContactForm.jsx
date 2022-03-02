@@ -9,7 +9,6 @@ export default function ContactForm() {
         id="contactForm"
         method="POST"
         action="https://forms.ontraport.com/v2.4/form_processor.php"
-        action=""
       >
         <fieldset>
           <input

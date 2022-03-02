@@ -1,12 +1,5 @@
 export default function Newsletter() {
 
-    function handleSubmit(event) {
-        event.preventDefault();
-        alert("Thank You For Subscribing!");
-        document.getElementById("newsletterForm").submit();
-        document.getElementById("newsletterForm").reset();
-    }
-
   return (
     <div className="newsletter">
       <h2 className="text-lg-start">Join our mailing list!</h2>
@@ -15,7 +8,6 @@ export default function Newsletter() {
         promotions, and sales on P.O.P. Organic products and more!
       </p>
       <form
-        onSubmit={handleSubmit}
         id="newsletterForm"
         className="newsletter-form align-items-center"
         action="https://forms.ontraport.com/v2.4/form_processor.php?"
