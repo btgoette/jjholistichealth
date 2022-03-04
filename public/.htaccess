@@ -61,7 +61,8 @@ Redirect 301 /contact forms/contact
 Redirect 301 /book-now forms/book-now
 Redirect 301 /consent forms/consent
 Redirect 301 /covid-19 forms/covid-19
-Redirect 301 /forms/success thank-you
+Redirect 301 /forms/success /thank-you
+Redirect 301 /forms/thank-you /thank-you
 Redirect 301 /function-exam forms/functional-exam
 Redirect 301 /food-intolerance forms/food-intolerance
 Redirect 301 /pediatric-assessment-questionnaire forms/pediatric-assessment-questionnaire
