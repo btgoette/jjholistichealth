@@ -74,17 +74,17 @@ export default function Newsletter() {
         <input name="_op_gcid" type="hidden" value="" />
         <input name="_fbc" type="hidden" value="" />
         <input name="_fbp" type="hidden" value="" />
-        <input name="uid" type="hidden" value="p2c240683f9" />
-        <input name="uniquep2c240683f9" type="hidden" value="0" />
+        <input name="uid" type="hidden" value="p2c240683f8" />
+        <input name="uniquep2c240683f8" type="hidden" value="0" />
         <input
           name="mopsbbk"
           type="hidden"
-          value="A6C450349E3BCF5BF44C87DC:0D1B7860EEEB951D56945A18"
+          value="C5FF3DB8787C6DA396DC75D5:16CC4F3C7772719DF8E55F41"
         />
         <input
           name="mopbelg"
           type="hidden"
-          value="0150444:09EA9C469556483767F3FB84:EB74917CCEB161F908191589"
+          value="0150517:2D3D464F96F36FADC36F297D:CEE0A02B999C085220F0B09C"
         />
       </form>
     </div>
