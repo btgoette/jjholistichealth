@@ -79,12 +79,12 @@ export default function Newsletter() {
         <input
           name="mopsbbk"
           type="hidden"
-          value="C5FF3DB8787C6DA396DC75D5:16CC4F3C7772719DF8E55F41"
+          value="BA6DBB61FC038204F9F6908B:04A52C6ADD155A54DDD2DC79"
         />
         <input
           name="mopbelg"
           type="hidden"
-          value="0150517:2D3D464F96F36FADC36F297D:CEE0A02B999C085220F0B09C"
+          value="0150548:E48A7635862A3EF3759F14AE:9AAF6AFF527D164DF7F4194F"
         />
       </form>
     </div>
