@@ -49,7 +49,7 @@ export default function ContactForm() {
         <fieldset>
           <textarea
             aria-label="Message"
-            name="message"
+            name="notes"
             placeholder="Message"
             id="mr-field-element-167372072412"
             required
