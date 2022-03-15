@@ -11,7 +11,7 @@ import BookNowCTA from "components/common/BookNowCTA";
 import Newsletter from "components/forms/NewsletterForm";
 
 // Custom Data
-import content from "public/content/en_US/components/layout/footer/footer.content";
+import content from "public/content/en_US/Components/Layout/Footer/footer.content";
 
 export default function Footer() {
   const today = new Date();
@@ -157,11 +157,9 @@ export default function Footer() {
               <Link href={content.copyright.privacyPolicy.link}>
                 {content.copyright.privacyPolicy.li}
               </Link>
-              &nbsp;&nbsp;&nbsp;
               <Link href={content.copyright.cookiePolicy.link}>
                 {content.copyright.cookiePolicy.li}
               </Link>
-              &nbsp;&nbsp;&nbsp;
               <Link href={content.copyright.cancellationPolicy.link}>
                 {content.copyright.cancellationPolicy.li}
               </Link>

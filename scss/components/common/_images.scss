@@ -8,7 +8,7 @@ figure {
 
     img {
         width: 100%;
-        max-width: 500px;
+        max-width: 300px;
     }
 }
 
@@ -34,6 +34,11 @@ article {
 @media only screen and (min-width: $large) {
     figure {
         margin-bottom: 0; 
+    
+        img {
+            width: 100%;
+            max-width: 500px;
+        }
     }
 
     .logo {
