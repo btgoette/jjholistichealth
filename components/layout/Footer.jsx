@@ -21,14 +21,6 @@ export default function Footer() {
       <Container fluid className={content.section1.background}>
         <Container>
           <Row className="align-items-center">
-            {/* <Col lg={6}>
-              <div className="holistic-counseling-block">
-                <h2>{content.section1.block1.h2}</h2>
-                <p>{content.section1.block1.p.strong}</p>
-                <p>{content.section1.block1.p.li}</p>
-                <BookNowCTA />
-              </div>
-            </Col> */}
             <Col lg={6}>
                 <Newsletter />
             </Col>

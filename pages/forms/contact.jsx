@@ -3,13 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 import ContactForm from 'components/forms/ContactForm'
 
 // Custom Styles and Content
 import styles from 'scss/pages/forms.module.scss'
-import content from 'public/content/en_US/pages/forms/contact.content'
+import content from 'public/content/en_US/Page/Forms/contact.content'
 
 
 export default function Contact() {

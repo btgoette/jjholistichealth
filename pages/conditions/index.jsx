@@ -1,15 +1,13 @@
 /* Health Conditions Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import FunctionalEvaluation from 'components/pages/conditions/FunctionalEvaluation'
-import Conditions from 'components/pages/conditions/Conditions'
+import Head from 'components/common/Head'
+import Hero from 'components/common/Hero'
+import FunctionalEvaluation from 'components/common/FunctionalEvaluation'
+import Conditions from 'components/common/Conditions'
 
 // Page Content
-import content from 'public/content/en_US/pages/conditions/conditions.content'
+import page from 'public/content/en_US/Page/Conditions/conditions.content'
 
 
 export default function HealthConditions() {
@@ -18,15 +16,16 @@ export default function HealthConditions() {
 
         <>
 
-            <Head {...content} />
 
-            <div className={content.pageName}>
+            <div className={page.slug}>
+                
+            <Head {...page} />
 
-                <Hero {...content} />
+                <Hero {...page.hero} />
 
-                <FunctionalEvaluation />
+                <FunctionalEvaluation {...page.block.functionalEvaluation} />
 
-                <Conditions />
+                <Conditions {...page.block.conditions}/>
 
             </div>
 

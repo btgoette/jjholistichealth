@@ -2,13 +2,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 import FoodIntoleranceForm from 'components/forms/FoodIntoleranceForm'
 
 // Custom Styles and Content
 import styles from 'scss/pages/forms.module.scss'
-import content from 'public/content/en_US/pages/forms/foodIntolerance.content'
+import content from 'public/content/en_US/Page/Forms/foodIntolerance.content'
 
 
 

@@ -2,12 +2,12 @@
 import { Container, Row, Col } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 import BookNowForm from 'components/forms/BookNowForm'
 
 // Custom Styles and Content
-import content from 'public/content/en_US/pages/forms/bookNow.content'
+import content from 'public/content/en_US/Page/Forms/bookNow.content'
 
 
 export default function BookNow() {

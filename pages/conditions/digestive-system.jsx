@@ -1,32 +1,19 @@
 /* Digestive System Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import DigestiveSystem from 'components/pages/conditions/DigestiveSystem'
+import Head from "components/common/Head";
+import Hero from "components/common/Hero";
+import DigestiveSystem from "components/common/DigestiveSystem";
 
-// Custom Content
-import content from 'public/content/en_US/pages/conditions/digestivesystem.content'
-
+// Page Content
+import page from "public/content/en_US/Page/Conditions/digestivesystem.content";
 
 export default function HealthConditions() {
-
-    return (
-
-        <>
-
-            <Head {...content} />
-
-            <div className="conditions">
-
-                <Hero {...content} />
-
-                <DigestiveSystem />
-
-            </div>
-
-        </>
-    );
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Hero {...page.hero} />
+      <DigestiveSystem {...page.block.digestiveSystem}/>
+    </div>
+  );
 }

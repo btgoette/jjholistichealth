@@ -15,13 +15,14 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Breadcrumb, Container, Row, Col } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
+import Head from 'components/common/Head'
 import BookNowCTA from 'components/common/BookNowCTA'
 import RecentPosts from 'components/blog/RecentPosts'
 
 // Custom Styles, Content, and Data
 
 import styles from 'scss/pages/blog.module.scss'
+import page from 'public/content/en_US/Page/Blog/blog.content'
 import { getAllPostIds, getPostData } from "public/getAllPosts"
 import { post } from 'jquery'
 
@@ -129,7 +130,7 @@ export default function BlogPost({ postData }) {
                   </Col>
                 </Row>
               </Col>
-              <RecentPosts />
+              <RecentPosts {...page.block.recentPosts} />
             </Row>
           </Container>
         </Container>

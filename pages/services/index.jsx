@@ -1,40 +1,27 @@
 /* Services Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import WeTreatEveryIndividualUniquely from 'components/pages/services/WeTreatEveryIndividualUniquely'
-import Free15MinuteConsultation from 'components/pages/services/Free15MinuteConsultation'
-import FullFunctionalEvaluation from 'components/pages/services/FullFunctionalEvaluation'
-import JandJPLans from 'components/pages/services/JandJPlans'
+import Head from "components/common/Head"
+import Hero from "components/common/Hero"
+import Section from "components/common/Section"
+import FullFunctionEvaluation from "components/common/FullFunctionalEvaluation"
+import JandJPlan from "components/common/JandJPlans"
 
 // Page Content
-import content from 'public/content/en_US/pages/services/services.content'
-
+import page from "public/content/en_US/Page/Services/services.content";
 
 export default function Services() {
-
-    return (
-
-        <>
-            <Head {...content} />
-
-            <div className={content.pageName}>
-
-                <Hero {...content} />
-
-                <WeTreatEveryIndividualUniquely />
-
-                <Free15MinuteConsultation />
-
-                <FullFunctionalEvaluation />
-
-                <JandJPLans />
-
-            </div>
-
-        </>
-    )
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Hero {...page.hero} />
+      <Section {...page.block.weTreatEveryIndividualUniquely} />
+      <Section {...page.block.ourServices} />
+      <Section {...page.block.free15MinuteConsultation} />
+      <Section {...page.block.initialInterview} />
+      <Section {...page.block.fullFunctionalEvaluation} />
+      <FullFunctionEvaluation {...page.block.feLists} />
+      <JandJPlan {...page.block.jAndJPlans} />
+    </div>
+  );
 }

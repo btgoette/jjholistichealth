@@ -2,13 +2,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 import EndocrineSteamIntakeForm from 'components/forms/EndocrineSteamIntakeForm'
 
 // Custom Styles and Content
 import styles from 'scss/pages/forms.module.scss'
-import content from 'public/content/en_US/pages/forms/endocrineSteamIntake.content'
+import content from 'public/content/en_US/Page/Forms/endocrineSteamIntake.content'
 
 
 export default function EndocrineSteamIntake() {

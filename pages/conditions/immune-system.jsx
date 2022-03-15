@@ -1,42 +1,27 @@
 /* Immune System Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import ImmuneAvoidSugar from 'components/pages/conditions/ImmuneAvoidSugar'
-import ImmuneEatDarkColoredProduce from 'components/pages/conditions/ImmuneEatDarkColoredProduce'
-import ImmuneGetEnoughSleep from 'components/pages/conditions/ImmuneGetEnoughSleep'
-import ImmuneProblems from 'components/pages/conditions/ImmuneProblems'
+import Head from "components/common/Head";
+import Hero from "components/common/Hero";
+import Section from "components/common/Section";
 
-
-// Custom Content
-import content from 'public/content/en_US/pages/conditions/immunesystem.content'
-
+// Page Content
+import page from "public/content/en_US/Page/Conditions/immunesystem.content";
 
 export default function ImmuneSystem() {
-
-    return (
-
-        <>
-
-            <Head {...content} />
-
-            <div className={content.pageName}>
-
-                <Hero {...content} />
-
-                <ImmuneAvoidSugar />
-
-                <ImmuneEatDarkColoredProduce />
-
-                <ImmuneGetEnoughSleep />
-
-                <ImmuneProblems />
-
-            </div>
-
-        </>
-    );
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Hero {...page.hero} />
+      <Section {...page.block.avoidSugar} />
+      <Section {...page.block.avoidHydrogenatedOils} />
+      <Section {...page.block.diet} />
+      <Section {...page.block.drinkWater} />
+      <Section {...page.block.getEnoughRest} />
+      <Section {...page.block.exercise} />
+      <Section {...page.block.stressFactors} />
+      <Section {...page.block.chapmanReflexes} />
+      <Section {...page.block.immuneSupport} />
+    </div>
+  );
 }

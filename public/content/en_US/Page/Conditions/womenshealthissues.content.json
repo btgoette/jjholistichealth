@@ -1,0 +1,282 @@
+{
+    "title": "Women's Health - JJ Holistic Nutritional Therapy",
+    "description": "Women experience unique health issues and conditions, from pregnancy and menopause to gynecological conditions, such as uterine fibroids and pelvic floor disorders.",
+    "slug": "womens-healthissues",
+    "href": "https://jjholistichealth.com/conditions/womens-health",
+    "image": "https://jjholistichealth.com/images/pages/conditions/womens-health/pms.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Women's Health Conditions",
+    "hero": {
+        "slug": "hero hero-eggs-1",
+        "column": [
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "1"
+            }
+        ],
+        "title": "Women's Health",
+        "text": [
+            {
+                "p": "A woman’s body is an amazing machine. It is full of complex systems that not only sustain life but also creates new life. Women experience unique health issues and conditions, from pregnancy and menopause to gynecological conditions, such as uterine fibroids and pelvic floor disorders."
+            }
+        ]
+    },
+    "block": {
+        "naturalApproachToPMS": {
+            "slug": "natural-approach-to-pms",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Natural Approach to PMS",
+            "text": [
+                {
+                    "p": "The information below represents a sample of the protocol normally presented in a client report. Of course, we recognize that every client is an individual with very particular needs. As a result, this protocol is simply a starting point or guideline. Moreover, the client protocol is followed by a report on cardiovascular health for your information. By using lab and functional testing, you will be able to refine and individualize the program for specific clients."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/pms.webp",
+                "alt": "A woman making a heart sign over her stomach"
+            }
+        },
+        "bloodCount": {
+            "slug": "blood-count bg-light-green",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "0"
+                },
+                {
+                    "offset": "1",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Complete Blood Count and Differential:",
+            "text": [
+                {
+                    "p": "Some of the symptoms of PMS may be due to anemia or other abnormality found in a blood count. Sometimes you can see nutritional deficiencies in “normal” blood tests."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/blood-works.webp",
+                "alt": "A woman testing a blood sample"
+            }
+        },
+        "bloodChemistryPanel": {
+            "slug": "blood-chemistry-panel",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Blood Chemistry Panel",
+            "text": [
+                {
+                    "p": "This is a good overview of general health. Since PMS usually has many factors, correcting general health will often improve PMS."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/blood-chemistry.webp",
+                "alt": "A test tube of blood."
+            }
+        },
+        "thyroidPanel": {
+            "slug": "thyroid-panel  bg-brown",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "0"
+                },
+                {
+                    "offset": "1",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Thyroid Panel",
+            "text": [
+                {
+                    "p": "Many of the symptoms of PMS may reveal an under-functioning thyroid. The thyroid has been called “the third ovary.” Another easy test to perform for the thyroid is the Barnes Basal Body Temperature Test. Have the client take her axillary temperature immediately upon awakening. The temperature should be between 97.8°F and 98.2°F. A lower temperature is a possible indication of hypothyroidism."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/thyroid-panel.webp",
+                "alt": "A doctor feeling a woman's thyroid gland"
+            }
+        },
+        "hormonePanel": {
+            "slug": "hormone-panel",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Hormone Panel",
+            "text": [
+                {
+                    "p": "The obvious thing to look for in PMS is hormone imbalance. Several laboratory panels will test for progesterone, estrogen, prolactin, and other pertinent hormones."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/hormones.webp",
+                "alt": "A woman taking hormone medications"
+            }
+        },
+        "otherTests": {
+            "slug": "other-tests bg-light-green",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "0",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Other Tests",
+            "text": [
+                {
+                    "p": "If the desired information is not obtained from the aforementioned tests, or if treatment based on these findings does not get the desired result, other laboratory tests may be of importance. They include liver detoxification, adrenal stress index, food allergy panel, and comprehensive digestive stool analysis."
+                },
+                {
+                    "p": "PMS is multifactorial; in other words, there is no single cause that will explain every case of PMS. Excess estrogen can cause problems by reducing the production of serotonin, decreasing the action of vitamin B6, causing other hormone imbalances, reducing endorphin levels, creating breast tenderness, and adversely affecting liver function. Excess estrogen can be caused by a deficiency of B vitamins, lack of sulfur‐containing amino acids, stasis of bile (due to thickening—commonly called “sluggish liver). By the same token, biliary stasis, and poor liver function may cause excess estrogen through poor detoxification of estrogen. The thyroid or adrenal glands may be involved, or there may be problems with bowel flora (dysbiosis) or hidden allergies."
+                }
+            ]
+        },
+        "drinkMoreWater": {
+            "slug": "drink-more-water",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Drink More Water",
+            "text": [
+                {
+                    "p": "Drink eight 8‐ounces glasses of water each day."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/middle-age-woman-drinking-water.webp",
+                "alt": "A woman drinking a glass of water"
+            }
+        },
+        "avoidChemicalAdditives": {
+            "slug": "avoid-chemical-additives bg-brown",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "0"
+                },
+                {
+                    "offset": "1",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Avoid Chemical Additives",
+            "text": [
+                {
+                    "p": "The liver plays a role in conjugating old hormones and removing them from the body. Burdening it with chemical additives makes it less effective at detoxifying."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/chemicals.webp",
+                "alt": "A series of chemicals in flasks"
+            }
+        },
+        "avoidSugar": {
+            "slug": "avoid-sugar",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Avoid refined sugar and refined carbohydrates:",
+            "text": [
+                {
+                    "p": "Refined food actually decreases the effectiveness of immune cells."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/candy.webp",
+                "alt": "A pile of candy"
+            }
+        },
+        "avoidHydrogenatedOils": {
+            "slug": "avoid-hydrogenated-oils bg-light-green",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "0"
+                },
+                {
+                    "offset": "1",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Avoid hydrogenated and partially‐hydrogenated oil",
+            "text": [
+                {
+                    "p": "These will actually decrease the integrity of your cells, making them more prone to invasion."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/conditions/womens-health-issues/pizza.webp",
+                "alt": "A closeup of a cheese pizza"
+            }
+        }
+    }
+}

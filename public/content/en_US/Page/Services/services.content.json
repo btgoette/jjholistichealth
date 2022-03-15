@@ -1,0 +1,359 @@
+{
+    "title": "Services - JJ Holistic Nutritional Therapy",
+    "description": "We have access to the most cutting-edge laboratory testing methods in science to help us figure out the root cause of your medical issues. We design a treatment plan tailored just for you that eliminate the root problems.",
+    "slug": "services",
+    "href": "https://jjholistichealth.com/services/",
+    "image": "https://jjholistichealth.com/images/pages/services/jj-holistic-nutritional-therapy-clinic.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Services",
+    "hero": {
+        "slug": "hero-herbs-1",
+        "column": [
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "1"
+            }
+        ],
+        "title": "Our Services",
+        "text": [
+            {
+                "p": "We have access to the most cutting-edge laboratory testing methods in science to help us figure out the root cause of your medical issues. We also make use of advanced biogenetics testing tools to understand the more concealed imbalances and deficiencies that may be the cause of functional disturbances in your bodily processes. Using this wealth of information, we design a treatment plan tailored just for you that eliminate the root problems."
+            }
+        ]
+    },
+    "block": {
+        "weTreatEveryIndividualUniquely": {
+            "slug": "we-treat-every-individual-uniquely",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "3",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "0"
+                }
+            ],
+            "title": "We Treat Every Individually Uniquely",
+            "text": [
+                {
+                    "p": "Everyone is treated uniquely because it has never been the case that one type of diet worked for everyone. Think about it, we all have different body shapes, different lifestyles, likes, and dislikes. We are all motivated or demotivated by different things. We react to foods very differently, both physically and emotionally."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/services/jj-holistic-nutritional-therapy-clinic.webp",
+                "alt": "Krystal Johnson and a child"
+            }
+        },
+        "ourServices": {
+            "slug": "our-services bg-light-green",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "3",
+                    "order": "0"
+                },
+                {
+                    "offset": "1",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "text": [
+                {
+                    "p": "At J&J Holistic Nutritional Therapy, dealing with people is a calling. Besides learning new and exciting ways on how to improve our patient's health, we get to share the same knowledge with our loved ones. Moreover, it is satisfying to see the progress of a client's journey with their health issues and getting to know and educate clients on healthy eating and nutrition."
+                },
+                {
+                    "p": "Our services are based on scientific tests that inform our treatment options and health recommendations."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/services/child-nurse.webp",
+                "alt": "Laurinda Lea with a child"
+            }
+        },
+        "free15MinuteConsultation": {
+            "slug": "free-15-minute-consultation",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "3",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "0"
+                }
+            ],
+            "title": "Free 15-Minute Consultation",
+            "text": [
+                {
+                    "p": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
+                },
+                {
+                    "p": "Our team of dedicated practitioners is experienced and dedicated to offering the most advanced and comprehensive solutions to all your health needs outside of an emergency."
+                },
+                {
+                    "p": "We help our patients understand their unique symptoms and form a lasting partnership with them to eliminate the underlying cause of disease using safe, effective, and tailored treatment plans."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/services/15-minute-consult-with-ntp-johnson.webp",
+                "alt": "A doctor on the phone"
+            }
+        },
+        "initialInterview": {
+            "slug": "initial-interview bg-brown",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "3",
+                    "order": "0"
+                },
+                {
+                    "offset": "1",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Initial Interview – Video or In Office",
+            "text": [
+                {
+                    "p": "We will go over your medical or family history, lifestyle, current medications (if there’s any), detailed symptom and, a food journal. Our nutritional consultation is the first essential step to closing the gap by getting to know more about you and whether we can help improve your well-being."
+                },
+                {
+                    "p": "In the interview, We also try to identify the dietary disconnect that may be present in your lifestyle and how to address it. We can make out the necessary and actionable steps you can take to improve and optimize your health. Every patient is unique and thus requires a different approach to holistic wellness."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/services/1-hour-interview.webp",
+                "alt": "A doctor video chatting"
+            }
+        },
+        "fullFunctionalEvaluation": {
+            "slug": "full-functional-evaluation",
+            "column": [
+                {
+                    "offset": "1",
+                    "span": "3",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "0"
+                }
+            ],
+            "title": "Full Functional Evaluation",
+            "text": [
+                {
+                    "p": "We perform a Full Functional Evaluation to gain as much information from your body as possible on where deficiencies are and where we need to support you first."
+                },
+                {
+                    "p": "The Functional Evaluation (FE) consists of lingual-neuro, muscle, reflex and energetic testing in order to further assess your biochemical needs and make appropriate, personalized diet and lifestyle recommendations. Other treatments and test may be offered to help determine the root cause of certain ailments. This includes:"
+                }
+            ],
+            "img": {
+                "src": "/images/pages/services/blood-pressure-check.webp",
+                "alt": "Krystal Johnson taking the blood pressure of a patient"
+            }
+        },
+        "feLists": {
+            "LNT": {
+                "slug": "lnt-list",
+                "list": [
+                    {
+                        "li": "Blood Sugar LNT",
+                        "ul": [
+                            {
+                                "li": "Adrenal Glands"
+                            },
+                            {
+                                "li": "Liver"
+                            },
+                            {
+                                "li": "LNT Pancreas"
+                            }
+                        ]
+                    },
+                    {
+                        "li": "Digestion LNT",
+                        "ul": [
+                            {
+                                "li": "Gallbladder"
+                            },
+                            {
+                                "li": "Large Intestines"
+                            },
+                            {
+                                "li": "Small Intestines"
+                            },
+                            {
+                                "li": "Stomach"
+                            }
+                        ]
+                    },
+                    {
+                        "li": "Endocrine LNT",
+                        "ul": [
+                            {
+                                "li": "Breast Tissue"
+                            },
+                            {
+                                "li": "Ovaries/Testicles"
+                            },
+                            {
+                                "li": "Pituitary Gland"
+                            },
+                            {
+                                "li": "Thyroid Gland"
+                            },
+                            {
+                                "li": "Uterus/Prostate"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "otherServices": {
+                "slug": "our-services bg-light-green",
+                "column": [
+                    {
+                        "offset": "0",
+                        "span": "4",
+                        "order": "0"
+                    },
+                    {
+                        "offset": "1",
+                        "span": "6",
+                        "order": "0"
+                    }
+                ],
+                "title": "Other Services",
+                "list": [
+                    {
+                        "li": "Immune & Allergy LNT"
+                    },
+                    {
+                        "li": "Fatty Acid Postural & Non-Postural Muscle LNT"
+                    },
+                    {
+                        "li": "Hydration LNT Kidney"
+                    },
+                    {
+                        "li": "Mineral LNT Kidney"
+                    },
+                    {
+                        "li": "Neurological/Detoxification LNT Balance"
+                    },
+                    {
+                        "li": "J&J All in Wellness Plan"
+                    },
+                    {
+                        "li": "Child Assessment"
+                    },
+                    {
+                        "li": "Food Intolerance/Sensitivity Test"
+                    },
+                    {
+                        "li": "Cupping Therapy"
+                    },
+                    {
+                        "li": "High Frequency Treatment"
+                    },
+                    {
+                        "li": "High Frequency Treatment with Aromatherapy"
+                    },
+                    {
+                        "li": "High Frequency with Aromatherapy Scalp Treatment"
+                    },
+                    {
+                        "li": "Aromatherapy with Acne Extraction"
+                    },
+                    {
+                        "li": "Essential Treatment"
+                    },
+                    {
+                        "li": "Herbal Endocrine Steam"
+                    },
+                    {
+                        "li": "Herbal Endocrine Steam for Vagina and Pelvis"
+                    },
+                    {
+                        "li": "Personalized Meal Planning"
+                    }
+                ]
+            }
+        },
+        "jAndJPlans": {
+            "slug": "j-and-j-plans",
+            "sectionTitle": "J&J All in Wellness Plans",
+            "sectionTitleBackground": "bg-vegetables-4 img-title",
+            "block1": {
+                "h3": "J&J Individual Plan",
+                "p": "$59.95",
+                "ul": [
+                    {
+                        "li": "Organ Assessment"
+                    },
+                    {
+                        "li": "10% off Supplements and Herbs through our Herbal Dispensary"
+                    },
+                    {
+                        "li": "10% off P.O.P. Organics brand J&J Supplements"
+                    },
+                    {
+                        "li": "Additional Webinar Training, Newsletter, Meal Ideas and more"
+                    },
+                    {
+                        "li": "Your choice of two In-Office or Video 30 minute consultations for Immune System and Digestive Dysfunctions. (Choose one from the two options below: Digestive or Immune System)"
+                    },
+                    {
+                        "li": "Digestive: Stomach, Pancreas, and Gallbladder, Chronic Diarrhea, Chronic Constipation, Gastroenteritis, Hemorrhoids, Stomach Flu, Irritable Bowel Syndrome, Inflammatory Bowel Disease"
+                    },
+                    {
+                        "li": "Immune System: Sinuses, Lungs, and Thyroid (Thymus Gland and Histamine) Allergies, Asthma, Cold, Flu, Bronchitis, Pneumonia, Laryngitis"
+                    }
+                ]
+            },
+            "block2": {
+                "h3": "J&J Family Plan",
+                "p1": "(Up to 4 Family Members)",
+                "p2": "$129.95",
+                "ul": [
+                    {
+                        "li": "Organ Assessment"
+                    },
+                    {
+                        "li": "10% off Supplements and Herbs through our Herbal Dispensary"
+                    },
+                    {
+                        "li": "10% off P.O.P. Organics brand J&J Supplements"
+                    },
+                    {
+                        "li": "Additional Webinar Training, Newsletter, Meal Ideas and more"
+                    },
+                    {
+                        "li": "Your choice of two In-Office or Video 30 minute consultations for Immune System and Digestive Dysfunctions. (Choose one from the two options below: Digestive or Immune System)"
+                    },
+                    {
+                        "li": "Digestive: Stomach, Pancreas, and Gallbladder, Chronic Diarrhea, Chronic Constipation, Gastroenteritis, Hemorrhoids, Stomach Flu, Irritable Bowel Syndrome, Inflammatory Bowel Disease"
+                    },
+                    {
+                        "li": "Immune System: Sinuses, Lungs, and Thyroid (Thymus Gland and Histamine) Allergies, Asthma, Cold, Flu, Bronchitis, Pneumonia, Laryngitis"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -2,11 +2,11 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 
-// Custom Content
-import content from 'public/content/en_US/pages/policies/cancellation.content'
+// Page Content
+import content from 'public/content/en_US/Page/Policies/cancellation.content'
 
 export default function CancellationPolicy() {
 

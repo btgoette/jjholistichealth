@@ -29,10 +29,11 @@
     }
 
     @media only screen and (min-width: $large) {
-        min-height: 100vh;
+        min-height: 60vh;
+        display: grid;
+        align-items:center;
 
         .hero-container {
-            margin-top: -10%;
 
             .hero-block {
                 .hero-content {

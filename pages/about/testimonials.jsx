@@ -1,36 +1,23 @@
 /* Testimonials Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-
 // Page Components
-import TestimonialHero from 'components/pages/about/TestimonialHero'
-import Testimonials from 'components/pages/about/Testimonials'
-import GoogleReviews from 'components/common/GoogleReviews'
+import Head from "components/common/Head"
+import Breadcrumbs from 'components/common/Breadcrumbs'
+import TestimonialHero from "components/common/TestimonialHero"
+import Testimonials from "components/common/Testimonials"
+import GoogleReviews from "components/common/GoogleReviews"
 
 // Page Content
-import content from 'public/content/en_US/pages/about/testimonials.content'
-
+import page from "public/content/en_US/Page/About/testimonials.content";
 
 export default function JJTestimonials() {
-
-    return (
-
-        <>
-
-            <Head {...content} />
-
-            <div className={content.pageName}>
-
-                <TestimonialHero />
-
-                <Testimonials />
-
-                <GoogleReviews />
-
-            </div>
-
-        </>
-
-    )
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Breadcrumbs {...page} />
+      <TestimonialHero {...page.hero} />
+      <Testimonials />
+      <GoogleReviews />
+    </div>
+  );
 }

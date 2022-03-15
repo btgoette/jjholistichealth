@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Container, Button, Navbar, Nav, NavDropdown, Offcanvas, CloseButton } from 'react-bootstrap'
 import 'public/fonts/FontAwesome/fontawesome'
 
-// Custom Content
+// Page Content
 import content from 'public/content/en_US/components/layout/nav/nav.content'
 
 export default function CustomNav() {
@@ -55,8 +55,6 @@ export default function CustomNav() {
                   </Link>
                 </Nav.Item>
 
-                <NavDropdown.Divider />
-
                 <Nav.Item>
                   <Link href={content.nav.navbar.kids.link} passHref>
                     <Nav.Link >
@@ -64,8 +62,6 @@ export default function CustomNav() {
                     </Nav.Link>
                   </Link>
                 </Nav.Item>
-
-                <NavDropdown.Divider />
 
                 <NavDropdown title="About" id="about-dropdown">
                   {content.nav.navbar.about.map(({ li, link }, i) => (
@@ -77,8 +73,6 @@ export default function CustomNav() {
                   ))}
                 </NavDropdown>
 
-                <NavDropdown.Divider />
-
                 <Nav.Item>
                   <Link href={content.nav.navbar.services.link} passHref>
                     <Nav.Link>
@@ -86,8 +80,6 @@ export default function CustomNav() {
                     </Nav.Link>
                   </Link>
                 </Nav.Item>
-
-                <NavDropdown.Divider />
 
                 <NavDropdown title="Health Conditions" id="conditions-dropdown">
                   {content.nav.navbar.conditions.map(({ li, link }, i) => (
@@ -99,15 +91,11 @@ export default function CustomNav() {
                   ))}
                 </NavDropdown>
 
-                <NavDropdown.Divider />
-
                 <Nav.Item>
                   <Nav.Link href={content.nav.navbar.shop.link} target="blank">
                     {content.nav.navbar.shop.li}
                   </Nav.Link>
                 </Nav.Item>
-
-                <NavDropdown.Divider />
 
                 <Nav.Item>
                   <Link href={content.nav.navbar.blog.link} passHref>
@@ -117,8 +105,6 @@ export default function CustomNav() {
                   </Link>
                 </Nav.Item>
 
-                <NavDropdown.Divider />
-
                 <Nav.Item>
                   <Link href={content.nav.navbar.forms.link} passHref>
                     <Nav.Link>
@@ -127,9 +113,7 @@ export default function CustomNav() {
                   </Link>
                 </Nav.Item>
 
-                <NavDropdown.Divider />
-
-                <NavDropdown title="Promos" id="promos">
+                {/* <NavDropdown title="Promos" id="promos">
                   <NavDropdown.Divider />
                   {content.nav.navbar.promos.map(({ li, link }, i) => (
                     <Link key={i} href={link} passHref>
@@ -138,9 +122,7 @@ export default function CustomNav() {
                       </NavDropdown.Item>
                     </Link>
                   ))}
-                </NavDropdown>
-
-                <NavDropdown.Divider />
+                </NavDropdown> */}
 
                 <Nav.Item>
                   <Link href={content.nav.navbar.bookNow.link} target="blank" passHref>
@@ -218,7 +200,7 @@ export default function CustomNav() {
                   </Nav.Link>
                 </Link>
               </Nav.Item>
-              <NavDropdown title="Promos" id="promos">
+              {/* <NavDropdown title="Promos" id="promos">
                 <NavDropdown.Divider />
                 {content.nav.navbar.promos.map(({ li, link }, i) => (
                   <Link key={i} href={link} passHref>
@@ -227,7 +209,7 @@ export default function CustomNav() {
                     </NavDropdown.Item>
                   </Link>
                 ))}
-              </NavDropdown>
+              </NavDropdown> */}
               <Nav.Item>
                 <Nav.Link className="d-block d-xl-none" href={content.nav.navbar.bookNow.link} target="blank" passHref>
                   {content.nav.navbar.bookNow.li}

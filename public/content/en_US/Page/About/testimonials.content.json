@@ -1,0 +1,37 @@
+{
+    "title": "Testimonials - JJ Holistic Nutritional Therapy",
+    "description": "Words cannot express how great I feel since I have been a client of J &amp; J Holistic Nutritional Therapy. I have been dealing with Spinal Stenosis since 2012. Following the recommendations both nutritional, dietary and with the introduction of essential oils and CDB oils l no longer take pain meds or my antidepressant. I was taking far too many prescribed and over the counter medications. Since adopting the life style changes and eliminating foods that I never knew I was allergic to I’am literally pain free, no Advil, Alieve, Benadryl. My headaches are gone.",
+    "slug": "testimonials",
+    "href": "https://jjholistichealth.com/about/testimonials",
+    "image": "https://jjholistichealth.com/images/pages/about/testimonials/michelle-moore.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Testimonials",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "About",
+            "link": "/about/"
+        }
+    ],
+    "finalcrumb": "Testimonials",
+    "hero": {
+        "title": "What clients love about J&J",
+        "p": [
+            {
+                "li": "Words cannot express how great I feel since I have been a client of J&J Holistic Nutritional Therapy. Krystal Johnson is so knowledgable and thorough I am totally convinced her services have changed my life. Do your self a favor and give J&J Holistic Nutritonal Therapy a try, it only takes a 15 minute consultation to begin to understand how great you can feel treating your mind, body and soul, the whole person rather than symptoms and never knowing the origins of your discomfort."
+            }
+        ],
+        "img": {
+            "src": "/images/pages/about/testimonials/michelle-moore.webp",
+            "alt": "Michelle Clement Moore"
+        },
+        "name": "Michelle Clement Moore"
+    },
+    "block": {
+        "testimonials": {}
+    }
+}
