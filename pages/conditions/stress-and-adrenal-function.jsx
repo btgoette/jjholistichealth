@@ -1,39 +1,23 @@
 /* Stress & Adrenal Function Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import StressExercise from 'components/pages/conditions/StressExercise'
+import Head from "components/common/Head"
+import Hero from "components/common/Hero"
+import Section from "components/common/Section"
 
-import StressDiet from 'components/pages/conditions/StressDiet'
-import StressProblems from 'components/pages/conditions/StressProblems'
-
-// Custom Content
-import content from 'public/content/en_US/pages/conditions/stressandadrenalfunction.content'
+// Page Content
+import page from "public/content/en_US/Page/Conditions/stressandadrenalfunction.content"
 
 export default function StressAndAdrenalFunction() {
-
-    return (
-
-        <>
-
-            <Head {...content} />
-
-            <div className={content.pageName}>
-
-                <Hero {...content} />
-
-                <StressExercise />
-
-                <StressDiet />
-                
-                <StressProblems />
-
-            </div>
-
-        </>
-
-    )
+  return (
+      <div className={page.slug}>
+        <Head {...page} />
+        <Hero {...page.hero} />
+        <Section {...page.block.exercise}/>
+        <Section {...page.block.sportsAndHobbies}/>
+        <Section {...page.block.diet}/>
+        <Section {...page.block.meditation}/>
+        <Section {...page.block.findingProblemsWithStress}/>
+      </div>
+  )
 }

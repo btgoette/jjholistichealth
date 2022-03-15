@@ -1,8 +1,8 @@
 @import "../custom/variables.scss";
 
 .home {
-    .youAreWhatYouEat {
-        .youAreWhatYouEatImage {
+    .you-are-what-you-eat {
+        .you-are-what-you-eat-image {
             display: none;
         }
     }
@@ -15,8 +15,8 @@
     }
 
     @media only screen and (min-width: $medium) {
-        .youAreWhatYouEat {
-            .youAreWhatYouEatImage {
+        .you-are-what-you-eat {
+            .you-are-what-you-eat-image {
                 display: block;
                 position: relative;
                 text-align: center;

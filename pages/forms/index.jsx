@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'public/fonts/FontAwesome/fontawesome'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 
 // Custom Styles and Content
-import content from 'public/content/en_US/pages/forms/forms.content'
+import content from 'public/content/en_US/Page/Forms/forms.content'
 
 
 

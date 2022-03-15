@@ -44,6 +44,7 @@
     "sass-loader": "^12.3.0",
     "slick-carousel": "^1.8.1",
     "vanilla-back-to-top": "^7.2.1",
+    "video-react": "^0.15.0",
     "webpconvert": "^1.1.4"
   },
   "devDependencies": {

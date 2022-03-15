@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 
-// Custom Content
-import content from 'public/content/en_US/pages/policies/cookiePolicy.content'
+// Page Content
+import content from 'public/content/en_US/Page/Policies/cookiePolicy.content'
 
 export default function CoookiePolicy() {
 

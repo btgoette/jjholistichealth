@@ -1,22 +1,27 @@
 @import "../custom/variables.scss";
 
 .error {
-    h1 {
+    display: grid;
+    min-height: 60vh;
+    align-items: center;
+    h2 {
         font-size: $error-page-header-size-mobile;
-        margin-bottom: 3rem;
+        text-align: center;
     }
 
-    h2 {
-        margin-bottom: 3rem;
+    p {
+        text-align: center;
+        margin-bottom: 0;
     }
 
     img {
         max-width:200px;
+        padding: 2rem 0;
     }
 
     @media only screen and (min-width: $small) {
         padding-top: 4rem;
-        h1 {
+        h2 {
             font-size: $error-page-header-size;
         }
     }

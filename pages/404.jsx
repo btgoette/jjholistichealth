@@ -1,43 +1,17 @@
-import Link from 'next/link'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import { Container, Row, Col } from 'react-bootstrap'
+// Error Page 404
 
-// Custom Components
-import Head from 'components/layout/Head'
+// Page Components
+import Head from "components/common/Head"
+import Section from "components/common/Section"
 
 // Custom Styles and Content
-import styles from 'scss/pages/errorpage.module.scss'
-import content from 'public/content/en_US/pages/404.content'
+import page from "public/content/en_US/Page/404.content";
 
 export default function NotFoundPage() {
-    return (
-        <>
-            <Head {...content} />
-
-            <div className={styles.error}>
-
-                <Container fluid className="pt-2">
-                    <Container>
-                        <Row className="custom-row pt-5">
-                            <Col className="text-center">
-                                <h1>{content.section1.title}</h1>
-                                <h2>{content.section1.block1.h2}</h2>
-                                <Link href={content.section1.block1.link} passHref>
-                                    <figure className="logo">
-                                        <LazyLoadImage
-                                            src={content.section1.block1.logo.src}
-                                            alt={content.section1.block1.logo.alt}
-                                        />
-                                    </figure>
-                                    </Link><br/>
-                                <Link href={content.section1.block1.link} passHref>
-                                    {content.section1.block1.p}
-                                </Link>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Container>
-            </div>
-        </>
-    )
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Section {...page.block.error404} />
+    </div>
+  );
 }

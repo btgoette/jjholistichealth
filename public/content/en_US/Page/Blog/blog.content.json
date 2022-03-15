@@ -1,0 +1,39 @@
+{
+    "title": "Blog - JJ Holistic Nutritional Therapy",
+    "description": "Our J&amp;J Blog features articles that can help you find a healthier life and help you in your holistic nutritional journey.",
+    "slug": "blog",
+    "href": "https://jjholistichealth.com/blog",
+    "image": "https://jjholistichealth.com/images/pages/blog/preview/the-adverse-effects-of-stress-on-the-adrenal-gland.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Blog",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Blog",
+    "block": {
+        "recentPosts": {
+            "posts": [
+                {
+                    "id": "benefits-of-aromatherapy",
+                    "title": "The Adverse Effects of Stress on the Adrenal Gland"
+                },
+                {
+                    "id": "cbd-oil-therapy",
+                    "title": "CBD Oil Therapy"
+                },
+                {
+                    "id": "top-6-pituitary-herbs-for-a-healthy-pituitary-gland",
+                    "title": "Top 6 Pituitary Herbs for a Healthy Pituitary Gland"
+                },
+                {
+                    "id": "benefits-of-aromatherapy",
+                    "title": "Benefits of Aromatherapy"
+                }
+            ]
+        }
+    }
+}

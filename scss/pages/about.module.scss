@@ -1,10 +1,10 @@
 @import "../custom/variables.scss";
 
-.theJandJTeam {
-    .aboutTeamMember {
+.the-j-and-j-team {
+    .about-team-member {
         padding: 1rem;
 
-        .aboutTeamPhoto {
+        .about-team-photo {
             margin: 0 auto;
 
             img {
@@ -14,28 +14,28 @@
             }
         }
 
-        .aboutTeamTitle {
+        .about-team-title {
             margin: 0;
         }
 
-        .aboutTeamName {
+        .about-team-name {
             margin-bottom: 0;
         }
 
-        .aboutTeamJobTitle {
+        .about-team-job-title {
             color: $beige;
         }
 
-        .aboutTeamContent {
+        .about-team-content {
             margin-bottom: 3rem;
         }
     }
 
     @media only screen and (min-width: $large) {
-        .aboutTeamMember {
+        .about-team-member {
             padding: 1rem 2rem;
 
-            .aboutTeamPhoto {
+            .about-team-photo {
                 margin: 0 0;
 
                 img {

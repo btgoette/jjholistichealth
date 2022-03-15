@@ -1,0 +1,36 @@
+{
+    "title": "Success - JJ Holistic Nutritional Therapy",
+    "description": "Your form submission has been successful.",
+    "slug": "thank-you",
+    "href": "https://jjholistichealth.com/forms/",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Thank You",
+    "block": {
+        "thankYou": {
+            "slug": "error thank-you",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "title": "Thank you for your form submission.",
+            "text": [
+                {
+                    "p": "We will contact you soon!"
+                }
+            ],
+            "img": {
+                "src": "/images/logos/jj-logo.webp",
+                "alt": "J&J Holistic Nutritional Therapy Logo"
+            },
+            "cta": {
+                "ctaLabel": "Back to Home",
+                "href": "/"
+            }
+        }
+    }
+}

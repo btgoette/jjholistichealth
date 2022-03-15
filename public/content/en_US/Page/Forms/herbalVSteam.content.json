@@ -1,0 +1,31 @@
+{
+    "title": "Herbal V Steam Intake Form  - JJ Holistic Nutritional Therapy",
+    "description": "Please fill out this Herbal V Steam Intake Form and be as accurate as possible with your answers.",
+    "slug": "herbal-steam-intake-form",
+    "href": "https://jjholistichealth.com/forms/herbal-v-steam",
+    "type": "website",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Forms",
+            "link": "/forms/"
+        }
+    ],
+    "finalcrumb": "Herbal V Steam Intake Form",
+    "section1": {
+        "block1": {
+            "img": {
+                "src": "herbal-steam.webp",
+                "alt": "Holistic Steam Therapy Logo"
+            },
+            "title": "Herbal V Steam Intake Form",
+            "p": "Please fill out this form and be as accurate as possible with your answers."
+        }
+    }
+}

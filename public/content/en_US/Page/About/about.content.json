@@ -1,0 +1,223 @@
+{
+    "title": "About J&J - JJ Holistic Nutritional Therapy",
+    "description": "At Johnson and Johnson Holistic Nutritional Therapy, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. At J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that.",
+    "slug": "about",
+    "href": "https://jjholistichealth.com/about/",
+    "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "About J&J",
+    "hero": {
+        "slug": "hero-herbs-1",
+        "column": [
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "1"
+            }
+        ],
+        "title": "About J&J",
+        "subtitle": "Our belief is our guide",
+        "text": [
+            {
+                "p": "At Johnson and Johnson Holistic Nutritional Therapy, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. This summarizes the traditional approach to medicine at J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that."
+            },
+            {
+                "p": "Here, we welcome who you are and treat you with natural care to reset your body back to its original state. We recognize that disease is complex, that’s why we focus on the concept of bio-individuality; where every individual has a specific genetic, ancestral, and geographic makeup that determines their own unique nutritional needs. Many nutrition programs fail because they take a “one size fits all” approach that ignores bio-individuality."
+            }
+        ]
+    },
+    "block": {
+        "weTakeYourComfortSeriously": {
+            "slug": "we-take-your-comfort-seriously",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "We take your comfort seriously",
+            "text": [
+                {
+                    "p": "We take pride in providing our patients with outstanding care in a warm, cozy, and inclusive environment. Our premises are designed to allow you to relax and feel at home while receiving treatment for your body and mind. Patients can enjoy a warm cup of herbal tea while they wait and mothers and babies have a friendly space for breastfeeding and changing."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/about/jj-lobby.webp",
+                "alt": "The J&J Holistic Nutritonal Therapy Lobby"
+            }
+        },
+        "gallery": {
+            "img": [
+                {
+                    "order": "photo-1",
+                    "src": "/images/pages/about/gallery/1.webp",
+                    "fullsrc": "/images/pages/about/gallery/full/1.webp",
+                    "alt": "A holistic practioner checking a patient's eye with a light"
+                },
+                {
+                    "order": "photo-2",
+                    "src": "/images/pages/about/gallery/2.webp",
+                    "fullsrc": "/images/pages/about/gallery/full/2.webp",
+                    "alt": "A holistic practioner feeling a patient's abdomen"
+                },
+                {
+                    "order": "photo-3",
+                    "src": "/images/pages/about/gallery/3.webp",
+                    "fullsrc": "/images/pages/about/gallery/full/3.webp",
+                    "alt": "A holistic practioner checking a patient's palm"
+                },
+                {
+                    "order": "photo-4",
+                    "src": "/images/pages/about/gallery/4.webp",
+                    "fullsrc": "/images/pages/about/gallery/full/4.webp",
+                    "alt": "A holistic practioner checking a patient's shoulder"
+                },
+                {
+                    "order": "photo-5",
+                    "src": "/images/pages/about/gallery/5.webp",
+                    "fullsrc": "/images/pages/about/gallery/full/5.webp",
+                    "alt": "A holistic practioner typing a Functional Exam report"
+                },
+                {
+                    "order": "photo-6",
+                    "src": "/images/pages/about/gallery/6.webp",
+                    "fullsrc": "/images/pages/about/gallery/full/6.webp",
+                    "alt": "A holistic practioner checking a patient's arm"
+                }
+            ]
+        },
+        "mission": {
+            "slug": "mission",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Our Misson",
+            "text": [
+                {
+                    "p": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
+                },
+                {
+                    "p": "Our team of dedicated practitioners is experienced and dedicated to offering the most advanced and comprehensive solutions to all your health needs outside of an emergency."
+                },
+                {
+                    "p": "We help our patients understand their unique symptoms and form a lasting partnership with them to eliminate the underlying cause of disease using safe, effective, and tailored treatment plans."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/about/jj-child-consultation.webp",
+                "alt": "A staff member consulting a child and parent"
+            }
+        },
+        "vision": {
+            "slug": "core-values bg-brown",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Our Vision",
+            "text": [
+                {
+                    "p": "Our vision is to inspire, educate, and empower our clients to overcome illness and switch their focus to leading a healthier and rewarding lifestyle."
+                }
+            ],
+            "subtitle": "Core Values",
+            "list": [
+                {
+                    "li": "Communication and transparency"
+                },
+                {
+                    "li": "Accountability"
+                },
+                {
+                    "li": "Honoring Individuality"
+                },
+                {
+                    "li": "Positivity"
+                },
+                {
+                    "li": "Excellence"
+                }
+            ],
+            "img": {
+                "src": "/images/pages/about/jj-krystal-johnson-working.webp",
+                "alt": "Krystal Johnson Working"
+            }
+        },
+        "howWeTakeCareOfOurPatients": {
+            "slug": "how-we-take-care-of-our-patients",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "How We Take Care of Our Patients",
+            "text": [
+                {
+                    "p": "By considering the wellbeing of the whole body, each component can be seen on a biochemical, cellular, and systematic level. Furthermore, it becomes clear that all components are interconnected. It also means that when assessing health problems, we consider all other possible influencing factors to the patient, including their physical, mental, emotional, and spiritual well-being."
+                },
+                {
+                    "p": "So for example, if a patient comes to us with symptoms of IBS, we will not simply focus on the disease, or treat just the digestive system. Instead, we will take into account all other historical and current health issues, such as:"
+                },
+                {
+                    "p": "We do not advocate one type of diet, like low GI, gluten-free foods, paleo, GAPS, vegan, raw, or macrobiotic diets. Similarly, we do not promote any food or supplement related to fads or fashion."
+                }
+            ],
+            "listBlock": [
+                {
+                    "li": "Medication"
+                },
+                {
+                    "li": "Lifestyle"
+                },
+                {
+                    "li": "Emotional State"
+                },
+                {
+                    "li": "Desired Outcome"
+                },
+                {
+                    "li": "Diet"
+                },
+                {
+                    "li": "Needs"
+                }
+            ]
+        }
+    }
+}

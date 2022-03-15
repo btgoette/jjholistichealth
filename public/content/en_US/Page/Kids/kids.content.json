@@ -1,0 +1,333 @@
+{
+    "title": "J&J Kids - JJ Holistic Nutritional Therapy",
+    "description": "At J&J Holistic Nutritional Kids, we use a holistic approach in all aspects. This means we consider your child as a whole and as a sum of all the interconnected components that make an individual unique.",
+    "slug": "kids about",
+    "url": "https://jjholistichealth.com/kids/",
+    "image": "https://jjholistichealth.com/images/pages/kids/mission.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "J&J Kids",
+    "hero": {
+        "slug": "hero hero-carrots-2",
+        "column": [
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "0"
+            },
+            {
+                "offset": "0",
+                "span": "6",
+                "order": "1"
+            }
+        ],
+        "title": "We will take care of your child",
+        "text": [
+            {
+                "p": "At J&J Holistic Nutritional Kids, we use a holistic approach in all aspects. This means we consider your child as a whole and as a sum of all the interconnected components that make an individual unique."
+            },
+            {
+                "p": "When assessing health problems, we consider all other possible influencing factors to the patient, including their physical, mental, emotional, and spiritual well-being. We use our vast knowledge of food and nutrients to devise the most appropriate course of action to bring your child's body back to its best state."
+            }
+        ]
+    },
+    "block": {
+        "mission": {
+            "slug": "mission",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Our Misson",
+            "text": [
+                {
+                    "p": "At J&J Holistic Nutritional Kids, our main objective of holistic alternative medicine is to maintain good health by using the holistic approach as it investigates the whole person in revealing and correcting the profound root causes for ill-being or disease. Holistic Alternative medicine relies on activating the body’s inherent healing capacities, supporting them with natural substances or treatments."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/mission.webp",
+                "alt": "A little girl hugging a little boy"
+            }
+        },
+        "vision": {
+            "slug": "vision bg-light-green",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Our Vision",
+            "text": [
+                {
+                    "p": "We believe that health and wellness are essential to a child’s well-being. We are here to inspire, educate, and empower your children. We focus on teaching the importance of good nutrition and prevention of disease as well as offering a full range of services to reach optimal health. We know that optimal health is more than the absence of disease. It involves living the sort of lifestyle that promotes and embraces a healthy lifestyle."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/vision.webp",
+                "alt": "A little girl in a mask"
+            }
+        },
+        "coreValues": {
+            "slug": "core-values",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "Our Core Values",
+            "list": [
+                {
+                    "li": "Communication and Transparency"
+                },
+                {
+                    "li": "Honoring Individuality"
+                },
+                {
+                    "li": "Positivity"
+                },
+                {
+                    "li": "Excellence"
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/core-values.webp",
+                "alt": "A toddler playing with toys"
+            }
+        },
+        "nutritionalMedicine": {
+            "slug": "nutritional-medicine bg-brown",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                }
+            ],
+            "title": "Nutritional Medicine",
+            "text": [
+                {
+                    "p": "Nutritional medicine is founded on the fact that the body requires nutrients (including essential micronutrients) to function properly. These nutrients are mainly responsible for supporting the vast number of critical biochemical processes that keep us alive and healthy."
+                },
+                {
+                    "p": "When treating symptoms and diseases from a nutritional medicine perspective, the practitioner looks at the root causes. We use food and individual nutrients for medicinal and therapeutic effects, in doses only achievable in supplement form."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/medicine.webp",
+                "alt": "A little boy getting his temperature taken"
+            }
+        },
+        "weAreWhatWeConsume": {
+            "slug": "we-are-what-we-consume",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "We are what we consume",
+            "text": [
+                {
+                    "p": "In most areas of life, what your child consumes forms who he is, both physically, mentally, emotionally, and spiritually."
+                },
+                {
+                    "p": "Nutrients are involved in the formation of every cell and the maintenance of every system in our bodies. To give you some perspective, the body needs more than 45 nutrients to function optimally and maintain good health."
+                },
+                {
+                    "p": "Nutritional medicine aims to optimize nutrition to suit the various and individual biochemical, environmental, and health status of the patients."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/consume.webp",
+                "alt": "A smiling little girl"
+            }
+        },
+        "conditions": {
+            "sectionTitle": "Conditions that can be improved with the right nutrition",
+            "sectionTitleBackground": "bg-herbs-table img-title",
+            "condition": [
+                {
+                    "src": "/images/pages/kids/digestive.webp",
+                    "alt": "A boy eating honey",
+                    "name": "Digestive Issues",
+                    "content": "Flatulence, burping, bloating, IBS, constipation, diarrhea, overeating"
+                },
+                {
+                    "src": "/images/pages/kids/skin.webp",
+                    "alt": "A girl squeezing pimple",
+                    "name": "Skin Conditions",
+                    "content": "Eczema, rosacea, acne, psoriasis, and rash"
+                },
+                {
+                    "src": "/images/pages/kids/immunity.webp",
+                    "alt": "Some children wearing masks",
+                    "name": "Immunity Problems",
+                    "content": "Frequent colds, coughs, and sore throat"
+                },
+                
+                {
+                    "src": "/images/pages/kids/stress.webp",
+                    "alt": "An anxious teenage girl",
+                    "name": "Stress Management",
+                    "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension"
+                },
+                {
+                    "src": "/images/pages/kids/energy.webp",
+                    "alt": "A sleepy little girl",
+                    "name": "Energy Problems",
+                    "content": "Erratic energy and fatigue"
+                },
+                {
+                    "src": "/images/pages/kids/pms.webp",
+                    "alt": "A teenager with PMS",
+                    "name": "Reproductive Issues",
+                    "content": "PMS"
+                },
+                
+                {
+                    "src": "/images/pages/kids/allergies.webp",
+                    "alt": "A boy in a field of flowers",
+                    "name": "Allergies",
+                    "content": "Allergic Rhinitis, seasonal allergies"
+                },
+                {
+                    "src": "/images/pages/kids/weight-management.webp",
+                    "alt": "A boy full of energy",
+                    "name": "Weight Management",
+                    "content": ""
+                },
+                {
+                    "src": "/images/pages/kids/asthma.webp",
+                    "alt": "A smiling boy",
+                    "name": "Asthma",
+                    "content": ""
+                },
+                {
+                    "src": "/images/pages/kids/headache.webp",
+                    "alt": "A boy with a headache",
+                    "name": "Headaches",
+                    "content": ""
+                },
+                {
+                    "src": "/images/pages/kids/anemia.webp",
+                    "alt": "A girl getting a bandaid",
+                    "name": "Anemia",
+                    "content": ""
+                },
+                {
+                    "src": "/images/pages/kids/pain.webp",
+                    "alt": "A girl crying",
+                    "name": "Pain",
+                    "content": ""
+                }
+            ]
+        },
+        "forPreteensAndTeenagers": {
+            "slug": "for-preteens-and-teenagers",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "4",
+                    "order": "1"
+                },
+                {
+                    "offset": "0",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "For pre-teens and teenagers",
+            "text": [
+                {
+                    "p": "Being a teenager is tough — and exciting! J&J Holistic Nutritional Kids is here to navigate these years with you, providing care that will keep your teen healthy physically and mentally. Pre-teen and teenage years are full of enthusiasm and challenges, including changes in physical development that adolescents and their families may not understand."
+                },
+                {
+                    "p": "Typically, adolescents (beginning around 12-14 years of age) will recognize significant changes in their bodies that come as a result of normal hormonal changes associated with puberty and development. We’ll help adolescents, parents and siblings manage these changes positively during this confusing time. Teens often have issues or concerns they don't feel comfortable addressing with their families; our team can answer their questions and be a source for accurate health-related information. What’s more, we tap into J&J Holistic Nutritional Kids’ network of specialists, including experts on behavioral and mood concerns, weight management, and more."
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/teen.webp",
+                "alt": "A teenage girl reading a book"
+            }
+        },
+        "adolescents": {
+            "slug": "adolescents bg-brown",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "0"
+                },
+                {
+                    "offset": "0",
+                    "span": "6",
+                    "order": "1"
+                }
+            ],
+            "title": "We especially help adolescents face these health-related issues:",
+            "list": [
+                {
+                    "li": "Puberty"
+                },
+                {
+                    "li": "Menstruation"
+                },
+                {
+                    "li": "Acne"
+                },
+                {
+                    "li": "Stress and Anxiety"
+                },
+                {
+                    "li": "Birth Control Deficiencies"
+                },
+                {
+                    "li": "Eating Disorders"
+                },
+                {
+                    "li": "Behavioral Health (including Depression and ADHD"
+                },
+                {
+                    "li": "Prophylactic diet for STI ( Sexually Transmitted Infection)"
+                }
+            ],
+            "img": {
+                "src": "/images/pages/kids/pre-teen.webp",
+                "alt": "A Pre-Teen girl taking a picture of herself"
+            }
+        }
+    }
+}

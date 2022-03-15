@@ -12,9 +12,9 @@ body {
 
 .container {
     max-width: 1400px !important;
-    padding: 1rem;
 }
 
+section,
 .container-fluid {
     padding: 4rem 1rem;
 }
@@ -27,15 +27,13 @@ p {
     margin-bottom: 1rem;
 }
 
+.block {
+    padding: 2rem 0; 
+}
+
 .custom-row {
     align-items: center;
     margin-bottom: 4rem;
-}
-
-@media only screen and (min-width: $small) {
-    .container {
-        padding: 2rem;
-    }
 }
 
 @media only screen and (min-width: $large) {

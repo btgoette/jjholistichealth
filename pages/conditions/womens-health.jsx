@@ -1,42 +1,28 @@
 /* Women's Health Issues Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import WomenAvoidSugar from 'components/pages/conditions/WomenAvoidSugar'
-import WomenDrinkMoreWater from 'components/pages/conditions/WomenDrinkMoreWater'
-import WomenProblems from 'components/pages/conditions/WomenProblems'
-import WomenBloodChemistryPanel from 'components/pages/conditions/WomenBloodChemistryPanel'
+import Head from "components/common/Head";
+import Hero from "components/common/Hero";
+import Section from "components/common/Section";
 
-
-// Custom Content
-import content from 'public/content/en_US/pages/conditions/womenshealthissues.content'
-
+// Page Content
+import page from "public/content/en_US/Page/Conditions/womenshealthissues.content";
 
 export default function WomensHealthIssues() {
-
-    return (
-
-        <>
-
-            <Head {...content} />
-
-            <div className={content.pageName}>
-
-                <Hero {...content} />
-
-                <WomenAvoidSugar />
-
-                <WomenDrinkMoreWater />
-
-                <WomenProblems />
-
-                <WomenBloodChemistryPanel />
-
-            </div>
-
-        </>
-    )
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Hero {...page.hero} />
+      <Section {...page.block.avoidSugar} />
+      <Section {...page.block.avoidHydrogenatedOils} />
+      <Section {...page.block.drinkMoreWater} />
+      <Section {...page.block.avoidChemicalAdditives} />
+      <Section {...page.block.naturalApproachToPMS} />
+      <Section {...page.block.bloodCount} />
+      <Section {...page.block.bloodChemistryPanel} />
+      <Section {...page.block.thyroidPanel} />
+      <Section {...page.block.hormonePanel} />
+      <Section {...page.block.otherTests} />
+    </div>
+  )
 }

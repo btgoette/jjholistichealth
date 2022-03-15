@@ -1,0 +1,36 @@
+{
+    "title": "403 | Page Forbidden",
+    "description": "This page is forbidden.",
+    "slug": "error-403",
+    "href": "https://jjholistichealth.com/403",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "NOINDEX, NOFOLLOW",
+    "navigationLabel": "Error 403",
+    "block": {
+        "error403": {
+            "slug": "error error-403",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "12",
+                    "order": "0"
+                }
+            ],
+            "title": "403",
+            "text": [
+                {
+                    "p": "The page is forbidden."
+                }
+            ],
+            "img": {
+                "src": "/images/logos/jj-logo.webp",
+                "alt": "J&J Holistic Nutritional Therapy Logo, A link back to Home page"
+            },
+            "cta": {
+                "ctaLabel": "Back to Home",
+                "href": "/"
+            }
+        }
+    }
+}

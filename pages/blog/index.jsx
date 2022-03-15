@@ -4,13 +4,13 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 
 // Custom Components
-import Head from 'components/layout/Head'
-import Breadcrumbs from 'components/layout/Breadcrumbs'
+import Head from 'components/common/Head'
+import Breadcrumbs from 'components/common/Breadcrumbs'
 import RecentPosts from 'components/blog/RecentPosts'
 
 // Custom Styles and Content
 import styles from 'scss/pages/blog.module.scss'
-import content from 'public/content/en_US/pages/blog/blog.content'
+import page from 'public/content/en_US/Page/Blog/blog.content'
 import { getSortedPostsData } from 'public/getAllPosts'
 
 
@@ -29,14 +29,14 @@ export default function BlogIndexPage({ allPostsData }) {
 
     <>
 
-      <Head {...content} />
+      <Head {...page} />
 
       <div className={styles.blog}>
 
         <Container fluid className={styles.blogPosts}>
           <Container>
             <Row>
-              <Breadcrumbs {...content} />
+              <Breadcrumbs {...page} />
             </Row>
             <Row>
               <Col lg={9}>
@@ -75,7 +75,7 @@ export default function BlogIndexPage({ allPostsData }) {
                   ))}
                 </Row>
               </Col>
-              <RecentPosts />
+              <RecentPosts {...page.block.recentPosts}/>
             </Row>
           </Container>
         </Container>

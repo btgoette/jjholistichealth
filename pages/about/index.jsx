@@ -1,42 +1,24 @@
 /* About Page */
 
-// Layout Components
-import Head from 'components/layout/Head'
-import Hero from 'components/layout/Hero'
-
 // Page Components
-import WeTakeYourComfortSeriously from 'components/pages/about/WeTakeYourComfortSeriously'
-import Mission from 'components/pages/about/Mission'
-import Vision from 'components/pages/about/Vision'
-import HowWeTakeCareOfOurPatients from 'components/pages/about/HowWeTakeCareOfOurPatients'
+import Head from "components/common/Head"
+import Hero from "components/common/Hero"
+import Section from "components/common/Section"
+import Gallery from "components/common/Gallery"
 
 // Page Content
-import content from 'public/content/en_US/pages/about/about.content'
-
+import page from "public/content/en_US/Page/About/about.content"
 
 export default function About() {
-
-    return (
-
-        <>
-
-            <Head {...content} />
-
-            <div className={content.pageName}>
-
-                <Hero {...content} />
-
-                <WeTakeYourComfortSeriously />
-
-                <Mission />
-
-                <Vision />
-
-                <HowWeTakeCareOfOurPatients />
-                
-            </div > 
-
-        </>
-
-    )
+  return (
+    <div className={page.slug}>
+      <Head {...page} />
+      <Hero {...page.hero} />
+      <Section {...page.block.weTakeYourComfortSeriously} />
+      <Gallery {...page.block.gallery} />
+      <Section {...page.block.mission} />
+      <Section {...page.block.vision} />
+      <Section {...page.block.howWeTakeCareOfOurPatients} />
+    </div>
+  )
 }
