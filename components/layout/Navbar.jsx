@@ -6,7 +6,7 @@ import { Container, Button, Navbar, Nav, NavDropdown, Offcanvas, CloseButton } f
 import 'public/fonts/FontAwesome/fontawesome'
 
 // Page Content
-import content from 'public/content/en_US/components/layout/nav/nav.content'
+import content from 'public/content/en_US/Components/Layout/Nav/nav.content'
 
 export default function CustomNav() {
 

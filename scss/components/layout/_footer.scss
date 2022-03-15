@@ -16,7 +16,7 @@
         margin-top: 1rem;
         text-align: center;
         cursor: pointer;
-        
+
         img {
             max-width: 150px;
         }
@@ -81,7 +81,7 @@
 }
 
 .footer-copyright {
-    padding: 1rem 0 !important;
+    padding: 1rem !important;
     color: $white;
     text-align: center;
     font-size: $font-size-small;
@@ -91,17 +91,21 @@
     }
 }
 
-.footer-policy-links a{
-    color: $green !important;
+.footer-policy-links {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: max-content;
+    a {
+        color: $green !important;
+    }
 }
 
 .holistic-counseling {
     font-family: $body-font-family;
     font-weight: $body-font-weight;
     color: $white;
-    position:relative;
+    position: relative;
     z-index: 1;
-
 
     .holistic-counseling-block {
         background-color: $transparent-black;
@@ -127,6 +131,16 @@
             li {
                 justify-content: start;
             }
+        }
+    }
+
+    .footer-policy-links {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: max-content max-content max-content;
+        gap:1rem;
+        a {
+            color: $green !important;
         }
     }
 }

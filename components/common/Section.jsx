@@ -18,7 +18,7 @@ export default function Section(block) {
       return (
         <Row className="block align-items-center">
           <Col
-            xl={{
+            lg={{
               offset: block.column[0].offset,
               span: block.column[0].span,
               order: block.column[0].order,
@@ -53,7 +53,7 @@ export default function Section(block) {
       return (
         <Row className="block align-items-center">
           <Col
-            md={{
+            lg={{
               offset: block.column[0].offset,
               span: block.column[0].span,
               order: block.column[0].order,
@@ -64,7 +64,7 @@ export default function Section(block) {
             {renderListBlock()}
           </Col>
           <Col
-            md={{
+            lg={{
               offset: block.column[1].offset,
               span: block.column[1].span,
               order: block.column[1].order,
@@ -99,7 +99,7 @@ export default function Section(block) {
               <Col
                 className="block"
                 key={k}
-                md={{
+                lg={{
                   offset: offset,
                   span: span,
                   order: order,
