@@ -1,12 +1,14 @@
 .breadcrumbs {
-    margin-bottom: 0;
+    padding: 2rem 0 1rem;
     border-bottom: 0;
     font-size: $font-size-small;
     color: $light-grey;
-    a {
-        color: $light-grey;
-        &:hover {
-            color: $dark-green;
+    .breadcrumb-item {
+        a {
+            color: $light-grey;
+            &:hover {
+                color: $dark-green;
+            }
         }
     }
 }

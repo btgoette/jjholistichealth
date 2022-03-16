@@ -6,8 +6,8 @@ export default function breadcrumbs(page) {
     return (
         <>
         <Container>
-            <Row className="block">
-                <Breadcrumb className="breadcrumbs">
+            <Row className="breadcrumbs">
+                <Breadcrumb>
                     {page.breadcrumbs.map(({ page, link }, index) => (
                         <Breadcrumb.Item key={index} href={link}>
                             {page}

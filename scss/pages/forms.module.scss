@@ -1,70 +1,17 @@
 @import "../custom/variables.scss";
 
-.contact,
-.bookNow {
-    .contactUsBlock,
-    .bookNowBlock {
+.contact {
+    .contact-form {
         background-color: $transparent-white;
-        padding: 2rem;
+        padding: 5rem 8rem;
         width: 100%;
         margin: 2rem auto;
         border-radius: 50px;
-
-        .contactUs {
-            width: 100%;
-            margin: 0 auto;
-            position: relative;
-            z-index: 1;
-
-            input,
-            textarea {
-                background-color: $white;
-                padding: 12px 1rem;
-                border-radius: $border-rounded-input;
-                margin: 1rem 0;
-            }
-
-            input[type="email"],
-            input[type="text"],
-            input[type="tel"] {
-                width: 100%;
-            }
-            textarea {
-                width: 100%;
-            }
-
-
-            button,
-            input[type="submit"] {
-                padding: $button-padding;
-                border-radius: $border-rounded-button;
-                font-family: $button-font-family;
-                letter-spacing: 1px;
-                font-weight: $button-font-weight;
-                margin-top: 1rem;
-                min-width: 150px;
-                color: $white;
-                background-color: $green;
-                border: 0;
-
-                &:hover,
-                &:focus,
-                &:active {
-                    background-color: $dark-green;
-                    box-shadow: none;
-                }
-            }
-        }
-
-        .bookNowForm {
-            .healthConcernsGrid {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-        }
+        position: relative;
+        z-index: 1;
     }
 
-    .contactInfo {
+    .contact-info {
         position: relative;
         background-color: $green;
         color: $white;
@@ -74,6 +21,10 @@
         z-index: 2;
         word-wrap: anywhere;
         border-radius: 50px;
+
+        h2 {
+            color: $white;
+        }
 
         i,
         svg {
@@ -95,35 +46,18 @@
             margin-bottom: 0;
         }
 
-        .contactInfoTitle {
-            color: $white;
-        }
         a {
             color: $white;
         }
     }
-
     @media only screen and (min-width: $large) {
-        .bookNowBlock {
-            .bookNowForm {
-                .healthConcernsGrid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }
-            }
-        }
-        .contactUsBlock {
-            padding: 5rem 2rem;
+        .contact-form {
+            padding: 5rem 4rem 5rem 9rem;
             width: 100%;
             margin: 0 4rem 0 -4rem;
-            .contactUs {
-                width: 60%;
-                margin: 0 auto;
-                position: relative;
-            }
         }
 
-        .contactInfo {
+        .contact-info {
             padding: 6rem 4rem;
             margin: 2rem -4rem 2rem 4rem;
         }

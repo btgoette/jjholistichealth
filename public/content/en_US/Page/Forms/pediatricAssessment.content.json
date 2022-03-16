@@ -1,11 +1,12 @@
 {
     "title": "Pediatric Assessment Form  - JJ Holistic Nutritional Therapy",
     "description": "Please fill out the Pediatric Assessment Form as accurately as possible. We will contact you as soon as possible.",
-    "url": "https://jjholistichealth.com/forms/pediatric-assessment-form",
-    "type": "website",
+    "slug": "pediatric-assessment",
+    "href": "https://jjholistichealth.com/forms/pediatric-assessment-form",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Pediatric AssessmentForm",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,19 +18,22 @@
         }
     ],
     "finalcrumb": "Pediatric Assessment Form",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
+    "block": {
+        "form": {
+            "slug": "pediatric-assesment-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "Pediatric Assessment Form",
-            "p": "Please fill out the form as accurately as possible."
+            "text": [
+                {
+                    "p": "Please fill out the form as accurately as possible."
+                }
+            ]
         }
     }
 }

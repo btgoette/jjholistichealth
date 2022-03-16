@@ -15,7 +15,7 @@ export default function HerbalVSteamForm() {
                     <label htmlFor="name">Name<span className="required">*</span></label>
                     <input id="name" type="text" name="clientName" pattern="[a-zA-Z][a-zA-Z ]+" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -26,21 +26,21 @@ export default function HerbalVSteamForm() {
                     <label htmlFor="phone">Contact #<span className="required">*</span></label>
                     <input id="phone" type="tel" name="phone" pattern="[0-9]{10}" title="Invalid input" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="address">Address<span className="required">*</span></label>
                     <input id="address" type="text" name="address" />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="date">Today&apos; Date<span className="required">*</span></label>
                     <input id="date" type="date" name="date" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">Contraindications</p>
             <p>
@@ -58,9 +58,9 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="onPeriodNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
-            <p>*<em>If you are on your cycle on the day of your appointment, you will need to wait until after your cycle has discontinued to be serviced. </em></p><br />
+            <p>*<em>If you are on your cycle on the day of your appointment, you will need to wait until after your cycle has discontinued to be serviced. </em></p>
 
             <div className="g-recaptcha" data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"></div>
 
@@ -74,7 +74,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="freshSpottingNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -86,7 +86,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="spontaneousBleedingNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -98,7 +98,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="twoPeriodsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -110,9 +110,9 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="pregnantNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
-            <p>*<em>If you are pregnant we cannot steam you. Wait 2 weeks after delivery for post-delivery herbal steam.</em></p><br />
+            <p>*<em>If you are pregnant we cannot steam you. Wait 2 weeks after delivery for post-delivery herbal steam.</em></p>
 
             <fieldset>
                 <div>
@@ -124,7 +124,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="pastOvulationNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -136,7 +136,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="openSoresNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -148,9 +148,9 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="onDrugsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
-            <p>*<em>Do not use any medicine 30 mins. before the appointment and wait 30 mins. post-appointment before taking any. </em></p><br />
+            <p>*<em>Do not use any medicine 30 mins. before the appointment and wait 30 mins. post-appointment before taking any. </em></p>
 
             <fieldset>
                 <div>
@@ -162,7 +162,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="herbAllergiesNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -174,7 +174,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="yeastInfectionNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -186,7 +186,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="bvNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -198,7 +198,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="pcosNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -210,7 +210,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="menopauseNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -222,7 +222,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="menopauseSymptomsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -234,7 +234,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="herpesNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -246,7 +246,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="irregularPeriodsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
             
             <fieldset>
                 <div>
@@ -258,7 +258,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="vaginalDrynessNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -270,7 +270,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="birthControlNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -289,7 +289,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="cystsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -301,7 +301,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="fibroidsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -313,7 +313,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="endometriosisNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -325,7 +325,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="heavyPMSNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -337,7 +337,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="infertilityNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -349,7 +349,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="wombTraumaNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -361,7 +361,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="vaginalOdorNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -373,7 +373,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="bladderLeakageNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -385,7 +385,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="hemorrhoidsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -397,7 +397,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="enlargedProstateNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
             
             <fieldset>
                 <div>
@@ -409,7 +409,7 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="troubleWithUrinationNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -421,11 +421,11 @@ export default function HerbalVSteamForm() {
                         <label htmlFor="yoniPiercingNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <input type="submit" value="Submit" />
-            </fieldset><br />
+            </fieldset>
         </form >
     );
 }

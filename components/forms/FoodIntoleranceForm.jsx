@@ -19,30 +19,30 @@ export default function FoodIntoleranceForm() {
 
         <div>
           <label htmlFor="date">Date:<span className="required">*</span></label>
-          <input id="date" type="date" name="date" required /><br />
+          <input id="date" type="date" name="date" required />
         </div>
 
-      </fieldset><br />
+      </fieldset>
 
       <fieldset>
         <div>
           <label htmlFor="food">Food:<span className="required">*</span></label>
           <textarea id="food" name="food" />
         </div>
-      </fieldset><br />
+      </fieldset>
 
       <fieldset>
         <div>
           <label htmlFor="additives">Additives:<span className="required">*</span></label>
           <textarea id="additives" name="additives" />
         </div>
-      </fieldset><br />
+      </fieldset>
 
       <div className="g-recaptcha" data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"></div>
 
       <fieldset>
         <input type="submit" value="Submit" />
-      </fieldset><br />
+      </fieldset>
     </form>
   );
 }

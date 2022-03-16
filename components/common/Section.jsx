@@ -21,7 +21,7 @@ export default function Section(block) {
             lg={{
               offset: block.column[0].offset,
               span: block.column[0].span,
-              order: block.column[0].order,
+              order: block.column[0].order
             }}
           >
             {renderTitle()}
@@ -56,7 +56,7 @@ export default function Section(block) {
             lg={{
               offset: block.column[0].offset,
               span: block.column[0].span,
-              order: block.column[0].order,
+              order: block.column[0].order
             }}
           >
             {renderImage()}
@@ -67,7 +67,7 @@ export default function Section(block) {
             lg={{
               offset: block.column[1].offset,
               span: block.column[1].span,
-              order: block.column[1].order,
+              order: block.column[1].order
             }}
           >
             {renderTitle()}

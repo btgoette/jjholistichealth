@@ -8,7 +8,7 @@ import Head from 'components/common/Head'
 import Breadcrumbs from 'components/common/Breadcrumbs'
 import RecentPosts from 'components/blog/RecentPosts'
 
-// Custom Styles and Content
+// Page Content
 import styles from 'scss/pages/blog.module.scss'
 import page from 'public/content/en_US/Page/Blog/blog.content'
 import { getSortedPostsData } from 'public/getAllPosts'
@@ -33,11 +33,11 @@ export default function BlogIndexPage({ allPostsData }) {
 
       <div className={styles.blog}>
 
+        
+      <Breadcrumbs {...page} />
+
         <Container fluid className={styles.blogPosts}>
           <Container>
-            <Row>
-              <Breadcrumbs {...page} />
-            </Row>
             <Row>
               <Col lg={9}>
                 <Row>

@@ -1,37 +1,42 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 import {
-  FacebookShareButton, FacebookIcon,
-  TumblrShareButton, TumblrIcon,
-  TwitterShareButton, TwitterIcon,
-  WhatsappShareButton, WhatsappIcon,
-  PinterestShareButton, PinterestIcon,
-  RedditShareButton, RedditIcon,
-  LinkedinShareButton, LinkedinIcon
-} from 'next-share';
+  FacebookShareButton,
+  FacebookIcon,
+  TumblrShareButton,
+  TumblrIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  PinterestShareButton,
+  PinterestIcon,
+  RedditShareButton,
+  RedditIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from "next-share";
 
-
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import { Breadcrumb, Container, Row, Col } from 'react-bootstrap'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Breadcrumb, Container, Row, Col } from "react-bootstrap";
 
 // Custom Components
-import Head from 'components/common/Head'
-import BookNowCTA from 'components/common/BookNowCTA'
-import RecentPosts from 'components/blog/RecentPosts'
+import Head from "components/common/Head";
+import BookNowCTA from "components/common/BookNowCTA";
+import RecentPosts from "components/blog/RecentPosts";
 
 // Custom Styles, Content, and Data
 
-import styles from 'scss/pages/blog.module.scss'
-import page from 'public/content/en_US/Page/Blog/blog.content'
-import { getAllPostIds, getPostData } from "public/getAllPosts"
-import { post } from 'jquery'
-
+import styles from "scss/pages/blog.module.scss";
+import page from "public/content/en_US/Page/Blog/blog.content";
+import { getAllPostIds, getPostData } from "public/getAllPosts";
+import { post } from "jquery";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
   return {
     props: {
-      postData
+      postData,
     },
   };
 }
@@ -45,28 +50,22 @@ export async function getStaticPaths() {
 }
 
 export default function BlogPost({ postData }) {
-
   return (
     <>
-
       <Head {...postData} />
       <div className={styles.blog}>
+        <Container>
+          <Row className="breadcrumbs">
+            <Breadcrumb>
+              <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+              <Breadcrumb.Item href="/blog">Blog</Breadcrumb.Item>
+              <Breadcrumb.Item active>{postData.title}</Breadcrumb.Item>
+            </Breadcrumb>
+          </Row>
+        </Container>
 
         <Container fluid className={styles.blogPost}>
           <Container>
-            <Row>
-              <Breadcrumb className="breadcrumbs">
-                <Breadcrumb.Item href="/">
-                  Home
-                </Breadcrumb.Item>
-                <Breadcrumb.Item href="/blog">
-                  Blog
-                </Breadcrumb.Item>
-                <Breadcrumb.Item active>
-                  {postData.title}
-                </Breadcrumb.Item>
-              </Breadcrumb>
-            </Row>
             <Row>
               <Col lg={9}>
                 <Row>
@@ -78,9 +77,13 @@ export default function BlogPost({ postData }) {
                       </span>
                     </div>
                     <figure className={styles.blogImage}>
-                      <LazyLoadImage src={postData.banner} alt={postData.title} />
+                      <LazyLoadImage
+                        src={postData.banner}
+                        alt={postData.title}
+                      />
                     </figure>
-                    <div className={styles.share}><strong>Share:&nbsp;&nbsp;</strong>
+                    <div className={styles.share}>
+                      <strong>Share:&nbsp;&nbsp;</strong>
                       <FacebookShareButton
                         url={postData.url}
                         quote={postData.description}
@@ -125,7 +128,9 @@ export default function BlogPost({ postData }) {
                         <LinkedinIcon size={32} borderRadius={20} />
                       </LinkedinShareButton>
                     </div>
-                    <article dangerouslySetInnerHTML={{ __html: postData.contentHtml }} ></article>
+                    <article
+                      dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+                    ></article>
                     <BookNowCTA />
                   </Col>
                 </Row>
@@ -136,5 +141,5 @@ export default function BlogPost({ postData }) {
         </Container>
       </div>
     </>
-  )
+  );
 }

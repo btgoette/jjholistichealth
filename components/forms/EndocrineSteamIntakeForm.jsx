@@ -15,7 +15,7 @@ export default function EndocrineSteamIntakeForm() {
                     <label htmlFor="name">Name<span className="required">*</span></label>
                     <input id="name" type="text" name="clientName" pattern="[a-zA-Z][a-zA-Z ]+" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -26,21 +26,21 @@ export default function EndocrineSteamIntakeForm() {
                     <label htmlFor="phone">Contact #<span className="required">*</span></label>
                     <input id="phone" type="tel" name="phone" pattern="[0-9]{10}" title="Invalid input" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="address">Address<span className="required">*</span></label>
                     <input id="address" type="text" name="address" />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="date">Today&apos; Date<span className="required">*</span></label>
                     <input id="date" type="date" name="date" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">Contraindications</p>
             <p>
@@ -83,11 +83,11 @@ export default function EndocrineSteamIntakeForm() {
                     <input id="pastOvulation" type="checkbox" name="pastOvulation" value="Past ovulation" />
                     <label htmlFor="pastOvulation">Past ovulation (if trying to conceive)</label>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p>*<em>
                 The selected conditions above suggest that you are contraindicated for steaming. You are not safe to steam and could result in negative side effects such as the onset of bleeding or miscarriage. Steaming should not be performed at this time.
-            </em></p><br />
+            </em></p>
 
             <label className="mb-2">Please select all thay apply:<span className="required">*</span></label>
             <fieldset>
@@ -108,7 +108,7 @@ export default function EndocrineSteamIntakeForm() {
                     <input id="birthControlImplant" type="checkbox" name="birthControlImplant" value="Birth control arm implant" />
                     <label htmlFor="birthControlImplant">Birth control arm implant (i.e. nexplanon)</label>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p>*<em>
                 If you are using the above birth control methods vaginal steaming could cause a birth control failure. It is not recommended unless you have a backup form of birth control or possible pregnancy is not a concern.
@@ -116,7 +116,7 @@ export default function EndocrineSteamIntakeForm() {
 
             <p>*<em>
                 If you have a burning itch the warmth from the steam could be uncomfortable since there is already so much heat in that area. It is best to seek treatment from an acupuncturist to get the burning sensation to go away prior to doing a vaginal steam session.
-            </em></p><br />
+            </em></p>
 
             <p className="h4">Sensitivities</p>
             <p>
@@ -183,11 +183,11 @@ export default function EndocrineSteamIntakeForm() {
                     <input id="age13" type="checkbox" name="age13" value="Age 13 or younger" />
                     <label htmlFor="age13">Age 13 or younger</label>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p>*<em>
                 The answers above indicate sensitivity in which case a mild setup, should be performed 10-15 minutes. Under no circumstances should clients who have sensitivity use an advanced setup which is 25-30 minute steam sessions.
-            </em></p><br />
+            </em></p>
 
             <p className="h4">Herb Selection</p>
             <p>
@@ -212,7 +212,7 @@ export default function EndocrineSteamIntakeForm() {
                     <input id="onBirthControl" type="checkbox" name="onBirthControl" value="Currently taking birth control pills" />
                     <label htmlFor="onBirthControl">Currently taking birth control pills</label>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <label className="mb-2">Indicators for Disinfecting Herbs<span className="required">*</span></label>
             <fieldset>
@@ -226,7 +226,7 @@ export default function EndocrineSteamIntakeForm() {
                     <input id="vaginalSmell" type="checkbox" name="vaginalSmell" value="Vaginal smell" />
                     <label htmlFor="vaginalSmell">Vaginal smell</label>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <label className="mb-2">Indicators for Cooling Herbs<span className="required">*</span></label>
             <fieldset>
@@ -264,27 +264,27 @@ export default function EndocrineSteamIntakeForm() {
                     <input id="infectionWithoutDischarge" type="checkbox" name="infectionWithoutDischarge" value="Infection without discharge" />
                     <label htmlFor="infectionWithoutDischarge">Infection without discharge</label>
                 </div>
-            </fieldset><br />
+            </fieldset>
         
             <fieldset>
                 <div>
                     <label htmlFor="plantOrFoodAllergies">Do you have any plant or food allergies?</label>
                     <textarea id="plantOrFoodAllergies" name="plantOrFoodAllergies" />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="anyQuestions">Do you have any questions or hesitations prior to your steam session?</label>
                     <textarea id="anyQuestions" name="anyQuestions" />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <div className="g-recaptcha" data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"></div>
 
             <fieldset>
                 <input type="submit" value="Submit" />
-            </fieldset><br />
+            </fieldset>
         </form >
     );
 }

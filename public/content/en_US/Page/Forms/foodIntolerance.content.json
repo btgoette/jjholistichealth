@@ -1,11 +1,12 @@
 {
     "title": "Food Intolerance Test Form  - JJ Holistic Nutritional Therapy",
     "description": "Please fill out the Food Intolerance Test Form as accurately as possible. We will contact you as soon as possible.",
+    "slug": "food-intolerance",
     "href": "https://jjholistichealth.com/forms/food-intolerance",
-    "type": "website",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Food Intolerance Test Form",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,19 +18,22 @@
         }
     ],
     "finalcrumb": "Food Intolerance Test Form",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
+    "block": {
+        "form": {
+            "slug": "food-intolerance-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "Food Intolerance Test Form",
-            "p": "Please fill out the form as accurately as possible."
+            "text": [
+                {
+                    "p": "Please fill out the form as accurately as possible."
+                }
+            ]
         }
     }
 }

@@ -28,7 +28,7 @@ export default function Hero(hero) {
 
   const renderSubtitle = () => {
     if (hasSubtitle) {
-      return <h2 className="text-center text-md-start">{hero.subtitle}</h2>;
+      return <h2>{hero.subtitle}</h2>;
     }
   };
 
