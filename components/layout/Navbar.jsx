@@ -12,7 +12,7 @@ export default function CustomNav() {
 
   return (
 
-    <nav className="sticky-top" aria-label="J&amp;J Navbar">
+    <div className="sticky-top" aria-label="J&amp;J Navbar">
       <Navbar collapseOnSelect bg="light" expand="xl" className={content.nav.background}>
         <Container className="py-0 px-1">
           <div className="d-flex align-items-center">
@@ -225,7 +225,7 @@ export default function CustomNav() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </nav>
+    </div>
 
   );
 }

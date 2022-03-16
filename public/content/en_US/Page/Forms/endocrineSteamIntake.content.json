@@ -1,11 +1,12 @@
 {
     "title": "Endocrine Steam Intake Form - JJ Holistic Nutritional Therapy",
     "description": "Please fill out this Endocrine Steam Intake Form and be as accurate as possible with your answers.",
+    "slug": "endocrine-steam-intake",
     "href": "https://jjholistichealth.com/forms/endocrine-steam-intake",
-    "type": "website",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Endocrine Steam Intake",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,23 +18,22 @@
         }
     ],
     "finalcrumb": "Endocrine Steam Intake Form",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
-            "img": {
-                "src": "herbal-steam.webp",
-                "alt": "Holistic Steam Therapy Logo"
-            },
+    "block": {
+        "form": {
+            "slug":"endocrine-steam-intake-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "Endocrine Steam Intake Form",
-            "p": "Please fill out this form and be as accurate as possible with your answers."
+            "text": [
+                {
+                    "p": "Please fill out this form and be as accurate as possible with your answers."
+                }
+            ]
         }
     }
 }

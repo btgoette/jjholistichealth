@@ -4,7 +4,7 @@
 import Head from "components/common/Head"
 import Section from "components/common/Section"
 
-// Custom Styles and Content
+// Page Content
 import page from "public/content/en_US/Page/404.content";
 
 export default function NotFoundPage() {

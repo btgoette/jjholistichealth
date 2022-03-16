@@ -1,11 +1,12 @@
 {
     "title": "Functional Exam Form  - JJ Holistic Nutritional Therapy",
     "description": "Please fill out this Functional Exam Qualifying Form and be as accurate as possible with your answers.",
+    "slug": "functional-exam",
     "url": "https://jjholistichealth.com/forms/functional-exam",
-    "type": "website",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Functional Exam Form",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,19 +18,22 @@
         }
     ],
     "finalcrumb": "Functional Exam Qualifying Form",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
+    "block": {
+        "form": {
+            "slug": "functional-exam-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "Functional Exam Qualifying Questions",
-            "p": "Please fill out this questionnaire and be as accurate as possible with your answers."
+            "text": [
+                {
+                    "p": "Please fill out this questionnaire and be as accurate as possible with your answers."
+                }
+            ]
         }
     }
 }

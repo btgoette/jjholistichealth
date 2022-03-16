@@ -1,11 +1,13 @@
 {
     "title": "Book Now  - JJ Holistic Nutritional Therapy",
     "description": "Please fill out the form below. After submission you will be redirected to our booking service. We will contact you as soon as possible.",
+    "slug": "book-now",
     "href": "https://jjholistichealth.com/forms/book-now",
     "type": "website",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Book Now",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,19 +19,22 @@
         }
     ],
     "finalcrumb": "Book Now",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
+    "block": {
+        "form": {
+            "slug": "book-now-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "Book Now",
-            "p": "Please fill out the form below. After submission you will be redirected to our booking service."
+            "text": [
+                {
+                    "p": "Please fill out the form below. After submission you will be redirected to our booking service."
+                }
+            ]
         }
     }
 }

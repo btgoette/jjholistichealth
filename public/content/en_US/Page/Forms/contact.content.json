@@ -1,11 +1,12 @@
 {
     "title": "Contact Us - JJ Holistic Nutritional Therapy",
     "description": "Feel free to contact us at any time. We will get back to you as soon as we can. If you want to book a consultation, please visit our book now page and fill out that form.",
+    "slug": "contact",
     "href": "https://jjholistichealth.com/forms/contact",
-    "type": "website",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Contact Us",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,22 +18,33 @@
         }
     ],
     "finalcrumb": "Contact Us",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
+    "block": {
+        "form": {
+            "slug": "contact-form",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "7",
+                    "order": "1"
+                }
+            ],
             "title": "Contact Us",
-            "p": "Feel free to contact us at any time. We will get back to you as soon as we can. If you want to book a consultation, please visit our booking page and fill out the form. We look forward to working with you!"
+            "text": [
+                {
+                    "p": "Feel free to contact us at any time. We will get back to you as soon as we can. If you want to book a consultation, please visit our booking page and fill out the form. We look forward to working with you!"
+                }
+            ]
         },
-        "block2": {
-            "h2": "Info",
+        "contactInfo": {
+            "slug": "contact-info",
+            "column": [
+                {
+                    "offset": "0",
+                    "span": "5",
+                    "order": "0"
+                }
+            ],
+            "title": "Info",
             "phone": {
                 "link": "tel:18006343363",
                 "li": "+1 800 634 3363"

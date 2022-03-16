@@ -1,11 +1,12 @@
 {
     "title": "Covid-19 Form - JJ Holistic Nutritional Therapy",
     "description": "Patients with positive travel history to some regions with a high number of COVID-19 cases and patients with fever and rash should be prioritized. Direct to a private waiting area away from others until the clinician can complete an assessment.",
+    "slug": "covid-19",
     "href": "https://jjholistichealth.com/forms/covid-19",
-    "type": "website",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Covid-19 Form",
     "breadcrumbs": [
         {
             "page": "Home",
@@ -17,19 +18,22 @@
         }
     ],
     "finalcrumb": "Covid-19 Form",
-    "hero": {
-        "background": "",
-        "title": "",
-        "p": [
-            {
-                "li": ""
-            }
-        ]
-    },
-    "section1": {
-        "block1": {
+    "block": {
+        "form": {
+            "slug": "covid-19-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
             "title": "Covid-19 Form",
-            "p": "Patients with positive travel history to some regions with a high number of COVID-19 cases and patients with fever and rash should be prioritized. Direct to a private waiting area away from others until the clinician can complete an assessment."
+            "text": [
+                {
+                    "p": "Patients with positive travel history to some regions with a high number of COVID-19 cases and patients with fever and rash should be prioritized. Direct to a private waiting area away from others until the clinician can complete an assessment."
+                }
+            ]
         }
     }
 }

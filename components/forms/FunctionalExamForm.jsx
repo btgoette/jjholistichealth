@@ -15,14 +15,14 @@ export default function FunctionalExamForm() {
                     <label htmlFor="name">Client Name<span className="required">*</span></label>
                     <input id="name" type="text" name="clientName" pattern="[a-zA-Z][a-zA-Z ]+" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="phone">Phone Number<span className="required">*</span></label>
                     <input id="phone" type="tel" name="phone" pattern="[0-9]{10}" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -33,14 +33,14 @@ export default function FunctionalExamForm() {
                     <label htmlFor="age">Age<span className="required">*</span></label>
                     <input id="age" type="number" name="age" min="1" pattern="[0-9]" required max="99" />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="address">Address<span className="required">*</span></label>
                     <input id="address" type="text" name="address" />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">For Adrenals Screening</p>
 
@@ -54,7 +54,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="bloodPressureNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -66,7 +66,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="dizzinessNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -78,7 +78,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="headTraumaNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -90,7 +90,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="coloredContactsNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -102,7 +102,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="sunglassesNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -114,7 +114,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="chiropracticNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -126,7 +126,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="shortLegNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -138,7 +138,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="injuriesNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">For Fatty Acid Screening</p>
             <p className="h5">Oral pH Test</p>
@@ -153,7 +153,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="eatenNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -165,7 +165,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="cavitiesNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h5">Muscle Test</p>
 
@@ -179,7 +179,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="sorenessNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">For Mineral Balance Screening</p>
 
@@ -193,7 +193,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="circulationNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -205,7 +205,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="thyroidNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h5">Iron Test</p>
 
@@ -219,7 +219,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="ironNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">For Endocrine Screening</p>
 
@@ -233,7 +233,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="pregnantNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -245,7 +245,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="femaleSurgeriesNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -257,7 +257,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="breastNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -269,7 +269,7 @@ export default function FunctionalExamForm() {
                         <label htmlFor="permissionNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <p className="h4">For Immune &amp; Allergy</p>
 
@@ -283,13 +283,13 @@ export default function FunctionalExamForm() {
                         <label htmlFor="backPainNo">No</label>
                     </div>
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <div className="g-recaptcha" data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"></div>
 
             <fieldset>
                 <input type="submit" value="Submit" />
-            </fieldset><br />
+            </fieldset>
         </form >
     );
 }

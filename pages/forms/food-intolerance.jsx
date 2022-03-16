@@ -1,38 +1,33 @@
 // React Components
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from "react-bootstrap";
 
 // Custom Components
-import Head from 'components/common/Head'
-import Breadcrumbs from 'components/common/Breadcrumbs'
-import FoodIntoleranceForm from 'components/forms/FoodIntoleranceForm'
+import Head from "components/common/Head";
+import Breadcrumbs from "components/common/Breadcrumbs";
+import FoodIntoleranceForm from "components/forms/FoodIntoleranceForm";
 
-// Custom Styles and Content
-import styles from 'scss/pages/forms.module.scss'
-import content from 'public/content/en_US/Page/Forms/foodIntolerance.content'
-
-
+// Page Content
+import styles from "scss/pages/forms.module.scss";
+import page from "public/content/en_US/Page/Forms/foodIntolerance.content";
 
 export default function FoodIntolerance() {
-
-    return (
-
-        <>
-            <Head {...content} />
-            
-            <Container>
-                <Breadcrumbs {...content} />
-                <Row className="custom-row">
-                    <Col lg={{ span: 8, order: 2, offset: 2 }}>
-                        <div className="form-section">
-                            <h1>{content.section1.block1.title}</h1>
-                            <p>
-                                {content.section1.block1.p}
-                            </p>
-                            <FoodIntoleranceForm />
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </>
-    )
+  return (
+    <div className={page.slug}>
+    <Head {...page} />
+    <Breadcrumbs {...page} />
+    <Container>
+        <Row className="custom-row">
+          <Col lg={{  offset: page.block.form.column[0].offset, span: page.block.form.column[0].span, order: page.block.form.column[0].order }}>
+            <div className="form-section">
+              <h1>{page.block.form.title}</h1>
+              {page.block.form.text.map(({ p }, i) => (
+                <p key={i}>{p}</p>
+              ))}
+              <FoodIntoleranceForm />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }

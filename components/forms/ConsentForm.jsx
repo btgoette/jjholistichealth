@@ -20,7 +20,7 @@ export default function FunctionalExamForm() {
                     <label htmlFor="lastName">Last Name:<span className="required">*</span></label>
                     <input id="lastName" type="text" name="lastName" pattern="[a-zA-Z][a-zA-Z ]+" required />
                 </div>
-            </fieldset><br/>
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -31,14 +31,14 @@ export default function FunctionalExamForm() {
                     <label htmlFor="phone">Phone Number<span className="required">*</span></label>
                     <input id="phone" type="tel" name="phone" pattern="[0-9]{10}" required />
                 </div>
-            </fieldset><br/>
+            </fieldset>
 
             <fieldset>
                 <div>
                     <label htmlFor="relationshipToClient">Relationship to Client<span className="required">*</span></label>
                     <input id="relationshipToClient" type="text" name="relationshipToClient" pattern="[a-zA-Z][a-zA-Z ]+" required />
                 </div>
-            </fieldset><br/>
+            </fieldset>
 
             <fieldset>
                 <div>
@@ -49,7 +49,7 @@ export default function FunctionalExamForm() {
                     <label htmlFor="date">Date<span className="required">*</span></label>
                     <input id="date" type="date" name="date" required />
                 </div>
-            </fieldset><br />
+            </fieldset>
 
             <div className="g-recaptcha" data-sitekey="6Ld_kvgbAAAAAAV4DPfNMTIiY41cOwJ5CR1EahTu"></div>
 
