@@ -50,6 +50,10 @@
                 {
                     "li": "Testimonials",
                     "link": "/about/testimonials"
+                },
+                {
+                    "li": "Photo Gallery",
+                    "link": "/about/gallery"
                 }
             ],
             "services": {

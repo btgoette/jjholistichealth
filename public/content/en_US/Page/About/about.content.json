@@ -58,46 +58,6 @@
                 "alt": "The J&J Holistic Nutritonal Therapy Lobby"
             }
         },
-        "gallery": {
-            "img": [
-                {
-                    "order": "photo-1",
-                    "src": "/images/pages/about/gallery/1.webp",
-                    "fullsrc": "/images/pages/about/gallery/full/1.webp",
-                    "alt": "A holistic practioner checking a patient's eye with a light"
-                },
-                {
-                    "order": "photo-2",
-                    "src": "/images/pages/about/gallery/2.webp",
-                    "fullsrc": "/images/pages/about/gallery/full/2.webp",
-                    "alt": "A holistic practioner feeling a patient's abdomen"
-                },
-                {
-                    "order": "photo-3",
-                    "src": "/images/pages/about/gallery/3.webp",
-                    "fullsrc": "/images/pages/about/gallery/full/3.webp",
-                    "alt": "A holistic practioner checking a patient's palm"
-                },
-                {
-                    "order": "photo-4",
-                    "src": "/images/pages/about/gallery/4.webp",
-                    "fullsrc": "/images/pages/about/gallery/full/4.webp",
-                    "alt": "A holistic practioner checking a patient's shoulder"
-                },
-                {
-                    "order": "photo-5",
-                    "src": "/images/pages/about/gallery/5.webp",
-                    "fullsrc": "/images/pages/about/gallery/full/5.webp",
-                    "alt": "A holistic practioner typing a Functional Exam report"
-                },
-                {
-                    "order": "photo-6",
-                    "src": "/images/pages/about/gallery/6.webp",
-                    "fullsrc": "/images/pages/about/gallery/full/6.webp",
-                    "alt": "A holistic practioner checking a patient's arm"
-                }
-            ]
-        },
         "mission": {
             "slug": "mission",
             "column": [
