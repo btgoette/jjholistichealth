@@ -59,7 +59,7 @@
             }
         },
         "mission": {
-            "slug": "mission",
+            "slug": "mission bg-light-green",
             "column": [
                 {
                     "offset": "0",
@@ -90,7 +90,7 @@
             }
         },
         "vision": {
-            "slug": "core-values bg-brown",
+            "slug": "core-values",
             "column": [
                 {
                     "offset": "0",
@@ -133,7 +133,7 @@
             }
         },
         "howWeTakeCareOfOurPatients": {
-            "slug": "how-we-take-care-of-our-patients",
+            "slug": "how-we-take-care-of-our-patients bg-brown",
             "column": [
                 {
                     "offset": "0",
