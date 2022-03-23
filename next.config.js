@@ -28,6 +28,7 @@ module.exports = {
             '/services/index': { page: '/services' },
             '/about/index': { page: '/about' },
             '/about/the-j-and-j-team': { page: '/about/the-j-and-j-team' },
+            '/about/gallery': { page: '/about/gallery' },
             '/about/why-choose-j-and-j': { page: '/about/why-choose-j-and-j' },
             '/about/testimonials': { page: '/about/testimonials' },
             '/conditions/index': { page: '/conditions' },
