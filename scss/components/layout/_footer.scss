@@ -1,4 +1,6 @@
 .footer {
+    position:relative;
+    z-index: 10;
     font-size: $footer-font-size;
     font-weight: $footer-font-weight;
     text-align: center;

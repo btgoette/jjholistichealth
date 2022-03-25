@@ -23,6 +23,7 @@ import { Breadcrumb, Container, Row, Col } from "react-bootstrap";
 // Custom Components
 import Head from "components/common/Head";
 import BookNowCTA from "components/common/BookNowCTA";
+import FDA from "components/common/FDA";
 import RecentPosts from "components/blog/RecentPosts";
 
 // Custom Styles, Content, and Data
@@ -132,6 +133,7 @@ export default function BlogPost({ postData }) {
                       dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
                     ></article>
                     <BookNowCTA />
+                    <FDA/>
                   </Col>
                 </Row>
               </Col>
