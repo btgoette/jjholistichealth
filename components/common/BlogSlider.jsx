@@ -75,20 +75,18 @@ export default function BlogSlider() {
 
   return (
     <div fluid className="blog-slider">
-      <Row>
-        <Slider {...settings}>
-          {Blog.map(({ src, alt, title, href }, i) => (
-            <a key={i} href={href}>
-              <div>
-                <figure>
-                  <LazyLoadImage src={src} alt={alt} />
-                  <p>{title}</p>
-                </figure>
-              </div>
-            </a>
-          ))}
-        </Slider>
-      </Row>
+      <Slider {...settings}>
+        {Blog.map(({ src, alt, title, href }, i) => (
+          <a key={i} href={href}>
+            <div>
+              <figure>
+                <img src={src} alt={alt} />
+                <p>{title}</p>
+              </figure>
+            </div>
+          </a>
+        ))}
+      </Slider>
     </div>
   );
 }
