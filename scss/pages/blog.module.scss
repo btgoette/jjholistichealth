@@ -2,6 +2,10 @@
 
 .blog {
     .blogPosts {
+        article {
+            margin-bottom: 3rem;
+        }
+
         .blogTitle {
             font-size: $blog-title;
             overflow: hidden;
@@ -47,10 +51,6 @@
         gap: 3px;
     }
 
-    article {
-        margin-bottom: 3rem;
-    }
-
     .readMore {
         text-align: left;
     }
@@ -89,13 +89,37 @@
                 a {
                     color: $grey;
                     font-size: $font-size-small;
-                    display:block;
+                    display: block;
                     padding: 5px 0;
                     &:hover {
                         color: $green;
                     }
                 }
             }
+        }
+    }
+}
+
+.blog-slider {
+
+    .slick-slider {
+        overflow: hidden;
+    }
+
+    figure {
+        border-right: 1px solid $white;
+        border-left: 1px solid $white;
+        margin-bottom: 0;
+        img {
+            width:100%;
+            max-width: unset;
+        }
+        p {
+            background-color: $green;
+            color: $white;
+            padding: 1rem;
+            z-index: 1;
+            text-align: center;
         }
     }
 }
