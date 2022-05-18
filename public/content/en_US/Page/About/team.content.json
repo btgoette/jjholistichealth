@@ -34,7 +34,7 @@
                 "src": "/images/pages/about/team/krystal-johnson.webp",
                 "alt": "Krystal Johnson",
                 "name": "ASA. Krystal Johnson FNTP, CH, CN",
-                "title": "Founder | Functional Nutritional Therapy Practitioner",
+                "title": "Founder | Functional Nutritional Therapy Practitioner | Holistic Health Practitioner | CH",
                 "shortText": "Krystal is a Functional Nutritional Therapy Practitioner (NTP) and member of the Holistic Entrepreneurs Association as well as the American Association of Drugless Practitioners.",
                 "text": [
                     {
@@ -82,7 +82,7 @@
                 "src": "/images/pages/about/team/laurinda-lea.webp",
                 "alt": "Laurinda Lea",
                 "name": "Laurinda Lea",
-                "title": "Pediatric Nutritional Therapy Consultant",
+                "title": "Nutritional Therapy Assistant | Product & Service Assistant",
                 "shortText": "As a Nutritional Therapy Consultant, Lea views the whole person, inside and out, along with their emotional wellbeing for their health and wellness by helping one gain proper balance in life through a nutritional and holistic approach.",
                 "text": [
                     {
@@ -112,7 +112,7 @@
                 "src": "/images/pages/about/team/shy-aguila.webp",
                 "alt": "Shy Aguila",
                 "name": "Shy Aguila",
-                "title": "Office Manager & Head Assistant",
+                "title": "Office Manager | Executive Assistant | Product & Service Director",
                 "shortText": "Shy is multi-faceted corporate professional who essentially loves working with people. She holds a Bachelor of Arts in Communication Arts and enjoys extensive experience working in fields such as: media, layout and design, customer service and technical support.",
                 "text": [
                     {
@@ -124,7 +124,7 @@
                 "src": "/images/pages/about/team/miajah-johnson.webp",
                 "alt": "Miajah Johnson",
                 "name": "Miajah Johnson",
-                "title": "Virtual Nutritional Therapy Assistant & Assistant Manager",
+                "title": "Virtual Nutritional Therapy Assistant | Assistant Supervisor | Product & Service Manager",
                 "shortText": "Miajah Johnson is a budding health professional whose work ethic, passion, and ambition have landed her at J&J Holistic Nutritional Therapy. At the age of 19, Miajah held the post of Virtual Assistant. She is an exceptional student and has made the Dean's List.",
                 "text": [
                     {
@@ -132,6 +132,36 @@
                     },
                     {
                         "p": "She volunteered at a hospital back in high school where she got to see the extraordinary work in the hospital. With time management she plans to do some shadowing to different medical specialties to get a feel of what sparks her interest. The specialty she has her eye on is neurology but cardiothoracic is following closely behind, so shadowing will allow her to broaden her idea of different specialties and what they are all about. Miajah plans to take the MCAT next year because in the following year she will be attending medical school."
+                    }
+                ]
+            },
+            {
+                "src": "/images/pages/about/team/amanda-hughes.webp",
+                "alt": "Amanda Hughes",
+                "name": "Amanda Hughes",
+                "title": "Nutritional Therapy Assistant",
+                "shortText": "Amanda started her journey into the holistic field in late 2018 by exploring natural remedies for skin concerns and beginning her study into the healing arts.",
+                "text": [
+                    {
+                        "p": "Amanda started her journey into the holistic field in late 2018 by exploring natural remedies for skin concerns and beginning her study into the healing arts. Using her esthetician background, she pursued work in holistically minded spas and salons. She comes to us with a growing passion for healing modalities, including treating clients as a whole on every level; spirit, mind, and body. Through her work with us she continues her studies into nutritional therapy and all aspects of healing to help us create our vision of excellence."
+                    },
+                    {
+                        "p": "In her freetime, she can be found studying up on multiple interests,  including world cultures, reiki practices, meditation, nutrition and herbalism. She also enjoys spending time with her vibrant friends, family, and, most of all, her animals."
+                    }
+                ]
+            },
+            {
+                "src": "/images/pages/about/team/samantha-houston.webp",
+                "alt": "Samantha Houston",
+                "name": "Samantha Houston",
+                "title": "Filing Clerk | Receptionist",
+                "shortText": "Samantha is a Texas Tech Alumni who strives for honor daily. Samantha got her Bachelor's Degree in Communication Studies and loved every minute of it.",
+                "text": [
+                    {
+                        "p": "Samantha is a Texas Tech Alumni who strives for honor daily. Samantha got her Bachelor's Degree in Communication Studies and loved every minute of it. She finds that communication ties hand in hand with psychology and this allows her to have a special edge when it comes to speaking and helping our clients. She has a passion for people and a strong desire to help whether their issues are big or small. She puts others before herself and is a devoted friend, worker, and family member. "
+                    },
+                    {
+                        "p": "Growing up in the Dallas area, Samantha has become accustomed to the Texas ways, and prides herself on being a Texan through and through. You can find Samantha outdoors gardening, hammocking, or by a lake somewhere. She is an only child who has a strong relationship with her family and, above all, with Jesus. You can find her at our front desk, representing J&J Holistic Nutritional Therapy as the first smiling face you see when you walk in. Samantha looks forward to meeting you and hopes that she can help you in your journey to health and wellness."
                     }
                 ]
             },

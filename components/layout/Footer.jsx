@@ -77,7 +77,7 @@ export default function Footer() {
                     </li>
                   </ul>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href={content.footer.block1.bbb.link}
                     rel="noreferrer"
@@ -91,7 +91,7 @@ export default function Footer() {
                       />
                     </figure>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </Col>
             <Col md={6} lg={3} className="mb-4">
