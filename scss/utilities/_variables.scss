@@ -1,0 +1,170 @@
+// Colors
+$beige: #d3b17d;
+$black: #121212;
+$brown: #492a15bf;
+$green: #779262;
+$grey: #5c5c5c;
+$white: #fff;
+
+// Darks
+$dark: #151513 !important;
+$dark-gray: #151513 !important;
+$dark-green: #3a5534;
+$dark-beige: #bd9f71;
+
+// Lights
+$light-brown: #f2ece2;
+$light-green: #e8ebe2 !important;
+$light-grey: #a6a7a6;
+
+// Transparents
+$transparent-hero: #f2ece299;
+$transparent-beige: #f2ece2de;
+$transparent-black: #00000057;
+$transparent-brown: #492a15bf;
+$transparent-dots: #e4d2c457;
+$transparent-green: #4b664557;
+$transparent-grey: #b4c4b437;
+$transparent-white: #f9f9f9dd;
+
+// backgrounds
+$background-bottom-center: bottom center;
+$background-color: $white;
+$background-center: center center;
+$background-x: center;
+$background-y: 70%;
+$background-cover: cover;
+$background-multiply: multiply;
+$background-overlay: overlay;
+$background-soft-light: soft-light;
+$background-hard-light: hard-light;
+$background-top-right: top right;
+$footer-background-color: $green;
+$footer-copyright-background-color: $black;
+$hero-background: $transparent-beige;
+$hero-blend: $background-multiply;
+$image-background-color: $white;
+$intro-background-color: $dark-gray;
+$intro-blend: $background-multiply;
+$nav-background-color: $light-green;
+$nav-dropdown-item-background-hover-color: $green;
+$nav-topbar-background-color: $green;
+$navbar-toggler-background-color: transparent;
+$newsletter-background-color: $white;
+$offcanvas-background-color: $white;
+$offcanvas-header-background-color: $green;
+$video-background-color: $black;
+
+// Breakpoints
+$x-small: 0px; 
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$x-large: 1200px;
+$xx-large: 1400px;
+
+
+// Fonts
+$body-font-family: 'Montserrat', sans-serif;
+$body-font-family-bold: 'Montserrat Bold', sans-serif;
+$body-font-family-medium: 'Montserrat Medium', sans-serif;
+$body-font-family-thin: 'Montserrat Thin', sans-serif;
+$body-font-size: 1rem;
+$body-font-size-mobile: 1rem;
+$body-font-weight: 400;
+$body-line-height: 28.8px;
+$body-vertical-align: baseline;
+$body-letter-spacing: 0.6px;
+
+$font-size-small: .9rem;
+
+$header-font-family: 'Addington';
+$header-font-family-bold: 'Addington Bold';
+$header-font-family-medium: 'Addington Medium';
+$header-font-family-thing: 'Addington Thin';
+$header-font-weight: 400;
+$header-line-height: 1;
+$header-margin-bottom: 1.5rem;
+
+$link-weight: 700;
+
+$nav-dropdown-font-size: $font-size-small;
+$nav-font-color: $dark-green;
+$nav-font-hover-color: $green;
+$nav-font-family: $header-font-family;
+$nav-font-size: 1rem;
+$nav-font-size-dropdown: .9rem;
+$nav-font-style: normal;
+$nav-font-weight: 400;
+$nav-text-transform: normal;
+$nav-topbar-color: $white;
+$nav-topbar-font-size: .85rem;
+$nav-dropdown-item-hover-color: $white;
+
+$offcanvas-font-color: $green;
+$offcanvas-header-font-color: $white;
+
+$footer-font-size: 15px;
+$footer-font-weight: 500;
+$footer-header-font-family: $header-font-family-bold;
+$footer-icon-size: 2.5rem;
+
+$error-page-header-size: 3rem;
+$error-page-header-size-mobile: 2rem;
+
+$label-font-weight: 600;
+
+// Buttons
+$button-font-family: $header-font-family-medium;
+$button-font-weight: 400;
+$button-padding: 10px;
+
+// Backgrounds
+$background-center: center center;
+$background-cover: cover;
+$background-overlay: overlay;
+$background-top-right: top right;
+
+// Borders
+$border-rounded: 20px;
+$border-rounded-button: 10px;
+$border-rounded-input: 5px;
+$border-round: 50%;
+$navbar-bottom-border: 1px solid $light-brown;
+$video-border: 1px solid $black;
+
+//blog
+$blog-title: 1.5rem;
+
+//custom bullets 
+$small-bullets: 1rem;
+$medium-bullets: 1.25rem;
+$large-bullets: 1.75rem;
+
+// padding and margins
+$block-padding: .5rem 2rem;
+$block-padding-small: 3rem 2rem;
+$block-padding-medium: 4rem 2rem;
+$block-padding-large: 4rem;
+$hero-padding-small: 3rem 1rem;
+$hero-padding-medium: 4rem 2rem;
+$hero-padding-large: 12rem 4rem;
+$footer-padding: 4rem 1rem;
+$footer-list-padding: 0.5rem 0;
+$hero-padding: 7rem 0;
+$hero-padding-mobile: 4rem 0 10rem;
+$image-padding: 2rem;
+$intro-padding-mobile: 2rem 1rem 1rem;
+$intro-padding: 6rem 0;
+$list-padding: 0 0 1rem;
+$nav-padding: 0.5rem 2rem;
+$newsletter-padding-mobile: 4rem 0 0;
+$newsletter-padding: 6rem 0;
+$section-padding-mobile: 2rem;
+$section-padding: 4rem;
+
+// sizes
+$container-small-width: 1400px;
+$container-width: 90rem;
+$image-width: 600px;
+$image-height: 800px;

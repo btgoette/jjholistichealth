@@ -1,17 +1,23 @@
-/* Custom */
-@import 'custom/variables.scss';
+// Utils
+@import "utilities/all";
 
-/* Common Components */
-@import 'components/components.scss';
+// Vendor
+@import "vendors/all";
 
-/* Pages */
-@import 'pages/about.module.scss';
-@import 'pages/blog.module.scss';
-@import 'pages/conditions.module.scss';
-@import 'pages/errorpage.module.scss';
-@import 'pages/forms.module.scss';
-@import 'pages/home.module.scss';
-@import 'pages/policypages.module.scss';
-@import 'pages/services.module.scss';
-@import 'pages/testimonials.module.scss';
+// Base
+@import "base/all";
 
+// Blocks
+@import "blocks/all";
+
+// Components
+@import "components/all";
+
+// Layout
+@import "layout/all";
+
+// Pages
+@import "pages/all";
+
+// Theme
+@import "themes/all";
