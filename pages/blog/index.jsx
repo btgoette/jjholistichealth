@@ -9,7 +9,6 @@ import Breadcrumbs from 'components/common/Breadcrumbs'
 import RecentPosts from 'components/blog/RecentPosts'
 
 // Page Content
-import styles from 'scss/pages/blog.module.scss'
 import page from 'public/content/en_US/Page/Blog/blog.content'
 import { getSortedPostsData } from 'public/getAllPosts'
 
@@ -31,12 +30,12 @@ export default function BlogIndexPage({ allPostsData }) {
 
       <Head {...page} />
 
-      <div className={styles.blog}>
+      <div className="blog">
 
         
       <Breadcrumbs {...page} />
 
-        <Container fluid className={styles.blogPosts}>
+        <Container fluid className="blogPosts">
           <Container>
             <Row>
               <Col lg={9}>
@@ -49,23 +48,23 @@ export default function BlogIndexPage({ allPostsData }) {
                   {allPostsData.map(({ id, formalDate, title, preview, description }, i) => (
                     <Col key={i} md={6}>
                       <article>
-                        <div className={styles.blogHead}>
+                        <div className="blogHead">
                           <Link href={`/blog/posts/${id}`} passHref>
-                            <a><h2 className={styles.blogTitle}>{title}</h2></a>
+                            <a><h2 className="blogTitle">{title}</h2></a>
                           </Link>
-                          <span className={styles.blogDate}>
+                          <span className="blogDate">
                             {formalDate}
                           </span>
                         </div>
-                        <figure className={styles.blogImage}>
+                        <figure className="blogImage">
                           <Link href={`/blog/posts/${id}`} passHref>
                             <a><LazyLoadImage src={preview} alt={title} /></a>
                           </Link>
                         </figure>
-                        <div className={styles.blogDescription}>
+                        <div className="blogDescription">
                           <p>{description}</p>
                         </div>
-                        <div className={styles.readMore}>
+                        <div className="readMore">
                           <Link href={`/blog/posts/${id}`} passHref>
                             <Button>Read More</Button>
                           </Link>

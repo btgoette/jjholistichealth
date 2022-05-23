@@ -1,231 +1,142 @@
 // React Components
-import React from 'react'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import Link from 'next/link'
-import { Container, Button, Navbar, Nav, NavDropdown, Offcanvas, CloseButton } from 'react-bootstrap'
-import 'public/fonts/FontAwesome/fontawesome'
+import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
+import {
+  Container,
+  Button,
+  Navbar,
+  Nav,
+  NavDropdown,
+  Offcanvas,
+} from "react-bootstrap";
+import "public/fonts/FontAwesome/fontawesome";
 
 // Page Content
-import content from 'public/content/en_US/Components/Layout/Nav/nav.content'
+import content from "public/content/en_US/Components/Layout/Nav/nav.content";
 
-export default function CustomNav() {
-
+export default function JJNav() {
   return (
+    <>
+      {["xl"].map((expand) => (
+        <Navbar
+          key={expand}
+          bg="light"
+          expand={expand}
+          className="jj-nav sticky-top"
+        >
+          {/* Logo */}
+          <Link href="/" passHref>
+            <Navbar.Brand>
+              <img
+                src="images/logos/jj-logo.webp"
+                alt="J&amp;J Holistic Nutritional Therapy"
+                className="logo ms-lg-0 ms-2"
+              />
+            </Navbar.Brand>
+          </Link>
+          
+          <Link href="/" passHref>
+            <Navbar.Brand>
+              <img
+                src="images/logos/jj-kids-logo.png"
+                alt="J&amp;J Holistic Nutritional Therapy"
+                className="logo ms-lg-0 ms-2"
+              />
+            </Navbar.Brand>
+          </Link>
 
-    <div className="sticky-top" aria-label="J&amp;J Navbar">
-      <Navbar collapseOnSelect bg="light" expand="xl" className={content.nav.background}>
-        <Container className="py-0 px-1">
-          <div className="d-flex align-items-center">
-            <Link href={content.nav.brand.jjLogo.link} passHref>
-              <Navbar.Brand>
-                <LazyLoadImage
-                  src={content.nav.brand.jjLogo.image.src}
-                  alt={content.nav.brand.jjLogo.image.alt}
-                  className="logo ms-lg-0 ms-2"
-                />
-              </Navbar.Brand>
-            </Link>
-            <Link href={content.nav.brand.jjKidsLogo.link} passHref>
-              <Navbar.Brand className="d-none d-sm-flex" >
-                <LazyLoadImage
-                  src={content.nav.brand.jjKidsLogo.image.src}
-                  alt={content.nav.brand.jjKidsLogo.image.alt}
-                  className="logo"
-                />
-              </Navbar.Brand>
-            </Link>
-          </div>
-          <Navbar.Toggle aria-controls="offcanvasNavbar" />
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
+            id={`offcanvasNavbar-expand-${expand}`}
+            aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
             placement="end"
           >
             <Offcanvas.Header closeButton closeVariant="white">
-              <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                Menu
+              </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-
-                <Nav.Item>
-                  <Link href={content.nav.navbar.home.link} passHref>
-                    <Nav.Link >
-                      {content.nav.navbar.home.li}
-                    </Nav.Link>
-                  </Link>
+              <Nav className="justify-content-end pe-3">
+                <Nav.Item className="d-block d-xl-none">
+                  <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
-
                 <Nav.Item>
-                  <Link href={content.nav.navbar.kids.link} passHref>
-                    <Nav.Link >
-                      {content.nav.navbar.kids.li}
-                    </Nav.Link>
-                  </Link>
+                  <Nav.Link href="/kids">J&amp;J Kids</Nav.Link>
                 </Nav.Item>
-
-                <NavDropdown title="About" id="about-dropdown">
-                  {content.nav.navbar.about.map(({ li, link }, i) => (
-                    <Link key={i} href={link} passHref>
-                      <NavDropdown.Item>
-                        {li}
-                      </NavDropdown.Item>
-                    </Link>
-                  ))}
-                </NavDropdown>
-
                 <Nav.Item>
-                  <Link href={content.nav.navbar.services.link} passHref>
-                    <Nav.Link>
-                      {content.nav.navbar.services.li}
-                    </Nav.Link>
-                  </Link>
+                  <NavDropdown title="About" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="/about">
+                      About J&amp;J
+                    </NavDropdown.Item>
+          <NavDropdown.Divider className="d-none d-xl-block"/>
+                    <NavDropdown.Item href="/about/the-j-and-j-team">
+                      The J&amp;J Team
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/about/why-choose-j-and-j">
+                      Why Choose J&amp;J
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/about/testimonials">
+                      Testimonials
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/about/gallery">
+                      Photo Gallery
+                    </NavDropdown.Item>
+                  </NavDropdown>
                 </Nav.Item>
-
-                <NavDropdown title="Health Conditions" id="conditions-dropdown">
-                  {content.nav.navbar.conditions.map(({ li, link }, i) => (
-                    <Link key={i} href={link} passHref>
-                      <NavDropdown.Item>
-                        {li}
-                      </NavDropdown.Item>
-                    </Link>
-                  ))}
-                </NavDropdown>
-
                 <Nav.Item>
-                  <Nav.Link href={content.nav.navbar.shop.link} target="blank">
-                    {content.nav.navbar.shop.li}
-                  </Nav.Link>
+                  <Nav.Link href="/services/">Services</Nav.Link>
                 </Nav.Item>
-
                 <Nav.Item>
-                  <Link href={content.nav.navbar.blog.link} passHref>
-                    <Nav.Link title={content.nav.navbar.blog.li}>
-                      {content.nav.navbar.blog.li}
-                    </Nav.Link>
-                  </Link>
+                  <NavDropdown
+                    title="Health Conditions"
+                    id="basic-nav-dropdown"
+                  >
+                    <NavDropdown.Item href="/conditions">
+                      Health Conditions
+                    </NavDropdown.Item>
+          <NavDropdown.Divider className="d-none d-xl-block"/>
+                    <NavDropdown.Item href="/conditions/cardiovascular">
+                      Cardiovascular
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/conditions/digestive-system">
+                      Digestive System
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/conditions/immune-system">
+                      Immune System
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/conditions/stress-and-adrenal-function">
+                      Stress &amp; Adrenal Function
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/conditions/womens-health">
+                      Women's Health
+                    </NavDropdown.Item>
+                  </NavDropdown>
                 </Nav.Item>
-
                 <Nav.Item>
-                  <Link href={content.nav.navbar.forms.link} passHref>
-                    <Nav.Link>
-                      {content.nav.navbar.forms.li}
-                    </Nav.Link>
-                  </Link>
+                  <Nav.Link href="https://poporganics.net">Shop</Nav.Link>
                 </Nav.Item>
-
-                {/* <NavDropdown title="Promos" id="promos">
-                  <NavDropdown.Divider />
-                  {content.nav.navbar.promos.map(({ li, link }, i) => (
-                    <Link key={i} href={link} passHref>
-                      <NavDropdown.Item>
-                        {li}
-                      </NavDropdown.Item>
-                    </Link>
-                  ))}
-                </NavDropdown> */}
-
                 <Nav.Item>
-                  <Link href={content.nav.navbar.bookNow.link} target="blank" passHref>
-                    <Nav.Link>
-                      {content.nav.navbar.bookNow.li}
-                    </Nav.Link>
-                  </Link>
+                  <Nav.Link href="/blog">Blog</Nav.Link>
                 </Nav.Item>
-
+                <Nav.Item>
+                  <Nav.Link href="/forms">Forms</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="d-block d-xl-none">
+                  <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="d-none d-xl-block">
+                  <Button className="">
+                  <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
+                  </Button>
+                </Nav.Item>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
-          <Navbar.Collapse className="d-none d-xl-flex" id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Item className="d-flex d-xl-none">
-                <Link href={content.nav.navbar.kids.link} passHref>
-                  <Nav.Link passHref>
-                    {content.nav.navbar.kids.li}
-                  </Nav.Link>
-                </Link>
-              </Nav.Item>
-              <NavDropdown title="About" id="about-dropdown">
-                <Link href={content.nav.navbar.about[0].link} passHref>
-                  <NavDropdown.Item>
-                    {content.nav.navbar.about[0].li}
-                  </NavDropdown.Item>
-                </Link>
-                <NavDropdown.Divider />
-                {content.nav.navbar.about.slice(1).map(({ li, link }, i) => (
-                  <Link key={i} href={link} passHref>
-                    <NavDropdown.Item>
-                      {li}
-                    </NavDropdown.Item>
-                  </Link>
-                ))}
-              </NavDropdown>
-              <Nav.Item>
-                <Link href={content.nav.navbar.services.link} passHref>
-                  <Nav.Link>
-                    {content.nav.navbar.services.li}
-                  </Nav.Link>
-                </Link>
-              </Nav.Item>
-              <NavDropdown title="Health Conditions" id="conditions-dropdown">
-                <Link href={content.nav.navbar.conditions[0].link} passHref>
-                  <NavDropdown.Item>
-                    {content.nav.navbar.conditions[0].li}
-                  </NavDropdown.Item>
-                </Link>
-                <NavDropdown.Divider />
-                {content.nav.navbar.conditions.slice(1).map(({ li, link }, i) => (
-                  <Link key={i} href={link} passHref>
-                    <NavDropdown.Item>
-                      {li}
-                    </NavDropdown.Item>
-                  </Link>
-                ))}
-              </NavDropdown>
-              <Nav.Item>
-                <Nav.Link href={content.nav.navbar.shop.link} target="blank">
-                  {content.nav.navbar.shop.li}
-                </Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link href={content.nav.navbar.blog.link} passHref>
-                  <Nav.Link title={content.nav.navbar.blog.li}>
-                    {content.nav.navbar.blog.li}
-                  </Nav.Link>
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link href={content.nav.navbar.forms.link} passHref>
-                  <Nav.Link>
-                    {content.nav.navbar.forms.li}
-                  </Nav.Link>
-                </Link>
-              </Nav.Item>
-              {/* <NavDropdown title="Promos" id="promos">
-                <NavDropdown.Divider />
-                {content.nav.navbar.promos.map(({ li, link }, i) => (
-                  <Link key={i} href={link} passHref>
-                    <NavDropdown.Item>
-                      {li}
-                    </NavDropdown.Item>
-                  </Link>
-                ))}
-              </NavDropdown> */}
-              <Nav.Item>
-                <Nav.Link className="d-block d-xl-none" href={content.nav.navbar.bookNow.link} target="blank" passHref>
-                  {content.nav.navbar.bookNow.li}
-                </Nav.Link>
-                <Link className="d-none d-lg-block"
-                  href={content.nav.navbar.bookNow.link} passHref>
-                  <Button className="d-none d-lg-block">
-                    {content.nav.navbar.bookNow.li}
-                  </Button>
-                </Link>
-              </Nav.Item>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
-
+        </Navbar>
+      ))}
+    </>
   );
 }
