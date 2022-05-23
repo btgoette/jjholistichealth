@@ -81,7 +81,7 @@ export default function JJNav() {
                     <NavDropdown.Item href="/about/testimonials">
                       Testimonials
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/about/photo-gallery">
+                    <NavDropdown.Item href="/about/gallery">
                       Photo Gallery
                     </NavDropdown.Item>
                   </NavDropdown>

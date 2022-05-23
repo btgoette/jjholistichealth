@@ -28,7 +28,6 @@ import RecentPosts from "components/blog/RecentPosts";
 
 // Custom Styles, Content, and Data
 
-import styles from "scss/pages/blog.module.scss";
 import page from "public/content/en_US/Page/Blog/blog.content";
 import { getAllPostIds, getPostData } from "public/getAllPosts";
 import { post } from "jquery";
@@ -54,7 +53,7 @@ export default function BlogPost({ postData }) {
   return (
     <>
       <Head {...postData} />
-      <div className={styles.blog}>
+      <div className="blog">
         <Container>
           <Row className="breadcrumbs">
             <Breadcrumb>
@@ -65,25 +64,25 @@ export default function BlogPost({ postData }) {
           </Row>
         </Container>
 
-        <Container fluid className={styles.blogPost}>
+        <Container fluid className="blogPost">
           <Container>
             <Row>
               <Col lg={9}>
                 <Row>
-                  <Col className={styles.blogPostSection}>
-                    <div className={styles.blogHead}>
-                      <h1 className={styles.blogTitle}>{postData.title}</h1>
-                      <span className={styles.blogDate}>
+                  <Col className="blogPostSection">
+                    <div className="blogHead">
+                      <h1 className="blogTitle">{postData.title}</h1>
+                      <span className="blogDate">
                         {postData.formalDate}
                       </span>
                     </div>
-                    <figure className={styles.blogImage}>
+                    <figure className="blogImage">
                       <LazyLoadImage
                         src={postData.banner}
                         alt={postData.title}
                       />
                     </figure>
-                    <div className={styles.share}>
+                    <div className="share">
                       <strong>Share:&nbsp;&nbsp;</strong>
                       <FacebookShareButton
                         url={postData.url}
