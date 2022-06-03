@@ -100,7 +100,7 @@ export default function JJKidsNav() {
                       Stress &amp; Adrenal Function
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/conditions/womens-health">
-                      Women's Health
+                      Women&apos;s Health
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav.Item>

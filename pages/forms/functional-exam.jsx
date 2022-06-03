@@ -10,7 +10,6 @@ import JJNav from "components/layout/JJNav.jsx";
 import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
-import styles from "scss/pages/forms.module.scss";
 import page from "public/content/en_US/Page/Forms/functionalExam.content";
 
 export default function FunctionalExam() {

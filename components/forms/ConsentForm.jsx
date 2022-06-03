@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-const FunctionalExamForm = () => {
+const ConsentForm= () => {
 
     function onSubmit(token) {
         document.getElementById("consentForm").submit();

@@ -7,10 +7,8 @@ import Breadcrumbs from "components/common/Breadcrumbs";
 import FoodIntoleranceForm from "components/forms/FoodIntoleranceForm";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
-import styles from "scss/pages/forms.module.scss";
 import page from "public/content/en_US/Page/Forms/foodIntolerance.content";
 
 export default function FoodIntolerance() {
