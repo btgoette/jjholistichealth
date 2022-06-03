@@ -1,65 +1,50 @@
 .home {
-    .you-are-what-you-eat {
-        .you-are-what-you-eat-image {
-            display: none;
-        }
+
+    .home-conditions-grid {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto;
+        align-items: center;
     }
 
-    .fruit {
-        img {
-            margin-top: 2rem;
-            max-width: 300px;
+    @media only screen and (min-width: $small) {
+        .home-conditions-grid {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: auto auto;
         }
     }
 
     @media only screen and (min-width: $medium) {
-        .you-are-what-you-eat {
-            .you-are-what-you-eat-image {
-                display: block;
-                position: relative;
-                text-align: center;
+        .home-conditions-grid {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: auto auto auto;
 
-                @keyframes FadeInOut {
-                    0% {
-                        opacity: 1;
-                    }
-                    45% {
-                        opacity: 1;
-                    }
-                    55% {
-                        opacity: 0;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
-                }
+            div:nth-last-child(1) {
+                grid-row-start: 4;
+                grid-row-end: 5;
+                grid-column-start: 2;
+                grid-column-end: 3;
+            }
+        }
+    }
 
-                .healthyWoman {
-                    position: absolute;
-                    left: 25%;
-                    animation-name: FadeInOut;
-                    animation-timing-function: ease-in-out;
-                    animation-iteration-count: infinite;
-                    animation-duration: 10s;
-                    animation-direction: alternate;
+    @media only screen and (min-width: $large) {
 
-                    img {
-                        max-width: 300px;
-                    }
-                }
+        .home-conditions-grid {
+            grid-template-rows: auto auto auto auto;
+            grid-template-columns: auto auto auto auto;
 
-                .healthyMan {
-                    position: relative;
-                    animation-name: FadeInOut;
-                    animation-timing-function: ease-in-out;
-                    animation-iteration-count: infinite;
-                    animation-duration: 10s;
-                    animation-direction: alternate-reverse;
-
-                    img {
-                        max-width: 300px;
-                    }
-                }
+            div:nth-last-child(1) {
+                grid-row-start: 4;
+                grid-row-end: 5;
+                grid-column-start: 3;
+                grid-column-end: 4;
+            }
+            div:nth-last-child(2) {
+                grid-row-start: 4;
+                grid-row-end: 5;
+                grid-column-start: 2;
+                grid-column-end: 3;
             }
         }
     }

@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // Layout Component
 import SectionHead from "components/common/SectionHead";
 
-export default function ConditionsIndex(block) {
+const ConditionsIndex = (block) => {
   return (
     <>
       <SectionHead {...block} />
@@ -35,3 +35,5 @@ export default function ConditionsIndex(block) {
     </>
   );
 }
+
+export default ConditionsIndex;

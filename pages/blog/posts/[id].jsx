@@ -22,9 +22,12 @@ import { Breadcrumb, Container, Row, Col } from "react-bootstrap";
 
 // Custom Components
 import Head from "components/common/Head";
+import Main from "components/layout/Main";
 import BookNowCTA from "components/common/BookNowCTA";
 import FDA from "components/common/FDA";
 import RecentPosts from "components/blog/RecentPosts";
+import JJNav from "components/layout/JJNav.jsx";
+import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Custom Styles, Content, and Data
 
@@ -52,6 +55,7 @@ export async function getStaticPaths() {
 export default function BlogPost({ postData }) {
   return (
     <>
+    <JJNav/>
       <Head {...postData} />
       <div className="blog">
         <Container>

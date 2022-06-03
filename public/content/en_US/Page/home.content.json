@@ -8,71 +8,66 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Home",
     "hero": {
-        "slug": "hero-spices",
-        "column": [
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "0"
-            },
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "1"
-            }
-        ],
-        "title": "Wellness made for You!",
+        "slug": "hero-home",
+        "title": "Wellness Made For You!",
         "text": [
             {
                 "p": "We use a holistic approach in all consultations with our patients. This means we consider the person as a whole, as a sum of all the interconnected components that make that person unique."
             }
-        ],
-        "img": {
-            "src": "/images/pages/home/herb-bowl.webp",
-            "alt": "Herb Bowl"
-        }
+        ]
     },
-    "block": {
-        "youAreWhatYouEat": {
-            "slug": "you-are-what-you-eat",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
+    "nutritionalMedicine": {
+        "slug": "home-nutritional-medicine",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "title": "Nutrtional Medicine",
+                    "text": [
+                        {
+                            "p": " Nutritional medicine is founded on the fact that the body requires nutrients (including essential micronutrients) to function properly. These nutrients are mainly responsible for supporting the vast number of critical biochemical processes that keep us alive and healthy."
+                        },
+                        {
+                            "p": "When treating symptoms and diseases from a nutritional medicine perspective, the practitioner looks at the root causes. We use food and individual nutrients for medicinal and therapeutic effects, in doses only achievable in supplement form."
+                        }
+                    ]
                 }
-            ],
-            "title": "'You are what you eat... Literally'",
-            "text": [
-                {
-                    "p": "The medicinal and therapeutic value of nutrition has a long and significant history. Many ancient and traditional cultures recognized the power of food in the elimination of toxins that create illness and disease as well as the support of an individual’s health. Increasingly, contemporary cultures are re-discovering and embracing the healing power of food."
-                }
-            ],
-            "textImage": {
-                "src": "/images/pages/home/fruit.webp",
-                "alt": "Fruit"
             },
-            "multiImage": [
-                {   
-                    "slug": "healthyWoman",
-                    "src": "/images/pages/home/healthy-woman.webp",
-                    "alt": "Healthy Woman"
-                },
-                {
-                    "slug": "healthyMan",
-                    "src": "/images/pages/home/healthy-man.webp",
-                    "alt": "Healthy Man"
+            {
+                "block": {
+                    "row": "grid-row-1-3",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "fruit",
+                        "src": "/images/jj/jj-fruit.webp",
+                        "alt": "fruit"
+                    }
                 }
-            ]
-        },
-        "conditions": {
-            "sectionTitle": "Which conditions can nutritional medicine help?",
-            "sectionTitleBackground": "bg-herbs-table img-title",
+            },
+            {
+                "block": {
+                    "row": "grid-row-2-3",
+                    "column": "grid-col-1-2",
+                    "title": "We Are What We Consume",
+                    "text": [
+                        {
+                            "p": " Nutritional medicine is founded on the fact that the body requires nutrients (including essential micronutrients) to function properly. These nutrients are mainly responsible for supporting the vast number of critical biochemical processes that keep us alive and healthy."
+                        },
+                        {
+                            "p": "When treating symptoms and diseases from a nutritional medicine perspective, the practitioner looks at the root causes. We use food and individual nutrients for medicinal and therapeutic effects, in doses only achievable in supplement form."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "conditions": {
+        "slug": "home-conditions pt-0",
+        "header": "Which Conditions Can Nutritional Medicine Help?",
+        "grid": "home-grid-conditions",
+        "blocks": {
             "condition": [
                 {
                     "src": "/images/pages/conditions/digestive.webp",
@@ -101,9 +96,57 @@
                     ]
                 },
                 {
+                    "src": "/images/pages/conditions/immunity.webp",
+                    "alt": "A sick woman in bed",
+                    "name": "Immunity Problems",
+                    "content": "Frequent colds, coughs, and allergies",
+                    "bullet": [
+                        {
+                            "li": "Frequent Colds"
+                        },
+                        {
+                            "li": "Coughs"
+                        },
+                        {
+                            "li": "Allergies"
+                        }
+                    ]
+                },
+                {
+                    "src": "/images/pages/conditions/weight-management.webp",
+                    "alt": "A woman measuring her waist",
+                    "name": "Weight Management",
+                    "content": "",
+                    "bullet": [
+                        {
+                            "li": "Weight Loss"
+                        }
+                    ]
+                },
+                {
+                    "src": "/images/pages/conditions/skin.webp",
+                    "alt": "A close up of a woman's skin blemishes",
+                    "name": "Skin Conditions",
+                    "content": "Eczema, rosacea, acne, and psoriasis",
+                    "bullet": [
+                        {
+                            "li": "Eczema"
+                        },
+                        {
+                            "li": "Rosacea"
+                        },
+                        {
+                            "li": "Acne"
+                        },
+                        {
+                            "li": "Psoriasis"
+                        }
+                    ]
+                },
+                {
                     "src": "/images/pages/conditions/reproductive.webp",
                     "alt": "A woman happy with pregnancy test",
-                    "name": "Reproductive",
+                    "name": "Reproductive Issues",
                     "content": "PMS, PCOS, endometriosis, fertility, menopause, lowered libido",
                     "bullet": [
                         {
@@ -123,29 +166,6 @@
                         },
                         {
                             "li": "Lowered Libido"
-                        }
-                    ]
-                },
-                {
-                    "src": "/images/pages/conditions/stress.webp",
-                    "alt": "A stressed male",
-                    "name": "Stress",
-                    "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension",
-                    "bullet": [
-                        {
-                            "li": "Nervous System Disorders"
-                        },
-                        {
-                            "li": "Insomnia"
-                        },
-                        {
-                            "li": "Low Mood"
-                        },
-                        {
-                            "li": "Anxiety"
-                        },
-                        {
-                            "li": "Nervous Tension"
                         }
                     ]
                 },
@@ -173,29 +193,9 @@
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/skin.webp",
-                    "alt": "A close up of a woman's skin blemishes",
-                    "name": "Skin",
-                    "content": "Eczema, rosacea, acne, and psoriasis",
-                    "bullet": [
-                        {
-                            "li": "Eczema"
-                        },
-                        {
-                            "li": "Rosacea"
-                        },
-                        {
-                            "li": "Acne"
-                        },
-                        {
-                            "li": "Psoriasis"
-                        }
-                    ]
-                },
-                {
                     "src": "/images/pages/conditions/hormone.webp",
                     "alt": "A woman feeling her thyroid glands",
-                    "name": "Hormone",
+                    "name": "Hormone Imbalances",
                     "content": "Insulin resistance, adrenal stress, thyroid imbalance",
                     "bullet": [
                         {
@@ -210,36 +210,25 @@
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/immunity.webp",
-                    "alt": "A sick woman in bed",
-                    "name": "Immunity Problems",
-                    "content": "Frequent colds, coughs, and allergies",
+                    "src": "/images/pages/conditions/stress.webp",
+                    "alt": "A stressed male",
+                    "name": "Stress Mangement",
+                    "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension",
                     "bullet": [
                         {
-                            "li": "Frequent Colds"
+                            "li": "Nervous System Disorders"
                         },
                         {
-                            "li": "Coughs"
+                            "li": "Insomnia"
                         },
                         {
-                            "li": "Allergies"
-                        }
-                    ]
-                },
-                {
-                    "src": "/images/pages/conditions/allergies.webp",
-                    "alt": "A woman sneezing in a field of flowers",
-                    "name": "Allergies",
-                    "content": "Hayfever, sinusitis, rhinitis",
-                    "bullet": [
-                        {
-                            "li": "Hayfever"
+                            "li": "Low Mood"
                         },
                         {
-                            "li": "Sinusitis"
+                            "li": "Anxiety"
                         },
                         {
-                            "li": "Rhinitis"
+                            "li": "Nervous Tension"
                         }
                     ]
                 },
@@ -258,13 +247,19 @@
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/weight-management.webp",
-                    "alt": "A woman measuring her waist",
-                    "name": "Weight Management",
-                    "content": "",
+                    "src": "/images/pages/conditions/allergies.webp",
+                    "alt": "A woman sneezing in a field of flowers",
+                    "name": "Allergies",
+                    "content": "Hayfever, sinusitis, rhinitis",
                     "bullet": [
                         {
-                            "li": "Weight Loss"
+                            "li": "Hayfever"
+                        },
+                        {
+                            "li": "Sinusitis"
+                        },
+                        {
+                            "li": "Rhinitis"
                         }
                     ]
                 }

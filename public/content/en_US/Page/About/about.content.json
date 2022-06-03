@@ -8,176 +8,164 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "About J&J",
     "hero": {
-        "slug": "hero-herbs-1",
-        "column": [
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "0"
-            },
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "1"
-            }
-        ],
+        "slug": "hero-about",
         "title": "About J&J",
         "subtitle": "Our belief is our guide",
         "text": [
             {
                 "p": "At Johnson and Johnson Holistic Nutritional Therapy, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. This summarizes the traditional approach to medicine at J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that."
-            },
-            {
-                "p": "Here, we welcome who you are and treat you with natural care to reset your body back to its original state. We recognize that disease is complex, that’s why we focus on the concept of bio-individuality; where every individual has a specific genetic, ancestral, and geographic makeup that determines their own unique nutritional needs. Many nutrition programs fail because they take a “one size fits all” approach that ignores bio-individuality."
             }
         ]
     },
-    "block": {
-        "weTakeYourComfortSeriously": {
-            "slug": "we-take-your-comfort-seriously",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
+    "naturalCare": {
+        "slug": "natural-care",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "Natural Care To Reset Your Body",
+                    "text": [
+                        {
+                            "p": "Here, we welcome who you are and treat you with natural care to reset your body back to its original state. We recognize that disease is complex, that’s why we focus on the concept of bio-individuality; where every individual has a specific genetic, ancestral, and geographic makeup that determines their own unique nutritional needs. Many nutrition programs fail because they take a “one size fits all” approach that ignores bio-individuality."
+                        }
+                    ]
                 }
-            ],
-            "title": "We take your comfort seriously",
-            "text": [
-                {
-                    "p": "We take pride in providing our patients with outstanding care in a warm, cozy, and inclusive environment. Our premises are designed to allow you to relax and feel at home while receiving treatment for your body and mind. Patients can enjoy a warm cup of herbal tea while they wait and mothers and babies have a friendly space for breastfeeding and changing."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-3",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/about/jj-lobby.png",
+                        "alt": "The J&J Holistic Nutritional Therapy Lobby"
+                    }
                 }
-            ],
-            "img": {
-                "src": "/images/pages/about/jj-lobby.webp",
-                "alt": "The J&J Holistic Nutritonal Therapy Lobby"
+            },
+            {
+                "block": {
+                    "row": "grid-row-2-3",
+                    "column": "grid-col-2-3",
+                    "title": "We Take Your Comfort Seriously",
+                    "text": [
+                        {
+                            "p": "We take pride in providing our patients with outstanding care in a warm, cozy, and inclusive environment. Our premises are designed to allow you to relax and feel at home while receiving treatment for your body and mind. Patients can enjoy a warm cup of herbal tea while they wait and mothers and babies have a friendly space for breastfeeding and changing."
+                        }
+                    ]
+                }
             }
-        },
-        "mission": {
-            "slug": "mission bg-light-green",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
+        ]
+    },
+    "mission": {
+        "slug": "mission pt-0",
+        "grid": "grid-1fr-500",
+        "header": "Our Mission",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/about/jj-krystal-johnson-working.webp",
+                        "alt": "J&J Holistic Nutritional Therapy Vegetables"
+                    }
                 }
-            ],
-            "title": "Our Misson",
-            "text": [
-                {
-                    "p": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
-                },
-                {
-                    "p": "Our team of dedicated practitioners is experienced and dedicated to offering the most advanced and comprehensive solutions to all your health needs outside of an emergency."
-                },
-                {
-                    "p": "We help our patients understand their unique symptoms and form a lasting partnership with them to eliminate the underlying cause of disease using safe, effective, and tailored treatment plans."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "text": [
+                        {
+                            "p": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
+                        },
+                        {
+                            "p": "Our team of dedicated practitioners is experienced and dedicated to offering the most advanced and comprehensive solutions to all your health needs outside of an emergency."
+                        },
+                        {
+                            "p": "We help our patients understand their unique symptoms and form a lasting partnership with them to eliminate the underlying cause of disease using safe, effective, and tailored treatment plans."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/about/jj-child-consultation.webp",
-                "alt": "A staff member consulting a child and parent"
             }
-        },
-        "vision": {
-            "slug": "core-values",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "1"
+        ]
+    },
+    "vision": {
+        "slug": "vision pt-0",
+        "grid": "grid-500-1fr",
+        "header": "Our Vision",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/about/jj-vegetables.png",
+                        "alt": "J&J Holistic Nutritional Therapy Vegetables"
+                    }
                 }
-            ],
-            "title": "Our Vision",
-            "text": [
-                {
-                    "p": "Our vision is to inspire, educate, and empower our clients to overcome illness and switch their focus to leading a healthier and rewarding lifestyle."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "text": [
+                        {
+                            "p": "Our vision is to inspire, educate, and empower our clients to overcome illness and switch their focus to leading a healthier and rewarding lifestyle."
+                        }
+                    ]
                 }
-            ],
-            "subtitle": "Core Values",
-            "list": [
-                {
-                    "li": "Communication and transparency"
-                },
-                {
-                    "li": "Accountability"
-                },
-                {
-                    "li": "Honoring Individuality"
-                },
-                {
-                    "li": "Positivity"
-                },
-                {
-                    "li": "Excellence"
-                }
-            ],
-            "img": {
-                "src": "/images/pages/about/jj-krystal-johnson-working.webp",
-                "alt": "Krystal Johnson Working"
             }
-        },
-        "howWeTakeCareOfOurPatients": {
-            "slug": "how-we-take-care-of-our-patients bg-brown",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "4",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "8",
-                    "order": "0"
+        ]
+    },
+    "coreValues": {
+        "slug": "values pt-0",
+        "grid": "grid-1fr-500",
+        "header": "Our Core Values",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "title": "Communication and Transparency",
+                    "text": [
+                        {
+                            "p": "J&J Holistic Nutrtional Therapy strives to communicate with clients, practitioners, and all stakeholders with the utmost transparency."
+                        },
+                        {
+                            "p": "Transparency for us is speaking the truth at all times to all those who have a relationship with us. It also means we reach out to our clients in a bid to uplift individuals, especially in situations where transparent communication may be difficult to deliver or accept."
+                        }
+                    ]
                 }
-            ],
-            "title": "How We Take Care of Our Patients",
-            "text": [
-                {
-                    "p": "By considering the wellbeing of the whole body, each component can be seen on a biochemical, cellular, and systematic level. Furthermore, it becomes clear that all components are interconnected. It also means that when assessing health problems, we consider all other possible influencing factors to the patient, including their physical, mental, emotional, and spiritual well-being."
-                },
-                {
-                    "p": "So for example, if a patient comes to us with symptoms of IBS, we will not simply focus on the disease, or treat just the digestive system. Instead, we will take into account all other historical and current health issues, such as:"
-                },
-                {
-                    "p": "We do not advocate one type of diet, like low GI, gluten-free foods, paleo, GAPS, vegan, raw, or macrobiotic diets. Similarly, we do not promote any food or supplement related to fads or fashion."
+            },
+            {
+                "block": {
+                    "row": "grid-row-2-3",
+                    "column": "grid-col-1-2",
+                    "title": "Accountability",
+                    "text": [
+                        {
+                            "p": "J&J Holistic Nutrtional Therapy is always reliable. We always answer when you call upon us and accept responsibility for all the intentional and unintentional consequences of our actions. As a community guided by the spirit of transparency and honesty, we commit to being open and treat all our stakeholders with integrity."
+                        }
+                    ]
                 }
-            ],
-            "listBlock": [
-                {
-                    "li": "Medication"
-                },
-                {
-                    "li": "Lifestyle"
-                },
-                {
-                    "li": "Emotional State"
-                },
-                {
-                    "li": "Desired Outcome"
-                },
-                {
-                    "li": "Diet"
-                },
-                {
-                    "li": "Needs"
+            },
+            {
+                "block": {
+                    "row": "grid-row-3-4",
+                    "column": "grid-col-1-2",
+                    "title": "Honoring Individuality",
+                    "text": [
+                        {
+                            "p": "People are unique, and we treat them that way. We support every individual with targeted nutrition, not to mention love and compassion."
+                        }
+                    ]
                 }
-            ]
-        }
+            }
+        ]
     }
 }

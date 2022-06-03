@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-export default function FunctionalExamForm() {
+const Covid19Form = () => {
 
     function onSubmit(token) {
         document.getElementById("covid19Form").submit();
@@ -252,3 +252,5 @@ export default function FunctionalExamForm() {
         </form >
     );
 }
+
+export default Covid19Form;

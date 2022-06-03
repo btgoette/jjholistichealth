@@ -1,43 +1,105 @@
 .hero {
-    background-color: $light-brown;
-    font-family: $body-font-family-medium;
-    -webkit-flex-flow: column wrap;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    display: grid;
+    align-items: center;
 
     .hero-container {
+        position: relative;
         .hero-block {
+            padding: 1rem;
             .hero-content {
-                background-color: $transparent-beige;
-                width: 100%;
+                background-color: $transparent-hero;
                 border-radius: $border-rounded;
-                padding: 2rem;
+                padding: 2rem 1rem;
+                width: 100%;
+                max-width: 500px;
+                h1 {
+                    margin-bottom: 1rem;
+                }
+                p {
+                    margin-bottom: 0;
+                }
             }
         }
     }
 
-    img {
-        max-width: 500px;
+    @media only screen and (min-width: $small) {
+        .hero-container {
+            .hero-block {
+                .hero-content {
+                    width: 500px;
+                    max-width: unset;
+                    margin-left: 4rem;
+                    margin-bottom: 0;
+                    padding: 2rem;
+
+                    .btn {
+                        opacity: 0.75;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        .hero-container {
+            .hero-block {
+                .hero-content {
+                    width: 700px;
+                    margin-left: 10rem;
+                    padding: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.kids {
+    .hero-container {
+        position: relative;
+        .hero-block {
+            padding: 1rem;
+            .hero-content {
+                background-color: $transparent-blue;
+                border-radius: $border-rounded;
+                color: $white;
+                padding: 2rem 1rem;
+                width: 100%;
+                max-width: 500px;
+                h1 {
+                    margin-bottom: 1rem;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 
     @media only screen and (min-width: $small) {
-        min-height: 70vh;
-        display: grid;
-        align-items:center;
-
         .hero-container {
-
             .hero-block {
                 .hero-content {
-                    background-color: $transparent-hero;
+                    width: 500px;
+                    max-width: unset;
+                    margin-left: 4rem;
+                    margin-bottom: 0;
+                    padding: 2rem;
+
+                    .btn {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        .hero-container {
+            .hero-block {
+                .hero-content {
+                    width: 800px;
+                    margin-left: 10rem;
+                    padding: 2rem;
                 }
             }
         }

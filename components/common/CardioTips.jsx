@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-export default function CardioTips(block) {
+const CardioTips = (block) => {
 
     return (
 
@@ -36,3 +36,5 @@ export default function CardioTips(block) {
 
     )
 }
+
+export default CardioTips;

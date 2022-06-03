@@ -5,8 +5,11 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 
 // Custom Components
 import Head from 'components/common/Head'
+import Main from "components/layout/Main";
 import Breadcrumbs from 'components/common/Breadcrumbs'
 import RecentPosts from 'components/blog/RecentPosts'
+import JJNav from "components/layout/JJNav.jsx";
+import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from 'public/content/en_US/Page/Blog/blog.content'
@@ -28,6 +31,7 @@ export default function BlogIndexPage({ allPostsData }) {
 
     <>
 
+<JJNav/>
       <Head {...page} />
 
       <div className="blog">

@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
 
 
-export default function TeamMembers() {
+const Testimonials = () => {
 
     var settings = {
         dots: false,
@@ -69,9 +69,12 @@ export default function TeamMembers() {
 
     return (
 
-        <>
+        <section className="py-0">
 
-            <Container fluid className="testimonials-section">
+            <div className="testimonials-section">
+                <header>
+                    <h2>What Clients Love About J&amp;J</h2>
+                </header>
                 <Container>
                     <Row className="custom-row">
                         <Slider {...settings}>
@@ -100,9 +103,11 @@ export default function TeamMembers() {
                         </Slider>
                     </Row>
                 </Container>
-            </Container>
+            </div>
 
-        </>
+        </section>
 
     );
 }
+
+export default Testimonials;

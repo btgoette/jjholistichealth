@@ -1,20 +1,20 @@
 // React Components
-import { Container, Row } from 'react-bootstrap'
+import { Container, Row } from "react-bootstrap";
 
-export default function GoogleReviews() {
+const GoogleReviews = () => {
+  return (
+    <section className="pt-0">
+      <header>
+        <h2>Our Google Reviews</h2>
+      </header>
+      <Container>
+        <Row className="custom-row">
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+          <div className="elfsight-app-3cee1929-a72c-44f2-8c75-b03776d6d212"></div>
+        </Row>
+      </Container>
+    </section>
+  );
+};
 
-    return (
-
-        <>
-            <Container fluid>
-                <Container>
-                    <Row className="custom-row">
-                        <h2>What people are saying about us on Google</h2>
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div className="elfsight-app-3cee1929-a72c-44f2-8c75-b03776d6d212"></div>
-                    </Row>
-                </Container>
-            </Container>
-        </>
-    );
-}
+export default GoogleReviews;

@@ -4,13 +4,12 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function TeamMembers(block) {
+const TeamMembers = (section) => {
   return (
-    <>
-      <section>
+    <section className={section.slug}>
         <Container>
           <Row>
-            {block.team.map(({ src, alt, name, title, text }, i) => (
+            {section.roster.map(({ src, alt, name, title, text }, i) => (
               <Col lg={6} key={i} data-aos="fade-up">
                 <div
                   itemScope
@@ -40,7 +39,8 @@ export default function TeamMembers(block) {
             ))}
           </Row>
         </Container>
-      </section>
-    </>
+        </section>
   );
 }
+
+export default TeamMembers;

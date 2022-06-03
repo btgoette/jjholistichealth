@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { Col } from 'react-bootstrap'
 
-export default function RecentPosts(block) {
+const RecentPosts = (block) => {
 
     return (
         <>
@@ -19,3 +19,5 @@ export default function RecentPosts(block) {
         </>
     )
 }
+
+export default RecentPosts;

@@ -1,6 +1,5 @@
 figure {
     text-align: center;
-    margin-bottom: 4rem;
 
     &.logo {
         cursor: pointer;
@@ -8,7 +7,7 @@ figure {
 
     img {
         width: 100%;
-        max-width: 400px;
+        max-width: 500px;
     }
 }
 
@@ -32,15 +31,7 @@ article {
 }
 
 @media only screen and (min-width: $small) {
-    figure {
-        margin-bottom: 2rem; 
     
-        img {
-            width: 100%;
-            max-width: 450px;
-        }
-    }
-
     .logo {
         img {
             max-width: 220px;
@@ -49,11 +40,6 @@ article {
 }
 
 @media only screen and (min-width: $medium) {
-    figure {
-        img {
-            max-width: 500px;
-        }
-    }
 
     .logo {
         img {
@@ -65,10 +51,6 @@ article {
 @media only screen and (min-width: $large) {
     figure {
         margin-bottom: 0; 
-    
-        img {
-            max-width: 550px;
-        }
     }
 
     .logo {

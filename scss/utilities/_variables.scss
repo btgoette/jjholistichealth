@@ -4,6 +4,7 @@ $black: #121212;
 $brown: #492a15bf;
 $green: #779262;
 $grey: #5c5c5c;
+$jungle-blue: #011b22;
 $white: #fff;
 
 // Darks
@@ -18,9 +19,10 @@ $light-green: #e8ebe2 !important;
 $light-grey: #a6a7a6;
 
 // Transparents
-$transparent-hero: #f2ece299;
-$transparent-beige: #f2ece2de;
-$transparent-black: #00000057;
+$transparent-hero: #f2ece2dc;
+$transparent-beige: #f2ece299;
+$transparent-black: #000000aa;
+$transparent-blue: #011b22dc;
 $transparent-brown: #492a15bf;
 $transparent-dots: #e4d2c457;
 $transparent-green: #4b664557;
@@ -47,6 +49,7 @@ $image-background-color: $white;
 $intro-background-color: $dark-gray;
 $intro-blend: $background-multiply;
 $nav-background-color: $light-green;
+$nav-kids-background-color: $jungle-blue;
 $nav-dropdown-item-background-hover-color: $green;
 $nav-topbar-background-color: $green;
 $navbar-toggler-background-color: transparent;
@@ -72,7 +75,7 @@ $body-font-family-thin: 'Montserrat Thin', sans-serif;
 $body-font-size: 1rem;
 $body-font-size-mobile: 1rem;
 $body-font-weight: 400;
-$body-line-height: 28.8px;
+$body-line-height: 1.5rem;
 $body-vertical-align: baseline;
 $body-letter-spacing: 0.6px;
 
@@ -91,6 +94,8 @@ $link-weight: 700;
 $nav-dropdown-font-size: $font-size-small;
 $nav-font-color: $dark-green;
 $nav-font-hover-color: $green;
+$nav-kids-font-color: $white;
+$nav-kids-font-hover-color: $light-green;
 $nav-font-family: $header-font-family;
 $nav-font-size: 1rem;
 $nav-font-size-dropdown: .9rem;
@@ -126,8 +131,8 @@ $background-overlay: overlay;
 $background-top-right: top right;
 
 // Borders
-$border-rounded: 20px;
-$border-rounded-button: 10px;
+$border-rounded: 3rem;
+$border-rounded-button: 0.5rem;
 $border-rounded-input: 5px;
 $border-round: 50%;
 $navbar-bottom-border: 1px solid $light-brown;

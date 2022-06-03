@@ -4,6 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 // Custom Components
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
+import Main from "components/layout/Main";
+import JJNav from "components/layout/JJNav.jsx";
+import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Policies/cancellation.content";
@@ -11,6 +14,7 @@ import page from "public/content/en_US/Page/Policies/cancellation.content";
 export default function CancellationPolicy() {
   return (
     <div className={page.slug}>
+    <JJNav/>
       <Head {...page} />
       <Breadcrumbs {...page} />
       <Container>
