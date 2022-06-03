@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Button } from 'react-bootstrap'
 
 
-export default function BookNowCTA() {
+const BookNowCTA = () => {
     return (
         <Link
             href="/forms/book-now" passHref>
@@ -13,3 +13,5 @@ export default function BookNowCTA() {
         </Link>
     )
 };
+
+export default BookNowCTA;

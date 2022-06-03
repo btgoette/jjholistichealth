@@ -1,7 +1,7 @@
 // React Components
 import ReCAPTCHA from "react-google-recaptcha";
 
-export default function ContactForm() {
+const ContactForm = () => {
   return (
     <form
       id="contactForm"
@@ -100,3 +100,5 @@ export default function ContactForm() {
     </form>
   );
 }
+
+export default ContactForm;

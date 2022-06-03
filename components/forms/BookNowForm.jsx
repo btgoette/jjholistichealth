@@ -1,7 +1,7 @@
 // React Components
 import ReCAPTCHA from "react-google-recaptcha";
 
-export default function BookNowForm() {
+const BookNowForm = () => {
   function onSubmit(token) {
     document.getElementById("bookNowForm").submit();
   }
@@ -222,3 +222,5 @@ export default function BookNowForm() {
     </form>
   );
 }
+
+export default BookNowForm;

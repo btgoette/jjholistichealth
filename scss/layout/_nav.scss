@@ -7,12 +7,15 @@
     &.navbar {
         width: 100%;
         padding: $nav-padding;
-        background: $nav-background-color;
-        border-bottom: $navbar-bottom-border;
 
         .logo {
             width: 100%;
             max-width: 8rem;
+        }
+
+        
+        .navbar-nav {
+            align-items:center;
         }
     }
 
@@ -59,6 +62,7 @@
                     display: flex;
                     .nav-item {
                         .nav-link {
+                            padding: .75rem 1rem .5rem;
                             color: $nav-font-color;
                             font-size: $nav-font-size;
                             font-style: $nav-font-style;
@@ -67,6 +71,90 @@
 
                             &:hover {
                                 color: $nav-font-hover-color;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    .nav-contact-link {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.jj-kids-nav {
+
+    &.navbar {
+        width: 100%;
+        padding: $nav-padding;
+
+        .logo {
+            width: 100%;
+            max-width: 8rem;
+        }
+
+        .navbar-nav {
+            align-items:center;
+        }
+    }
+
+    @media only screen and (min-width: $small) {
+        &.navbar {
+            .logo {
+                max-width: 9rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $medium) {
+        &.navbar {
+            .logo {
+                max-width: 10rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        &.navbar {
+            .logo {
+                max-width: 11rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $x-large) {
+        .top-bar {
+            .login {
+                margin-right: 0;
+                margin-left: auto;
+            }
+        }
+
+        &.navbar {
+            .logo {
+                max-width: 12rem;
+            }
+
+            .nav-grid {
+                .nav-desktop-contact {
+                    justify-self: end;
+                    display: flex;
+                    .nav-item {
+                        .nav-link {
+                            padding: .75rem 1rem .5rem;
+                            color: $nav-kids-font-color;
+                            font-size: $nav-font-size;
+                            font-style: $nav-font-style;
+                            font-weight: $nav-font-weight;
+                            text-transform: $nav-text-transform;
+
+                            &:hover {
+                                color: $nav-kids-font-hover-color;
                                 opacity: 1;
                             }
                         }

@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-export default function EndocrineSteamIntakeForm() {
+const EndocrineSteamIntakeForm = () => {
 
     function onSubmit(token) {
         document.getElementById("endocrineSteamIntakeForm").submit();
@@ -288,3 +288,5 @@ export default function EndocrineSteamIntakeForm() {
         </form >
     );
 }
+
+export default EndocrineSteamIntakeForm;

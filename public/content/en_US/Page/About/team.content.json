@@ -8,19 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "The J&J Team",
     "hero": {
-        "slug": "hero-herbs-2",
-        "column": [
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "0"
-            },
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "1"
-            }
-        ],
+        "slug": "hero-team",
         "title": "The J&J Team",
         "text": [
             {
@@ -28,8 +16,9 @@
             }
         ]
     },
-    "block": {
-        "team": [
+    "team": {
+        "slug":"jj-team",
+        "roster": [
             {
                 "src": "/images/pages/about/team/krystal-johnson.webp",
                 "alt": "Krystal Johnson",

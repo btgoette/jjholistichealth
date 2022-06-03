@@ -1,20 +1,14 @@
 /* Child Asssement Component */
 
 //  React Components
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Row, Col } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-// Page Components
-import SectionHead from "components/common/SectionHead";
 
 // Common Components
 import BookNowCTA from "components/common/BookNowCTA";
 
-export default function JandJPlans(block) {
+const JandJPlans = (block) => {
   return (
     <>
-      <SectionHead {...block} />
       <section className="bg-light-green">
         <Container>
           <Row>
@@ -66,3 +60,5 @@ export default function JandJPlans(block) {
     </>
   );
 }
+
+export default JandJPlans;

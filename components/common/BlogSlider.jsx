@@ -1,15 +1,11 @@
 /* About Testimonials Component */
 
-//  React Components
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Container, Row, Col } from "react-bootstrap";
-
 // Slick Slider
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-export default function BlogSlider() {
+const BlogSlider = () => {
   var settings = {
     dots: false,
     infinite: true,
@@ -26,13 +22,13 @@ export default function BlogSlider() {
         },
       },
       {
-        breakpoint: 1025,
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
         },
@@ -44,7 +40,7 @@ export default function BlogSlider() {
     {
       src: "/images/pages/blog/preview/herbal-shield.webp",
       alt: "Herbal Shield",
-      title: "J&J Nutritional Therapy Herbal Shield",
+      title: "Herbal Shield",
       href: "/blog/posts/j-and-j-herbal-shield",
     },
     {
@@ -90,3 +86,5 @@ export default function BlogSlider() {
     </div>
   );
 }
+
+export default BlogSlider;

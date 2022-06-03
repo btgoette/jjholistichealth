@@ -1,7 +1,7 @@
 .card {
     border: 0;
     background: transparent;
-    margin: 1.5rem;
+    margin: .5rem;
     border-radius: $border-round;
 
     .card-body {
@@ -35,28 +35,18 @@
             padding: 0 1rem;
             transform: translateY(-50%);
             text-align: center;
-            font-size: $body-font-size-mobile;
 
             .card-title {
                 font-family: $header-font-family-medium;
-                font-size: 2rem;
-                color: $beige;
+                font-size: 1.5rem;
+                color: $white;
                 text-shadow: 1px 1px 2px $black;
+                margin-bottom: 0;
             }
             .card-text {
                 font-weight: 500;
                 color: $white;
                 line-height: 1.2;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: $medium) {
-    .card {
-        .card-body {
-            .card-content {
-                font-size: $body-font-size;
             }
         }
     }

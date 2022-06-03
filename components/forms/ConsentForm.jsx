@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-export default function FunctionalExamForm() {
+const FunctionalExamForm = () => {
 
     function onSubmit(token) {
         document.getElementById("consentForm").submit();
@@ -59,3 +59,5 @@ export default function FunctionalExamForm() {
         </form >
     );
 }
+
+export default ConsentForm;

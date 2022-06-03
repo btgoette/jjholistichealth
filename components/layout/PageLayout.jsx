@@ -1,17 +1,15 @@
-import Navbar from 'components/layout/Navbar.jsx'
-import Footer from 'components/layout/Footer'
+import { useState } from "react";
+import Footer from "components/layout/Footer";
 
+const PageLayout = ({ children }) => {
+  const [isJJKids, setJJKids] = useState(false);
 
-export default function PageLayout({ children }) {
+  return (
+    <>
+      <main className="page-wrapper">{children}</main>
+      <Footer />
+    </>
+  );
+};
 
-    return (
-
-        <>
-            <Navbar />
-            <main className="page-wrapper">
-                {children}
-            </main>
-            <Footer />
-        </>
-    )
-}
+export default PageLayout;

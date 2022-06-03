@@ -4,7 +4,7 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function TestimonialHero(hero) {
+const TestimonialHero = (hero) => {
   return (
     <Container fluid className="testimonials-section">
       <Container>
@@ -36,3 +36,5 @@ export default function TestimonialHero(hero) {
     </Container>
   )
 }
+
+export default TestimonialHero;

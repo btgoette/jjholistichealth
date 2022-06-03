@@ -5,6 +5,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Head from 'components/common/Head'
 import Breadcrumbs from 'components/common/Breadcrumbs'
 import EndocrineSteamIntakeForm from 'components/forms/EndocrineSteamIntakeForm'
+import Main from "components/layout/Main";
+import JJNav from "components/layout/JJNav.jsx";
+import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import styles from 'scss/pages/forms.module.scss'
@@ -15,6 +18,7 @@ export default function EndocrineSteamIntake() {
 
     return (
 <div className={page.slug}>
+      <JJNav/>
       <Head {...page} />
       <Breadcrumbs {...page} />
       <Container>

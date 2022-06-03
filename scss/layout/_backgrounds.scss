@@ -25,6 +25,27 @@ body {
     background-color: $transparent-white;
 }
 
+.brown-swirl,
+.green-swirl {
+    width: 100%;
+    min-height: 600px;
+    position: absolute;
+    z-index: -1;
+}
+
+.background-position {
+    min-height: 1200px;
+    position: relative;
+}
+
+.green-swirl {
+    top: 0;
+}
+
+.brown-swirl {
+    bottom: 0;
+}
+
 /* Background Images */
 
 .bg-aromatherapy {
@@ -64,11 +85,9 @@ body {
 }
 
 .bg-fern {
-    background-image: url("/images/backgrounds/mobile/fern.webp");
-    background-position: $background-center;
+    background-image: url("/images/backgrounds/background-spices.webp");
+    background-position: center right;
     background-size: $background-cover;
-    background-color: $transparent-black;
-    background-blend-mode: $background-overlay;
     color: $white;
 }
 
@@ -315,119 +334,173 @@ body {
     color: $white;
 }
 
-.hero-beans {
-    background-image: url("/images/backgrounds/mobile/hero-beans.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
+.hero {
+    background-color: $white;
+    background-image: url("/images/backgrounds/hero-background-mobile.webp");
+    background-size: cover;
+    background-position: left bottom;
+    min-height: 464px;
 }
 
-.hero-carrots-1 {
-    background-image: url("/images/backgrounds/mobile/hero-carrots-1.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
+.hero-kids {
+    background-color: $jungle-blue;
+    background-image: url("/images/backgrounds/kids-hero.webp");
+    background-size: cover;
+    background-position: center center;
+    min-height: 464px;
+}
+.jj-nav {
+    &.navbar {
+        background: $nav-background-color !important;
+    }
 }
 
-.hero-carrots-2 {
-    background-image: url("/images/backgrounds/mobile/hero-carrots-2.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
+.jj-kids-nav {
+    &.navbar {
+        background-color: $nav-kids-background-color !important;
+        .btn.btn-primary {
+            background-color: transparent;
+            background-image: url("/images/backgrounds/leaf-btn.webp");
+            background-size: contain;
+            border-radius: 0;
+            border-color: transparent;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            &:hover {
+                transform: rotate(10deg);
+            }
+        }
+    }
 }
 
-.hero-coffee {
-    background-image: url("/images/backgrounds/mobile/hero-coffee.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
+.brown-swirl-background {
+    background-image: url("/images/backgrounds/brown-swirl-background.webp");
+    background-position: bottom left;
+    background-repeat: no-repeat;
 }
 
-.hero-eggs-1 {
-    background-image: url("/images/backgrounds/mobile/hero-eggs-1.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
+.green-swirl-background {
+    background-image: url("/images/backgrounds/green-swirl-background.webp");
+    background-position: top right;
+    background-repeat: no-repeat;
 }
 
-.hero-eggs-2 {
-    background-image: url("/images/backgrounds/mobile/hero-eggs-2.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-beans {
+//     background-image: url("/images/backgrounds/mobile/hero-beans.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-fruit {
-    background-image: url("/images/backgrounds/mobile/hero-fruit.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-carrots-1 {
+//     background-image: url("/images/backgrounds/mobile/hero-carrots-1.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-herbs-1 {
-    background-image: url("/images/backgrounds/mobile/hero-herbs-1.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-carrots-2 {
+//     background-image: url("/images/backgrounds/mobile/hero-carrots-2.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-herbs-2 {
-    background-image: url("/images/backgrounds/mobile/hero-herbs-2.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-coffee {
+//     background-image: url("/images/backgrounds/mobile/hero-coffee.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-herbs-3 {
-    background-image: url("/images/backgrounds/mobile/hero-herbs-3.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-eggs-1 {
+//     background-image: url("/images/backgrounds/mobile/hero-eggs-1.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-herbs-4 {
-    background-image: url("/images/backgrounds/mobile/hero-herbs-4.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-eggs-2 {
+//     background-image: url("/images/backgrounds/mobile/hero-eggs-2.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-lemons {
-    background-image: url("/images/backgrounds/mobile/hero-lemons.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-fruit {
+//     background-image: url("/images/backgrounds/mobile/hero-fruit.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-limes {
-    background-image: url("/images/backgrounds/mobile/hero-lime.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-herbs-1 {
+//     background-image: url("/images/backgrounds/mobile/hero-herbs-1.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-spices {
-    background-image: url("/images/backgrounds/mobile/hero-spices.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-herbs-2 {
+//     background-image: url("/images/backgrounds/mobile/hero-herbs-2.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-tomatoes {
-    background-image: url("/images/backgrounds/mobile/hero-tomatoes.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-herbs-3 {
+//     background-image: url("/images/backgrounds/mobile/hero-herbs-3.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-vegetables-1 {
-    background-image: url("/images/backgrounds/mobile/hero-vegetables-1.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-herbs-4 {
+//     background-image: url("/images/backgrounds/mobile/hero-herbs-4.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-vegetables-2 {
-    background-image: url("/images/backgrounds/mobile/hero-vegetables-2.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-lemons {
+//     background-image: url("/images/backgrounds/mobile/hero-lemons.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-vegetables-3 {
-    background-image: url("/images/backgrounds/mobile/hero-vegetables-3.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-limes {
+//     background-image: url("/images/backgrounds/mobile/hero-lime.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
-.hero-vegetables-4 {
-    background-image: url("/images/backgrounds/mobile/hero-vegetables-4.webp");
-    background-position: $background-top-right;
-    background-size: $background-cover;
-}
+// .hero-spices {
+//     background-image: url("/images/backgrounds/mobile/hero-spices.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
+
+// .hero-tomatoes {
+//     background-image: url("/images/backgrounds/mobile/hero-tomatoes.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
+
+// .hero-vegetables-1 {
+//     background-image: url("/images/backgrounds/mobile/hero-vegetables-1.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
+
+// .hero-vegetables-2 {
+//     background-image: url("/images/backgrounds/mobile/hero-vegetables-2.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
+
+// .hero-vegetables-3 {
+//     background-image: url("/images/backgrounds/mobile/hero-vegetables-3.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
+
+// .hero-vegetables-4 {
+//     background-image: url("/images/backgrounds/mobile/hero-vegetables-4.webp");
+//     background-position: $background-top-right;
+//     background-size: $background-cover;
+// }
 
 .thanksgiving {
     background-image: url("/images/backgrounds/desktop/autumn.webp");
@@ -438,12 +511,12 @@ body {
 }
 
 .offcanvas-body {
-    background-image: url("/images/backgrounds/mobile/jj.jpg");
+    background-image: url("/images/backgrounds/mobile/jj.webp");
     background-position: bottom center;
     background-size: cover;
 }
 
-@media only screen and (min-width: $medium) {
+@media only screen and (min-width: $small) {
     /* Background Images */
     .bg-aromatherapy {
         background-image: url("/images/backgrounds/desktop/aromatherapy.webp");
@@ -459,10 +532,6 @@ body {
 
     .bg-eat {
         background-image: url("/images/backgrounds/desktop/eat.webp");
-    }
-
-    .bg-fern {
-        background-image: url("/images/backgrounds/desktop/fern.webp");
     }
 
     .bg-green-herbs {
@@ -572,81 +641,129 @@ body {
         background-image: url("/images/backgrounds/desktop/vitamin-c.webp");
     }
 
-    .hero-beans {
-        background-image: url("/images/backgrounds/desktop/hero-beans.webp");
+    .hero {
+        background-image: url("/images/backgrounds/hero-background-tablet.webp");
+        min-height: 500px;
     }
 
-    .hero-carrots-1 {
-        background-image: url("/images/backgrounds/desktop/hero-carrots-1.webp");
+    .hero-kids {
+        background-image: url("/images/backgrounds/kids-hero.webp");
+        min-height: 500px;
     }
 
-    .hero-carrots-2 {
-        background-image: url("/images/backgrounds/desktop/hero-carrots-2.webp");
+    .brown-swirl-background {
+        background-image: url("/images/backgrounds/brown-swirl-background-small.webp");
     }
 
-    .hero-coffee {
-        background-image: url("/images/backgrounds/desktop/hero-coffee.webp");
+    .green-swirl-background {
+        background-image: url("/images/backgrounds/green-swirl-background-small.webp");
     }
 
-    .hero-eggs-1 {
-        background-image: url("/images/backgrounds/desktop/hero-eggs-1.webp");
+    // .hero-beans {
+    //     background-image: url("/images/backgrounds/desktop/hero-beans.webp");
+    // }
+
+    // .hero-carrots-1 {
+    //     background-image: url("/images/backgrounds/desktop/hero-carrots-1.webp");
+    // }
+
+    // .hero-carrots-2 {
+    //     background-image: url("/images/backgrounds/desktop/hero-carrots-2.webp");
+    // }
+
+    // .hero-coffee {
+    //     background-image: url("/images/backgrounds/desktop/hero-coffee.webp");
+    // }
+
+    // .hero-eggs-1 {
+    //     background-image: url("/images/backgrounds/desktop/hero-eggs-1.webp");
+    // }
+
+    // .hero-eggs-2 {
+    //     background-image: url("/images/backgrounds/desktop/hero-eggs-2.webp");
+    // }
+
+    // .hero-fruit {
+    //     background-image: url("/images/backgrounds/desktop/hero-fruit.webp");
+    // }
+
+    // .hero-herbs-1 {
+    //     background-image: url("/images/backgrounds/desktop/hero-herbs-1.webp");
+    //     padding-top: 2rem;
+    // }
+
+    // .hero-herbs-2 {
+    //     background-image: url("/images/backgrounds/desktop/hero-herbs-2.webp");
+    // }
+
+    // .hero-herbs-3 {
+    //     background-image: url("/images/backgrounds/desktop/hero-herbs-3.webp");
+    // }
+
+    // .hero-herbs-4 {
+    //     background-image: url("/images/backgrounds/desktop/hero-herbs-4.webp");
+    // }
+
+    // .hero-lemons {
+    //     background-image: url("/images/backgrounds/desktop/hero-lemons.webp");
+    // }
+
+    // .hero-limes {
+    //     background-image: url("/images/backgrounds/desktop/hero-lime.webp");
+    // }
+
+    // .hero-spices {
+    //     background-image: url("/images/backgrounds/desktop/hero-spices.webp");
+    // }
+
+    // .hero-tomatoes {
+    //     background-image: url("/images/backgrounds/desktop/hero-tomatoes.webp");
+    // }
+
+    // .hero-vegetables-1 {
+    //     background-image: url("/images/backgrounds/desktop/hero-vegetables-1.webp");
+    // }
+
+    // .hero-vegetables-2 {
+    //     background-image: url("/images/backgrounds/desktop/hero-vegetables-2.webp");
+    // }
+
+    // .hero-vegetables-3 {
+    //     background-image: url("/images/backgrounds/desktop/hero-vegetables-3.webp");
+    // }
+
+    // .hero-vegetables-4 {
+    //     background-image: url("/images/backgrounds/desktop/hero-vegetables-4.webp");
+    // }
+}
+
+@media only screen and (min-width: $medium) {
+    .brown-swirl-background {
+        background-image: url("/images/backgrounds/brown-swirl-background-medium.webp");
     }
 
-    .hero-eggs-2 {
-        background-image: url("/images/backgrounds/desktop/hero-eggs-2.webp");
+    .green-swirl-background {
+        background-image: url("/images/backgrounds/green-swirl-background-medium.webp");
+    }
+}
+
+@media only screen and (min-width: $large) {
+    .hero {
+        background-image: url("/images/backgrounds/hero-background-desktop.webp");
+        min-height: 700px;
     }
 
-    .hero-fruit {
-        background-image: url("/images/backgrounds/desktop/hero-fruit.webp");
+    .hero-kids {
+        background-image: url("/images/backgrounds/kids-hero.webp");
+        min-height: 900px;
     }
 
-    .hero-herbs-1 {
-        background-image: url("/images/backgrounds/desktop/hero-herbs-1.webp");
-        padding-top: 2rem;
+    .brown-swirl-background {
+        background-image: url("/images/backgrounds/brown-swirl-background-large.webp");
     }
 
-    .hero-herbs-2 {
-        background-image: url("/images/backgrounds/desktop/hero-herbs-2.webp");
-    }
-
-    .hero-herbs-3 {
-        background-image: url("/images/backgrounds/desktop/hero-herbs-3.webp");
-    }
-
-    .hero-herbs-4 {
-        background-image: url("/images/backgrounds/desktop/hero-herbs-4.webp");
-    }
-
-    .hero-lemons {
-        background-image: url("/images/backgrounds/desktop/hero-lemons.webp");
-    }
-
-    .hero-limes {
-        background-image: url("/images/backgrounds/desktop/hero-lime.webp");
-    }
-
-    .hero-spices {
-        background-image: url("/images/backgrounds/desktop/hero-spices.webp");
-    }
-
-    .hero-tomatoes {
-        background-image: url("/images/backgrounds/desktop/hero-tomatoes.webp");
-    }
-
-    .hero-vegetables-1 {
-        background-image: url("/images/backgrounds/desktop/hero-vegetables-1.webp");
-    }
-
-    .hero-vegetables-2 {
-        background-image: url("/images/backgrounds/desktop/hero-vegetables-2.webp");
-    }
-
-    .hero-vegetables-3 {
-        background-image: url("/images/backgrounds/desktop/hero-vegetables-3.webp");
-    }
-
-    .hero-vegetables-4 {
-        background-image: url("/images/backgrounds/desktop/hero-vegetables-4.webp");
+    .green-swirl-background {
+        background-image: url("/images/backgrounds/green-swirl-background-large.webp");
     }
 }
 

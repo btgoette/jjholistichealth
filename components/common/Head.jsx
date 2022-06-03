@@ -3,7 +3,7 @@ import Head from 'next/head'
 // import GoogleAnalytics from 'next-simple-google-analytics'
 
 
-export default function CustomHead(head) {
+const CustomHead = (head) => {
   return (
     <Head>
       <title>{head.title}</title>
@@ -27,3 +27,5 @@ export default function CustomHead(head) {
     </Head>
   )
 }
+
+export default CustomHead;

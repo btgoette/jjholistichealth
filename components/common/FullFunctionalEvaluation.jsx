@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-export default function FullFunctionEvaluation(block) {
+const FullFunctionalEvaluation = (block) => {
 
     return (
             <section>
@@ -50,3 +50,5 @@ export default function FullFunctionEvaluation(block) {
             </section>
     )
 }
+
+export default FullFunctionalEvaluation;

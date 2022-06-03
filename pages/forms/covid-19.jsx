@@ -5,6 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import Covid19Form from "components/forms/Covid19Form";
+import Main from "components/layout/Main";
+import JJNav from "components/layout/JJNav.jsx";
+import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Forms/covid19.content";
@@ -12,6 +15,7 @@ import page from "public/content/en_US/Page/Forms/covid19.content";
 export default function Covid19() {
   return (
     <div className={page.slug}>
+    <JJNav/>
     <Head {...page} />
     <Breadcrumbs {...page} />
     <Container>

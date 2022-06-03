@@ -1,8 +1,7 @@
 // React Components
 import { Breadcrumb, Container, Row } from 'react-bootstrap'
 
-
-export default function breadcrumbs(page) {
+const Breadcrumbs = (page) => {
     return (
         <>
         <Container>
@@ -23,3 +22,5 @@ export default function breadcrumbs(page) {
 
     )
 }
+
+export default Breadcrumbs;

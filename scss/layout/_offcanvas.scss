@@ -78,3 +78,87 @@
         }
     }
 }
+
+.jj-kids-nav {
+    .offcanvas {
+        width: 80%;
+        max-width: 350px;
+    
+        .offcanvas-header {
+            background-color: $jungle-blue !important;
+            padding: 1.5rem 1rem;
+        
+            .offcanvas-title {
+                color: $offcanvas-header-font-color;
+                font-family: $header-font-family;
+                margin: 0 0;
+            }
+    
+            .btn-close {
+                color: $white !important;
+            }
+        }
+    
+        .offcanvas-body {
+            .nav-item {
+                .nav-link {
+                    color: $nav-kids-font-color;
+                    font-family: $nav-font-family;
+                    font-size: $nav-font-size;
+                    font-style: $nav-font-style;
+                    font-weight: $nav-font-weight;
+                    text-transform: $nav-text-transform;
+    
+                    &:hover {
+                        color: $nav-font-hover-color;
+                        opacity: 1;
+                    }
+                }
+    
+                .btn {
+                    margin-left: 1rem;
+                    .nav-link {
+                        padding: 0 0;
+                        color: $white;
+                    }
+                }
+    
+                .dropdown-menu {
+                    border: none;
+                    .dropdown-item {
+                        white-space: normal;
+                        font-size: $nav-dropdown-font-size;
+                        font-family: $nav-font-family;
+                        font-weight: $nav-font-weight;
+                        color: $nav-font-color;
+                        &:hover {
+                            background-color: $nav-dropdown-item-background-hover-color;
+                            color: $nav-dropdown-item-hover-color;
+                        }
+                    }
+                }
+            }
+        }
+    
+        @media only screen and (min-width: $x-large) {
+            width: 100%;
+            max-width: unset;
+            &.offcanvas-end {
+                width: unset;
+                max-width: unset;
+                align-items: center;
+            }
+    
+            .offcanvas-body {
+                margin-left: auto;
+                .nav-item {
+                    .dropdown-menu {
+                        min-width: 10rem;
+                        border: 1px solid rgba(0, 0, 0, 0.15);
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -3,17 +3,25 @@
 // Page Components
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
+import Main from "components/layout/Main";
 import Team from "components/common/Team";
+import JJNav from "components/layout/JJNav.jsx";
+import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/About/team.content";
 
-export default function JJTeam() {
+const JJTeam = () => {
   return (
     <div className={page.slug}>
+    <JJNav/>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Team {...page.block} />
+      <Main>
+        <Team {...page.team} />
+      </Main>
     </div>
-  )
-}
+  );
+};
+
+export default JJTeam;

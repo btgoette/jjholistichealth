@@ -1,21 +1,15 @@
 /* Home Conditions Component */
 
 //  React Components
-import { Card, Container, Row, Col } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import Link from "next/link";
 
-// Page Components
-import SectionHead from "components/common/SectionHead";
-
-export default function ConditionsHome(block) {
+const ConditionsHome = (block) => {
   return (
     <>
-      <SectionHead {...block} />
-      <section className="bg-light-green">
-        <Container>
-          <Row>
-            {block.condition.map(({ src, alt, name }, i) => (
-              <Col key={i} md={6} lg={4} className="card-block">
+        <Container className="home-conditions-grid">
+          {block.condition.map(({ src, alt, name }, i) => (
+              <div key={i} className="card-block">
                 <Card block-aos="fade-up">
                   <Card.Body>
                     <Link href="/conditions" passHref>
@@ -23,19 +17,16 @@ export default function ConditionsHome(block) {
                         <Card.Img className="text-center" src={src} alt={alt} />
                         <div className="card-content">
                           <Card.Title>{name}</Card.Title>
-                          {/* <Card.Text>
-                                                {block}
-                                            </Card.Text> */}
                         </div>
                       </a>
                     </Link>
                   </Card.Body>
                 </Card>
-              </Col>
+              </div>
             ))}
-          </Row>
         </Container>
-      </section>
     </>
   );
 }
+
+export default ConditionsHome;
