@@ -1,14 +1,6 @@
 {
     "section1": {
-        "background": "holistic-counseling bg-fern",
-        "title": "Holistic Counseling",
-        "block1": {
-            "h2": "Holistic Counseling",
-            "p": {
-                "strong": "15 Minute Free Video Chat",
-                "li": "On this phone call, my goal is to get to know you and your health concerns in more detail in order to best support you on your health journey. During the call, I will explain how I go about my practice to make a unique and completely individualized protocol for you."
-            }
-        }
+        "background": "newsletter-section"
     },
     "footer": {
         "background": "footer bg-light-green",

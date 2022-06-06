@@ -6,7 +6,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 const FunctionalEvaluation = (block) => {
   return (
-    <section>
+    <section className="pt-0">
       <Container>
         <Row>
           <Col lg={6}>

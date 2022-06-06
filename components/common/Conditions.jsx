@@ -11,29 +11,28 @@ import SectionHead from "components/common/SectionHead";
 const ConditionsIndex = (block) => {
   return (
     <>
-      <SectionHead {...block} />
-      <section className="bg-light-green">
-        <Container>
-          <Row>
-            {block.condition.map(({ src, alt, name, bullet }, i) => (
-              <Col key={i} md={6} lg={4} data-aos-delay="0" data-aos="fade-up">
-                <figure className="round">
-                  <LazyLoadImage src={src} alt={alt} />
-                </figure>
-                <h3 className="text-center">{name}</h3>
+      <Container className="conditions-grid">
+          {block.condition.map(({ src, alt, name, bullet }, i) => (
+            <div key={i} data-aos-delay="0" data-aos="fade-up">
+              <figure className="round">
+                <LazyLoadImage src={src} alt={alt} />
+              </figure>
+              <h3 className="text-center">{name}</h3>
+              <ul className="fa-ul">
                 {bullet.map(({ li }, i) => (
-                  <p className="h4" key={i}>
-                    <FontAwesomeIcon icon={["fas", "mortar-pestle"]} />
+                  <li key={i}>
+                    <span className="fa-li">
+                      <FontAwesomeIcon icon={["fab", "envira"]} />
+                    </span>
                     {li}
-                  </p>
+                  </li>
                 ))}
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
+              </ul>
+            </div>
+          ))}
+      </Container>
     </>
   );
-}
+};
 
 export default ConditionsIndex;

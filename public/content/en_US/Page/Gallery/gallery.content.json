@@ -2,7 +2,7 @@
     "title": "Gallery - JJ Holistic Nutritional Therapy",
     "description": "Welcome to J&J Holistic Nutritional Therapy. We invite you to take a virtual tour of our clinic. Scroll through our photo gallery for a wide-ranging view of the comfort and care we offer.",
     "slug": "gallery",
-    "href": "https://jjholistichealth.com/about/gallery",
+    "href": "https://jjholistichealth.com/gallery",
     "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
@@ -11,10 +11,6 @@
         {
             "page": "Home",
             "link": "/"
-        },
-        {
-            "page": "About",
-            "link": "/about/"
         }
     ],
     "finalcrumb": "Photo Gallery",
@@ -42,26 +38,6 @@
                 "thumbnail": "/images/pages/about/gallery/5-thumb.jpg"
             },
             {
-                "original": "/images/pages/about/gallery/6.jpg",
-                "thumbnail": "/images/pages/about/gallery/6-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/7.jpg",
-                "thumbnail": "/images/pages/about/gallery/7-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/8.jpg",
-                "thumbnail": "/images/pages/about/gallery/8-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/9.jpg",
-                "thumbnail": "/images/pages/about/gallery/9-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/10.jpg",
-                "thumbnail": "/images/pages/about/gallery/10-thumb.jpg"
-            },
-            {
                 "original": "/images/pages/about/gallery/11.jpg",
                 "thumbnail": "/images/pages/about/gallery/11-thumb.jpg"
             },
@@ -72,26 +48,6 @@
             {
                 "original": "/images/pages/about/gallery/13.jpg",
                 "thumbnail": "/images/pages/about/gallery/13-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/14.jpg",
-                "thumbnail": "/images/pages/about/gallery/14-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/15.jpg",
-                "thumbnail": "/images/pages/about/gallery/15-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/16.jpg",
-                "thumbnail": "/images/pages/about/gallery/16-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/17.jpg",
-                "thumbnail": "/images/pages/about/gallery/17-thumb.jpg"
-            },
-            {
-                "original": "/images/pages/about/gallery/18.jpg",
-                "thumbnail": "/images/pages/about/gallery/18-thumb.jpg"
             },
             {
                 "original": "/images/pages/about/gallery/19.jpg",

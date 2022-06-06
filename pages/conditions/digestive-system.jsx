@@ -14,10 +14,12 @@ import page from "public/content/en_US/Page/Conditions/digestivesystem.content";
 export default function HealthConditions() {
   return (
     <div className={page.slug}>
-    <JJNav/>
+      <JJNav />
       <Head {...page} />
       <Hero {...page.hero} />
-      <DigestiveSystem {...page.block.digestiveSystem}/>
+      <Main>
+        <DigestiveSystem {...page.digestiveSystem} />
+      </Main>
     </div>
   );
 }
