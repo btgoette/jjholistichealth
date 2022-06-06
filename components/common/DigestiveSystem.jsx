@@ -9,7 +9,7 @@ import BookNowCTA from 'components/common/BookNowCTA'
 
 const FunctionalEvaluation = (block) => {
     return (
-        <Container fluid id="digestion">
+        <section id="digestion">
             <Container>
                 <Row>
                     <Col lg={6}>
@@ -51,7 +51,7 @@ const FunctionalEvaluation = (block) => {
                     </Col>
                 </Row>
             </Container>
-        </Container>
+        </section>
     )
 }
 

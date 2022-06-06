@@ -53,7 +53,7 @@ export default function JJKidsNav() {
                   <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/">J&amp;J Holisitic Nutritional Therapy</Nav.Link>
+                  <Nav.Link href="/">J&amp;J Holistic</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="About" id="basic-nav-dropdown">
@@ -73,7 +73,7 @@ export default function JJKidsNav() {
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/gallery/">Photo Gallery</Nav.Link>
+                  <Nav.Link href="/kids/gallery/">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="/services/">Services</Nav.Link>

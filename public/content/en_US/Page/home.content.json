@@ -18,7 +18,7 @@
     },
     "nutritionalMedicine": {
         "slug": "home-nutritional-medicine",
-        "grid": "grid-500-1fr",
+        "grid": "grid-1fr-500",
         "blocks": [
             {
                 "block": {

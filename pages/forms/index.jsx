@@ -19,6 +19,7 @@ export default function Contact() {
     <div className={page.slug}>
     <JJNav/>
       <Head {...page} />
+      <Main>
       <Breadcrumbs {...page} />
       <Container>
         <Row className="custom-row">
@@ -42,6 +43,7 @@ export default function Contact() {
           </Col>
         </Row>
       </Container>
+      </Main>
     </div>
   );
 }

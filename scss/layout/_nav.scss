@@ -7,6 +7,7 @@
     &.navbar {
         width: 100%;
         padding: $nav-padding;
+        background-color: $nav-background-color;
 
         .logo {
             width: 100%;
@@ -92,6 +93,7 @@
     &.navbar {
         width: 100%;
         padding: $nav-padding;
+        background-color: $nav-kids-background-color !important;
 
         .logo {
             width: 100%;
@@ -100,6 +102,22 @@
 
         .navbar-nav {
             align-items:center;
+        }
+
+        .btn.btn-primary {
+            background-color: transparent;
+            background-image: url("/images/backgrounds/leaf-btn.webp");
+            background-size: contain;
+            border-radius: 0;
+            border-color: transparent;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            &:hover {
+                transform: rotate(10deg);
+            }
         }
     }
 

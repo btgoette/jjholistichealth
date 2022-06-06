@@ -8,19 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "immune-system",
     "hero": {
-        "slug": "hero hero-lemons",
-        "column": [
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "0"
-            },
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "1"
-            }
-        ],
+        "slug": "hero-immune-system",
         "title": "Immune System",
         "text": [
             {
