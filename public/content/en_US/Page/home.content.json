@@ -8,7 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Home",
     "hero": {
-        "slug": "hero-home",
+        "class": "hero",
         "title": "Wellness Made For You!",
         "text": [
             {
@@ -24,7 +24,7 @@
                 "block": {
                     "row": "grid-row-1-2",
                     "column": "grid-col-1-2",
-                    "title": "Nutrtional Medicine",
+                    "title": "Nutritional Medicine",
                     "text": [
                         {
                             "p": " Nutritional medicine is founded on the fact that the body requires nutrients (including essential micronutrients) to function properly. These nutrients are mainly responsible for supporting the vast number of critical biochemical processes that keep us alive and healthy."
@@ -41,7 +41,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "fruit",
-                        "src": "/images/jj/jj-fruit.webp",
+                        "src": "/images/pages/home/jj-fruit.webp",
                         "alt": "fruit"
                     }
                 }

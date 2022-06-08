@@ -8,7 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Health Conditions",
     "hero": {
-        "slug": "hero-conditions",
+        "class": "hero",
         "title": "Health Conditions",
         "text": [
             {

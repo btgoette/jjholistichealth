@@ -3,7 +3,7 @@
 // Page Components
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
-import Section from "components/common/Section";
+import Section from "components/layout/Section";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 import JJKidsNav from "components/layout/JJKidsNav.jsx";
@@ -17,15 +17,16 @@ export default function ImmuneSystem() {
     <JJNav/>
       <Head {...page} />
       <Hero {...page.hero} />
-      <Section {...page.block.avoidSugar} />
-      <Section {...page.block.avoidHydrogenatedOils} />
-      <Section {...page.block.diet} />
-      <Section {...page.block.drinkWater} />
-      <Section {...page.block.getEnoughRest} />
-      <Section {...page.block.exercise} />
-      <Section {...page.block.stressFactors} />
-      <Section {...page.block.chapmanReflexes} />
-      <Section {...page.block.immuneSupport} />
+      <Main>
+      <Section {...page.stressFactors} />
+      <Section {...page.chapmanReflexes} />
+      <Section {...page.avoidSugar} />
+      <Section {...page.avoidHydrogenatedOils} />
+      <Section {...page.diet} />
+      <Section {...page.exercise} />
+      <Section {...page.drinkWater} />
+      <Section {...page.getEnoughRest} />
+      </Main>
     </div>
   );
 }

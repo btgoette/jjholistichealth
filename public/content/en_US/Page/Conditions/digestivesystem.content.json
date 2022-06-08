@@ -8,7 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationlabel": "Digestive System",
     "hero": {
-        "slug": "hero-digestive-system",
+        "class": "hero",
         "title": "Digestive System",
         "text": [
             {

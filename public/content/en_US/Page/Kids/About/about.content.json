@@ -1,0 +1,148 @@
+{
+    "title": "About J&J Kids - JJ Holistic Nutritional Therapy",
+    "description": "At Johnson and Johnson Holistic Nutritional Kids, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. At J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that.",
+    "slug": "about",
+    "href": "https://jjholistichealth.com/about/",
+    "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "About J&J",
+    "hero": {
+        "class": "hero-kids",
+        "title": "About J&J Kids",
+        "text": [
+            {
+                "p": "At Johnson and Johnson Holistic Nutritional Kids, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. This summarizes the traditional approach to medicine at J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that."
+            }
+        ]
+    },
+    "naturalCare": {
+        "slug": "natural-care",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/kids/about/jj-client-journey.webp",
+                        "alt": "Client Journey"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "We Will Take Care Of Your Child",
+                    "text": [
+                        {
+                            "p": "At J&J Holistic Nutritional Kids, we use a holistic approach in all aspects. This means we consider your child as a whole and as a sum of all the interconnected components that make an individual unique."
+                        },
+                        {
+                            "p": "When assessing health problems, we consider all other possible influencing factors to the patient, including their physical, mental, emotional, and spiritual well-being. We use our vast knowledge of food and nutrients to devise the most appropriate course of action to bring your child's body back to its best state."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    
+    "mission": {
+        "slug": "mission pt-0",
+        "grid": "grid-1fr-500",
+        "header": "Our Mission",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/kids/about/jj-kids-hugging.webp",
+                        "alt": "A little girl hugging a little boy"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "text": [
+                        {
+                            "p": "At J&J Holistic Nutritional Kids, our main objective of holistic alternative medicine is to maintain good health by using the holistic approach as it investigates the whole person in revealing and correcting the profound root causes for ill-being or disease. Holistic Alternative medicine relies on activating the body’s inherent healing capacities, supporting them with natural substances or treatments."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "vision": {
+        "slug": "vision pt-0",
+        "grid": "grid-500-1fr",
+        "header": "Our Vision",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/kids/about/jj-kids-mask.webp",
+                        "alt": "A little girl in a mask"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "text": [
+                        {
+                            "p": "We believe that health and wellness are essential to a child’s well-being. We are here to inspire, educate, and empower your children. We focus on teaching the importance of good nutrition and prevention of disease as well as offering a full range of services to reach optimal health. We know that optimal health is more than the absence of disease. It involves living the sort of lifestyle that promotes and embraces a healthy lifestyle."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "coreValues": {
+        "slug": "values pt-0",
+        "grid": "grid",
+        "header": "Our Core Values",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "list": [
+                        {
+                            "li": "Communication and Transparency"
+                        },
+                        {
+                            "li": "Honoring Individuality"
+                        },
+                        {
+                            "li": "Positivity"
+                        },
+                        {
+                            "li": "Excellence"
+                        }
+                    ]
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/kids/about/jj-kids-toddler.webp",
+                        "alt": "A toddler playing with toys"
+                    }
+                }
+            }
+        ]
+    }
+}

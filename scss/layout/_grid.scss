@@ -25,6 +25,7 @@ p {
     padding: 2rem 0;
 }
 
+
 .custom-row {
     align-items: center;
     margin-bottom: 4rem;
@@ -36,11 +37,11 @@ p {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
-    gap: 3rem;
+    gap: 2rem 3rem;
     align-items: center;
 }
 
-.grid-1fr {
+.grid-1fr-1fr {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr;
@@ -49,17 +50,51 @@ p {
     justify-items: center;
 }
 
+.conditions-grid,
+.home-conditions-grid,
+.kids-conditions-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    align-items: center;
+}
 
-// @media only screen and (min-width: $small) {
-//     .grid-1fr-500 {
-//     }
-// }
-// @media only screen and (min-width: $medium) {
-//     .grid-1fr-500 {
-//     }
-// }
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+@media only screen and (min-width: $small) {
+    .conditions-grid,
+    .home-conditions-grid,
+    .kids-conditions-grid {
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (min-width: $medium) {
+    .conditions-grid,
+    .home-conditions-grid {
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto auto auto;
+
+        div:nth-last-child(1) {
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+    }
+}
 
 @media only screen and (min-width: $large) {
+
+    .grid-1fr-1fr {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+    }
 
     .grid-1fr-500 {
         grid-template-rows: auto;
@@ -105,6 +140,16 @@ p {
         grid-row-start: 2;
         grid-row-end: 3;
     }
+
+    .grid-row-2-4 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+    .grid-row-2-5 {
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
     
     .grid-row-3-4 {
         grid-row-start: 3;
@@ -118,42 +163,9 @@ p {
     .custom-row {
         margin-bottom: 6rem;
     }
-}
 
-
-// Conditions
-
-.conditions-grid {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-columns: auto;
-    align-items: center;
-}
-
-@media only screen and (min-width: $small) {
-    .conditions-grid {
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-columns: auto auto;
-    }
-}
-
-@media only screen and (min-width: $medium) {
-    .conditions-grid {
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-columns: auto auto auto;
-
-        div:nth-last-child(1) {
-            grid-row-start: 4;
-            grid-row-end: 5;
-            grid-column-start: 2;
-            grid-column-end: 3;
-        }
-    }
-}
-
-@media only screen and (min-width: $large) {
-
-    .conditions-grid {
+    .conditions-grid,
+    .home-conditions-grid {
         grid-template-rows: auto auto auto auto;
         grid-template-columns: auto auto auto auto;
 
@@ -170,86 +182,13 @@ p {
             grid-column-end: 3;
         }
     }
-}
 
-.home {
-
-    .home-conditions-grid {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-columns: auto;
-        align-items: center;
+    .kids-conditions-grid {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 
-    @media only screen and (min-width: $small) {
-        .home-conditions-grid {
-            grid-template-rows: auto auto auto auto auto;
-            grid-template-columns: auto auto;
-        }
-    }
-
-    @media only screen and (min-width: $medium) {
-        .home-conditions-grid {
-            grid-template-rows: auto auto auto auto auto;
-            grid-template-columns: auto auto auto;
-
-            div:nth-last-child(1) {
-                grid-row-start: 4;
-                grid-row-end: 5;
-                grid-column-start: 2;
-                grid-column-end: 3;
-            }
-        }
-    }
-
-    @media only screen and (min-width: $large) {
-
-        .home-conditions-grid {
-            grid-template-rows: auto auto auto auto;
-            grid-template-columns: auto auto auto auto;
-
-            div:nth-last-child(1) {
-                grid-row-start: 4;
-                grid-row-end: 5;
-                grid-column-start: 3;
-                grid-column-end: 4;
-            }
-            div:nth-last-child(2) {
-                grid-row-start: 4;
-                grid-row-end: 5;
-                grid-column-start: 2;
-                grid-column-end: 3;
-            }
-        }
-    }
-}
-
-.kids {
-    .home-conditions-grid {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-columns: auto;
-        align-items: center;
-    }
-
-    @media only screen and (min-width: $small) {
-        .home-conditions-grid {
-            grid-template-rows: auto auto auto auto auto;
-            grid-template-columns: auto auto;
-        }
-    }
-
-    @media only screen and (min-width: $medium) {
-        .home-conditions-grid {
-            grid-template-rows: auto auto auto auto auto;
-            grid-template-columns: auto auto auto;
-        }
-    }
-
-    @media only screen and (min-width: $large) {
-        .home-conditions-grid {
-            grid-template-rows: auto auto auto auto;
-            grid-template-columns: auto auto auto auto;
-        }
+    .hero-grid{
+        grid-template-columns: 800px 1fr;
     }
 }

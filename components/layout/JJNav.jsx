@@ -111,7 +111,7 @@ export default function JJNav() {
                   <Nav.Link href="/blog">Blog</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/forms">Forms</Nav.Link>
+                  <Nav.Link href="/forms">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>

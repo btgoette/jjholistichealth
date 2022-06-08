@@ -18,51 +18,28 @@
     },
     "weTreatEveryIndividualUniquely": {
         "slug": "we-treat-every-individual-uniquely",
-        "flex": "align-items-center",
-        "boxes": [
+        "grid": "grid-500-1fr",
+        "blocks": [
             {
-                "box": {
-                    "offset": "0",
-                    "span": "5",
-                    "order": "1",
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/services/jj-holistic-nutritional-therapy-clinic.webp",
-                        "alt": "Krystal Johnson and a child"
+                        "src": "/images/pages/services/jj-treat-every-individual-uniquely.webp",
+                        "alt": "We treat every individual uniquely"
                     }
                 }
             },
             {
-                "box": {
-                    "offset": "0",
-                    "span": "7",
-                    "order": "0",
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
                     "title": "We Treat Every Individual Uniquely",
                     "text": [
                         {
                             "p": "Everyone is treated uniquely because it has never been the case that one type of diet worked for everyone. Think about it, we all have different body shapes, different lifestyles, likes, and dislikes. We are all motivated or demotivated by different things. We react to foods very differently, both physically and emotionally."
-                        }
-                    ]
-                }
-            },
-            {
-                "box": {
-                    "offset": "0",
-                    "span": "5",
-                    "order": "2",
-                    "img": {
-                        "class": "rounded",
-                        "src": "/images/pages/services/child-nurse.webp",
-                        "alt": "Laurinda Lea with a child"
-                    }
-                }
-            },
-            {
-                "box": {
-                    "offset": "0",
-                    "span": "7",
-                    "order": "3",
-                    "text": [
+                        },                        
                         {
                             "p": "At J&J Holistic Nutritional Therapy, dealing with people is a calling. Besides learning new and exciting ways on how to improve our patient's health, we get to share the same knowledge with our loved ones. Moreover, it is satisfying to see the progress of a client's journey with their health issues and getting to know and educate clients on healthy eating and nutrition."
                         }
@@ -73,26 +50,24 @@
     },
     "free15MinuteConsultation": {
         "slug": "free-15-minute-consultation pt-0",
-        "flex": "align-items-center",
+        "grid": "grid-1fr-500",
         "header": "Free 15-Minute Consultation",
-        "boxes": [
+        "blocks": [
             {
-                "box": {
-                    "offset": "1",
-                    "span": "3",
-                    "order": "1",
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/services/15-minute-consult-with-ntp-johnson.webp",
+                        "src": "/images/pages/services/jj-15-minute-consultation.webp",
                         "alt": "A doctor on the phone"
                     }
                 }
             },
             {
-                "box": {
-                    "offset": "0",
-                    "span": "7",
-                    "order": "0",
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
                     "text": [
                         {
                             "p": "At J&J Holistic Nutritional Therapy, our mission is to help our esteemed clients achieve their best health in an environment that is understanding, compassionate, and supportive."
@@ -110,26 +85,13 @@
     },
     "initialInterview": {
         "slug": "initial-interview pt-0",
-        "flex": "align-items-center",
+        "grid": "grid-1fr-500",
         "header": "Initial Interview",
-        "boxes": [
+        "blocks": [
             {
-                "box": {
-                    "offset": "0",
-                    "span": "3",
-                    "order": "0",
-                    "img": {
-                        "class": "rounded",
-                        "src": "/images/pages/services/1-hour-interview.webp",
-                        "alt": "A doctor video chatting"
-                    }
-                }
-            },
-            {
-                "box": {
-                    "offset": "1",
-                    "span": "8",
-                    "order": "0",
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
                     "text": [
                         {
                             "p": "We will go over your medical or family history, lifestyle, current medications (if there’s any), detailed symptom and, a food journal. Our nutritional consultation is the first essential step to closing the gap by getting to know more about you and whether we can help improve your well-being."
@@ -144,27 +106,13 @@
     },
     "fullFunctionalEvaluation": {
         "slug": "full-functional-evaluation pt-0",
-        "flex": "align-items-center",
         "grid": "grid",
         "header": "Full Functional Evaluation",
-        "boxes": [
+        "blocks": [
             {
-                "box": {
-                    "offset": "1",
-                    "span": "3",
-                    "order": "1",
-                    "img": {
-                        "class": "rounded",
-                        "src": "/images/pages/services/blood-pressure-check.webp",
-                        "alt": "Krystal Johnson taking the blood pressure of a patient"
-                    }
-                }
-            },
-            {
-                "box": {
-                    "offset": "0",
-                    "span": "7",
-                    "order": "0",
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-3",
                     "text": [
                         {
                             "p": "We perform a Full Functional Evaluation to gain as much information from your body as possible on where deficiencies are and where we need to support you first."
@@ -174,12 +122,10 @@
                         }
                     ]
                 }
-            }
-        ],
-        "blocks": [
+            },
             {
                 "block": {
-                    "row": "grid-row-1-2",
+                    "row": "grid-row-2-3",
                     "column": "grid-col-1-2",
                     "title": "Blood Sugar LNT",
                     "list": [
@@ -197,7 +143,7 @@
             },
             {
                 "block": {
-                    "row": "grid-row-2-3",
+                    "row": "grid-row-3-4",
                     "column": "grid-col-1-2",
                     "title": "Digestion LNT",
                     "list": [
@@ -218,7 +164,7 @@
             },
             {
                 "block": {
-                    "row": "grid-row-3-4",
+                    "row": "grid-row-4-5",
                     "column": "grid-col-1-2",
                     "title": "Endocrine LNT",
                     "list": [
@@ -242,8 +188,8 @@
             },
             {
                 "block": {
-                    "row": "grid-row-1-4",
-                    "column": "grid-col-2-3",
+                    "row": "grid-row-2-5",
+                    "column": "grid-col-2-3 align-self-start",
                     "title": "Other Services",
                     "list": [
                         {

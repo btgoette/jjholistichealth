@@ -1,8 +1,10 @@
+// React Components
+import { Container } from "react-bootstrap"
+
 // Custom Components
 import BookNowCTA from "components/common/BookNowCTA";
 
 const Hero = (hero) => {
-
   let hasTitle;
   if (hero.title !== undefined) {
     hasTitle = true;
@@ -14,7 +16,7 @@ const Hero = (hero) => {
     if (hasTitle) {
       return <h1>{hero.title}</h1>;
     }
-  }
+  };
 
   let hasText;
   if (hero.text !== undefined) {
@@ -36,20 +38,18 @@ const Hero = (hero) => {
   };
 
   return (
-    
-      <section className={hero.slug + " hero"}>
-        <div className="hero-container">
-          <div className="hero-block">
-              <div className="hero-content">
-                {renderTitle()}
-                {renderText()}
-                <BookNowCTA />
-              </div>
+    <section className={hero.class}>
+      <Container className="hero-grid">
+        <div className="grid-row-1-2 grid-column-1-2">
+          <div className="hero-content">
+            {renderTitle()}
+            {renderText()}
+            <BookNowCTA />
           </div>
         </div>
-      </section>
-    
+      </Container>
+    </section>
   );
-}
+};
 
 export default Hero;

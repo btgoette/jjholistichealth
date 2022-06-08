@@ -8,7 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Cardiovascular",
     "hero": {
-        "slug": "hero-cardiovascular",
+        "class": "hero",
         "title": "Cardiovascular",
         "text": [
             {
@@ -26,7 +26,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/cardiologist.webp",
+                        "src": "/images/pages/conditions/jj-cardiologist.webp",
                         "alt": "A cardiologist showing his patient a diagram of the heart"
                     }
                 }
@@ -54,7 +54,7 @@
                     "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/chapman-reflex.webp",
+                        "src": "/images/pages/conditions/jj-chapman-reflex.webp",
                         "alt": "A Holistic Practitioner checking a patient's Chapman Reflex"
                     }
                 }
@@ -82,7 +82,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/healthy-fats.webp",
+                        "src": "/images/pages/conditions/jj-healthy-fats.webp",
                         "alt": "An Avocado and a tuna steak"
                     }
                 }
@@ -101,7 +101,7 @@
         ]
     },
     "avoidSugar": {
-        "slug": "avoid-sugar py-0",
+        "slug": "avoid-sugar pt-0",
         "header": "Tips For A Healthier Heart",
         "grid": "grid-1fr-500",
         "blocks": [
@@ -111,7 +111,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/cupcakes.webp",
+                        "src": "/images/pages/conditions/jj-sugar.webp",
                         "alt": "A tray of cupcakes"
                     }
                 }
@@ -134,7 +134,7 @@
         ]
     },
     "avoidHydrogenatedOils": {
-        "slug": "avoid-hydrogenated-oils py-0",
+        "slug": "avoid-hydrogenated-oils pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -143,8 +143,8 @@
                     "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/french-fries.webp",
-                        "alt": "A plate of chili cheese French Fries"
+                        "src": "/images/pages/conditions/jj-fried-foods.webp",
+                        "alt": "A plate of fried foods"
                     }
                 }
             },
@@ -166,7 +166,7 @@
         ]
     },
     "diet": {
-        "slug": "diet py-0",
+        "slug": "diet pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -175,7 +175,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/salad.webp",
+                        "src": "/images/pages/conditions/jj-green-vegetables.webp",
                         "alt": "Ingredients in bowls for a Salad"
                     }
                 }
@@ -195,7 +195,7 @@
         ]
     },
     "exercise": {
-        "slug": "exercise py-0",
+        "slug": "exercise pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -204,7 +204,7 @@
                     "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/cardio/group-exercise.webp",
+                        "src": "/images/pages/conditions/jj-exercise.webp",
                         "alt": "Women doing Group Exercises"
                     }
                 }
@@ -224,7 +224,7 @@
         ]
     },
     "drinkWater": {
-        "slug": "drink-water py-0",
+        "slug": "drink-water pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -233,7 +233,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/immune/middle-age-woman-drinking-water.webp",
+                        "src": "/images/pages/conditions/jj-drink-water.webp",
                         "alt": "A woman drinking a glass of water"
                     }
                 }
@@ -262,8 +262,8 @@
                     "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/conditions/immune/take-enough-rest.webp",
-                        "alt": "A man taking a daytime nap"
+                        "src": "/images/pages/conditions/jj-sleep.webp",
+                        "alt": "A woman taking a daytime nap"
                     }
                 }
             },

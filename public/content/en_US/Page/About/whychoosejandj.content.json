@@ -8,7 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Why Choose J&J",
     "hero": {
-        "slug": "hero-why-choose-jj",
+        "class": "hero",
         "title": "Why Choose J&J",
         "text": [
             {
@@ -18,36 +18,28 @@
     },
     "understandingTheClient": {
         "slug": "understanding-the-client",
-        "grid": "grid-1fr-500",
+        "grid": "grid-500-1fr",
         "blocks": [
             {
                 "block": {
                     "row": "grid-row-1-2",
                     "column": "grid-col-1-2",
-                    "title": "Understanding Your Body",
-                    "text": [
-                        {
-                            "p": "Understanding the historical and current health issues of every client about their Diet, Medication, Physical Activity, Emotional State, Lifestyle, Needs, and Desired Outcome to create the most appropriate course of action and bring their body back to its best state."
-                        }
-                    ]
-                }
-            },
-            {
-                "block": {
-                    "row": "grid-row-1-3",
-                    "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/about/jj-lobby.png",
-                        "alt": "The J&J Holistic Nutritional Therapy Lobby"
+                        "src": "/images/pages/about/jj-spice-spoons.webp",
+                        "alt": "Spice Spoons"
                     }
                 }
             },
             {
                 "block": {
-                    "row": "grid-row-2-3",
-                    "column": "grid-col-1-2",
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "Understanding Your Body",
                     "text": [
+                        {
+                            "p": "Understanding the historical and current health issues of every client about their Diet, Medication, Physical Activity, Emotional State, Lifestyle, Needs, and Desired Outcome to create the most appropriate course of action and bring their body back to its best state."
+                        },
                         {
                             "p": "We do not advocate one type of diet, like low GI, gluten-free foods, paleo, GAPS, vegan, raw, or macrobiotic diets. Similarly, we do not promote any food or suppplement related to fads or fashion."
                         }
@@ -206,8 +198,8 @@
                     "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/about/jj-why-choose.webp",
-                        "alt": "Miajah Johnson taking child's blood pressure"
+                        "src": "/images/pages/about/jj-child-assessment.webp",
+                        "alt": "Child Assessment"
                     }
                 }
             }
@@ -239,7 +231,7 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/about/jj-food-intolerance-and-sensitivity-test.webp",
+                        "src": "/images/pages/about/jj-food-intolerances.webp",
                         "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritonal Therapy"
                     }
                 }
@@ -272,7 +264,7 @@
                     "column": "grid-col-1-2",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/about/jj-personalized-meal-plan.webp",
+                        "src": "/images/pages/about/jj-personalized-meal-planning.webp",
                         "alt": "J&J Holistic Nutritional Therapy can prepare for you a Personalized Meal Plan"
                     }
                 }

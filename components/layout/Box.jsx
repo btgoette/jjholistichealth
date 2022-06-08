@@ -1,6 +1,18 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Link from "next/link"
 import { Figure, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import BookNowForm from "components/forms/BookNowForm";
+import ConsentForm from "components/forms/ConsentForm";
+import ContactForm from "components/forms/ContactForm";
+import Covid19Form from "components/forms/Covid19Form";
+import EndocrineSteamIntakeForm from "components/forms/EndocrineSteamIntakeForm";
+import FollowUpForm from "components/forms/FollowUpForm";
+import FoodIntoleranceForm from "components/forms/FoodIntoleranceForm";
+import FunctionalExamForm from "components/forms/FunctionalExamForm";
+import HerbalVSteamForm from "components/forms/HerbalVSteamForm";
+import PediatricAssessment from "components/forms/PediatricAssessment";
 
 const Box = (box) => {
   let hasTitle;
@@ -54,6 +66,83 @@ const Box = (box) => {
   } else {
     hasList = false;
   }
+
+  let hasLinkList;
+  if (box.linkList !== undefined) {
+    hasLinkList = true;
+  } else {
+    hasLinkList = false;
+  }
+
+  const renderLinkList = () => {
+    if (hasLinkList) {
+      return (
+        <ul className="fa-ul">
+          {box.linkList.map(({ li, href }, j) => (
+            <li key={j}>
+              <span className="fa-li">
+                <FontAwesomeIcon icon={["fab", "envira"]} />
+              </span>
+              <Link href={href}>{li}</Link>
+            </li>
+          ))}
+        </ul>
+      );
+    }
+  };
+
+  let hasForm;
+  if (box.form !== undefined) {
+    hasForm = true;
+  } else {
+    hasForm = false;
+  }
+
+  const renderForm = () => {
+    if (hasForm) {
+      if (box.form == "bookNow") {
+        return(
+          <BookNowForm />
+        )
+      } else if (box.form == "consent") {
+        return(
+          <ConsentForm />
+        )
+      } else if (box.form == "covid") {
+        return(
+          <Covid19Form />
+        )
+      } else if (box.form == "endocrine") {
+        return(
+          <EndocrineSteamIntakeForm />
+        )
+      } else if (box.form == "followUp") {
+        return(
+          <FollowUpForm />
+        )
+      } else if (box.form == "food") {
+        return(
+          <FoodIntoleranceForm />
+        )
+      } else if (box.form == "functional") {
+        return(
+          <FunctionalExamForm />
+        )
+      } else if (box.form == "herbal") {
+        return(
+          <HerbalVSteamForm />
+        )
+      } else if (box.form == "pediatric") {
+        return(
+          <PediatricAssessment />
+        )
+      } else {
+        return(
+          <ContactForm />
+        )
+      }
+    }
+  };
 
   const renderList = () => {
     if (hasList) {
@@ -112,8 +201,10 @@ const Box = (box) => {
       {renderSubTitle()}
       {renderText()}
       {renderList()}
+      {renderLinkList()}
       {renderImage()}
       {renderCTA()}
+      {renderForm()}
     </Col>
   );
 }

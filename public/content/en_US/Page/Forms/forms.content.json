@@ -1,5 +1,5 @@
 {
-    "title": "Forms - JJ Holistic Nutritional Therapy",
+    "title": "Contact Information & Forms - JJ Holistic Nutritional Therapy",
     "description": "Index of all forms for J&J Holistic Nutritional Therapy. Quick access to all form links for office and client use.",
     "slug": "forms",
     "href": "https://jjholistichealth.com/forms/",
@@ -14,64 +14,82 @@
         }
     ],
     "finalcrumb": "Forms",
-    "block": {
-        "formsList": {
-            "slug": "forms-list",
-            "column": [
-                {
-                    "offset": "2",
-                    "span": "8",
-                    "order": "0"
+    "contact": {
+        "slug": "contact pt-0",
+        "header": "Contact Us",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "Contact Form",
+                    "text": [
+                        {
+                            "p": "Feel free to contact us at any time. We will get back to you as soon as we can. If you want to book a consultation, please visit our booking page and fill out the form. We look forward to working with you!"
+                        }
+                    ],
+                    "form": "contact"
                 }
-            ],
-            "title": "Forms",
-            "text": [
-                {
-                    "p": "Feel free to contact us at any time. We will get back to you as soon as we can. If you want to book a consultation, please visit our booking page and fill out the form. We look forward to working with you!"
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "form": "contact-info"
                 }
-            ],
-            "list": [
-                {
-                    "li": "Book Now Form",
-                    "href": "/forms/book-now"
-                },
-                {
-                    "li": "Consent Form",
-                    "href": "/forms/consent"
-                },
-                {
-                    "li": "Contact Form",
-                    "href": "/forms/contact"
-                },
-                {
-                    "li": "Covid-19 Form",
-                    "href": "/forms/covid-19"
-                },
-                {
-                    "li": "Endocrine Steam Intake Form",
-                    "href": "/forms/endocrine-steam-intake"
-                },
-                {
-                    "li": "Follow Up Questionnaire",
-                    "href": "/forms/follow-up"
-                },
-                {
-                    "li": "Food Intolerance Form",
-                    "href": "/forms/food-intolerance"
-                },
-                {
-                    "li": "Functional Exam Questionnaire",
-                    "href": "/forms/functional-exam"
-                },
-                {
-                    "li": "Herbal V Steam Intake form",
-                    "href": "/forms/herbal-v-steam-intake"
-                },
-                {
-                    "li": "Pediatric Assessment Questionnaire",
-                    "href": "/forms/pediatric-assessment-questionnaire"
+            }
+        ]
+    },
+    "formsList": {
+        "slug": "forms-list pt-0",
+        "header": "Forms",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "linkList": [
+                        {
+                            "li": "Book Now Form",
+                            "href": "/forms/book-now"
+                        },
+                        {
+                            "li": "Consent Form",
+                            "href": "/forms/consent"
+                        },
+                        {
+                            "li": "Covid-19 Form",
+                            "href": "/forms/covid-19"
+                        },
+                        {
+                            "li": "Endocrine Steam Intake Form",
+                            "href": "/forms/endocrine-steam-intake"
+                        },
+                        {
+                            "li": "Follow Up Questionnaire",
+                            "href": "/forms/follow-up"
+                        },
+                        {
+                            "li": "Food Intolerance Form",
+                            "href": "/forms/food-intolerance"
+                        },
+                        {
+                            "li": "Functional Exam Questionnaire",
+                            "href": "/forms/functional-exam"
+                        },
+                        {
+                            "li": "Herbal V Steam Intake form",
+                            "href": "/forms/herbal-v-steam-intake"
+                        },
+                        {
+                            "li": "Pediatric Assessment Questionnaire",
+                            "href": "/forms/pediatric-assessment-questionnaire"
+                        }
+                    ]
                 }
-            ]
-        }
+            }
+        ]
     }
 }

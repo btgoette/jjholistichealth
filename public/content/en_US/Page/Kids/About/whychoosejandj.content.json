@@ -1,0 +1,206 @@
+{
+    "title": "Why Choose J&J - JJ Holistic Nutritional Therapy",
+    "description": "Herbs are mention throughout the Bible both as remedies and for spiritual cleansing. Because they were mentioned in the Bible, some people believe these plants have extraordinary healing powers. There are 128 plants mentioned which were used for food, cosmetics, medicine, and religious ritual. Some herbs, especially shrubs and trees, where made into essential oils.",
+    "slug": "why-choose-j-and-j",
+    "href": "https://jjholistichealth.com/kids/about/why-choose-j-and-j",
+    "image": "https://jjholistichealth.com/images/pages/about/jj-all-in-wellness-plan.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Why Choose J&J Kids",
+    "hero": {
+        "class": "hero-kids",
+        "title": "Why Choose J&J Kids",
+        "text": [
+            {
+                "p": "At J&J Holistic Nurtional Kids, we use a holistic way of healing. We use aromatherapy, massages, herbal supplements, essential oils, and a proper healthy diet in treating our clients"
+            }
+        ]
+    },
+    "forPreteensAndTeenagers": {
+        "slug": "for-preteens-and-teenagers",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "For Pre-Teens & Teenagers",
+                    "text": [
+                        {
+                            "p": "Being a teenager is tough — and exciting! J&J Holistic Nutritional Kids is here to navigate these years with you, providing care that will keep your teen healthy physically and mentally. Pre-teen and teenage years are full of enthusiasm and challenges, including changes in physical development that adolescents and their families may not understand."
+                        },
+                        {
+                            "p": "Typically, adolescents (beginning around 12-14 years of age) will recognize significant changes in their bodies that come as a result of normal hormonal changes associated with puberty and development. We’ll help adolescents, parents and siblings manage these changes positively during this confusing time. Teens often have issues or concerns they don't feel comfortable addressing with their families; our team can answer their questions and be a source for accurate health-related information. What’s more, we tap into J&J Holistic Nutritional Kids’ network of specialists, including experts on behavioral and mood concerns, weight management, and more."
+                        }
+                    ]
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-1",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/kids/about/jj-kids-reading.webp",
+                        "alt": "A teenage girl reading a book"
+                    }
+                }
+            }
+        ]
+    },
+    "adolescents": {
+        "slug": "adolescents pt-0",
+        "grid": "grid-1fr-500",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "title": "We especially help teens face these health-related issues:",
+                    "list": [
+                        {
+                            "li": "Puberty"
+                        },
+                        {
+                            "li": "Menstruation"
+                        },
+                        {
+                            "li": "Acne"
+                        },
+                        {
+                            "li": "Stress and Anxiety"
+                        },
+                        {
+                            "li": "Birth Control Deficiencies"
+                        },
+                        {
+                            "li": "Eating Disorders"
+                        },
+                        {
+                            "li": "Behavioral Health (including Depression and ADHD"
+                        },
+                        {
+                            "li": "Prophylactic diet for STI ( Sexually Transmitted Infection)"
+                        }
+                    ]
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/kids/about/jj-kids-teen.webp",
+                        "alt": "A Teenage girl in a pink hat"
+                    }
+                }
+            }
+        ]
+    },
+    "childAssessment": {
+        "slug": "child-assessment pt-0",
+        "grid": "grid-500-1fr",
+        "header": "Child Assesssment",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "subtitle": "$75 per child ($50 per child for 2 or more)",
+                    "list": [
+                        {
+                            "li": "In office"
+                        },
+                        {
+                            "li": "Initial Interview"
+                        },
+                        {
+                            "li": "To check: Digestive, Immune, Allergy & Hydration"
+                        },
+                        {
+                            "li": "Food Recommendations"
+                        }
+                    ]
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/about/jj-child-assessment.webp",
+                        "alt": "Child Assessment"
+                    }
+                }
+            }
+        ]
+    },
+    "foodIntoleranceAndSensitivityTest": {
+        "slug": "food-intolerance-and-sensitivity-test  pt-0",
+        "grid": "grid-1fr-500",
+        "header": "Food Intolerance And Sensitivity Test",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "subtitle": "Testing for food intolerances and food sensitivities",
+                    "list": [
+                        {
+                            "li": "$137 for 5 foods"
+                        },
+                        {
+                            "li": "$275 for 10 foods"
+                        }
+                    ]
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/about/jj-food-intolerances.webp",
+                        "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritonal Therapy"
+                    }
+                }
+            }
+        ]
+    },
+    "personalizedMealPlanning": {
+        "slug": "personalized-meal-planning pt-0",
+        "grid": "grid-500-1fr",
+        "header": "Personalized Meal Planning",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "subtitle": "Personalized Meal Planning",
+                    "list": [
+                        {
+                            "li": "$150 Weekly"
+                        },
+                        {
+                            "li": "$550 for the whole month (One-time payment)"
+                        }
+                    ]
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/about/jj-personalized-meal-planning.webp",
+                        "alt": "J&J Holistic Nutritional Therapy can prepare for you a Personalized Meal Plan"
+                    }
+                }
+            }
+        ]
+    }
+}

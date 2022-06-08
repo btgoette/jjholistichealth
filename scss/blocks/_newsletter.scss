@@ -1,4 +1,6 @@
 .newsletter-section {
+    position: relative;
+    z-index: 10;
     .newsletter {
         background-color: $transparent-black;
         border-radius: $border-rounded;

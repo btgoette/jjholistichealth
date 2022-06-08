@@ -8,8 +8,9 @@ import "public/fonts/FontAwesome/fontawesome";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
+import JJNav from "components/layout/JJNav";
+import Section from "components/layout/Section"
+import ContactForm from "components/forms/ContactForm";
 
 // Page Content
 import page from "public/content/en_US/Page/Forms/forms.content";
@@ -17,32 +18,76 @@ import page from "public/content/en_US/Page/Forms/forms.content";
 export default function Contact() {
   return (
     <div className={page.slug}>
-    <JJNav/>
+      <JJNav />
       <Head {...page} />
       <Main>
-      <Breadcrumbs {...page} />
-      <Container>
-        <Row className="custom-row">
-          <Col>
-            <div className="content">
-              <h1>{page.block.formsList.title}</h1>
-              {page.block.formsList.text.map(({p}, i) =>(
-                <p key={i}>{p}</p>
-              ))}
-              <ul className="fa-ul">
-                {page.block.formsList.list.map(({ li, href }, j) => (
-                  <li key={j}>
-                    <span className="fa-li">
-                      <FontAwesomeIcon icon={["fab", "envira"]} />
-                    </span>
-                    <Link href={href}>{li}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+        <Breadcrumbs {...page} />
+        <Section {...page.contact} />
+        <Section {...page.formsList} />
+          {/* <Container className="contact">
+            <Row className="custom-row">
+              <Col
+                lg={{
+                  offset: page.block.form.column[0].offset,
+                  span: page.block.form.column[0].span,
+                  order: page.block.form.column[0].order,
+                }}
+              >
+                <div className={"form-section " + page.block.form.slug}>
+                  <h1>{page.block.form.title}</h1>
+                  {page.block.form.text.map(({ p }, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                  <ContactForm />
+                </div>
+              </Col>
+              <Col
+                lg={{
+                  offset: page.block.contactInfo.column[0].offset,
+                  span: page.block.contactInfo.column[0].span,
+                  order: page.block.contactInfo.column[0].order,
+                }}
+              >
+                <div className={page.block.contactInfo.slug}>
+                  <h2>{page.block.contactInfo.title}</h2>
+                  <p>
+                    <FontAwesomeIcon icon={["fas", "phone"]} />
+                    <a href={page.block.contactInfo.phone.link}>
+                      {page.block.contactInfo.phone.li}
+                    </a>
+                  </p>
+                  <p>
+                    <FontAwesomeIcon icon={["fas", "envelope"]} />
+                    <a href={page.block.contactInfo.email.link}>
+                      {page.block.contactInfo.email.li}
+                    </a>
+                  </p>
+                  <p>
+                    <FontAwesomeIcon icon={["fas", "building"]} />
+                    <div className="d-block">
+                      {page.block.contactInfo.address.map(({ li }, i) => (
+                        <span key={i}>
+                          {li}
+                          <br />
+                        </span>
+                      ))}
+                    </div>
+                  </p>
+                  <p>
+                    <FontAwesomeIcon icon={["fas", "clock"]} />
+                    <div className="d-block">
+                      {page.block.contactInfo.hours.map(({ li }, i) => (
+                        <span key={i}>
+                          {li}
+                          <br />
+                        </span>
+                      ))}
+                    </div>
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container> */}
       </Main>
     </div>
   );

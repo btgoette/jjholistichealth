@@ -57,52 +57,23 @@ export default function JJKidsNav() {
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="About" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/about">
-                      About J&amp;J
+                    <NavDropdown.Item href="/kids/about">
+                      About J&amp;J Kids
                     </NavDropdown.Item>
           <NavDropdown.Divider className="d-none d-xl-block"/>
-                    <NavDropdown.Item href="/about/the-j-and-j-team">
+                    <NavDropdown.Item href="/kids/about/the-j-and-j-team">
                       The J&amp;J Team
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/about/why-choose-j-and-j">
+                    <NavDropdown.Item href="/kids/about/why-choose-j-and-j">
                       Why Choose J&amp;J
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/about/testimonials">
+                    {/* <NavDropdown.Item href="/kids/about/testimonials">
                       Testimonials
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="/kids/gallery/">Photo Gallery</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link href="/services/">Services</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <NavDropdown
-                    title="Health Conditions"
-                    id="basic-nav-dropdown"
-                  >
-                    <NavDropdown.Item href="/conditions">
-                      Health Conditions
-                    </NavDropdown.Item>
-          <NavDropdown.Divider className="d-none d-xl-block"/>
-                    <NavDropdown.Item href="/conditions/cardiovascular">
-                      Cardiovascular
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/conditions/digestive-system">
-                      Digestive System
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/conditions/immune-system">
-                      Immune System
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/conditions/stress-and-adrenal-function">
-                      Stress &amp; Adrenal Function
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/conditions/womens-health">
-                      Women&apos;s Health
-                    </NavDropdown.Item>
-                  </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>
@@ -111,7 +82,7 @@ export default function JJKidsNav() {
                   <Nav.Link href="/blog">Blog</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/forms">Forms</Nav.Link>
+                  <Nav.Link href="/forms">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
