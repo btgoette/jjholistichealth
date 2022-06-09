@@ -10,7 +10,7 @@ import JJNav from "components/layout/JJNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Conditions/womenshealthissues.content";
 
-export default function WomensHealthIssues() {
+const WomensHealthIssues = () => {
   return (
     <div className={page.slug}>
       <JJNav />
@@ -27,3 +27,5 @@ export default function WomensHealthIssues() {
     </div>
   );
 }
+
+export default WomensHealthIssues;

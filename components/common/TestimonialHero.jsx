@@ -6,14 +6,14 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const TestimonialHero = (hero) => {
   return (
-    <Container fluid className="testimonials-section">
+    <section className="testimonials-section py-0">
       <Container>
         <Row>
           <Col>
             <h1>{hero.title}</h1>
           </Col>
         </Row>
-        <Row className="custom-row service-testimonial">
+        <Row className="service-testimonial">
           <Col lg={{ span: 4, order: 1 }}>
             <figure className="service-testimonial-image">
               <LazyLoadImage src={hero.img.src} alt={hero.img.alt} />
@@ -33,7 +33,7 @@ const TestimonialHero = (hero) => {
           </Col>
         </Row>
       </Container>
-    </Container>
+    </section>
   )
 }
 

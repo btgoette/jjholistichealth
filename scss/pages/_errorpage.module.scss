@@ -1,26 +1,10 @@
-.error {
-    display: grid;
-    min-height: 60vh;
-    align-items: center;
+.error,
+.thank-you {
+    padding-top: 8rem;
     h2 {
-        font-size: $error-page-header-size-mobile;
-        text-align: center;
+        font-size: 6rem;
     }
-
-    p {
-        text-align: center;
-        margin-bottom: 0;
-    }
-
     img {
-        max-width:200px;
-        padding: 2rem 0;
-    }
-
-    @media only screen and (min-width: $small) {
-        padding-top: 4rem;
-        h2 {
-            font-size: $error-page-header-size;
-        }
+        max-width: 300px !important;
     }
 }

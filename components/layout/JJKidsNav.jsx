@@ -15,7 +15,7 @@ import "public/fonts/FontAwesome/fontawesome";
 // Page Content
 import content from "public/content/en_US/Components/Layout/Nav/nav.content";
 
-export default function JJKidsNav() {
+const JJKidsNav = () => {
   return (
     <>
       {["xl"].map((expand) => (
@@ -100,3 +100,5 @@ export default function JJKidsNav() {
     </>
   );
 }
+
+export default JJKidsNav;

@@ -16,7 +16,6 @@
     "finalcrumb": "Forms",
     "contact": {
         "slug": "contact pt-0",
-        "header": "Contact Us",
         "grid": "grid-500-1fr",
         "blocks": [
             {

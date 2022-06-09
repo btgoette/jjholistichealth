@@ -76,7 +76,7 @@ const Testimonials = () => {
                     <h2>What Clients Love About J&amp;J</h2>
                 </header>
                 <Container>
-                    <Row className="custom-row">
+                    <Row>
                         <Slider {...settings}>
                             {testimonialData.testimonial.map(({ src, alt, name, content }, i) => (
                                     <div key={i}>

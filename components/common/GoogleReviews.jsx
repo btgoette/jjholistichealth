@@ -8,7 +8,7 @@ const GoogleReviews = () => {
         <h2>Our Google Reviews</h2>
       </header>
       <Container>
-        <Row className="custom-row">
+        <Row>
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
           <div className="elfsight-app-3cee1929-a72c-44f2-8c75-b03776d6d212"></div>
         </Row>

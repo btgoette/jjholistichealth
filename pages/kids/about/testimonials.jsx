@@ -1,4 +1,4 @@
-/* Testimonials Page */
+/* Kids Testimonials Page */
 
 // Page Components
 import Head from "components/common/Head";
@@ -12,7 +12,7 @@ import JJKidsNav from "components/layout/JJKidsNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Kids/About/testimonials.content";
 
-export default function JJTestimonials() {
+const JJTestimonialsKids = () => {
   return (
     <div className={page.slug}>
     <JJKidsNav/>
@@ -26,3 +26,5 @@ export default function JJTestimonials() {
     </div>
   );
 }
+
+export default JJTestimonialsKids;

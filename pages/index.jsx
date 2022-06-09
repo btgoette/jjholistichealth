@@ -9,12 +9,11 @@ import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/home.content";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={page.slug}>
       
@@ -28,3 +27,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

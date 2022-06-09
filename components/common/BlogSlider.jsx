@@ -70,7 +70,7 @@ const BlogSlider = () => {
   ];
 
   return (
-    <div fluid className="blog-slider">
+    <div className="blog-slider">
       <Slider {...settings}>
         {Blog.map(({ src, alt, title, href }, i) => (
           <a key={i} href={href}>
@@ -85,6 +85,6 @@ const BlogSlider = () => {
       </Slider>
     </div>
   );
-}
+};
 
 export default BlogSlider;

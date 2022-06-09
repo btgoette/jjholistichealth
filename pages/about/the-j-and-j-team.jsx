@@ -6,7 +6,6 @@ import Hero from "components/common/Hero";
 import Main from "components/layout/Main";
 import Team from "components/common/Team";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/About/team.content";

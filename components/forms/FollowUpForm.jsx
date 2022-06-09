@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-export default function FollowUpForm() {
+const FollowUpForm = () => {
 
     function onSubmit(token) {
         document.getElementById("followUpForm").submit();
@@ -155,3 +155,5 @@ export default function FollowUpForm() {
         </form>
     );
 }
+
+export default FollowUpForm;

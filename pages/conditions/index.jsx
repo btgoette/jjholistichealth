@@ -11,7 +11,7 @@ import JJNav from "components/layout/JJNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Conditions/conditions.content";
 
-export default function HealthConditions() {
+const HealthConditions = () => {
   return (
     <>
       <div className={page.slug}>
@@ -27,3 +27,5 @@ export default function HealthConditions() {
     </>
   );
 }
+
+export default HealthConditions;

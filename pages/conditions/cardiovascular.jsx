@@ -5,13 +5,12 @@ import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
 import Main from "components/layout/Main";
-import CardioTips from "components/common/CardioTips";
 import JJNav from "components/layout/JJNav.jsx"
 
 // Page Content
 import page from "public/content/en_US/Page/Conditions/cardiovascular.content";
 
-export default function Cardiovascular() {
+const Cardiovascular = () => {
   return (
     <div className={page.slug}>
       <JJNav />
@@ -31,3 +30,5 @@ export default function Cardiovascular() {
     </div>
   );
 }
+
+export default Cardiovascular;

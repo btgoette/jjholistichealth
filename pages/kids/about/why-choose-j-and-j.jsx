@@ -10,7 +10,7 @@ import JJKidsNav from "components/layout/JJKidsNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Kids/About/whychoosejandj.content";
 
-export default function WhyChooseJJ() {
+const WhyChooseJJKids = () => {
   return (
     <>
       <div className={page.slug}>
@@ -28,3 +28,5 @@ export default function WhyChooseJJ() {
     </>
   );
 }
+
+export default WhyChooseJJKids;

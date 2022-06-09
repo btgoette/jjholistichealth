@@ -9,7 +9,6 @@ import Main from "components/layout/Main";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import RecentPosts from "components/blog/RecentPosts";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Blog/blog.content";
@@ -24,7 +23,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function BlogIndexPage({ allPostsData }) {
+const BlogIndexPage = ({ allPostsData }) => {
   return (
     <>
       <JJNav />
@@ -34,7 +33,7 @@ export default function BlogIndexPage({ allPostsData }) {
         <div className="blog">
           <Breadcrumbs {...page} />
 
-          <Container fluid className="blogPosts">
+          <section className="blogPosts">
             <Container>
               <Row>
                 <Col lg={9}>
@@ -80,9 +79,11 @@ export default function BlogIndexPage({ allPostsData }) {
                 <RecentPosts {...page.block.recentPosts} />
               </Row>
             </Container>
-          </Container>
+          </section>
         </div>
       </Main>
     </>
   );
 }
+
+export default BlogIndexPage;

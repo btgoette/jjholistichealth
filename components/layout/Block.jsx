@@ -202,7 +202,7 @@ const Block = (block) => {
   };
 
   return (
-    <div className={block.row + " " + block.column}>
+    <div className={block.row + " " + block.column + " " + block.class}>
       {renderTitle()}
       {renderSubTitle()}
       {renderText()}

@@ -5,9 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// Layout Component
-import SectionHead from "components/common/SectionHead";
-
 const ConditionsIndex = (block) => {
   return (
     <>
