@@ -19,13 +19,12 @@ const HealthConditions = () => {
         <Head {...page} />
         <Hero {...page.hero} />
         <Main>
-          <Section {...page.conditions}/>
-          <Section {...page.functionalEvaluation}/>
           <FunctionalEvaluation {...page.functionalEvaluation} />
+          <Section {...page.conditions} />
         </Main>
       </div>
     </>
   );
-}
+};
 
 export default HealthConditions;

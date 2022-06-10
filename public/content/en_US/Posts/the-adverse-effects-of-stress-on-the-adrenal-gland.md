@@ -5,7 +5,7 @@ preview: '/images/pages/blog/preview/the-adverse-effects-of-stress-on-the-adrena
 alt: 'Adverse Health Effects of Stress on the Adrenal Gland'
 description: 'Almost every health problem comes with stress as a component and stress can make hormonal changes, blood sugar changes, and adversely affects the immune system.'
 author: 'Krystal Johnson'
-url: 'https://jjholistichealth.com/blog/posts/the-adverse-effects-of-stress-on-the-adrenal-gland'
+href: 'https://jjholistichealth.com/blog/posts/the-adverse-effects-of-stress-on-the-adrenal-gland'
 tags: '#adrenal-health'
 formalDate: 'March 12, 2021'
 date: '2021-03-12'

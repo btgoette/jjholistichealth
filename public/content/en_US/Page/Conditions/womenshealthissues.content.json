@@ -18,7 +18,6 @@
     },
     "naturalApproachToPMS": {
         "slug": "natural-approach-to-pms",
-        "header": "A Natural Approach to PMS",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -36,6 +35,7 @@
                 "block": {
                     "row": "grid-row-1-2",
                     "column": "grid-col-2-3",
+                    "title": "A Natural Approach to PMS",
                     "text": [
                         {
                             "p": "The information below represents a sample of the protocol normally presented in a client report. Of course, we recognize that every client is an individual with very particular needs. As a result, this protocol is simply a starting point or guideline. Moreover, the client protocol is followed by a report on cardiovascular health for your information. By using lab and functional testing, you will be able to refine and individualize the program for specific clients."

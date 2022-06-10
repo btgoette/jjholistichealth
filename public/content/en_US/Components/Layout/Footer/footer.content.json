@@ -63,11 +63,11 @@
             "links": [
                 {
                     "li": "J&J Kids",
-                    "link": "/kids/"
+                    "link": "/kids"
                 },
                 {
                     "li": "About J&J",
-                    "link": "/about/"
+                    "link": "/about"
                 },
                 {
                     "li": "Our Services",
@@ -75,7 +75,7 @@
                 },
                 {
                     "li": "Health Conditions",
-                    "link": "/conditions/"
+                    "link": "/conditions"
                 },
                 {
                     "li": "P.O.P. Organics",
@@ -83,11 +83,11 @@
                 },
                 {
                     "li": "Blog",
-                    "link": "/blog/"
+                    "link": "/blog"
                 },
                 {
                     "li": "Forms",
-                    "link": "/forms/"
+                    "link": "/forms"
                 }
             ]
         }

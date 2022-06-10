@@ -50,7 +50,7 @@ const JJKidsNav = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end pe-3">
                 <Nav.Item className="d-block d-xl-none">
-                  <Nav.Link href="/">Home</Nav.Link>
+                  <Nav.Link href="/kids">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="/">J&amp;J Holistic</Nav.Link>
@@ -73,7 +73,7 @@ const JJKidsNav = () => {
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/kids/gallery/">Photo Gallery</Nav.Link>
+                  <Nav.Link href="/kids/gallery">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>

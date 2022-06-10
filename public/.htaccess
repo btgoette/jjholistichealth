@@ -15,6 +15,9 @@ RewriteEngine On
 RewriteBase /
 DirectorySlash Off
 
+Header always set X-Frame-Options "SAMEORIGIN"
+Header set X-Frame-Options "DENY"
+
 RewriteCond %{DOCUMENT_ROOT}/$1.html -f
 RewriteRule ^([^.]+)$ $1.html [L]
 
@@ -55,7 +58,7 @@ Redirect 301 /womens-health-issues conditions/womens-health
 Redirect 301 /womenshealthissues conditions/womens-health
 Redirect 301 /womens-health conditions/womens-health
 Redirect 301 /conditions/womens-health-issues conditions/womens-health
-Redirect 301 /contactus forms/
+Redirect 301 /contactus forms
 Redirect 301 /booknow forms/book-now
 Redirect 301 /book-now forms/book-now
 Redirect 301 /consent forms/consent
@@ -65,15 +68,13 @@ Redirect 301 /forms/thank-you /thank-you
 Redirect 301 /function-exam forms/functional-exam
 Redirect 301 /food-intolerance forms/food-intolerance
 Redirect 301 /pediatric-assessment-questionnaire forms/pediatric-assessment-questionnaire
-Redirect 301 /forms/thanksgiving-raffle-registration.html /forms/contact
-Redirect 301 /forms/christmas-raffle-registration.html /forms/contact
 Redirect 301 /privacypolicy policies/privacy-policy
 Redirect 301 /privacy-policy policies/privacy-policy
 Redirect 301 /cookiepolicy policies/cookie-policy
 Redirect 301 /cookie-policy policies/cookie-policy
 Redirect 301 /cancellation-rescheduling-policy policies/cancellation-rescheduling-policy
-Redirect 301 /contact forms/
-Redirect 301 /forms/contact forms/
+Redirect 301 /contact forms
+Redirect 301 /forms/contact forms
 Redirect 301 /covid-cocktail promos/kovid-kocktail
 Redirect 301 /kovid-kocktail promos/kovid-kocktail
 Redirect 301 /back-to-school promos/back-to-school
