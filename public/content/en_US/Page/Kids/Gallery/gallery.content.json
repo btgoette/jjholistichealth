@@ -1,17 +1,13 @@
 {
-    "title": "Kids Gallery - JJ Kids Holistic Nutritional Therapy",
-    "description": "Welcome to J&J Holistic Nutritional Therapy. We invite you to take a virtual tour of our clinic. Scroll through our photo gallery for a wide-ranging view of the comfort and care we offer.",
-    "slug": "gallery",
+    "title": "Kids Gallery - JJ Kids Holistic Nutritional Kids",
+    "description": "Welcome to J&J Holistic Nutritional Kids. We invite you to take a virtual tour of our clinic. Scroll through our photo gallery for a wide-ranging view of the comfort and care we offer.",
+    "slug": "kids gallery",
     "href": "https://jjholistichealth.com/kids/gallery",
-    "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
+    "image": "https://jjholistichealth.com/images/pages/kids/about/jj-client-journey.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Photo Gallery",
     "breadcrumbs": [
-        {
-            "page": "Home",
-            "link": "/"
-        },
         {
             "page": "Kids",
             "link": "/Kids/"

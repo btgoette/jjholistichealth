@@ -19,7 +19,7 @@ const Contact = () => {
         <Breadcrumbs {...page} />
         <section className="py-0">
           <Container>
-          <h1>Contact Us</h1>
+          <h1>Contact Information &amp; Forms</h1>
           </Container>
         </section>
         <Section {...page.contact} />
