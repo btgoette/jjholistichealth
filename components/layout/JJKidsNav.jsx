@@ -26,7 +26,7 @@ const JJKidsNav = () => {
           className="jj-kids-nav sticky-top"
         >
           {/* Logo */}
-          <Link href="/kids" passHref>
+          <Link href="/kids/" passHref>
             <Navbar.Brand>
               <img
                 src="/images/logos/jj-kids-logo.webp"
@@ -57,7 +57,7 @@ const JJKidsNav = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="About" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/kids/about">
+                    <NavDropdown.Item href="/kids/about/">
                       About J&amp;J Kids
                     </NavDropdown.Item>
           <NavDropdown.Divider className="d-none d-xl-block"/>
@@ -79,10 +79,10 @@ const JJKidsNav = () => {
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/blog">Blog</Nav.Link>
+                  <Nav.Link href="/blog/">Blog</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/forms">Contact</Nav.Link>
+                  <Nav.Link href="/forms/">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>

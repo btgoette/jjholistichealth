@@ -23,7 +23,7 @@
             "h3": "Contact Us",
             "contact": {
                 "li": "Contact Form",
-                "link": "/forms"
+                "link": "/forms/"
             },
             "book": {
                 "li": "Book an Appointment",
