@@ -73,10 +73,10 @@ const JJNav = () => {
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/gallery/">Photo Gallery</Nav.Link>
+                  <Nav.Link href="/gallery">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/services/">Services</Nav.Link>
+                  <Nav.Link href="/services">Services</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown

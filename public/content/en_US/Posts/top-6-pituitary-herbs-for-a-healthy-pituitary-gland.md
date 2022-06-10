@@ -4,7 +4,7 @@ banner: '/images/pages/blog/banners/top-6-pituitary-herbs-for-a-healthy-pituitar
 preview: '/images/pages/blog/preview/top-6-pituitary-herbs-for-a-healthy-pituitary-gland.webp'
 description: 'The pituitary gland plays an incredibly important role in your overall wellbeing because it controls the functions of all other endocrine glands.'
 author: 'Krystal Johnson'
-url: 'https://jjholistichealth.com/blog/posts/top-6-pituitary-herbs-for-a-healthy-pituitary-gland'
+href: 'https://jjholistichealth.com/blog/posts/top-6-pituitary-herbs-for-a-healthy-pituitary-gland'
 tags: '#pituitary-gland-health'
 formalDate: 'January 3, 2021'
 date: '2021-01-03'

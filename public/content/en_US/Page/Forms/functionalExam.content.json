@@ -2,7 +2,7 @@
     "title": "Functional Exam Form  - JJ Holistic Nutritional Therapy",
     "description": "Please fill out this Functional Exam Qualifying Form and be as accurate as possible with your answers.",
     "slug": "functional-exam",
-    "url": "https://jjholistichealth.com/forms/functional-exam",
+    "href": "https://jjholistichealth.com/forms/functional-exam",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",

@@ -17,7 +17,7 @@
         ]
     },
     "conditions": {
-        "slug": "health-conditions",
+        "slug": "pt-0",
         "header": "Which Conditions Can Nutritional Medicine Help?",
         "grid": "grid-conditions",
         "blocks": {
@@ -220,8 +220,7 @@
         }
     },
     "functionalEvaluation": {
-        "slug": "functional-evaluation py-0",
-        "header":"Functional Evaluation",
+        "slug": "functional-evaluation",
         "chart": {
             "img": {
                 "src": "/images/pages/conditions/fe-chart-human-anatomy.webp",
