@@ -2,7 +2,6 @@
 import Head from 'next/head'
 // import GoogleAnalytics from 'next-simple-google-analytics'
 
-
 const CustomHead = (head) => {
   return (
     <Head>

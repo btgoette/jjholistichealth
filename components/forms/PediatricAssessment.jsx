@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-export default function PediatricAssessment() {
+const PediatricAssessment = () => {
 
   function onSubmit(token) {
     document.getElementById("pediatricAssessment").submit();
@@ -756,3 +756,5 @@ export default function PediatricAssessment() {
     </form >
   );
 }
+
+export default PediatricAssessment;

@@ -1,12 +1,12 @@
 {
     "title": "About J&J Kids - JJ Holistic Nutritional Therapy",
     "description": "At Johnson and Johnson Holistic Nutritional Kids, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. At J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that.",
-    "slug": "about",
+    "slug": "kids about",
     "href": "https://jjholistichealth.com/about/",
-    "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
+    "image": "https://jjholistichealth.com/images/pages/kids/about/jj-client-journey.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
-    "navigationLabel": "About J&J",
+    "navigationLabel": "About J&J Kids",
     "hero": {
         "class": "hero-kids",
         "title": "About J&J Kids",

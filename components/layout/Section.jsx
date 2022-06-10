@@ -1,9 +1,8 @@
 import SectionHeader from "components/layout/SectionHeader";
 import GridContainer from "components/layout/GridContainer";
-import FlexContainer from "components/layout/FlexContainer";
 
 
-export default function Section(section) {
+const Section = (section) => {
   let hasSectionHeader;
   if (section.header !== undefined) {
     hasSectionHeader = true;
@@ -34,26 +33,12 @@ export default function Section(section) {
     }
   };
 
-  let hasFlexContainer;
-  if (section.flex !== undefined) {
-    hasFlexContainer = true;
-  } else {
-    hasFlexContainer = false;
-  }
-
-  const renderFlexContainer = () => {
-    if (hasFlexContainer) {
-      return (
-        <FlexContainer {...section} />
-      );
-    }
-  };
-
   return (
     <section className={section.slug}>
       {renderSectionHeader()}
-      {renderFlexContainer()}      
       {renderGridContainer()}
     </section>
   );
 }
+
+export default Section;

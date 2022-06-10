@@ -6,12 +6,11 @@ import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Conditions/immunesystem.content";
 
-export default function ImmuneSystem() {
+const ImmuneSystem = () => {
   return (
     <div className={page.slug}>
     <JJNav/>
@@ -30,3 +29,5 @@ export default function ImmuneSystem() {
     </div>
   );
 }
+
+export default ImmuneSystem;

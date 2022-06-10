@@ -1,20 +1,20 @@
 {
-    "title": "Testimonials - JJ Holistic Nutritional Therapy",
+    "title": "Testimonials - JJ Holistic Nutritional Kids",
     "description": "Words cannot express how great I feel since I have been a client of J &amp; J Holistic Nutritional Therapy. I have been dealing with Spinal Stenosis since 2012. Following the recommendations both nutritional, dietary and with the introduction of essential oils and CDB oils l no longer take pain meds or my antidepressant. I was taking far too many prescribed and over the counter medications. Since adopting the life style changes and eliminating foods that I never knew I was allergic to I’am literally pain free, no Advil, Alieve, Benadryl. My headaches are gone.",
-    "slug": "testimonials",
-    "href": "https://jjholistichealth.com/about/testimonials",
+    "slug": "kids testimonials",
+    "href": "https://jjholistichealth.com/kids/about/testimonials",
     "image": "https://jjholistichealth.com/images/pages/about/testimonials/michelle-moore.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
-    "navigationLabel": "Testimonials",
+    "navigationLabel": "Kids Testimonials",
     "breadcrumbs": [
         {
-            "page": "Home",
-            "link": "/"
+            "page": "Kids",
+            "link": "/kids/"
         },
         {
             "page": "About",
-            "link": "/about/"
+            "link": "/kids/about/"
         }
     ],
     "finalcrumb": "Testimonials",

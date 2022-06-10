@@ -8,12 +8,11 @@ import Testimonials from "components/common/Testimonials";
 import GoogleReviews from "components/common/GoogleReviews";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/About/testimonials.content";
 
-export default function JJTestimonials() {
+const JJTestimonials = () => {
   return (
     <div className={page.slug}>
     <JJNav/>
@@ -27,3 +26,5 @@ export default function JJTestimonials() {
     </div>
   );
 }
+
+export default JJTestimonials;

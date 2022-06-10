@@ -10,7 +10,7 @@ import JJNav from "components/layout/JJNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Conditions/stressandadrenalfunction.content"
 
-export default function StressAndAdrenalFunction() {
+const StressAndAdrenalFunction = () => {
   return (
       <div className={page.slug}>
       <JJNav/>
@@ -26,3 +26,5 @@ export default function StressAndAdrenalFunction() {
       </div>
   )
 }
+
+export default StressAndAdrenalFunction;

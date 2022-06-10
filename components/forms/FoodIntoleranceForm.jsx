@@ -1,7 +1,7 @@
 // import React Component
 import ReCAPTCHA from 'react-google-recaptcha'
 
-export default function FoodIntoleranceForm() {
+const FoodIntoleranceForm = () => {
 
   function onSubmit(token) {
     document.getElementById("foodIntoleranceForm").submit();
@@ -46,3 +46,5 @@ export default function FoodIntoleranceForm() {
     </form>
   );
 }
+
+export default FoodIntoleranceForm;

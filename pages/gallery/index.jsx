@@ -1,5 +1,5 @@
 /* Gallery Page */
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 // Page Components
 import Head from "components/common/Head";
@@ -7,12 +7,11 @@ import Main from "components/layout/Main";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import ImageGallery from "react-image-gallery";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Gallery/gallery.content";
 
-export default function PhotoGallery() {
+const PhotoGallery = () => {
   return (
     <div className={page.slug}>
     <JJNav/>
@@ -37,3 +36,5 @@ export default function PhotoGallery() {
     </div>
   );
 }
+
+export default PhotoGallery;

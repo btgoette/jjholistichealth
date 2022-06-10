@@ -1,4 +1,4 @@
-export default function Newsletter() {
+const Newsletter = () => {
 
   return (
     <div className="newsletter">
@@ -90,3 +90,5 @@ export default function Newsletter() {
     </div>
   );
 }
+
+export default Newsletter;

@@ -2,7 +2,7 @@
 import ReCAPTCHA from 'react-google-recaptcha'
 
 
-export default function HerbalVSteamForm() {
+const HerbalVSteamForm = () => {
 
     function onSubmit(token) {
         document.getElementById("HerbalVSteamForm").submit();
@@ -429,3 +429,5 @@ export default function HerbalVSteamForm() {
         </form >
     );
 }
+
+export default HerbalVSteamForm;

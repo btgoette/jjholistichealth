@@ -27,7 +27,6 @@ import BookNowCTA from "components/common/BookNowCTA";
 import FDA from "components/common/FDA";
 import RecentPosts from "components/blog/RecentPosts";
 import JJNav from "components/layout/JJNav.jsx";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
 // Custom Styles, Content, and Data
 
@@ -52,7 +51,7 @@ export async function getStaticPaths() {
   };
 }
 
-export default function BlogPost({ postData }) {
+const BlogPost = ({ postData }) => {
   return (
     <>
       <JJNav />
@@ -69,7 +68,7 @@ export default function BlogPost({ postData }) {
             </Row>
           </Container>
 
-          <Container fluid className="blogPost">
+          <section className="blogPost">
             <Container>
               <Row>
                 <Col lg={9}>
@@ -144,9 +143,11 @@ export default function BlogPost({ postData }) {
                 <RecentPosts {...page.block.recentPosts} />
               </Row>
             </Container>
-          </Container>
+          </section>
         </div>
       </Main>
     </>
   );
 }
+
+export default BlogPost;

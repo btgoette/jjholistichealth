@@ -10,17 +10,19 @@ import JJKidsNav from "components/layout/JJKidsNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Kids/kids.content";
 
-export default function Kids() {
+const Kids = () => {
   return (
     <div className={page.slug}>
-    <JJKidsNav/>
+      <JJKidsNav />
       <Head {...page} />
       <Hero {...page.hero} />
       <Main>
-      <Section {...page.nutritionalMedicine} />
+        <Section {...page.nutritionalMedicine} />
         <Section {...page.weAreWhatWeConsume} />
         <Section {...page.conditions} />
       </Main>
     </div>
   );
 }
+
+export default Kids;

@@ -31,7 +31,7 @@ const Footer = () => {
         </Container>
       </section>
 
-      <Container fluid className={content.footer.background}>
+      <section className={content.footer.background}>
         <Container>
           <Row>
             <Col md={6} lg={3} className="mb-4">
@@ -146,9 +146,9 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
 
-      <Container fluid className={content.copyright.background}>
+      <section className={content.copyright.background}>
         <Container>
           <Row>
             <Col>
@@ -169,7 +169,7 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
     </footer>
   );
 }
