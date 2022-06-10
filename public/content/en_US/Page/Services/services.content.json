@@ -8,7 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Services",
     "hero": {
-        "slug": "hero-services",
+        "class": "hero",
         "title": "Our Services",
         "text": [
             {
