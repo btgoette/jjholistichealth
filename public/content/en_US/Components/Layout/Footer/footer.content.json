@@ -1,14 +1,6 @@
 {
     "section1": {
-        "background": "holistic-counseling bg-fern",
-        "title": "Holistic Counseling",
-        "block1": {
-            "h2": "Holistic Counseling",
-            "p": {
-                "strong": "15 Minute Free Video Chat",
-                "li": "On this phone call, my goal is to get to know you and your health concerns in more detail in order to best support you on your health journey. During the call, I will explain how I go about my practice to make a unique and completely individualized protocol for you."
-            }
-        }
+        "background": "newsletter-section"
     },
     "footer": {
         "background": "footer bg-light-green",
@@ -25,20 +17,13 @@
                 "facebook": "https://www.facebook.com/jjholisticnutritionaltherapy/",
                 "instagram": "https://www.instagram.com/jj.holisticnutritionaltherapy/",
                 "twitter": "https://twitter.com/HolisticJohnson?fbclid=IwAR2uYxJyEIDktPtLBoxoe4F2kPFUn1IhlFolztiTNCYRM-O52rj_yk0WmPU"
-            },
-            "bbb": {
-                "image": {
-                    "src": "/images/logos/bbb-black-and-white.webp",
-                    "alt": "BBB Accredited Business Logo. Link to BBB page."
-                },
-                "link": "https://www.bbb.org/us/tx/frisco/profile/vitamins-and-supplements/jj-holistic-nutritional-therapy-llc-0875-91067924"
             }
         },
         "block2": {
             "h3": "Contact Us",
             "contact": {
                 "li": "Contact Form",
-                "link": "/forms/contact"
+                "link": "/forms"
             },
             "book": {
                 "li": "Book an Appointment",

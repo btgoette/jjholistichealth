@@ -7,10 +7,9 @@ import 'public/fonts/FontAwesome/fontawesome'
 // Custom Components
 import BookNowCTA from 'components/common/BookNowCTA'
 
-
-export default function FunctionalEvaluation(block) {
+const FunctionalEvaluation = (block) => {
     return (
-        <Container fluid id="digestion">
+        <section id="digestion">
             <Container>
                 <Row>
                     <Col lg={6}>
@@ -52,6 +51,8 @@ export default function FunctionalEvaluation(block) {
                     </Col>
                 </Row>
             </Container>
-        </Container>
+        </section>
     )
 }
+
+export default FunctionalEvaluation;

@@ -3,17 +3,24 @@
 // Page Components
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
+import Main from "components/layout/Main";
 import DigestiveSystem from "components/common/DigestiveSystem";
+import JJNav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Conditions/digestivesystem.content";
 
-export default function HealthConditions() {
+const HealthConditions = () => {
   return (
     <div className={page.slug}>
+      <JJNav />
       <Head {...page} />
       <Hero {...page.hero} />
-      <DigestiveSystem {...page.block.digestiveSystem}/>
+      <Main>
+        <DigestiveSystem {...page.digestiveSystem} />
+      </Main>
     </div>
   );
 }
+
+export default HealthConditions;

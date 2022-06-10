@@ -1,43 +1,32 @@
-// React Components
-import Link from "next/link";
-import { Container, Row, Col } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "public/fonts/FontAwesome/fontawesome";
+import {Container} from "react-bootstrap";
 
 // Custom Components
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
+import Main from "components/layout/Main";
+import JJNav from "components/layout/JJNav";
+import Section from "components/layout/Section"
 
 // Page Content
 import page from "public/content/en_US/Page/Forms/forms.content";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <div className={page.slug}>
+      <JJNav />
       <Head {...page} />
-      <Breadcrumbs {...page} />
-      <Container>
-        <Row className="custom-row">
-          <Col>
-            <div className="content">
-              <h1>{page.block.formsList.title}</h1>
-              {page.block.formsList.text.map(({p}, i) =>(
-                <p key={i}>{p}</p>
-              ))}
-              <ul className="fa-ul">
-                {page.block.formsList.list.map(({ li, href }, j) => (
-                  <li key={j}>
-                    <span className="fa-li">
-                      <FontAwesomeIcon icon={["fab", "envira"]} />
-                    </span>
-                    <Link href={href}>{li}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <Main>
+        <Breadcrumbs {...page} />
+        <section className="py-0">
+          <Container>
+          <h1>Contact Information &amp; Forms</h1>
+          </Container>
+        </section>
+        <Section {...page.contact} />
+        <Section {...page.formsList} />
+      </Main>
     </div>
   );
 }
+
+export default Contact;

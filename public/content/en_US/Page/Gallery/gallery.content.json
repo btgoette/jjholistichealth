@@ -1,0 +1,62 @@
+{
+    "title": "Gallery - JJ Holistic Nutritional Therapy",
+    "description": "Welcome to J&J Holistic Nutritional Therapy. We invite you to take a virtual tour of our clinic. Scroll through our photo gallery for a wide-ranging view of the comfort and care we offer.",
+    "slug": "gallery",
+    "href": "https://jjholistichealth.com/gallery",
+    "image": "https://jjholistichealth.com/images/pages/about/jj-lobby.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Photo Gallery",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        }
+    ],
+    "finalcrumb": "Photo Gallery",
+    "gallery": {
+        "slug": "photo-gallery",
+        "images": [
+            {
+                "original": "/images/pages/about/gallery/1.jpg",
+                "thumbnail": "/images/pages/about/gallery/1-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/2.jpg",
+                "thumbnail": "/images/pages/about/gallery/2-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/3.jpg",
+                "thumbnail": "/images/pages/about/gallery/3-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/4.jpg",
+                "thumbnail": "/images/pages/about/gallery/4-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/5.jpg",
+                "thumbnail": "/images/pages/about/gallery/5-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/11.jpg",
+                "thumbnail": "/images/pages/about/gallery/11-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/12.jpg",
+                "thumbnail": "/images/pages/about/gallery/12-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/13.jpg",
+                "thumbnail": "/images/pages/about/gallery/13-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/19.jpg",
+                "thumbnail": "/images/pages/about/gallery/19-thumb.jpg"
+            },
+            {
+                "original": "/images/pages/about/gallery/20.jpg",
+                "thumbnail": "/images/pages/about/gallery/20-thumb.jpg"
+            }
+        ]
+    }
+}

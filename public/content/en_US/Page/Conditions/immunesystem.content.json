@@ -8,19 +8,7 @@
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "immune-system",
     "hero": {
-        "slug": "hero hero-lemons",
-        "column": [
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "0"
-            },
-            {
-                "offset": "0",
-                "span": "6",
-                "order": "1"
-            }
-        ],
+        "class": "hero",
         "title": "Immune System",
         "text": [
             {
@@ -28,223 +16,233 @@
             }
         ]
     },
-    "block": {
-        "avoidSugar": {
-            "slug": "avoid-sugar",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "4",
-                    "order": "0"
-                },
-                {
-                    "offset": "1",
-                    "span": "6",
-                    "order": "1"
+    "stressFactors": {
+        "slug": "stress-factors",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-immune.webp",
+                        "alt": "An older woman with a cane sitting down"
+                    }
                 }
-            ],
-            "title": "Avoid refined sugar and refined carbohydrates",
-            "text": [
-                {
-                    "p": "Refined food actually decreases the effectiveness of immune cells."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "text": [
+                        {
+                            "p": "Many factors in modern society cause stress to our immune systems. For instance, chemicals in the environment, genetics, heavy metals, drug therapies, dysbiosis, liver problems, intestinal permeability, and poor diet can burden our immune systems. Although these conditions come with a distinct underlying cause that must be addressed, direct support of the immune system is often necessary."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/sugars.webp",
-                "alt": "A lemon cake with powdered Sugar"
             }
-        },
-        "avoidHydrogenatedOils": {
-            "slug": "avoid-hydrogenated-oils bg-light-green",
-            "column": [
-                {
-                    "offset": "1",
-                    "span": "4",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
+        ]
+    },
+    "chapmanReflexes": {
+        "slug": "chapman-reflexes pt-0",
+        "grid": "grid-1fr-500",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-chapman-reflex.webp",
+                        "alt": "A holistic practitioner checking a patient's Chapman Reflex"
+                    }
                 }
-            ],
-            "title": "Avoid hydrogenated and partially‐hydrogenated oils",
-            "text": [
-                {
-                    "p": "These will actually decrease the integrity of your cells, making them more prone to invasion."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "text": [
+                        {
+                            "p": "You can utilize the Chapman Reflexes and neurolingual testing to evaluate the value of various supplements that support the immune system. The thymus reflex is on the 5th intercostal space, next to the sternum. The spleen reflex is on the left 7th intercostal space. Simply check the reflex for tenderness. Then have the client hold the nutrient in his or her mouth and see if the tenderness decreases. If the reflex becomes less tender, then the nutrient is appropriate."
+                        },
+                        {
+                            "p": "Supporting the immune system is of benefit to your client’s health, but it is more helpful to find out the cause of stress to the immune system in the first place. Liver function,digestion, dysbiosis, heavy metal toxicity, and other core issues need to be examined."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/greasy-foods.webp",
-                "alt": "Some bacon cheeseburgers on a wooden cutting board"
             }
-        },
-        "diet": {
-            "slug": "diet",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "4",
-                    "order": "0"
-                },
-                {
-                    "offset": "1",
-                    "span": "6",
-                    "order": "1"
+        ]
+    },
+    "avoidSugar": {
+        "slug": "avoid-sugar pt-0",
+        "header": "Tips To Improve Immune System Function",
+        "grid": "grid-1fr-500",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-sugar.webp",
+                        "alt": "Cupcakes"
+                    }
                 }
-            ],
-            "title": "Eat Dark Colored Produce",
-            "text": [
-                {
-                    "p": "Red grapes are high in bioflavonoids which will enhance immune function. Fruits and vegetables contain bioflavonoids, antioxidants, vitamin C, carotenes, and minerals, all of which help your immune system. The fiber in produce reduces stress on the digestive system and helps to bring dysbiosis under control."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "title": "Avoid refined sugar and refined carbohydrates",
+                    "text": [
+                        {
+                            "p": "Refined food actually decreases the effectiveness of immune cells."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/fruits-and-vegetables.webp",
-                "alt": "Fruits and Vegetables at a produce market"
             }
-        },
-        "drinkWater": {
-            "slug": "drink-water bg-brown",
-            "column": [
-                {
-                    "offset": "1",
-                    "span": "4",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
+        ]
+    },
+    "avoidHydrogenatedOils": {
+        "slug": "avoid-hydrogenated-oils pt-0",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-fried-foods.webp",
+                        "alt": "Some bacon cheeseburgers on a wooden cutting board"
+                    }
                 }
-            ],
-            "title": "Drink Enough Water",
-            "text": [
-                {
-                    "p": "Your practitioner will discuss water quality and quantity with you."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "Avoid hydrogenated and partially‐hydrogenated oils",
+                    "text": [
+                        {
+                            "p": "These will actually decrease the integrity of your cells, making them more prone to invasion."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/middle-age-woman-drinking-water.webp",
-                "alt": "A woman drinking a glass of water"
             }
-        },
-        "getEnoughRest": {
-            "slug": "get-enough-rest",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "4",
-                    "order": "0"
-                },
-                {
-                    "offset": "1",
-                    "span": "6",
-                    "order": "1"
+        ]
+    },
+    "diet": {
+        "slug": "diet pt-0",
+        "grid": "grid-1fr-500",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-green-vegetables.webp",
+                        "alt": "A woman eating healthy"
+                    }
                 }
-            ],
-            "title": "Make sure that you get enough rest.",
-            "img": {
-                "src": "/images/pages/conditions/immune/take-enough-rest.webp",
-                "alt": "A man taking a daytime nap"
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "title": "Eat Dark Colored Produce",
+                    "text": [
+                        {
+                            "p": "Red grapes are high in bioflavonoids which will enhance immune function. Fruits and vegetables contain bioflavonoids, antioxidants, vitamin C, carotenes, and minerals, all of which help your immune system. The fiber in produce reduces stress on the digestive system and helps to bring dysbiosis under control."
+                        }
+                    ]
+                }
             }
-        },
-        "exercise": {
-            "slug": "exercise bg-light-green",
-            "column": [
-                {
-                    "offset": "1",
-                    "span": "4",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
+        ]
+    },
+    "exercise": {
+        "slug": "exercise pt-0",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-exercise.webp",
+                        "alt": "A woman practicing yoga"
+                    }
                 }
-            ],
-            "title": "Exercise",
-            "text": [
-                {
-                    "p": "There is one caveat, don’t exercise when you are fighting off an illness."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "Exercise",
+                    "text": [
+                        {
+                            "p": "There is one caveat, don’t exercise when you are fighting off an illness."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/exercise-often.webp",
-                "alt": "A woman getting trained by a personal trainer"
             }
-        },
-        "stressFactors": {
-            "slug": "stress-factors",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "4",
-                    "order": "0"
-                },
-                {
-                    "offset": "1",
-                    "span": "6",
-                    "order": "1"
+        ]
+    },
+    "drinkWater": {
+        "slug": "drink-water pt-0",
+        "grid": "grid-1fr-500",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-drink-water.webp",
+                        "alt": "A woman drinking a glass of water"
+                    }
                 }
-            ],
-            "text": [
-                {
-                    "p": "Many factors in modern society cause stress to our immune systems. For instance, chemicals in the environment, genetics, heavy metals, drug therapies, dysbiosis, liver problems, intestinal permeability, and poor diet can burden our immune systems. Although these conditions come with a distinct underlying cause that must be addressed, direct support of the immune system is often necessary."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "title": "Drink Enough Water",
+                    "text": [
+                        {
+                            "p": "Your practitioner will discuss water quality and quantity with you."
+                        }
+                    ]
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/stress-to-our-immune-system.webp",
-                "alt": "An older woman with a cane sitting down"
             }
-        },
-        "chapmanReflexes": {
-            "slug": "chapman-reflexes bg-brown",
-            "column": [
-                {
-                    "offset": "1",
-                    "span": "4",
-                    "order": "1"
-                },
-                {
-                    "offset": "0",
-                    "span": "6",
-                    "order": "0"
+        ]
+    },
+    "getEnoughRest": {
+        "slug": "get-enough-rest pt-0",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/conditions/jj-sleep.webp",
+                        "alt": "A womman taking a daytime nap"
+                    }
                 }
-            ],
-            "text": [
-                {
-                    "p": "You can utilize the Chapman Reflexes and neurolingual testing to evaluate the value of various supplements that support the immune system. The thymus reflex is on the 5th intercostal space, next to the sternum. The spleen reflex is on the left 7th intercostal space. Simply check the reflex for tenderness. Then have the client hold the nutrient in his or her mouth and see if the tenderness decreases. If the reflex becomes less tender, then the nutrient is appropriate."
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "Make sure that you get enough rest."
                 }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/chapman-reflex.webp",
-                "alt": "A holistic practitioner checking a patient's Chapman Reflex"
             }
-        },
-        "immuneSupport": {
-            "slug": "immune-support",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "4",
-                    "order": "0"
-                },
-                {
-                    "offset": "1",
-                    "span": "6",
-                    "order": "1"
-                }
-            ],
-            "text": [
-                {
-                    "p": "Supporting the immune system is of benefit to your client’s health, but it is more helpful to find out the cause of stress to the immune system in the first place. Liver function,digestion, dysbiosis, heavy metal toxicity, and other core issues need to be examined."
-                }
-            ],
-            "img": {
-                "src": "/images/pages/conditions/immune/diagnosis.webp",
-                "alt": "Miajah Johnson going over a patient's dianosis"
-            }
-        }
+        ]
     }
 }

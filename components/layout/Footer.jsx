@@ -7,18 +7,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "public/fonts/FontAwesome/fontawesome";
 
 // Custom Components
-import BookNowCTA from "components/common/BookNowCTA";
+import BlogSlider from "components/common/BlogSlider";
 import Newsletter from "components/forms/NewsletterForm";
 
 // Custom Data
 import content from "public/content/en_US/Components/Layout/Footer/footer.content";
 
-export default function Footer() {
+const Footer = () => {
   const today = new Date();
 
   return (
     <footer>
-      <Container fluid className={content.section1.background}>
+
+      <BlogSlider/>
+
+      <section className={content.section1.background}>
         <Container>
           <Row className="align-items-center">
             <Col lg={6}>
@@ -26,9 +29,9 @@ export default function Footer() {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
 
-      <Container fluid className={content.footer.background}>
+      <section className={content.footer.background}>
         <Container>
           <Row>
             <Col md={6} lg={3} className="mb-4">
@@ -143,9 +146,9 @@ export default function Footer() {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
 
-      <Container fluid className={content.copyright.background}>
+      <section className={content.copyright.background}>
         <Container>
           <Row>
             <Col>
@@ -166,7 +169,9 @@ export default function Footer() {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
     </footer>
   );
 }
+
+export default Footer;

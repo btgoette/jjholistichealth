@@ -7,30 +7,32 @@
     "imageType": "image/webp",
     "robots": "NOINDEX, NOFOLLOW",
     "navigationLabel": "Error 403",
-    "block": {
-        "error403": {
-            "slug": "error error-403",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "12",
-                    "order": "0"
+    "error403": {
+        "slug": "error",
+        "grid": "grid justify-content-center",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-column-1-2",
+                    "class": "text-center",
+                    "title": "403",
+                    "text": [
+                        {
+                            "p": "The page is forbidden."
+                        }
+                    ],
+                    "img": {
+                        "class": "mb-4",
+                        "src": "/images/logos/jj-logo.webp",
+                        "alt": "J&J Holistic Nutritional Therapy Logo, A link back to Home page"
+                    },
+                    "cta": {
+                        "ctaLabel": "Back to Home",
+                        "href": "/"
+                    }
                 }
-            ],
-            "title": "403",
-            "text": [
-                {
-                    "p": "The page is forbidden."
-                }
-            ],
-            "img": {
-                "src": "/images/logos/jj-logo.webp",
-                "alt": "J&J Holistic Nutritional Therapy Logo, A link back to Home page"
-            },
-            "cta": {
-                "ctaLabel": "Back to Home",
-                "href": "/"
             }
-        }
+        ]
     }
 }

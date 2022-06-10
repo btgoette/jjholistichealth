@@ -1,36 +1,38 @@
 {
     "title": "Success - JJ Holistic Nutritional Therapy",
     "description": "Your form submission has been successful.",
-    "slug": "thank-you",
+    "slug": "thank-you-page",
     "href": "https://jjholistichealth.com/forms/",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Thank You",
-    "block": {
-        "thankYou": {
-            "slug": "error thank-you",
-            "column": [
-                {
-                    "offset": "0",
-                    "span": "12",
-                    "order": "0"
+    "thankYou": {
+        "slug": "thank-you",
+        "grid": "grid justify-content-center",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-column-1-2",
+                    "class": "text-center",
+                    "title": "Thank You!",
+                    "text": [
+                        {
+                            "p": "Your form has been successfully submitted. We will contact you as soon as possible!"
+                        }
+                    ],
+                    "img": {
+                        "class": "mb-4",
+                        "src": "/images/logos/jj-logo.webp",
+                        "alt": "J&J Holistic Nutritional Therapy Logo, A link back to Home page"
+                    },
+                    "cta": {
+                        "ctaLabel": "Back to Home",
+                        "href": "/"
+                    }
                 }
-            ],
-            "title": "Thank you for your form submission.",
-            "text": [
-                {
-                    "p": "We will contact you soon!"
-                }
-            ],
-            "img": {
-                "src": "/images/logos/jj-logo.webp",
-                "alt": "J&J Holistic Nutritional Therapy Logo"
-            },
-            "cta": {
-                "ctaLabel": "Back to Home",
-                "href": "/"
             }
-        }
+        ]
     }
 }

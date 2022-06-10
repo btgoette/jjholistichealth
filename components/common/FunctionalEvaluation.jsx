@@ -4,9 +4,9 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-export default function FunctionalEvaluation(block) {
+const FunctionalEvaluation = (block) => {
   return (
-    <section>
+    <section className="pt-0">
       <Container>
         <Row>
           <Col lg={6}>
@@ -55,3 +55,5 @@ export default function FunctionalEvaluation(block) {
     </section>
   );
 }
+
+export default FunctionalEvaluation;

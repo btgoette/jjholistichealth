@@ -1,11 +1,10 @@
 // React Components
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap"
 
 // Custom Components
 import BookNowCTA from "components/common/BookNowCTA";
 
-export default function Hero(hero) {
+const Hero = (hero) => {
   let hasTitle;
   if (hero.title !== undefined) {
     hasTitle = true;
@@ -16,19 +15,6 @@ export default function Hero(hero) {
   const renderTitle = () => {
     if (hasTitle) {
       return <h1>{hero.title}</h1>;
-    }
-  };
-
-  let hasSubtitle;
-  if (hero.subtitle !== undefined) {
-    hasSubtitle = true;
-  } else {
-    hasSubtitle = false;
-  }
-
-  const renderSubtitle = () => {
-    if (hasSubtitle) {
-      return <h2>{hero.subtitle}</h2>;
     }
   };
 
@@ -51,72 +37,19 @@ export default function Hero(hero) {
     }
   };
 
-  let hasImage;
-  if (hero.img !== undefined) {
-    hasImage = true;
-  } else {
-    hasImage = false;
-  }
-
-  const renderImage = () => {
-    if (hasImage) {
-      return (
-        <figure>
-          <LazyLoadImage src={hero.img.src} alt={hero.img.alt} />
-        </figure>
-      );
-    }
-  };
-
-  let hasCTA;
-  if (hero.cta !== undefined) {
-    hasCTA = true;
-  } else {
-    hasCTA = false;
-  }
-
-  const renderCTA = () => {
-    if (hasCTA) {
-      return (
-        <p>
-          <Button href={hero.cta.href}>{hero.cta.ctaLabel}</Button>
-        </p>
-      );
-    }
-  };
-
   return (
-    <>
-      <section className={hero.slug + " hero"}>
-        <Container className="hero-container">
-          <Row className="align-items-center hero-block">
-            <Col
-              lg={{
-                offset: hero.column[0].offset,
-                span: hero.column[0].span,
-                order: hero.column[0].order,
-              }}
-            >
-              <div className="hero-content">
-                {renderTitle()}
-                {renderSubtitle()}
-                {renderText()}
-                <BookNowCTA />
-              </div>
-            </Col>
-            <Col
-              className="d-none d-lg-block"
-              lg={{
-                offset: hero.column[1].offset,
-                span: hero.column[1].span,
-                order: hero.column[1].order,
-              }}
-            >
-              {renderImage()}
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    </>
+    <section className={hero.class}>
+      <Container className="hero-grid">
+        <div className="grid-row-1-2 grid-column-1-2">
+          <div className="hero-content">
+            {renderTitle()}
+            {renderText()}
+            <BookNowCTA />
+          </div>
+        </div>
+      </Container>
+    </section>
   );
-}
+};
+
+export default Hero;

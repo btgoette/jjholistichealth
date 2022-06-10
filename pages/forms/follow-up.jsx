@@ -5,29 +5,43 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import FollowUpForm from "components/forms/FollowUpForm";
+import Main from "components/layout/Main";
+import JJNav from "components/layout/JJNav.jsx";
 
 // Page Content
-import styles from "scss/pages/forms.module.scss";
 import page from "public/content/en_US/Page/Forms/followUp.content";
 
-export default function FollowUp() {
+const FollowUp = () => {
   return (
     <div className={page.slug}>
-    <Head {...page} />
-    <Breadcrumbs {...page} />
-    <Container>
-        <Row className="custom-row">
-          <Col lg={{  offset: page.block.form.column[0].offset, span: page.block.form.column[0].span, order: page.block.form.column[0].order }}>
-            <div className="form-section">
-              <h1>{page.block.form.title}</h1>
-              {page.block.form.text.map(({ p }, i) => (
-                <p key={i}>{p}</p>
-              ))}
-              <FollowUpForm />
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <JJNav />
+      <Head {...page} />
+      <Main>
+        <Breadcrumbs {...page} />
+        <section className="pt-0">
+          <Container>
+            <Row>
+              <Col
+                lg={{
+                  offset: page.block.form.column[0].offset,
+                  span: page.block.form.column[0].span,
+                  order: page.block.form.column[0].order,
+                }}
+              >
+                <div className="form-section">
+                  <h1>{page.block.form.title}</h1>
+                  {page.block.form.text.map(({ p }, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                  <FollowUpForm />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      </Main>
     </div>
   );
 }
+
+export default FollowUp;

@@ -1,0 +1,124 @@
+.blog {
+    .blogPosts {
+        article {
+            margin-bottom: 3rem;
+        }
+
+        .blogTitle {
+            font-size: $blog-title;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1; /* number of lines to show */
+            -webkit-box-orient: vertical;
+        }
+    }
+
+    .blogPosts,
+    .blogPost {
+        padding-top: 0.5rem;
+    }
+
+    .blogDate {
+        color: $light-grey;
+        font-size: $font-size-small;
+        margin-bottom: 1rem;
+    }
+
+    .blogTitle {
+        margin-bottom: 0;
+    }
+
+    .blogImage {
+        margin: 1rem 0;
+
+        img {
+            max-width: unset;
+            width: 100%;
+            border-radius: $border-rounded;
+        }
+    }
+
+    .share {
+        text-align: right;
+        margin-bottom: 1rem;
+        font-family: $body-font-family-medium;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 3px;
+    }
+
+    .readMore {
+        text-align: left;
+    }
+
+    .blogPostSection {
+        article {
+            img {
+                width: 100%;
+                border-radius: $border-rounded;
+            }
+        }
+    }
+
+    .recentPostsSection {
+        display: none;
+    }
+
+    @media only screen and (min-width: $small) {
+        .blogPosts {
+            article {
+                padding-right: 3rem;
+            }
+        }
+
+        .blogPostSection {
+            padding-right: 3rem;
+        }
+
+        .recentPostsSection {
+            display: block;
+            position: relative;
+            padding-top: 0.5rem;
+
+            .recentPosts {
+                position: fixed;
+                a {
+                    color: $grey;
+                    font-size: $font-size-small;
+                    display: block;
+                    padding: 5px 0;
+                    &:hover {
+                        color: $green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blog-slider {
+
+    .slick-slider {
+        overflow: hidden;
+    }
+
+    figure {
+        border-right: 1px solid $white;
+        border-left: 1px solid $white;
+        margin-bottom: 0;
+        img {
+            width:100%;
+            max-width: unset;
+        }
+        p {
+            background-color: $green;
+            color: $white;
+            padding: 1rem;
+            margin-bottom: 0;
+            z-index: 1;
+            text-align: center;
+        }
+    }
+}

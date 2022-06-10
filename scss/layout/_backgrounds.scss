@@ -1,0 +1,123 @@
+/* Background Colors */
+
+body {
+    background-color: $white;
+}
+
+.bg-brown {
+    background-color: $light-brown;
+}
+
+.bg-jj-green,
+.bg-green {
+    background-color: $green;
+}
+
+.bg-light-green {
+    background-color: $light-green;
+}
+
+.bg-dark {
+    background-color: $dark;
+}
+
+.bg-white-transparent {
+    background-color: $transparent-white;
+}
+
+.brown-swirl,
+.green-swirl {
+    width: 100%;
+    min-height: 600px;
+    position: absolute;
+    z-index: -1;
+}
+
+.background-position {
+    min-height: 1200px;
+    position: relative;
+}
+
+.green-swirl {
+    top: 0;
+}
+
+.brown-swirl {
+    bottom: 0;
+}
+
+.hero {
+    background-color: $white;
+    background-image: url("/images/backgrounds/hero-background.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-kids {
+    background-color: $jungle-blue;
+    background-image: url("/images/backgrounds/kids-hero-background.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+.brown-swirl-background {
+    background-image: url("/images/backgrounds/brown-swirl-background.webp");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.green-swirl-background {
+    background-image: url("/images/backgrounds/green-swirl-background.webp");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.newsletter-section {
+    background-image: url("/images/backgrounds/newsletter-background.webp");
+    background-size: cover;
+    background-position: center right;
+}
+
+.offcanvas-body {
+    background-image: url("/images/backgrounds/mobile/jj.webp");
+    background-position: bottom center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: $small) {
+
+    .brown-swirl-background {
+        background-image: url("/images/backgrounds/brown-swirl-background-small.webp");
+    }
+
+    .green-swirl-background {
+        background-image: url("/images/backgrounds/green-swirl-background-small.webp");
+    }
+}
+
+@media only screen and (min-width: $medium) {
+    .brown-swirl-background {
+        background-image: url("/images/backgrounds/brown-swirl-background-medium.webp");
+    }
+
+    .green-swirl-background {
+        background-image: url("/images/backgrounds/green-swirl-background-medium.webp");
+    }
+}
+
+@media only screen and (min-width: $large) {
+
+    .brown-swirl-background {
+        background-image: url("/images/backgrounds/brown-swirl-background-large.webp");
+    }
+
+    .green-swirl-background {
+        background-image: url("/images/backgrounds/green-swirl-background-large.webp");
+    }
+}
+
+@media only screen and (min-width: $x-large) {
+    .offcanvas-body {
+        background-image: none;
+    }
+}

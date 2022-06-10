@@ -1,0 +1,45 @@
+.the-j-and-j-team {
+    .about-team-member {
+        padding: 1rem;
+
+        .about-team-photo {
+            margin: 0 auto;
+
+            img {
+                width: 200px;
+                border-radius: $border-round;
+                margin: 0 0 1rem;
+            }
+        }
+
+        .about-team-title {
+            margin: 0;
+        }
+
+        .about-team-name {
+            margin-bottom: 0;
+        }
+
+        .about-team-job-title {
+            color: $beige;
+        }
+
+        .about-team-content {
+            margin-bottom: 3rem;
+        }
+    }
+
+    @media only screen and (min-width: $large) {
+        .about-team-member {
+            padding: 1rem 2rem;
+
+            .about-team-photo {
+                margin: 0 0;
+
+                img {
+                    margin: 0 1rem 1rem 0;
+                }
+            }
+        }
+    }
+}

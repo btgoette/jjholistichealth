@@ -1,0 +1,77 @@
+.newsletter-section {
+    position: relative;
+    z-index: 10;
+    .newsletter {
+        background-color: $transparent-black;
+        border-radius: $border-rounded;
+        padding: 2rem;
+        text-align: center;
+        color: $white;
+
+        .newsletter-form {
+            display: block;
+            padding: 0 0 4rem;
+            max-width: 300px;
+            margin: 0 auto;
+
+            .newsletter-submit {
+                text-align: center;
+
+                input[type="submit"] {
+                    width: 100%;
+                }
+            }
+        }
+
+        @media only screen and (min-width: $large) {
+            max-width: unset;
+            text-align: left;
+
+            .row {
+                align-items: center;
+            }
+
+            .newsletter-form {
+                display: grid;
+                grid-column-gap: 1rem;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                max-width: unset;
+                align-items: center;
+                padding: 0 0;
+
+                input {
+                    width: 100%;
+                }
+
+                .newsletter-first-name {
+                    grid-row-start: 1;
+                    grid-row-end: 2;
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                }
+
+                .newsletter-last-name {
+                    grid-row-start: 1;
+                    grid-row-end: 2;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+
+                .newsletter-email {
+                    grid-row-start: 2;
+                    grid-row-end: 3;
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                }
+
+                .newsletter-submit {
+                    grid-row-start: 3;
+                    grid-row-end: 4;
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                }
+            }
+        }
+    }
+}

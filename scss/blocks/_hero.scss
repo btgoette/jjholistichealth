@@ -1,0 +1,52 @@
+.hero-grid {
+    min-height: 500px;
+
+    @media only screen and (min-width: $small) {
+        min-height: 550px;
+    }
+
+    @media only screen and (min-width: $medium) {
+        min-height: 600px;
+    }
+}
+
+.hero {
+    .hero-content {
+        background-color: $transparent-hero;
+        border-radius: $border-rounded;
+        padding: 2rem 1rem;
+        width: 100%;
+        h1 {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.hero-kids {
+    .hero-content {
+        background-color: $transparent-blue;
+        border-radius: $border-rounded;
+        padding: 2rem 1rem;
+        width: 100%;
+        color: $white;
+        h1 {
+            margin-bottom: 1rem;
+            color: $white;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: $medium) {
+    .hero,
+    .hero-kids {
+        .hero-content {
+            padding: 2rem;
+        }
+    }
+}
