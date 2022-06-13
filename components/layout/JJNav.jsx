@@ -3,13 +3,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import {
-  Button,
-  Navbar,
-  Nav,
-  NavDropdown,
-  Offcanvas,
-} from "react-bootstrap";
+import { Button, Navbar, Nav, NavDropdown, Offcanvas } from "react-bootstrap";
 import "public/fonts/FontAwesome/fontawesome";
 
 // Page Content
@@ -35,7 +29,7 @@ const JJNav = () => {
               />
             </Navbar.Brand>
           </Link>
-          
+
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
@@ -60,7 +54,7 @@ const JJNav = () => {
                     <NavDropdown.Item href="/about">
                       About J&amp;J
                     </NavDropdown.Item>
-          <NavDropdown.Divider className="d-none d-xl-block"/>
+                    <NavDropdown.Divider className="d-none d-xl-block" />
                     <NavDropdown.Item href="/about/the-j-and-j-team">
                       The J&amp;J Team
                     </NavDropdown.Item>
@@ -76,7 +70,18 @@ const JJNav = () => {
                   <Nav.Link href="/gallery">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/services">Services</Nav.Link>
+                  <NavDropdown
+                    title="Services"
+                    id="basic-nav-dropdown"
+                  >
+                    <NavDropdown.Item href="/services">
+                      Services
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider className="d-none d-xl-block" />
+                    <NavDropdown.Item href="/services/high-frequency-endocrine-steam">
+                      High Frequency Endocrine Steam
+                    </NavDropdown.Item>
+                  </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown
@@ -86,7 +91,7 @@ const JJNav = () => {
                     <NavDropdown.Item href="/conditions">
                       Health Conditions
                     </NavDropdown.Item>
-          <NavDropdown.Divider className="d-none d-xl-block"/>
+                    <NavDropdown.Divider className="d-none d-xl-block" />
                     <NavDropdown.Item href="/conditions/cardiovascular">
                       Cardiovascular
                     </NavDropdown.Item>
@@ -118,7 +123,7 @@ const JJNav = () => {
                 </Nav.Item>
                 <Nav.Item className="d-none d-xl-block">
                   <Button className="">
-                  <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
+                    <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
                   </Button>
                 </Nav.Item>
               </Nav>
@@ -128,6 +133,6 @@ const JJNav = () => {
       ))}
     </>
   );
-}
+};
 
 export default JJNav;
