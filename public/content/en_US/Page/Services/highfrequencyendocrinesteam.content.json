@@ -1,0 +1,79 @@
+{
+    "title": "High Frequency Endocrine Steam - JJ Holistic Nutritional Therapy",
+    "description": "We have access to the most cutting-edge laboratory testing methods in science to help us figure out the root cause of your medical issues. We design a treatment plan tailored just for you that eliminate the root problems.",
+    "slug": "high-frequency-endocrine-steam",
+    "href": "https://jjholistichealth.com/services/high-frequency-endocrine-steam",
+    "image": "https://jjholistichealth.com/images/pages/services/jj-holistic-nutritional-therapy-clinic.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "High Frequency Endocrine Steam",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Services",
+            "link": "/services"
+        }
+    ],
+    "finalcrumb": "High Frequency Endocrine Steam",
+    "highFrequencyEndocrineSteam": {
+        "slug": "pt-0",
+        "grid": "grid-1fr-500",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/services/jj-skin.webp",
+                        "alt": "Woman getting steamed"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "pageTitle": "High Frequency Endocrine Steam",
+                    "text": [
+                        {
+                            "p": "We are proud to provide our signature High-frequency Endocrine Steam that is safe, mild, and have a natural restorative effect on the skin. It rejuvenates the skin to bring its natural glow. This technology has been recognized by oncologists, dermatologists, and other skin care professionals, as one of the top remedies for multiple skin conditions such as ovaritis, skin ulcers, fibroids, irregular periods, c-section scars, and more. The therapy covers not only the uterus but also other body parts."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "theExperience": {
+        "slug": "pt-0",
+        "grid": "grid-500-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-1-2",
+                    "img": {
+                        "class": "rounded",
+                        "src": "/images/pages/services/jj-steam.webp",
+                        "alt": "Steam"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-col-2-3",
+                    "title": "The Experience",
+                    "text": [
+                        {
+                            "p": "The High-frequency Endocrine Steam is arranged in a nice and comfortable environment created to relieve stress and promote relaxation. It deeply cleanses and nourishes the skin while it is being steamed. During the process of steaming, massage oil and frequencies are used. It involves a gentle touch while spreading the oil over the uterus and ovaries. Additional  stretching and gentle pressure on the tired neck and shoulder areas are applied before the session ends. The tension softens where it gives you a feeling of refreshed and recharged."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

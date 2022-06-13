@@ -24,6 +24,7 @@ module.exports = {
             '/policies/cookie-policy': { page: '/policies/cookie-policy' },
             '/policies/cancellation-rescheduling-policy': { page: '/policies/cancellation-rescheduling-policy' },
             '/services/index': { page: '/services' },
+            '/services/high-frequency-endocrine-steam': { page: '/services/high-frequency-endocrine-steam' },
             '/about/index': { page: '/about' },
             '/about/the-j-and-j-team': { page: '/about/the-j-and-j-team' },
             '/about/why-choose-j-and-j': { page: '/about/why-choose-j-and-j'},

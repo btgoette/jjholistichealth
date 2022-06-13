@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import Link from "next/link"
+import Link from "next/link";
 import { Figure, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -15,8 +15,20 @@ import FunctionalExamForm from "components/forms/FunctionalExamForm";
 import HerbalVSteamForm from "components/forms/HerbalVSteamForm";
 import PediatricAssessment from "components/forms/PediatricAssessment";
 
-
 const Block = (block) => {
+  let hasPageTitle;
+  if (block.pageTitle !== undefined) {
+    hasPageTitle = true;
+  } else {
+    hasPageTitle = false;
+  }
+
+  const renderPageTitle = () => {
+    if (hasPageTitle) {
+      return <h1>{block.pageTitle}</h1>;
+    }
+  };
+
   let hasTitle;
   if (block.title !== undefined) {
     hasTitle = true;
@@ -73,7 +85,7 @@ const Block = (block) => {
     if (hasList) {
       return (
         <ul className="fa-ul">
-          {block.list.map(({ li}, j) => (
+          {block.list.map(({ li }, j) => (
             <li key={j}>
               <span className="fa-li">
                 <FontAwesomeIcon icon={["fab", "envira"]} />
@@ -154,55 +166,34 @@ const Block = (block) => {
   const renderForm = () => {
     if (hasForm) {
       if (block.form == "bookNow") {
-        return(
-          <BookNowForm />
-        )
+        return <BookNowForm />;
       } else if (block.form == "consent") {
-        return(
-          <ConsentForm />
-        )
+        return <ConsentForm />;
       } else if (block.form == "contact") {
-          return(
-            <ContactForm />
-          )
+        return <ContactForm />;
       } else if (block.form == "covid") {
-        return(
-          <Covid19Form />
-        )
+        return <Covid19Form />;
       } else if (block.form == "endocrine") {
-        return(
-          <EndocrineSteamIntakeForm />
-        )
+        return <EndocrineSteamIntakeForm />;
       } else if (block.form == "followUp") {
-        return(
-          <FollowUpForm />
-        )
+        return <FollowUpForm />;
       } else if (block.form == "food") {
-        return(
-          <FoodIntoleranceForm />
-        )
+        return <FoodIntoleranceForm />;
       } else if (block.form == "functional") {
-        return(
-          <FunctionalExamForm />
-        )
+        return <FunctionalExamForm />;
       } else if (block.form == "herbal") {
-        return(
-          <HerbalVSteamForm />
-        )
+        return <HerbalVSteamForm />;
       } else if (block.form == "pediatric") {
-        return(
-          <PediatricAssessment />
-        )
+        return <PediatricAssessment />;
       } else {
-        return(
-          <ContactInfo />
-        )
+        return <ContactInfo />;
       }
     }
   };
 
   return (
     <div className={block.row + " " + block.column + " " + block.class}>
+      {renderPageTitle()}
       {renderTitle()}
       {renderSubTitle()}
       {renderText()}
@@ -213,6 +204,6 @@ const Block = (block) => {
       {renderForm()}
     </div>
   );
-}
+};
 
 export default Block;
