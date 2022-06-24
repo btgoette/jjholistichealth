@@ -1,6 +1,5 @@
 // React Components
 import Head from 'next/head'
-// import GoogleAnalytics from 'next-simple-google-analytics'
 
 const CustomHead = (head) => {
   return (
@@ -22,7 +21,6 @@ const CustomHead = (head) => {
       <link rel="apple-touch-icon" sizes="152x152" href="images/icons/touch-icon-ipad.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="images/icons/touch-icon-iphone-retina.png" />
       <link rel="apple-touch-icon" sizes="167x167" href="images/icons/touch-icon-ipad-retina.png" />
-      {/* <GoogleAnalytics id="G-WT3YRZWJZV" /> */}
     </Head>
   )
 }
