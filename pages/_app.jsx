@@ -1,21 +1,20 @@
 // React Components
-import React from 'react'
-import App from 'next/app'
-import { SSRProvider } from '@react-aria/ssr'
-import AOS from 'aos'
-import { addBackToTop } from 'vanilla-back-to-top'
-import 'aos/dist/aos.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from "react";
+import App from "next/app";
+import { GoogleAnalytics } from "nextjs-google-analytics";
+import { SSRProvider } from "@react-aria/ssr";
+import AOS from "aos";
+import { addBackToTop } from "vanilla-back-to-top";
+import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // Custom Components
-import PageLayout from 'components/layout/PageLayout'
+import PageLayout from "components/layout/PageLayout";
 
 // Custom Styles
-import 'scss/styles.scss'
-
+import "scss/styles.scss";
 
 export default class MyApp extends App {
-
   static async getStaticProps({ Component, ctx }) {
     let pageProps = {};
 
@@ -30,10 +29,10 @@ export default class MyApp extends App {
     AOS.init();
     addBackToTop({
       diameter: 56,
-      backgroundColor: 'rgb(107, 147, 98)',
-      textColor: '#fff'
+      backgroundColor: "rgb(107, 147, 98)",
+      textColor: "#fff",
     });
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -43,10 +42,11 @@ export default class MyApp extends App {
       <React.Fragment>
         <SSRProvider>
           <PageLayout>
+            <GoogleAnalytics />
             <Component {...pageProps} />
           </PageLayout>
         </SSRProvider>
       </React.Fragment>
-    )
+    );
   }
 }
