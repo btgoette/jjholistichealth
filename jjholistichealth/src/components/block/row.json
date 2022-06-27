@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_block_rows",
+  "info": {
+    "displayName": "Row",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "type": "string"
+    }
+  }
+}

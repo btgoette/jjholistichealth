@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_page_titles",
+  "info": {
+    "displayName": "PageTitle",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}
