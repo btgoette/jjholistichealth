@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_block_titles",
+  "info": {
+    "displayName": "Title",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

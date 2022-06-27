@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_block_columns",
+  "info": {
+    "displayName": "Column",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "column": {
+      "type": "string"
+    }
+  }
+}
