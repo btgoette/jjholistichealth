@@ -9,6 +9,7 @@ import ContactForm from "components/forms/ContactForm";
 import ContactInfo from "components/forms/ContactInfo";
 import Covid19Form from "components/forms/Covid19Form";
 import EndocrineSteamIntakeForm from "components/forms/EndocrineSteamIntakeForm";
+import FootDetoxIntakeForm from "components/forms/FootDetoxIntakeForm";
 import FollowUpForm from "components/forms/FollowUpForm";
 import FoodIntoleranceForm from "components/forms/FoodIntoleranceForm";
 import FunctionalExamForm from "components/forms/FunctionalExamForm";
@@ -179,6 +180,8 @@ const Block = (block) => {
         return <FollowUpForm />;
       } else if (block.form == "food") {
         return <FoodIntoleranceForm />;
+      } else if (block.form == "foot") {
+        return <FootDetoxIntakeForm />;
       } else if (block.form == "functional") {
         return <FunctionalExamForm />;
       } else if (block.form == "herbal") {

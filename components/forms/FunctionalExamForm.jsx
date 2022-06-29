@@ -47,7 +47,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="bloodPressure" className="mb-2">Do you know your normal blood pressure?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="bloodPressureYes" type="radio" name="bloodPressure" value="Yes" required />
                         <label htmlFor="bloodPressureYes">Yes</label>
                         <input id="bloodPressureNo" type="radio" name="bloodPressure" value="No" />
@@ -59,7 +59,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="dizziness" className="mb-2">Do you ever get dizzy when standing quickly?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="dizzinessYes" type="radio" name="dizziness" value="Yes" required />
                         <label htmlFor="dizzinessYes">Yes</label>
                         <input id="dizzinessNo" type="radio" name="dizziness" value="No" />
@@ -71,7 +71,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="headTrauma" className="mb-2">Any eye surgeries, seizures, head traumas, or injuries? Any neurological issues?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="headTraumaYes" type="radio" name="headTrauma" value="Yes" required />
                         <label htmlFor="headTraumaYes">Yes</label>
                         <input id="headTraumaNo" type="radio" name="headTrauma" value="No" />
@@ -83,7 +83,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="coloredContacts" className="mb-2">Do you wear a COLOR contact lens?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="coloredContactsYes" type="radio" name="coloredContacts" value="Yes" required />
                         <label htmlFor="coloredContactsYes">Yes</label>
                         <input id="coloredContactsNo" type="radio" name="coloredContacts" value="No" />
@@ -95,7 +95,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="sunglasses" className="mb-2">Do you normally need to wear sunglasses outside?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="sunglassesYes" type="radio" name="sunglasses" value="Yes" required />
                         <label htmlFor="sunglassesYes">Yes</label>
                         <input id="sunglassesNo" type="radio" name="sunglasses" value="No" />
@@ -107,7 +107,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="chiropracticCare" className="mb-2">Have you had any manipulative correction or chiropractic care?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="chiropracticYes" type="radio" name="chiropracticCare" value="Yes" required />
                         <label htmlFor="chiropracticYes">Yes</label>
                         <input id="chiropracticNo" type="radio" name="chiropracticCare" value="No" />
@@ -119,7 +119,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="shortLeg" className="mb-2">Have you been told that you have a chronic short leg or any structural issues that could cause one leg to be shorter than the other?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="shortLegYes" type="radio" name="shortLeg" value="Yes" required />
                         <label htmlFor="shortLegYes">Yes</label>
                         <input id="shortLegNo" type="radio" name="shortLeg" value="No" />
@@ -131,7 +131,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="injuries" className="mb-2">Have you had any back, knee, hip, or ankle injuries?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="injuriesYes" type="radio" name="injuries" value="Yes" required />
                         <label htmlFor="injuriesYes">Yes</label>
                         <input id="injuriesNo" type="radio" name="injuries" value="No" />
@@ -146,7 +146,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="haveYouEaten" className="mb-2">Have you had anything to eat or drink in the last 30 minutes (including gum, mint, or tobacco)?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="eatenYes" type="radio" name="haveYouEaten" value="Yes" required />
                         <label htmlFor="eatenYes">Yes</label>
                         <input id="eatenNo" type="radio" name="haveYouEaten" value="No" />
@@ -158,7 +158,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="cavities" className="mb-2">Do you have any oral infections like cavities?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="cavitiesYes" type="radio" name="cavities" value="Yes" required />
                         <label htmlFor="cavitiesYes">Yes</label>
                         <input id="cavitiesNo" type="radio" name="cavities" value="No" />
@@ -172,7 +172,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="muscleOrJointSoreness" className="mb-2">Any surgeries, injuries, current muscle soreness, and general lack of endurance before the test a particular joint?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="sorenessYes" type="radio" name="muscleOrJointSoreness" value="Yes" required />
                         <label htmlFor="sorenessYes">Yes</label>
                         <input id="sorenessNo" type="radio" name="muscleOrJointSoreness" value="No" />
@@ -186,7 +186,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="circulationIssues" className="mb-2">Have you been diagnosed with phlebitis, edema, thrombosis, or any vascular or circulation issues?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="circulationYes" type="radio" name="circulationIssues" value="Yes" required />
                         <label htmlFor="circulationYes">Yes</label>
                         <input id="circulationNo" type="radio" name="circulationIssues" value="No" />
@@ -198,7 +198,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="thyroidConditions" className="mb-2">Any known allergy to IODINE, SHELLFISH, or a THYROID condition such as Hypothyroidism?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="thyroidYes" type="radio" name="thyroidConditions" value="Yes" required />
                         <label htmlFor="thyroidYes">Yes</label>
                         <input id="thyroidNo" type="radio" name="thyroidConditions" value="No" />
@@ -212,7 +212,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="iron" className="mb-2">Have you been diagnosed with anemia or do you use cast iron pots and pans or take iron supplements?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="ironYes" type="radio" name="iron" value="Yes" required />
                         <label htmlFor="ironYes">Yes</label>
                         <input id="ironNo" type="radio" name="iron" value="No" />
@@ -226,7 +226,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="pregnant" className="mb-2">Female: Is there any chance you could be pregnant?</label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="pregnantYes" type="radio" name="pregnant" value="Yes" />
                         <label htmlFor="pregnantYes">Yes</label>
                         <input id="pregnantNo" type="radio" name="pregnant" value="No" />
@@ -238,7 +238,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="femaleSurgeries" className="mb-2">Female: Any C-Section or other surgeries in the female reproduction area? If yes, how recent?</label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="femaleSurgeriesYes" type="radio" name="femaleSurgeries" value="Yes" />
                         <label htmlFor="femaleSurgeriesYes">Yes</label>
                         <input id="femaleSurgeriesNo" type="radio" name="femaleSurgeries" value="No" />
@@ -250,7 +250,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="breastTenderness" className="mb-2">Female: Have you ever experience breast tenderness during your cycle and are you currently menstruating?</label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="breastYes" type="radio" name="breastTenderness" value="Yes" />
                         <label htmlFor="breastYes">Yes</label>
                         <input id="breastNo" type="radio" name="breastTenderness" value="No" />
@@ -262,7 +262,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="permissionToTouch" className="mb-2">Because our practitioner will be palpating in this lower region does she have permission to touch?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="permissionYes" type="radio" name="permissionToTouch" value="Yes" />
                         <label htmlFor="permissionYes">Yes</label>
                         <input id="permissionNo" type="radio" name="permissionToTouch" value="No" />
@@ -276,7 +276,7 @@ const FunctionalExamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="backPain" className="mb-2">Any injuries or pain in the lower back?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="backPainYes" type="radio" name="backPain" value="Yes" required />
                         <label htmlFor="backPainYes">Yes</label>
                         <input id="backPainNo" type="radio" name="backPain" value="No" />

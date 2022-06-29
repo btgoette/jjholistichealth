@@ -84,6 +84,86 @@ body {
     background-size: cover;
 }
 
+.table-red {
+    background-color: $table-red;
+    color: $white;
+}
+
+.table-red-transparent {
+    background-color: $table-red-transparent;
+    color: $black;
+}
+.table-blue {
+    background-color: $table-blue;
+    color: $white;
+}
+
+.table-blue-transparent {
+    background-color: $table-blue-transparent;
+    color: $black;
+}
+
+.table-green {
+    background-color: $table-green;
+    color: $white;
+}
+
+.table-green-transparent {
+    background-color: $table-green-transparent;
+    color: $black;
+}
+
+.table-yellow {
+    background-color: $table-yellow;
+    color: $black;
+}
+
+.table-yellow-transparent {
+    background-color: $table-yellow-transparent;
+    color: $black;
+}
+
+.table-orange {
+    background-color: $table-orange;
+    color: $white;
+}
+
+.table-orange-transparent {
+    background-color: $table-orange-transparent;
+    color: $black;
+}
+
+.table-brown {
+    background-color: $table-brown;
+    color: $white;
+}
+
+.table-brown-transparent {
+    background-color: $table-brown-transparent;
+    color: $black;
+}
+
+.table-black {
+    background-color: $table-black;
+    color: $white;
+}
+
+.table-black-transparent {
+    background-color: $table-black-transparent;
+    color: $white;
+}
+
+.table-gray {
+    background-color: $table-gray;
+    color: $black;
+}
+
+.table-gray-transparent {
+    background-color: $table-gray-transparent;
+    color: $black;
+}
+
+
 @media only screen and (min-width: $small) {
 
     .brown-swirl-background {

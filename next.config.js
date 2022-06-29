@@ -14,6 +14,7 @@ module.exports = {
             '/forms/book-now': { page: '/forms/book-now' },
             '/forms/consent': { page: '/forms/consent' },
             '/forms/food-intolerance': { page: '/forms/food-intolerance' },
+            '/forms/foot-detox-intake': { page: '/forms/foot-detox-intake' },
             '/forms/functional-exam': { page: '/forms/functional-exam' },
             '/forms/follow-up': { page: '/forms/follow-up' },
             '/forms/herbal-v-steam-intake': { page: '/forms/herbal-v-steam-intake' },

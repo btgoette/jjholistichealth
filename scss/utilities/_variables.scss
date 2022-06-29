@@ -30,6 +30,24 @@ $transparent-green: #4b664557;
 $transparent-grey: #b4c4b437;
 $transparent-white: #f9f9f9dd;
 
+// Table Colors
+$table-red: #e7372d;
+$table-red-transparent: #e7372d77;
+$table-blue: #004aad;
+$table-blue-transparent: #004aad77;
+$table-green: #008037;
+$table-green-transparent: #00803777;
+$table-yellow: #ffde59;
+$table-yellow-transparent: #ffde5977;
+$table-orange: #ff914d;
+$table-orange-transparent: #ff914d77;
+$table-brown: #ab844b;
+$table-brown-transparent: #ab844b77;
+$table-black: #000000;
+$table-black-transparent: #00000077;
+$table-gray: #b4b4b4;
+$table-gray-transparent: #b4b4b477;
+
 // backgrounds
 $background-bottom-center: bottom center;
 $background-color: $white;
@@ -93,8 +111,8 @@ $header-margin-bottom: 1.5rem;
 $link-weight: 700;
 
 $nav-dropdown-font-size: $font-size-small;
-$nav-font-color: $dark-green;
-$nav-font-hover-color: $green;
+$nav-font-color: $green;
+$nav-font-hover-color: $dark-green;
 $nav-kids-font-color: $white;
 $nav-kids-font-hover-color: $light-green;
 $nav-font-family: $header-font-family;
@@ -119,6 +137,8 @@ $error-page-header-size: 3rem;
 $error-page-header-size-mobile: 2rem;
 
 $label-font-weight: 600;
+
+$table-font-weight: 700;
 
 // Buttons
 $button-font-family: $header-font-family-medium;
