@@ -9,6 +9,7 @@ const Video = (video) => {
         muted
         autoPlay="true"
         src={video.src}
+        poster={video.poster}
       >
         <BigPlayButton position="center" />
       </Player>
