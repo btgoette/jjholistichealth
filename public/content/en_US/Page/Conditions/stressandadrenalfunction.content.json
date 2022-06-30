@@ -14,7 +14,8 @@
             {
                 "p": "Hormones produced in the adrenal glands include cortisol, adrenaline and aldosterone. Production that is too much or too little can result in adrenal disorders that affect the way your body functions. Stress affects all systems of the body including the musculoskeletal, respiratory, cardiovascular, endocrine, gastrointestinal, nervous, and reproductive systems. Our bodies are well equipped to handle stress in small doses, but when that stress becomes long-term or chronic, it can have serious effects on your body."
             }
-        ]
+        ],
+        "bookNow": "true"
     },
     "findingProblemsWithStress": {
         "slug": "finding-problems-with-stress",

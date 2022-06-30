@@ -15,7 +15,12 @@
             {
                 "p": "At Johnson and Johnson Holistic Nutritional Therapy, we handle medical issues by identifying and eliminating the root cause, not considering emergency situations. This summarizes the traditional approach to medicine at J&J Holistic Nutritional Therapy. We treat symptoms by discerning the root cause and working to rectify that."
             }
-        ]
+        ],
+        "video": {
+            "ctaLabel": "Watch Our Story",
+            "src": "/videos/jj-about-video.mp4",
+            "poster": "/images/pages/about/jj-about-video-poster.webp"
+        }
     },
     "naturalCare": {
         "slug": "natural-care",

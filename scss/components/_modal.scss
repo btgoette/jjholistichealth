@@ -1,39 +1,26 @@
 .modal {
-    padding-left: 0 !important;
+    &.modal-video {
 
-    .modal-dialog {
-        width: 100%;
-        max-width: 350px;
-        margin: 6rem auto 0;
+        &.fade {
+            transition: opacity 0.25s linear;
+        }
+        .modal-fullscreen {
+            display: grid;
+            align-items: center;
+            width: 100%;
+            .modal-content {
+                width: 100%;
+                max-width: 1400px;
+                margin: auto auto;
+                height: unset;
 
-        .modal-content {
-            .modal-close {
-                position: absolute;
-                width: 15px;
-                top: 0px;
-                right: 10px;
-                // color: $white;
-                z-index: 1;
-                a {
-                    // color: $white;
-                    svg {
-                        width: 15px;
-                        color: $white;
-                    }
+                .modal-header {
+                    background-color: $green;
+                }
+                .modal-body {
+                    padding: 0 0;
                 }
             }
-            .modal-body {
-                padding: 0 0;
-                position: relative;
-            }
-        }
-        @media only screen and (min-width: $small) {
-            max-width: 500px;
-        }
-
-        @media only screen and (min-width: $large) {
-            max-width: min-content;
-            width: 100%;
         }
     }
 }

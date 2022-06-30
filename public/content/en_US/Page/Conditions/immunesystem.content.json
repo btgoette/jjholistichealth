@@ -14,7 +14,8 @@
             {
                 "p": "Your immune system works hard to keep you healthy. Its job is to keep germs out of your body, destroy them or limit the extent of their harm if they get in. When your immune system is working properly, it can tell which cells are yours and which substances are foreign to your body. It activates, mobilizes, attacks and kills foreign invader germs that can cause you harm."
             }
-        ]
+        ],
+        "bookNow": "true"
     },
     "stressFactors": {
         "slug": "stress-factors",
