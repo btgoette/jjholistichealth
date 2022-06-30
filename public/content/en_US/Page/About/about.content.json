@@ -17,6 +17,10 @@
             }
         ]
     },
+    "video": {
+        "src": "/videos/jj-about-video.mp4",
+        "poster": "/images/pages/about/jj-about-video-poster.webp"
+    },
     "naturalCare": {
         "slug": "natural-care",
         "grid": "grid-500-1fr",

@@ -75,7 +75,7 @@ const BookNowForm = () => {
         </label>
       </fieldset>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="stress"
             type="checkbox"
@@ -84,7 +84,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="stress">Stress</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="digestiveIssues"
             type="checkbox"
@@ -93,7 +93,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="digestiveIssues">Digestive Issues</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="lowEnergy"
             type="checkbox"
@@ -102,7 +102,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="lowEnergy">Low Energy</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="hormoneImbalance"
             type="checkbox"
@@ -111,7 +111,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="hormoneImbalance">Hormone Imbalance</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="immunityProblems"
             type="checkbox"
@@ -120,7 +120,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="immunityProblems">Immunity Problems</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="chronicConditions"
             type="checkbox"
@@ -129,7 +129,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="chronicConditions">Chronic Conditions</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="skinConditions"
             type="checkbox"
@@ -138,7 +138,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="skinConditions">Skin Conditions</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="neurologicalConditions"
             type="checkbox"
@@ -149,7 +149,7 @@ const BookNowForm = () => {
             Neurological Conditions
           </label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="weightManagement"
             type="checkbox"
@@ -158,7 +158,7 @@ const BookNowForm = () => {
           />
           <label htmlFor="weightManagement">Weight Management</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input
             id="cancer"
             type="checkbox"

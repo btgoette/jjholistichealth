@@ -101,19 +101,19 @@ const PediatricAssessment = () => {
 
       <label htmlFor="childcare" className="mb-2">Childcare:</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="homeByFamily" type="checkbox" name="childcare1" value="Home by family" />
           <label htmlFor="homeByFamily">Home by family</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="homecareProvider" type="checkbox" name="childcare2" value="Homecare provider" />
           <label htmlFor="homecareProvider">Homecare Provider</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="daycareCenter" type="checkbox" name="childcare3" value="Daycare center" />
           <label htmlFor="daycareCenter">Daycare Center</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="preschool" type="checkbox" name="childcare4" value="Preschool/head start" />
           <label htmlFor="preschool">Preschool/Head Start</label>
         </div>
@@ -123,7 +123,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="goodSleep" className="mb-2">Does your child sleep well?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="goodSleepYes" type="radio" name="goodSleep" value="Yes" required />
           <label htmlFor="goodSleepYes">Yes</label>
           <input id="goodSleepNo" type="radio" name="goodSleep" value="No" />
@@ -140,7 +140,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="childSleepIn" className="mb-2">Does your child sleep in:</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="crib" type="radio" name="childSleepIn" value="In crib/bassinet" />
           <label htmlFor="crib">crib/bassinet</label>
           <input id="withParents" type="radio" name="childSleepIn" value="With parent(s)" />
@@ -152,7 +152,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="childSleepPosition" className="mb-2">Child&apos;s sleep position:</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="back" type="radio" name="childSleepPosition" value="Back" />
           <label htmlFor="back">Back</label>
           <input id="side" type="radio" name="childSleepPosition" value="Side" />
@@ -164,7 +164,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="childWakeUpAtNight" className="mb-2">Do your child wake up at night?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="childWakeUpAtNight" type="radio" name="childWakeUpAtNight" value="Yes" required />
           <label htmlFor="childWakeUpAtNightYes">Yes</label>
           <input id="childWakeUpAtNightNo" type="radio" name="childWakeUpAtNight" value="No" />
@@ -202,7 +202,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="breastfeed" className="mb-2">Does your child breastfeed?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="breastfeedYes" type="radio" name="breastfeed" value="Yes" required />
           <label htmlFor="breastfeedYes">Yes</label>
           <input id="breastfeedNo" type="radio" name="breastfeed" value="No" />
@@ -223,7 +223,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="formula" className="mb-2">Does your child drink formula?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="formulaYes" type="radio" name="formula" value="Yes" required />
           <label htmlFor="formulaYes">Yes</label>
           <input id="formulaNo" type="radio" name="formula" value="No" />
@@ -244,7 +244,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="bottle" className="mb-2">Does your child use a bottle and/or sippy cup?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="bottleYes" type="radio" name="bottle" value="Yes" required />
           <label htmlFor="bottleYes">Yes</label>
           <input id="bottleNo" type="radio" name="bottle" value="No" />
@@ -261,7 +261,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="caffeine" className="mb-2">Do your child drink caffeinated bevereages (e.g. coffee, black tea, soda, etc.)?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="caffeineYes" type="radio" name="caffeine" value="Yes" required />
           <label htmlFor="caffeineYes">Yes</label>
           <input id="caffeineNo" type="radio" name="caffeine" value="No" />
@@ -334,7 +334,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="tiredAfterMeals" className="mb-2">Does your child often feel tired after meals?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="tiredYes" type="radio" name="tiredAfterMeals" value="Yes" required />
           <label htmlFor="tiredYes">Yes</label>
           <input id="tiredNo" type="radio" name="tiredAfterMeals" value="No" />
@@ -344,7 +344,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="bloatedAfterMeals" className="mb-2">Does your child often feel bloated after meals?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="bloatedYes" type="radio" name="bloatedAfterMeals" value="Yes" required />
           <label htmlFor="bloatedYes">Yes</label>
           <input id="bloatedNo" type="radio" name="bloatedAfterMeals" value="No" />
@@ -354,7 +354,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="gassyAfterMeals" className="mb-2">Does your child often feel gassy after meals?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="gassyYes" type="radio" name="gassyAfterMeals" value="Yes" required />
           <label htmlFor="gassyYes">Yes</label>
           <input id="gassyNo" type="radio" name="gassyAfterMeals" value="No" />
@@ -364,7 +364,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="constipation" className="mb-2">Does your child experience constipation often?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="constipationYes" type="radio" name="constipation" value="Yes" required />
           <label htmlFor="constipationYes">Yes</label>
           <input id="constipationNo" type="radio" name="constipation" value="No" />
@@ -374,7 +374,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="diarrhea" className="mb-2">Does your child experience diarrhea often?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="diarrheaYes" type="radio" name="diarrhea" value="Yes" required />
           <label htmlFor="diarrheaYes">Yes</label>
           <input id="diarrheaNo" type="radio" name="diarrhea" value="No" />
@@ -398,7 +398,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="excessivelyHungry" className="mb-2">Does your child often feel excessively hungry after meals?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="hungryYes" type="radio" name="excessivelyHungry" value="Yes" required />
           <label htmlFor="hungryYes">Yes</label>
           <input id="hungryNo" type="radio" name="excessivelyHungry" value="No" />
@@ -408,7 +408,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="noAppetite" className="mb-2">Does your child have little or no appetite?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="noAppetiteYes" type="radio" name="noAppetite" value="Yes" required />
           <label htmlFor="noAppetiteYes">Yes</label>
           <input id="noAppetiteNo" type="radio" name="noAppetite" value="No" />
@@ -418,7 +418,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="craveSugar" className="mb-2">Does your child often crave sugar?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="craveSugarYes" type="radio" name="craveSugar" value="Yes" required />
           <label htmlFor="craveSugarYes">Yes</label>
           <input id="craveSugarNo" type="radio" name="craveSugar" value="No" />
@@ -428,7 +428,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="craveSalt" className="mb-2">Does your child often crave salt?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="craveSaltYes" type="radio" name="craveSalt" value="Yes" required />
           <label htmlFor="craveSaltYes">Yes</label>
           <input id="craveSaltNo" type="radio" name="craveSalt" value="No" />
@@ -440,7 +440,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="secondhandSmoke" className="mb-2">Is your child regularly exposed to secondhand smoke?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="smokeYes" type="radio" name="secondhandSmoke" value="Yes" required />
           <label htmlFor="smokeYes">Yes</label>
           <input id="smokeNo" type="radio" name="secondhandSmoke" value="No" />
@@ -450,7 +450,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="smokeDetector" className="mb-2">Do you have a working smoke detector?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="smokeDetectorYes" type="radio" name="smokeDetector" value="Yes" required />
           <label htmlFor="smokeDetectorYes">Yes</label>
           <input id="smokeDetectorNo" type="radio" name="smokeDetector" value="No" />
@@ -481,7 +481,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="fillings" className="mb-2">Does your child have amalgam fillings?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="fillingsYes" type="radio" name="fillings" value="Yes" required />
           <label htmlFor="fillingsYes">Yes</label>
           <input id="fillingsNo" type="radio" name="fillings" value="No" />
@@ -491,7 +491,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="fillingsSpecify" className="mb-2">If yes, specify if:</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="fillingsRemoved" type="radio" name="fillingsSpecify" value="Removed" />
           <label htmlFor="fillingsRemoved">Removed</label>
           <input id="fillingsReplaced" type="radio" name="fillingsSpecify" value="Replaced" />
@@ -501,7 +501,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="toxicExposure" className="mb-2">Have you been exposed to toxic substances at work or at home?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="toxicYes" type="radio" name="toxicExposure" value="Yes" required />
           <label htmlFor="toxicYes">Yes</label>
           <input id="toxicNo" type="radio" name="toxicExposure" value="No" />
@@ -511,7 +511,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="sports" className="mb-2">Does your child enjoy playing sports or being active outside?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="sportsYes" type="radio" name="sports" value="Yes" required />
           <label htmlFor="sportsYes">Yes</label>
           <input id="sportsNo" type="radio" name="sports" value="No" />
@@ -565,7 +565,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="takingMedicationOrSupplements" className="mb-2">Is your child currently taking any vitamins, minerals, herbs, homeopathic remedies, prescription or non-prescription medications, aspirin, laxatives, diet pills, or any other supplements?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="supplementsYes" type="radio" name="takingMedicationOrSupplements" value="Yes" required />
           <label htmlFor="supplementsYes">Yes</label>
           <input id="supplementsNo" type="radio" name="takingMedicationOrSupplements" value="No" />
@@ -582,7 +582,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="allergiestoMedication" className="mb-2">Does your child have any known allergies to medications or herbs?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="allergiesYes" type="radio" name="allergiestoMedication" value="Yes" required />
           <label htmlFor="allergiesYes">Yes</label>
           <input id="allergiesNo" type="radio" name="allergiestoMedication" value="No" />
@@ -592,7 +592,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="anySpecificIssue" className="mb-2">Is your child currently under a doctor or practitioner&apos;s care for a specific issue?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="specificIssueYes" type="radio" name="anySpecificIssue" value="Yes" required />
           <label htmlFor="specificIssueYes">Yes</label>
           <input id="specificIssueNo" type="radio" name="anySpecificIssue" value="No" />
@@ -609,7 +609,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="seriousInjuries" className="mb-2">Has your child ever been seriously injured, hospitalized, or suffered from a disease?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="seriousInjuriesYes" type="radio" name="seriousInjuries" value="Yes" required />
           <label htmlFor="seriousInjuriesYes">Yes</label>
           <input id="seriousInjuriesNo" type="radio" name="seriousInjuries" value="No" />
@@ -619,14 +619,14 @@ const PediatricAssessment = () => {
 
       <label htmlFor="specificInjury" className="mb-2">If yes please specify:</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <textarea id="specificInjury" name="specificInjury" />
         </div>
       </fieldset>
 
       <label htmlFor="howWereYouBorn" className="mb-2">Was your child born vaginally or by cesarean section?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="bornVaginally" type="radio" name="howWereYouBorn" value="Vaginally" />
           <label htmlFor="bornVaginally">Vaginally</label>
           <input id="bornCSection" type="radio" name="howWereYouBorn" value="Caesarean Section" />
@@ -636,7 +636,7 @@ const PediatricAssessment = () => {
 
       <label htmlFor="breastFedAsaBaby" className="mb-2">Was your child breastfed as a baby?</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="breastfedAsaBaby" type="radio" name="breastFedAsaBaby" value="Yes" required />
           <label htmlFor="breastfedAsaBaby">Yes</label>
           <input id="notBreastfedAsaBaby" type="radio" name="breastFedAsaBaby" value="No" />
@@ -655,35 +655,35 @@ const PediatricAssessment = () => {
 
       <label htmlFor="allFamilyConditions" className="mb-2">Please check all conditions below that apply to your parents and grandparents:</label>
       <fieldset>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="arthritis" type="checkbox" name="allFamilyConditions1" value="Arthritis" />
           <label htmlFor="arthritis">Arthritis</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="asthma" type="checkbox" name="allFamilyConditions2" value="Asthma" />
           <label htmlFor="asthma">Asthma</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="cancer" type="checkbox" name="allFamilyConditions3" value="Cancer" />
           <label htmlFor="cancer">Cancer</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="diabetes" type="checkbox" name="allFamilyConditions4" value="Diabetes" />
           <label htmlFor="diabetes">Diabetes</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="gallbladder" type="checkbox" name="allFamilyConditions5" value="Gallbladder Disease" />
           <label htmlFor="gallbladder">Gallbladder Disease</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="heart" type="checkbox" name="allFamilyConditions6" value="Heart Disease" />
           <label htmlFor="heart">Heart Disease</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="kidney" type="checkbox" name="allFamilyConditions7" value="Kidney Disease" />
           <label htmlFor="kidney">Kidney</label>
         </div>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-center">
           <input id="stomach" type="checkbox" name="allFamilyConditions8" value="Stomach/Intestinal Disorder" />
           <label htmlFor="stomach">Stomach or Intestinal Disorder</label>
         </div>

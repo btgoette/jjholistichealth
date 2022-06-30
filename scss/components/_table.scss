@@ -1,0 +1,22 @@
+.table {
+    border: 2px solid $black;
+    width: 100%;
+
+    tr:first-of-type {
+        font-weight: $table-font-weight;
+    }
+
+    td {
+        text-align: center;
+        padding: 5px 8px;
+        border: 2px solid $black;
+    }
+
+    @media only screen and (min-width: $medium) {
+        tr {
+            td:first-of-type {
+                min-width: 170px;
+            }
+        }
+    }
+}

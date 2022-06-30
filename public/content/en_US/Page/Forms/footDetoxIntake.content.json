@@ -1,0 +1,48 @@
+{
+    "title": "Foot Detox Intake Form  - JJ Holistic Nutritional Therapy",
+    "description": "Please fill out the Foot Detox Intake Form as accurately as possible. We will contact you as soon as possible.",
+    "slug": "foot-detox-intake",
+    "href": "https://jjholistichealth.com/forms/foot-detox-intake-form",
+    "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
+    "imageType": "image/webp",
+    "robots": "INDEX, FOLLOW",
+    "navigationLabel": "Foot Detox Intake Form",
+    "breadcrumbs": [
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Forms",
+            "link": "/forms"
+        }
+    ],
+    "finalcrumb": "Foot Detox Intake Form",
+    "block": {
+        "form": {
+            "slug": "foot-detox-intake-form",
+            "column": [
+                {
+                    "offset": "2",
+                    "span": "8",
+                    "order": "0"
+                }
+            ],
+            "title": "Foot Detox Intake Form",
+            "text": [
+                {
+                    "p": "Foot detox is completely non-invasive and safe for most. You may experience a slight tingling sensation in your feet during the session."
+                },
+                {
+                    "p": "Please have a light snack before your foot detox to avoid feeling light-headed. Hypoglycemic clients need to eat before the treatment."
+                },
+                {
+                    "p": "It is important to stay hydrated after your foot detox, as your body will continue to eliminate toxins after your foot bath is completed. You may experience tiredness due to the body's needing time to recuperate after having toxins pulled out of your body. Inquiring about nutritional supplements and/or lifestyle modifications can help maximize the detoxification process and ensure optimal health goals are met."
+                },
+                {
+                    "p": "Clients that are pregnant and/or breastfeeding, clients with pacemakers or electrical implants, irregular heartbeat, active chemotherapy treatment, and certain medications should consult their healthcare provider first. A release form must be signed and reviewed by our office before an initial foot detox is done."
+                }
+            ]
+        }
+    }
+}

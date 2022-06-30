@@ -49,37 +49,37 @@ const EndocrineSteamIntakeForm = () => {
 
             <label className="mb-2">Please select all that apply:<span className="required">*</span></label>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="onPeriod" type="checkbox" name="onPeriod" value="Currently on period" />
                     <label htmlFor="onPeriod">Currently on your period</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="freshSpotting" type="checkbox" name="freshSpotting" value="Has fresh spotting" />
                     <label htmlFor="freshSpotting">Having fresh spotting</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="spontaneousBleeding" type="checkbox" name="spontaneousBleeding" value="Has had spontaneious bleeding" />
                     <label htmlFor="spontaneousBleeding">Have had spontaneous bleeding in past three months</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="twoPeriods" type="checkbox" name="twoPeriods" value="Has had two periods per month" />
                     <label htmlFor="twoPeriods">Have had two periods per month within the past three months</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="pregnant" type="checkbox" name="pregnant" value="Pregnant" />
                     <label htmlFor="pregnant">Pregnant</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="pastOvulation" type="checkbox" name="pastOvulation" value="Past ovulation" />
                     <label htmlFor="pastOvulation">Past ovulation (if trying to conceive)</label>
                 </div>
@@ -91,20 +91,20 @@ const EndocrineSteamIntakeForm = () => {
 
             <label className="mb-2">Please select all thay apply:<span className="required">*</span></label>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="infection" type="checkbox" name="infection" value="Infection characterized by a burning itch" />
                     <label htmlFor="infection">Infection characterized by a burning itch</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="tubalCoagulation" type="checkbox" name="tubalCoagulation" value=" Tubal coagulation" />
                     <label htmlFor="tubalCoagulation">Tubal coagulation (burning of the fallopian tubes through laparoscopic surgery through the belly button)
                     </label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="birthControlImplant" type="checkbox" name="birthControlImplant" value="Birth control arm implant" />
                     <label htmlFor="birthControlImplant">Birth control arm implant (i.e. nexplanon)</label>
                 </div>
@@ -125,61 +125,61 @@ const EndocrineSteamIntakeForm = () => {
 
             <label className="mb-2">Please select all thay apply:<span className="required">*</span></label>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="firstTimeSteaming" type="checkbox" name="firstTimeSteaming" value="First time doing a steam session" />
                     <label htmlFor="firstTimeSteaming">First time doing a steam session</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="shortMenstrualCycles" type="checkbox" name="shortMenstrualCycles" value="Menstrual cycles are currently or historically ever 27 days or shorter" />
                     <label htmlFor="shortMenstrualCycles">Menstrual cycles are currently or historically ever 27 days or shorter</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="hasHotFlashes" type="checkbox" name="hasHotFlashes" value="Hot flashes over the past month" />
                     <label htmlFor="hasHotFlashes">Hot flashes over the past month</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="hasNightSweats" type="checkbox" name="hasNightSweats" value="Nightsweats over the past month" />
                     <label htmlFor="hasNightSweats">Nightsweats over the past month</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="haveAnIUD" type="checkbox" name="haveAnIUD" value="Have an IUD" />
                     <label htmlFor="haveAnIUD">Have an IUD</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="yeastInfections" type="checkbox" name="yeastInfections" value="Currently or historically prone to yeast infections" />
                     <label htmlFor="yeastInfections">Currently or historically prone to yeast infections</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="bacterialVaginosis" type="checkbox" name="bacterialVaginosis" value="Currently or historically prone to bacterial vaginosis" />
                     <label htmlFor="bacterialVaginosis">Currently or historically prone to bacterial vaginosis</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="herpes" type="checkbox" name="herpes" value="Herpes" />
                     <label htmlFor="herpes">Herpes</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="nuvaRing" type="checkbox" name="nuvaRing" value="Have the Nuva ring in." />
                     <label htmlFor="nuvaRing">Have the Nuva ring in. (If so, please remove it before the steam session)</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="age13" type="checkbox" name="age13" value="Age 13 or younger" />
                     <label htmlFor="age13">Age 13 or younger</label>
                 </div>
@@ -196,19 +196,19 @@ const EndocrineSteamIntakeForm = () => {
 
             <label className="mb-2">Indicators for Cleansing Herbs<span className="required">*</span></label>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="longMenstrualCycles" type="checkbox" name="longMenstrualCycles" value="Menstrual cycle 28 days or longer" />
                     <label htmlFor="longMenstrualCycles">Menstrual cycles 28 days or longer</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="absentMenstrualCycles" type="checkbox" name="absentMenstrualCycles" value="Menstrual cycle absent or missing for an unknown reason or because birth control" />
                     <label htmlFor="absentMenstrualCycles">Menstrual cycle absent or missing for an unknown reason or because birth control</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="onBirthControl" type="checkbox" name="onBirthControl" value="Currently taking birth control pills" />
                     <label htmlFor="onBirthControl">Currently taking birth control pills</label>
                 </div>
@@ -216,13 +216,13 @@ const EndocrineSteamIntakeForm = () => {
 
             <label className="mb-2">Indicators for Disinfecting Herbs<span className="required">*</span></label>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="thickVaginalDischarge" type="checkbox" name="thickVaginalDischarge" value="Thick vaginal discharge" />
                     <label htmlFor="thickVaginalDischarge">Thick vaginal discharge</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="vaginalSmell" type="checkbox" name="vaginalSmell" value="Vaginal smell" />
                     <label htmlFor="vaginalSmell">Vaginal smell</label>
                 </div>
@@ -230,37 +230,37 @@ const EndocrineSteamIntakeForm = () => {
 
             <label className="mb-2">Indicators for Cooling Herbs<span className="required">*</span></label>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="vaginalDryness" type="checkbox" name="vaginalDryness" value="Vaginal dryness" />
                     <label htmlFor="vaginalDryness">Vaginal dryness</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="hotFlashes" type="checkbox" name="hotFlashes" value="Hot flashes" />
                     <label htmlFor="hotFlashes">Hot flashes</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="nightSweats" type="checkbox" name="nightSweats" value="Night sweats" />
                     <label htmlFor="nightSweats">Night sweats</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="aversionToHeat" type="checkbox" name="aversionToHeat" value="Aversion to heat" />
                     <label htmlFor="aversionToHeat">Aversion to heat</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="radiateHeat" type="checkbox" name="radiateHeat" value="Radiate heat" />
                     <label htmlFor="radiateHeat">Radiate heat</label>
                 </div>
             </fieldset>
             <fieldset>
-                <div className="d-flex align-items-start">
+                <div className="d-flex align-items-center">
                     <input id="infectionWithoutDischarge" type="checkbox" name="infectionWithoutDischarge" value="Infection without discharge" />
                     <label htmlFor="infectionWithoutDischarge">Infection without discharge</label>
                 </div>

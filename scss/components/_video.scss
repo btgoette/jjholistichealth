@@ -1,0 +1,7 @@
+.video {
+    @media only screen and (min-width: $large) {
+        .video-react {
+            padding-top: 42% !important;
+        }
+    }
+}

@@ -2,6 +2,7 @@
 
 // Page Components
 import Head from "components/common/Head";
+import Video from "components/common/Video";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
 import Main from "components/layout/Main";
@@ -15,6 +16,7 @@ const About = () => {
     <div className={page.slug}>
       <JJNav/>
       <Head {...page} />
+      <Video {...page.video}/>
       <Hero {...page.hero} />
       <Main>
         <Section {...page.naturalCare} />

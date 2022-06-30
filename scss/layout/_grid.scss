@@ -9,8 +9,8 @@ section {
 
 .container {
     max-width: $container-width;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .img-title {
@@ -60,6 +60,12 @@ p {
 }
 
 @media only screen and (min-width: $small) {
+
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
     .conditions-grid,
     .home-conditions-grid,
     .kids-conditions-grid {

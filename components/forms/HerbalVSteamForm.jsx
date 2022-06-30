@@ -51,7 +51,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="onPeriod" className="mb-2">Are you currently on your period?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="onPeriodYes" type="radio" name="onPeriod" value="Yes" required />
                         <label htmlFor="onPeriodYes">Yes</label>
                         <input id="onPeriodNo" type="radio" name="onPeriod" value="No" />
@@ -67,7 +67,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="freshSpotting" className="mb-2"> Do you currently have fresh spotting?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="freshSpottingYes" type="radio" name="freshSpotting" value="Yes" required />
                         <label htmlFor="freshSpottingYes">Yes</label>
                         <input id="freshSpottingNo" type="radio" name="freshSpotting" value="No" />
@@ -79,7 +79,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="spontaneousBleeding" className="mb-2">Have you had spontaneous bleeding in the last 3 months?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="spontaneousBleedingYes" type="radio" name="spontaneousBleeding" value="Yes" required />
                         <label htmlFor="spontaneousBleedingYes">Yes</label>
                         <input id="spontaneousBleedingNo" type="radio" name="spontaneousBleeding" value="No" />
@@ -91,7 +91,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="twoPeriods" className="mb-2">Have you had 2 periods a month for the past 3 months?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="twoPeriodsYes" type="radio" name="twoPeriods" value="Yes" required />
                         <label htmlFor="twoPeriodsYes">Yes</label>
                         <input id="twoPeriodsNo" type="radio" name="twoPeriods" value="No" />
@@ -103,7 +103,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="pregnant" className="mb-2">Are you pregnant?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="pregnantYes" type="radio" name="pregnant" value="Yes" required />
                         <label htmlFor="pregnantYes">Yes</label>
                         <input id="pregnantNo" type="radio" name="pregnant" value="No" />
@@ -117,7 +117,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="pastOvulation" className="mb-2">If trying to conceive, are you past ovulation?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="pastOvulationYes" type="radio" name="pastOvulation" value="Yes" required />
                         <label htmlFor="pastOvulationYes">Yes</label>
                         <input id="pastOvulationNo" type="radio" name="pastOvulation" value="No" />
@@ -129,7 +129,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="openSores" className="mb-2">Do you have open sores?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="openSoresYes" type="radio" name="openSores" value="Yes" required />
                         <label htmlFor="openSoresYes">Yes</label>
                         <input id="openSoresNo" type="radio" name="openSores" value="No" />
@@ -141,7 +141,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="onDrugs" className="mb-2">Under the influence of (any) drugs?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="onDrugsYes" type="radio" name="onDrugs" value="Yes" required />
                         <label htmlFor="onDrugsYes">Yes</label>
                         <input id="onDrugsNo" type="radio" name="onDrugs" value="No" />
@@ -155,7 +155,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="herbAllergies" className="mb-2">Any allergies to herbs?<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="herbAllergiesYes" type="radio" name="herbAllergies" value="Yes" required />
                         <label htmlFor="herbAllergiesYes">Yes</label>
                         <input id="herbAllergiesNo" type="radio" name="herbAllergies" value="No" />
@@ -167,7 +167,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="yeastInfection" className="mb-2">Yeast Infection<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="yeastInfectionYes" type="radio" name="yeastInfection" value="Yes" required />
                         <label htmlFor="yeastInfectionYes">Yes</label>
                         <input id="yeastInfectionNo" type="radio" name="yeastInfectionm" value="No" />
@@ -179,7 +179,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="bacterialVaginosis" className="mb-2">Bacterial Vaginosis<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="bvYes" type="radio" name="bacterialVaginosis" value="Yes" required />
                         <label htmlFor="bvYes">Yes</label>
                         <input id="bvNo" type="radio" name="bacterialVaginosis" value="No" />
@@ -191,7 +191,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="pcos" className="mb-2">PCOS<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="pcosYes" type="radio" name="pcos" value="Yes" required />
                         <label htmlFor="pcosYes">Yes</label>
                         <input id="pcosNo" type="radio" name="pcos" value="No" />
@@ -203,7 +203,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="menopause" className="mb-2">Menopause<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="menopauseYes" type="radio" name="menopause" value="Yes" required />
                         <label htmlFor="menopauseYes">Yes</label>
                         <input id="menopauseNo" type="radio" name="menopause" value="No" />
@@ -215,7 +215,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="menopauseSymptoms" className="mb-2">Menopause symptoms<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="menopauseSymptomsYes" type="radio" name="menopauseSymptoms" value="Yes" required />
                         <label htmlFor="menopauseSymptomsYes">Yes</label>
                         <input id="menopauseSymptomsNo" type="radio" name="menopauseSymptoms" value="No" />
@@ -227,7 +227,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="herpes" className="mb-2">Herpes<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="herpesYes" type="radio" name="herpes" value="Yes" required />
                         <label htmlFor="herpesYes">Yes</label>
                         <input id="herpesNo" type="radio" name="herpes" value="No" />
@@ -239,7 +239,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="irregularPeriods" className="mb-2">Irregular periods<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="irregularPeriodsYes" type="radio" name="irregularPeriods" value="Yes" required />
                         <label htmlFor="irregularPeriodsYes">Yes</label>
                         <input id="irregularPeriodsNo" type="radio" name="irregularPeriods" value="No" />
@@ -251,7 +251,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="vaginalDryness" className="mb-2">Vaginal dryness<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="vaginalDrynessYes" type="radio" name="vaginalDryness" value="Yes" required />
                         <label htmlFor="vaginalDrynessYes">Yes</label>
                         <input id="vaginalDrynessNo" type="radio" name="vaginalDryness" value="No" />
@@ -263,7 +263,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="birthControl" className="mb-2">Birth Control<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="birthControlYes" type="radio" name="birthControl" value="Yes" required />
                         <label htmlFor="birthControlYes">Yes</label>
                         <input id="birthControlNo" type="radio" name="birthControl" value="No" />
@@ -282,7 +282,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="cysts" className="mb-2">Cysts<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="cystsYes" type="radio" name="cysts" value="Yes" required />
                         <label htmlFor="cystsYes">Yes</label>
                         <input id="cystsNo" type="radio" name="cysts" value="No" />
@@ -294,7 +294,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="fibroids" className="mb-2">Fibroids<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="fibroidsYes" type="radio" name="fibroids" value="Yes" required />
                         <label htmlFor="fibroidsYes">Yes</label>
                         <input id="fibroidsNo" type="radio" name="fibroids" value="No" />
@@ -306,7 +306,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="endometriosis" className="mb-2">Endometriosis<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="endometriosisYes" type="radio" name="endometriosis" value="Yes" required />
                         <label htmlFor="endometriosisYes">Yes</label>
                         <input id="endometriosisNo" type="radio" name="endometriosis" value="No" />
@@ -318,7 +318,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="heavyPMS" className="mb-2">Heavy PMS<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="heavyPMSYes" type="radio" name="heavyPMS" value="Yes" required />
                         <label htmlFor="heavyPMSYes">Yes</label>
                         <input id="heavyPMSNo" type="radio" name="heavyPMS" value="No" />
@@ -330,7 +330,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="infertility" className="mb-2">Infertility<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="infertilityYes" type="radio" name="infertility" value="Yes" required />
                         <label htmlFor="infertilityYes">Yes</label>
                         <input id="infertilityNo" type="radio" name="infertility" value="No" />
@@ -342,7 +342,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="wombTrauma" className="mb-2">Womb Trauma<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="wombTraumaYes" type="radio" name="wombTrauma" value="Yes" required />
                         <label htmlFor="wombTraumaYes">Yes</label>
                         <input id="wombTraumaNo" type="radio" name="wombTrauma" value="No" />
@@ -354,7 +354,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="vaginalOdor" className="mb-2">Vaginal Odor<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="vaginalOdorYes" type="radio" name="vaginalOdor" value="Yes" required />
                         <label htmlFor="vaginalOdorYes">Yes</label>
                         <input id="vaginalOdorNo" type="radio" name="vaginalOdor" value="No" />
@@ -366,7 +366,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="bladderLeakage" className="mb-2">Bladder Leakage<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="bladderLeakageYes" type="radio" name="bladderLeakage" value="Yes" required />
                         <label htmlFor="bladderLeakageYes">Yes</label>
                         <input id="bladderLeakageNo" type="radio" name="bladderLeakage" value="No" />
@@ -378,7 +378,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="hemorrhoids" className="mb-2">Hemorrhoids<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="hemorrhoidsYes" type="radio" name="hemorrhoids" value="Yes" required />
                         <label htmlFor="hemorrhoidsYes">Yes</label>
                         <input id="hemorrhoidsNo" type="radio" name="hemorrhoids" value="No" />
@@ -390,7 +390,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="enlargedProstate" className="mb-2">Enlarged Prostate<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="enlargedProstateYes" type="radio" name="enlargedProstate" value="Yes" required />
                         <label htmlFor="enlargedProstateYes">Yes</label>
                         <input id="enlargedProstateNo" type="radio" name="enlargedProstate" value="No" />
@@ -402,7 +402,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="troubleWithUrination" className="mb-2">Trouble with Urination<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="troubleWithUrinationYes" type="radio" name="troubleWithUrination" value="Yes" required />
                         <label htmlFor="troubleWithUrinationYes">Yes</label>
                         <input id="troubleWithUrinationNo" type="radio" name="troubleWithUrination" value="No" />
@@ -414,7 +414,7 @@ const HerbalVSteamForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="yoniPiercing" className="mb-2">Yoni Piercings<span className="required">*</span></label>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-center">
                         <input id="yoniPiercingYes" type="radio" name="yoniPiercing" value="Yes" required />
                         <label htmlFor="yoniPiercingYes">Yes</label>
                         <input id="yoniPiercingNo" type="radio" name="yoniPiercing" value="No" />
