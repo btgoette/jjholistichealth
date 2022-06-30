@@ -163,9 +163,19 @@ body {
     color: $black;
 }
 
+.video {
+    .video-react {
+        background-color: $dark-green;
+        background-image: url("/images/backgrounds/jj-video-background.webp");
+        background-size: cover;
+        background-position: center center;
+    }
+    .video-react .video-react-poster {
+        background-color: #00000000;
+    }
+}
 
 @media only screen and (min-width: $small) {
-
     .brown-swirl-background {
         background-image: url("/images/backgrounds/brown-swirl-background-small.webp");
     }
@@ -186,7 +196,6 @@ body {
 }
 
 @media only screen and (min-width: $large) {
-
     .brown-swirl-background {
         background-image: url("/images/backgrounds/brown-swirl-background-large.webp");
     }
