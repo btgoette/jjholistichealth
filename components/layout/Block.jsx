@@ -1,5 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Link from "next/link";
+import { Player, BigPlayButton } from "video-react";
 import { Figure, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -140,6 +141,30 @@ const Block = (block) => {
     }
   };
 
+  let hasVideo;
+  if (block.video !== undefined) {
+    hasVideo = true;
+  } else {
+    hasVideo = false;
+  }
+
+  const renderVideo = () => {
+    if (hasVideo) {
+      return (
+        <div className="video">
+          <Player
+            preload="auto"
+            playsInline
+            src={block.video.src}
+            poster={block.video.poster}
+          >
+            <BigPlayButton position="center" />
+          </Player>
+        </div>
+      );
+    }
+  };
+
   let hasCTA;
   if (block.cta !== undefined) {
     hasCTA = true;
@@ -203,6 +228,7 @@ const Block = (block) => {
       {renderList()}
       {renderLinkList()}
       {renderImage()}
+      {renderVideo()}
       {renderCTA()}
       {renderForm()}
     </div>

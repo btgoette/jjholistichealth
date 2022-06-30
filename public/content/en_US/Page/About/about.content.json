@@ -17,10 +17,6 @@
             }
         ]
     },
-    "video": {
-        "src": "/videos/jj-about-video.mp4",
-        "poster": "/images/pages/about/jj-about-video-poster.webp"
-    },
     "naturalCare": {
         "slug": "natural-care",
         "grid": "grid-500-1fr",
@@ -49,6 +45,24 @@
                             "p": "Here, we welcome who you are and treat you with natural care to reset your body back to its original state. We recognize that disease is complex, that’s why we focus on the concept of bio-individuality; where every individual has a specific genetic, ancestral, and geographic makeup that determines their own unique nutritional needs. Many nutrition programs fail because they take a “one size fits all” approach that ignores bio-individuality."
                         }
                     ]
+                }
+            }
+        ]
+    },
+    "ourStory": {
+        "slug": "pt-0",
+        "grid": "block",
+        "header": "Our Story",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-3",
+                    "column": "grid-column-1-2",
+                    "class": "d-block",
+                    "video": {
+                        "src": "/videos/jj-about-video.mp4",
+                        "poster": "/images/pages/about/jj-about-video-poster.webp"
+                    }
                 }
             }
         ]
