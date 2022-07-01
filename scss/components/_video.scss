@@ -1,7 +1,19 @@
 .video {
-    @media only screen and (min-width: $large) {
-        .video-react {
-            padding-top: 42% !important;
-        }
+    // background-color: $video-background-color;
+    border: none;
+    padding: 0 0;
+  
+    .video-react .video-react-big-play-button {
+      background-color: $green;
+      border: none;
     }
-}
+
+    .video-react:hover .video-react-big-play-button, .video-react .video-react-big-play-button:focus {
+        outline: 0;
+        border:none;
+        background-color: $dark-green;
+        transition: all 0s;
+      }
+  
+  }
+  

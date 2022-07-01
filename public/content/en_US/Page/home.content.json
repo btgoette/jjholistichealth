@@ -14,7 +14,8 @@
             {
                 "p": "We use a holistic approach in all consultations with our patients. This means we consider the person as a whole, as a sum of all the interconnected components that make that person unique."
             }
-        ]
+        ],
+        "bookNow":"true"
     },
     "nutritionalMedicine": {
         "slug": "home-nutritional-medicine",

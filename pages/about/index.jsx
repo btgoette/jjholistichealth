@@ -14,12 +14,12 @@ import page from "public/content/en_US/Page/About/about.content";
 const About = () => {
   return (
     <div className={page.slug}>
-      <JJNav/>
+      <JJNav />
       <Head {...page} />
-      <Video {...page.video}/>
       <Hero {...page.hero} />
       <Main>
         <Section {...page.naturalCare} />
+        <Section {...page.ourStory} />
         <Section {...page.mission} />
         <Section {...page.vision} />
         <Section {...page.coreValues} />

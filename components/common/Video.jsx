@@ -1,20 +1,29 @@
+import { Modal, Button, Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
 import { Player, BigPlayButton } from "video-react";
 import "node_modules/video-react/dist/video-react.css";
 
-const Video = (video) => {
-  return (
-    <div className="video">
-      <Player
-        preload="auto"
-        muted
-        autoPlay="true"
-        src={video.src}
-        poster={video.poster}
-      >
-        <BigPlayButton position="center" />
-      </Player>
-    </div>
-  );
-};
+export default function Video(block) {
+  const [fullscreen, setFullscreen] = useState(true);
+  const [show, setShow] = useState(false);
 
-export default Video;
+  function handleShow() {
+    setShow(true);
+  }
+
+  return (
+    <>
+      <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            
+        <Player playsInline poster={block.poster} src={block.src}>
+          <BigPlayButton position="center" />
+        </Player>
+        </Modal.Body>
+      </Modal>
+    </>
+  );
+}

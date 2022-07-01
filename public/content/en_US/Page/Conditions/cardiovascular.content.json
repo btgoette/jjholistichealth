@@ -14,7 +14,8 @@
             {
                 "p": "The cardiovascular system gets oxygen and nutrients to your entire body and removes waste. Your cells depend on your cardiovascular system to get what they need to keep running smoothly. That’s why it’s vital to take care of your heart with exercise, a healthy diet and controlled blood pressure and cholesterol."
             }
-        ]
+        ],
+        "bookNow": "true"
     },
     "cardiologist": {
         "slug": "cardiologist",
