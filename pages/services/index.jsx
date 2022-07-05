@@ -22,6 +22,7 @@ const Services = () => {
         <Section {...page.free15MinuteConsultation} />
         <Section {...page.initialInterview} />
         <Section {...page.fullFunctionalEvaluation} />
+        <Section {...page.fullFunctionalEvaluationContinued} />
         <Section {...page.jAndJPlans} />
       </Main>
     </div>
