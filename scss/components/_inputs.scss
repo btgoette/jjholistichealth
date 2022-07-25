@@ -37,6 +37,10 @@ form {
         border-radius: $border-rounded-input;
     }
 
+    input[type="file"] {
+        background-color: transparent;
+    }
+
     input[type="email"],
     input[type="text"],
     input[type="tel"] {

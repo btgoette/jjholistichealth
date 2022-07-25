@@ -10,8 +10,8 @@ const JobApplicationForm = () => {
       action="https://usebasin.com/f/d24a1ba38e4b"
     >
       {/* Applicant Information */}
-      <div className="bg-white border border-2 p-4">
-        <h3 className="text-dark">Applicant Information</h3>
+      <div className="form-section">
+        <h3>Applicant Information</h3>
         <fieldset>
           <div>
             <label for="Full_Name">
@@ -96,8 +96,8 @@ const JobApplicationForm = () => {
       <br />
 
       {/* Education */}
-      <div className="bg-white border border-2 p-4">
-        <h3 className="text-dark">Education</h3>
+      <div className="form-section">
+        <h3>Education</h3>
         <fieldset>
           <div>
             <label for="High_School">High School</label>
@@ -145,7 +145,7 @@ const JobApplicationForm = () => {
             value="yes"
             id="High_School_Graduate"
           />
-          <label for="High_School_Graduate">&nbsp;Did You Graduate?</label>
+          <label for="High_School_Graduate">Did You Graduate?</label>
         </fieldset>
         <br />
         <fieldset>
@@ -248,8 +248,8 @@ const JobApplicationForm = () => {
       <br />
 
       {/* Employment History */}
-      <div className="bg-white border border-2 p-4">
-        <h3 className="text-dark">Employment History</h3>
+      <div className="form-section">
+        <h3>Employment History</h3>
         <fieldset>
           <div>
             <label for="Job1_Company">Company</label>
@@ -372,8 +372,8 @@ const JobApplicationForm = () => {
       <br />
 
       {/* Professional References */}
-      <div className="bg-white border border-2 p-4">
-        <h3 className="text-dark">Professional References</h3>
+      <div className="form-section">
+        <h3>Professional References</h3>
         <fieldset>
           <div>
             <label for="Reference1_Name">
@@ -560,7 +560,7 @@ const JobApplicationForm = () => {
       <br />
 
       {/* Application Consent */}
-      <div className="bg-white border border-2 p-4">
+      <div className="form-section">
         <fieldset>
           <div>
             <label for="Resume">
