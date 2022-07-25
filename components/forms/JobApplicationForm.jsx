@@ -292,9 +292,9 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label htmlFor="Job1_Reason_For_Leaving">Reason htmlFor leaving</label>
+            <label htmlFor="Job1_Reason_For_Leaving">Reason For leaving</label>
             <input
-              aria-label="Job1 Reason htmlFor Leaving"
+              aria-label="Job1 Reason For Leaving"
               type="text"
               name="Job1_Reason_For_Leaving"
               id="Job1_Reason_For_Leaving"
@@ -344,9 +344,9 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label htmlFor="Job2_Reason_For_Leaving">Reason htmlFor leaving</label>
+            <label htmlFor="Job2_Reason_For_Leaving">Reason For leaving</label>
             <input
-              aria-label="Job2 Reason htmlFor Leaving"
+              aria-label="Job2 Reason For Leaving"
               type="text"
               name="Job2_Reason_For_Leaving"
               id="Job2_Reason_For_Leaving"
