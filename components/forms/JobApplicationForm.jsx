@@ -6,7 +6,7 @@ const JobApplicationForm = () => {
     <form
       id="jobApplicationForm"
       method="POST"
-      enctype="multipart/form-data"
+      encType="multipart/form-data"
       action="https://usebasin.com/f/d24a1ba38e4b"
     >
       {/* Applicant Information */}
