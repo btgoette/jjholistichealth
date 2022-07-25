@@ -2,16 +2,21 @@ form {
     margin: 0 auto;
 
     fieldset {
-        padding:1rem 0 0;
+        padding: 1rem 0 0;
         display: flex;
         width: 100%;
-        align-items: center;
+        align-items: start;
         gap: 1rem;
         flex-wrap: wrap;
 
         div {
             flex-grow: 1;
+            margin-bottom: 1rem;
         }
+    }
+
+    .sub-text {
+        font-size: $font-size-small;
     }
 
     label {
@@ -30,6 +35,10 @@ form {
         background-color: $white;
         padding: 8px 1rem;
         border-radius: $border-rounded-input;
+    }
+
+    input[type="file"] {
+        background-color: transparent;
     }
 
     input[type="email"],
@@ -51,15 +60,16 @@ form {
 
     input[type="checkbox"],
     input[type="radio"] {
+        align-self: center;
         margin: 0 0.25rem;
     }
 
     select {
         background-color: $white;
-        margin: 1rem 0;
+        margin: 0;
         width: 100%;
         max-width: 320px;
-        padding: 0.8rem 1rem;
+        padding: 10px 1rem;
         border-radius: $border-rounded-input;
     }
 

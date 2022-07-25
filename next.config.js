@@ -43,7 +43,8 @@ module.exports = {
             '/conditions/immune-system': { page: '/conditions/immune-system' },
             '/conditions/stress-and-adrenal-function': { page: '/conditions/stress-and-adrenal-function' },
             '/conditions/womens-health': { page: '/conditions/womens-health' },
-            '/blog/index': { page: '/blog' }
+            '/blog/index': { page: '/blog' },
+            '/careers/index': { page: '/careers' }
         };
     },
 
