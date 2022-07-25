@@ -9,7 +9,13 @@ const FunctionalEvaluation = (block) => {
     <section>
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={{span:7 }}>
+          <div className="content">
+              <h2>{block.article.title}</h2>
+              {block.article.text.map(({ p }, j) => (
+                <p key={j}>{p}</p>
+              ))}
+            </div>
             <figure className="human-anatomy">
               <LazyLoadImage
                 src={block.chart.img.src}
@@ -29,26 +35,6 @@ const FunctionalEvaluation = (block) => {
                 </button>
               ))}
             </figure>
-          </Col>
-          <Col lg={6}>
-            <div className="content">
-              <h2>{block.article.title}</h2>
-              {block.article.text.map(({ p }, j) => (
-                <p key={j}>{p}</p>
-              ))}
-              <ol>
-                {block.article.list.map(({ li }, i) => (
-                  <li key={i}>{li}</li>
-                ))}
-              </ol>
-              <Button
-                re="noreferer"
-                target="_blank"
-                href="/docs/Functional-Evaluation-with-label.pdf"
-              >
-                Download FE PDF
-              </Button>
-            </div>
           </Col>
         </Row>
       </Container>
