@@ -14,7 +14,7 @@ const JobApplicationForm = () => {
         <h3>Applicant Information</h3>
         <fieldset>
           <div>
-            <label for="Full_Name">
+            <label htmlFor="Full_Name">
               Full Name<span className="required">*</span>
             </label>
             <input
@@ -26,7 +26,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Date_of_Birth">
+            <label htmlFor="Date_of_Birth">
               Date of Birth<span className="required">*</span>
             </label>
             <input
@@ -40,13 +40,13 @@ const JobApplicationForm = () => {
 
         <fieldset>
           <div>
-            <label for="Phone">
+            <label htmlFor="Phone">
               Phone Number<span className="required">*</span>
             </label>
             <input name="Phone" required type="tel" id="Phone" placeholder />
           </div>
           <div>
-            <label for="Email">
+            <label htmlFor="Email">
               Email<span className="required">*</span>
             </label>
             <input
@@ -60,7 +60,7 @@ const JobApplicationForm = () => {
 
         <fieldset>
           <div>
-            <label for="Position">
+            <label htmlFor="Position">
               Position<span className="required">*</span>
             </label>
             <select name="Position" required id="Position">
@@ -74,7 +74,7 @@ const JobApplicationForm = () => {
             </select>
           </div>
           <div>
-            <label for="Availability">
+            <label htmlFor="Availability">
               Availability<span className="required">*</span>
             </label>
             <select name="Availability" required id="Availability">
@@ -86,7 +86,7 @@ const JobApplicationForm = () => {
             </select>
           </div>
           <div>
-            <label for="Start_Date">
+            <label htmlFor="Start_Date">
               Start Date<span className="required">*</span>
             </label>
             <input name="Start_Date" required type="date" id="Start_Date" />
@@ -100,7 +100,7 @@ const JobApplicationForm = () => {
         <h3>Education</h3>
         <fieldset>
           <div>
-            <label for="High_School">High School</label>
+            <label htmlFor="High_School">High School</label>
             <input
               aria-label="High School"
               type="text"
@@ -109,7 +109,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="High_School_City">City</label>
+            <label htmlFor="High_School_City">City</label>
             <input
               aria-label="High School City"
               type="text"
@@ -120,7 +120,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="High_School_From">From</label>
+            <label htmlFor="High_School_From">From</label>
             <input
               aria-label="High School From"
               type="text"
@@ -129,7 +129,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="High_School_To">To</label>
+            <label htmlFor="High_School_To">To</label>
             <input
               aria-label="High School To"
               type="text"
@@ -145,12 +145,12 @@ const JobApplicationForm = () => {
             value="yes"
             id="High_School_Graduate"
           />
-          <label for="High_School_Graduate">Did You Graduate?</label>
+          <label htmlFor="High_School_Graduate">Did You Graduate?</label>
         </fieldset>
         <br />
         <fieldset>
           <div>
-            <label for="College">College</label>
+            <label htmlFor="College">College</label>
             <input
               aria-label="College"
               type="text"
@@ -159,7 +159,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="College_City">City</label>
+            <label htmlFor="College_City">City</label>
             <input
               aria-label="College City"
               type="text"
@@ -170,7 +170,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="College_From">From</label>
+            <label htmlFor="College_From">From</label>
             <input
               aria-label="College From"
               type="text"
@@ -179,7 +179,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="College_To">To</label>
+            <label htmlFor="College_To">To</label>
             <input
               aria-label="College To"
               type="text"
@@ -195,17 +195,17 @@ const JobApplicationForm = () => {
             value="yes"
             id="College_Graduate"
           />
-          <label for="College_Graduate">Did You Graduate?</label>
+          <label htmlFor="College_Graduate">Did You Graduate?</label>
         </fieldset>
         <br />
 
         <fieldset>
           <div>
-            <label for="Other">Other</label>
+            <label htmlFor="Other">Other</label>
             <input aria-label="Other" type="text" name="Other" id="Other" />
           </div>
           <div>
-            <label for="Other_City">City</label>
+            <label htmlFor="Other_City">City</label>
             <input
               aria-label="Other City"
               type="text"
@@ -216,7 +216,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Other_From">From</label>
+            <label htmlFor="Other_From">From</label>
             <input
               aria-label="Other From"
               type="text"
@@ -225,7 +225,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Other_To">To</label>
+            <label htmlFor="Other_To">To</label>
             <input
               aria-label="Other To"
               type="text"
@@ -241,7 +241,7 @@ const JobApplicationForm = () => {
             value="yes"
             id="Other_Graduate"
           />
-          <label for="Other_Graduate">Did You Graduate?</label>
+          <label htmlFor="Other_Graduate">Did You Graduate?</label>
         </fieldset>
         <br />
       </div>
@@ -252,7 +252,7 @@ const JobApplicationForm = () => {
         <h3>Employment History</h3>
         <fieldset>
           <div>
-            <label for="Job1_Company">Company</label>
+            <label htmlFor="Job1_Company">Company</label>
             <input
               aria-label="Job1 Company"
               type="text"
@@ -261,7 +261,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Job1_Title">Job Title</label>
+            <label htmlFor="Job1_Title">Job Title</label>
             <input
               aria-label="Job1 Title"
               type="text"
@@ -272,7 +272,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Job1_From">From</label>
+            <label htmlFor="Job1_From">From</label>
             <input
               aria-label="Job1 From"
               type="text"
@@ -281,7 +281,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Job1_To">To</label>
+            <label htmlFor="Job1_To">To</label>
             <input
               aria-label="Job1 To"
               type="text"
@@ -292,9 +292,9 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Job1_Reason_For_Leaving">Reason for leaving</label>
+            <label htmlFor="Job1_Reason_For_Leaving">Reason htmlFor leaving</label>
             <input
-              aria-label="Job1 Reason For Leaving"
+              aria-label="Job1 Reason htmlFor Leaving"
               type="text"
               name="Job1_Reason_For_Leaving"
               id="Job1_Reason_For_Leaving"
@@ -304,7 +304,7 @@ const JobApplicationForm = () => {
         <br />
         <fieldset>
           <div>
-            <label for="Job2_Company">Company</label>
+            <label htmlFor="Job2_Company">Company</label>
             <input
               aria-label="Job2 Company"
               type="text"
@@ -313,7 +313,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Job2_Title">Job Title</label>
+            <label htmlFor="Job2_Title">Job Title</label>
             <input
               aria-label="Job2 Title"
               type="text"
@@ -324,7 +324,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Job2_From">From</label>
+            <label htmlFor="Job2_From">From</label>
             <input
               aria-label="Job2 From"
               type="text"
@@ -333,7 +333,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Job2_To">To</label>
+            <label htmlFor="Job2_To">To</label>
             <input
               aria-label="Job2 To"
               type="text"
@@ -344,9 +344,9 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Job2_Reason_For_Leaving">Reason for leaving</label>
+            <label htmlFor="Job2_Reason_For_Leaving">Reason htmlFor leaving</label>
             <input
-              aria-label="Job2 Reason For Leaving"
+              aria-label="Job2 Reason htmlFor Leaving"
               type="text"
               name="Job2_Reason_For_Leaving"
               id="Job2_Reason_For_Leaving"
@@ -363,7 +363,7 @@ const JobApplicationForm = () => {
             id="Background_Check"
             placeholder
           />
-          <label for="Background_Check">
+          <label htmlFor="Background_Check">
             Are you willing to consent a background check?
             <span className="required">*</span>
           </label>
@@ -376,7 +376,7 @@ const JobApplicationForm = () => {
         <h3>Professional References</h3>
         <fieldset>
           <div>
-            <label for="Reference1_Name">
+            <label htmlFor="Reference1_Name">
               Name<span className="required">*</span>
             </label>
             <input
@@ -390,7 +390,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Reference1_Company">Company</label>
+            <label htmlFor="Reference1_Company">Company</label>
             <input
               aria-label="Reference1 Company"
               type="text"
@@ -399,7 +399,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Reference1_Title">Job Title</label>
+            <label htmlFor="Reference1_Title">Job Title</label>
             <input
               aria-label="Reference1 Title"
               type="text"
@@ -410,7 +410,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Reference1_Phone">
+            <label htmlFor="Reference1_Phone">
               Phone Number<span className="required">*</span>
             </label>
             <input
@@ -422,7 +422,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Reference1_Email">
+            <label htmlFor="Reference1_Email">
               Email<span className="required">*</span>
             </label>
             <input
@@ -437,7 +437,7 @@ const JobApplicationForm = () => {
 
         <fieldset>
           <div>
-            <label for="Reference2_Name">
+            <label htmlFor="Reference2_Name">
               Name<span className="required">*</span>
             </label>
             <input
@@ -451,7 +451,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Reference2_Company">Company</label>
+            <label htmlFor="Reference2_Company">Company</label>
             <input
               aria-label="Reference2 Company"
               type="text"
@@ -460,7 +460,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Reference2_Title">Job Title</label>
+            <label htmlFor="Reference2_Title">Job Title</label>
             <input
               aria-label="Reference2 Title"
               type="text"
@@ -471,7 +471,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Reference2_Phone">
+            <label htmlFor="Reference2_Phone">
               Phone Number<span className="required">*</span>
             </label>
             <input
@@ -483,7 +483,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Reference2_Email">
+            <label htmlFor="Reference2_Email">
               Email<span className="required">*</span>
             </label>
             <input
@@ -498,7 +498,7 @@ const JobApplicationForm = () => {
 
         <fieldset>
           <div>
-            <label for="Reference3_Name">
+            <label htmlFor="Reference3_Name">
               Name<span className="required">*</span>
             </label>
             <input
@@ -512,7 +512,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Reference3_Company">Company</label>
+            <label htmlFor="Reference3_Company">Company</label>
             <input
               aria-label="Reference3 Company"
               type="text"
@@ -521,7 +521,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Reference3_Title">Job Title</label>
+            <label htmlFor="Reference3_Title">Job Title</label>
             <input
               aria-label="Reference3 Title"
               type="text"
@@ -532,7 +532,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Reference3_Phone">
+            <label htmlFor="Reference3_Phone">
               Phone Number<span className="required">*</span>
             </label>
             <input
@@ -544,7 +544,7 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Reference3_Email">
+            <label htmlFor="Reference3_Email">
               Email<span className="required">*</span>
             </label>
             <input
@@ -563,7 +563,7 @@ const JobApplicationForm = () => {
       <div className="form-section">
         <fieldset>
           <div>
-            <label for="Resume">
+            <label htmlFor="Resume">
               Please Attach Your Resume<span className="required">*</span>
             </label>
             <input type="file" name="Resume" id="Resume" />
@@ -581,7 +581,7 @@ const JobApplicationForm = () => {
         </fieldset>
         <fieldset>
           <div>
-            <label for="Applicant_Name">
+            <label htmlFor="Applicant_Name">
               Applicant Name<span className="required">*</span>
             </label>
             <input
@@ -593,8 +593,8 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label for="Todays_Datedate">
-              Today's Date<span className="required">*</span>
+            <label htmlFor="Todays_Datedate">
+              Today&apos;s Date<span className="required">*</span>
             </label>
             <input
               name="Todays_Date"
