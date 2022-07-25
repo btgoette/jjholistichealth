@@ -15,6 +15,7 @@ import FollowUpForm from "components/forms/FollowUpForm";
 import FoodIntoleranceForm from "components/forms/FoodIntoleranceForm";
 import FunctionalExamForm from "components/forms/FunctionalExamForm";
 import HerbalVSteamForm from "components/forms/HerbalVSteamForm";
+import JobApplicationForm from "components/forms/JobApplicationForm";
 import PediatricAssessment from "components/forms/PediatricAssessment";
 
 const Block = (block) => {
@@ -211,6 +212,8 @@ const Block = (block) => {
         return <FunctionalExamForm />;
       } else if (block.form == "herbal") {
         return <HerbalVSteamForm />;
+      } else if (block.form == "job") {
+        return <JobApplicationForm />;
       } else if (block.form == "pediatric") {
         return <PediatricAssessment />;
       } else {
