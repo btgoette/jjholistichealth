@@ -68,7 +68,7 @@ const JobApplicationForm = () => {
                 Select...
               </option>
               <option value="Receptionist">Receptionist</option>
-              <option value="Office Assistant">Clinic Assistant</option>
+              <option value="Office Assistant">Nutritional Therapy Assistant</option>
             </select>
           </div>
           <div>
