@@ -67,11 +67,57 @@ const JJKidsNav = () => {
                   <Nav.Link href="/kids/gallery">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/kids/services">Services</Nav.Link>
+                  <NavDropdown title="Services" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="/kids/services">
+                      Services
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider className="d-none d-xl-block" />
+                    <NavDropdown.Item href="/kids/services#free-15-minute-consultation">
+                      15 Minute Consultation
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#initial-interview">
+                      Pediatric Initial Interviews
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#child-assessment">
+                      Pediatric Full Functional Evaluation
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#food-intolerance-and-sensitivity-test">
+                      Food Intolerance/Sensitivity Test
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#personalized-meal-planning">
+                      Personalized Meal Menu Planning
+                    </NavDropdown.Item>
+                    {/* <NavDropdown.Item href="/kids/services#sick-visits">
+                      Sick Visits
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#aromatherapy">
+                      Aromatherapy
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#foot-detox">
+                      Foot Detox
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#facials">
+                      Facials
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#cupping">
+                      Cupping
+                    </NavDropdown.Item> */}
+                  </NavDropdown>
                 </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link href="/kids/gallery">Resources</Nav.Link>
-                </Nav.Item>
+                {/* <Nav.Item>
+                  <NavDropdown title="Resources" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#">
+                      Common Pediatric Ailments
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#">
+                      Stress Management
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#">
+                      Back To School
+                    </NavDropdown.Item>
+              
+                  </NavDropdown>
+                </Nav.Item> */}
                 <Nav.Item>
                   <Nav.Link href="/forms">Forms</Nav.Link>
                 </Nav.Item>

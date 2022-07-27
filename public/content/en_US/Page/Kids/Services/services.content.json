@@ -19,12 +19,12 @@
     },
     "weTreatEveryIndividualUniquely": {
         "slug": "we-treat-every-individual-uniquely",
-        "grid": "grid-500-1fr",
+        "grid": "grid-1fr-500",
         "blocks": [
             {
                 "block": {
                     "row": "grid-row-1-2",
-                    "column": "grid-col-1-2",
+                    "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
                         "src": "/images/pages/services/jj-treat-every-individual-uniquely.webp",
@@ -35,7 +35,7 @@
             {
                 "block": {
                     "row": "grid-row-1-2",
-                    "column": "grid-col-2-3",
+                    "column": "grid-col-1-2",
                     "title": "We Treat Every Individual Uniquely",
                     "text": [
                         {
@@ -272,6 +272,7 @@
     },
     "forPreteensAndTeenagers": {
         "slug": "for-preteens-and-teenagers",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {

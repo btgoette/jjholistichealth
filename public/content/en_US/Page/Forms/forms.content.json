@@ -43,7 +43,7 @@
     },
     "formsList": {
         "slug": "forms-list",
-        "class": "pt-0",
+        "class": "py-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
