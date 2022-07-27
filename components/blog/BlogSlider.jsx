@@ -9,7 +9,7 @@ const BlogSlider = () => {
   var settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -48,18 +48,6 @@ const BlogSlider = () => {
       alt: "The Adverse Effects of Stress on the Adrenal Gland",
       title: "The Adverse Effects of Stress",
       href: "/blog/posts/the-adverse-effects-of-stress-on-the-adrenal-gland",
-    },
-    {
-      src: "/images/pages/blog/preview/cbd-oil-therapy.webp",
-      alt: "CBD Oil Therapy",
-      title: "CBD Oil Therapy",
-      href: "/blog/posts/cbd-oil-therapy",
-    },
-    {
-      src: "/images/pages/blog/preview/top-6-pituitary-herbs-for-a-healthy-pituitary-gland.webp",
-      alt: "Top 6 Pituitary Herbs for a Healthy Pituitary Gland",
-      title: "Top 6 Pituitary Herbs",
-      href: "/blog/posts/top-6-pituitary-herbs-for-a-healthy-pituitary-gland",
     },
     {
       src: "/images/pages/blog/preview/benefits-of-aromatherapy.webp",

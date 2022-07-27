@@ -47,7 +47,7 @@ const JJNav = () => {
                   <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/kids">J&amp;J Kids</Nav.Link>
+                  <Nav.Link href="/kids">J&amp;J Holistic Kids</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="About" id="basic-nav-dropdown">
@@ -57,9 +57,6 @@ const JJNav = () => {
                     <NavDropdown.Divider className="d-none d-xl-block" />
                     <NavDropdown.Item href="/about/the-j-and-j-team">
                       The J&amp;J Team
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/about/why-choose-j-and-j">
-                      Why Choose J&amp;J
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/about/testimonials">
                       Testimonials
@@ -116,7 +113,7 @@ const JJNav = () => {
                   <Nav.Link href="/blog">Blog</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/forms">Contact</Nav.Link>
+                  <Nav.Link href="/forms">Forms</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>

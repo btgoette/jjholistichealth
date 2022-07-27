@@ -12,7 +12,7 @@
         "title": "Why Choose J&J Kids",
         "text": [
             {
-                "p": "At J&J Holistic Nurtional Kids, we use a holistic way of healing. We use aromatherapy, massages, herbal supplements, essential oils, and a proper healthy diet in treating our clients"
+                "p": "At J&J Holistic Nutritional Kids, we use a holistic way of healing. We use aromatherapy, massages, herbal supplements, essential oils, and a proper healthy diet in treating our clients"
             }
         ],
         "bookNow": "true"
@@ -102,7 +102,7 @@
     "childAssessment": {
         "slug": "child-assessment pt-0",
         "grid": "grid-500-1fr",
-        "header": "Child Assesssment",
+        "header": "Child Assessment",
         "blocks": [
             {
                 "block": {
@@ -147,7 +147,7 @@
                 "block": {
                     "row": "grid-row-1-2",
                     "column": "grid-col-1-2",
-                    "subtitle": "Testing for food intolerances and food sensitivities",
+                    "subtitle": "Testing for food intolerance and food sensitivities",
                     "list": [
                         {
                             "li": "$137 for 5 foods"
@@ -164,8 +164,8 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/about/jj-food-intolerances.webp",
-                        "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritonal Therapy"
+                        "src": "/images/pages/about/jj-food-intolerance.webp",
+                        "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritional Therapy"
                     }
                 }
             }

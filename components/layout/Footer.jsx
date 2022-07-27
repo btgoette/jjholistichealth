@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "public/fonts/FontAwesome/fontawesome";
 
 // Custom Components
-import BlogSlider from "components/common/BlogSlider";
+import BlogSlider from "components/blog/BlogSlider";
 import Newsletter from "components/forms/NewsletterForm";
 
 // Custom Data

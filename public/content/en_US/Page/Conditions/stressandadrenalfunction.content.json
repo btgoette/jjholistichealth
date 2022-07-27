@@ -116,7 +116,7 @@
                 "block": {
                     "row": "grid-row-1-2",
                     "column": "grid-col-2-3",
-                    "title": "Exercise", 
+                    "title": "Exercise",
                     "text": [
                         {
                             "p": "Moderate aerobic exercise is good. This is an exercise that uses large muscles repetitively and is mild enough that you can carry on a normal conversation during the activity. Anaerobic exercise (exercising so hard that you can’t carry on a normal conversation) can be stressful and should be limited while the adrenal glands are recovering."
@@ -173,7 +173,7 @@
             {
                 "block": {
                     "row": "grid-row-1-2",
-                    "column": "grid-col-2-3", 
+                    "column": "grid-col-2-3",
                     "title": "Diet",
                     "text": [
                         {

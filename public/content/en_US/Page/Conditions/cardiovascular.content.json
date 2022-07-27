@@ -74,7 +74,7 @@
         ]
     },
     "cholesterol": {
-        "slug": "cholestoral pt-0",
+        "slug": "cholesterol pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {

@@ -42,7 +42,6 @@
     },
     "formsList": {
         "slug": "forms-list pt-0",
-        "header": "Forms",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -63,8 +62,12 @@
                             "href": "/forms/covid-19"
                         },
                         {
-                            "li": "Endocrine Steam Intake Form",
-                            "href": "/forms/endocrine-steam-intake"
+                            "li": "Pediatric Assessment Questionnaire",
+                            "href": "/forms/pediatric-assessment-questionnaire"
+                        },
+                        {
+                            "li": "Functional Exam Questionnaire",
+                            "href": "/forms/functional-exam"
                         },
                         {
                             "li": "Follow Up Questionnaire",
@@ -76,18 +79,6 @@
                         },{
                             "li": "Foot Detox Intake Form",
                             "href": "/forms/foot-detox-intake"
-                        },
-                        {
-                            "li": "Functional Exam Questionnaire",
-                            "href": "/forms/functional-exam"
-                        },
-                        {
-                            "li": "Herbal V Steam Intake form",
-                            "href": "/forms/herbal-v-steam-intake"
-                        },
-                        {
-                            "li": "Pediatric Assessment Questionnaire",
-                            "href": "/forms/pediatric-assessment-questionnaire"
                         }
                     ]
                 }
