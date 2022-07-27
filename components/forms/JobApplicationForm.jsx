@@ -591,14 +591,14 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="Todays_Datedate">
+            <label htmlFor="Todays_Date">
               Today&apos;s Date<span className="required">*</span>
             </label>
             <input
               name="Todays_Date"
               required
               type="date"
-              id="todaysdate"
+              id="Todays_Date"
               placeholder
             />
           </div>
