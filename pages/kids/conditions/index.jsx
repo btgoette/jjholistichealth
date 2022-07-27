@@ -11,7 +11,7 @@ import JJKidsNav from "components/layout/JJKidsNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Kids/Conditions/conditions.content";
 
-const HealthConditions = () => {
+const KidsHealthConditions = () => {
   return (
     <>
       <div className={page.slug}>
@@ -27,4 +27,4 @@ const HealthConditions = () => {
   );
 };
 
-export default HealthConditions;
+export default KidsHealthConditions;

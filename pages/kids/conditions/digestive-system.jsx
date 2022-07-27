@@ -10,7 +10,7 @@ import JJKidsNav from "components/layout/JJKidsNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Kids/Conditions/digestivesystem.content";
 
-const HealthConditions = () => {
+const KidsDigestive = () => {
   return (
     <div className={page.slug}>
       <JJKidsNav />
@@ -23,4 +23,4 @@ const HealthConditions = () => {
   );
 }
 
-export default HealthConditions;
+export default KidsDigestive;
