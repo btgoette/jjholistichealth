@@ -18,7 +18,8 @@
         "bookNow": "true"
     },
     "conditions": {
-        "slug": "pt-0",
+        "slug": "conditions-section",
+        "class": "pt-0",
         "header": "Which Conditions Can Nutritional Medicine Help?",
         "grid": "grid-conditions",
         "blocks": {

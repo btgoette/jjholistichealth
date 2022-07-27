@@ -97,7 +97,8 @@
         ]
     },
     "exercise": {
-        "slug": "exercise pt-0",
+        "slug": "exercise",
+        "class": "pt-0",
         "header": "Tips for improving Stress and Adrenal Function",
         "grid": "grid-500-1fr",
         "blocks": [
@@ -127,7 +128,8 @@
         ]
     },
     "sportsAndHobbies": {
-        "slug": "sports-and-hobbies pt-0",
+        "slug": "sports-and-hobbies",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -156,7 +158,8 @@
         ]
     },
     "diet": {
-        "slug": "diet pt-0",
+        "slug": "diet",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -185,7 +188,8 @@
         ]
     },
     "meditation": {
-        "slug": "meditation pt-0",
+        "slug": "meditation",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {

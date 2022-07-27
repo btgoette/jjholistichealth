@@ -46,7 +46,8 @@
         ]
     },
     "chapmanReflex": {
-        "slug": "chapman-reflex pt-0",
+        "slug": "chapman-reflex",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -74,7 +75,8 @@
         ]
     },
     "cholesterol": {
-        "slug": "cholesterol pt-0",
+        "slug": "cholesterol",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -102,7 +104,8 @@
         ]
     },
     "avoidSugar": {
-        "slug": "avoid-sugar pt-0",
+        "slug": "avoid-sugar",
+        "class": "pt-0",
         "header": "Tips For A Healthier Heart",
         "grid": "grid-1fr-500",
         "blocks": [
@@ -135,7 +138,8 @@
         ]
     },
     "avoidHydrogenatedOils": {
-        "slug": "avoid-hydrogenated-oils pt-0",
+        "slug": "avoid-hydrogenated-oils",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -196,7 +200,8 @@
         ]
     },
     "exercise": {
-        "slug": "exercise pt-0",
+        "slug": "exercise",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -225,7 +230,8 @@
         ]
     },
     "drinkWater": {
-        "slug": "drink-water pt-0",
+        "slug": "drink-water",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -254,7 +260,8 @@
         ]
     },
     "getEnoughRest": {
-        "slug": "get-enough-rest pt-0",
+        "slug": "get-enough-rest",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {

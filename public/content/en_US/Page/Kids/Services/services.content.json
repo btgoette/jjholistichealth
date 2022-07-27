@@ -19,7 +19,6 @@
     },
     "weTreatEveryIndividualUniquely": {
         "slug": "we-treat-every-individual-uniquely",
-        "class": "",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -304,7 +303,8 @@
         ]
     },
     "adolescents": {
-        "slug": "adolescents pt-0",
+        "slug": "adolescents",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -354,7 +354,8 @@
         ]
     },
     "childAssessment": {
-        "slug": "child-assessment pt-0",
+        "slug": "child-assessment",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "header": "Child Assessment",
         "blocks": [
@@ -393,7 +394,8 @@
         ]
     },
     "foodIntoleranceAndSensitivityTest": {
-        "slug": "food-intolerance-and-sensitivity-test  pt-0",
+        "slug": "food-intolerance-and-sensitivity-test",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "header": "Food Intolerance And Sensitivity Test",
         "blocks": [
@@ -426,7 +428,8 @@
         ]
     },
     "personalizedMealPlanning": {
-        "slug": "personalized-meal-planning pt-0",
+        "slug": "personalized-meal-planning",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "header": "Personalized Meal Planning",
         "blocks": [

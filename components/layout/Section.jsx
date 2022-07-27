@@ -31,7 +31,7 @@ const Section = (section) => {
   };
 
   return (
-    <section className={section.slug + " " + section.class}>
+    <section className={section.class}>
       {renderSectionHeader()}
       {renderGridContainer()}
     </section>

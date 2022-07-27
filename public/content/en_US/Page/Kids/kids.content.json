@@ -50,7 +50,8 @@
         ]
     },
     "weAreWhatWeConsume": {
-        "slug": "we-are-what-we-consumer pt-0",
+        "slug": "we-are-what-we-consumer",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -85,7 +86,8 @@
         ]
     },
     "conditions": {
-        "slug": "home-conditions pt-0",
+        "slug": "home-conditions",
+        "class": "pt-0",
         "header": "Which Conditions Can Nutritional Medicine Help?",
         "grid": "kids-grid-conditions",
         "blocks": {

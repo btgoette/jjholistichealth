@@ -42,11 +42,14 @@ const GridContainer = (section) => {
   const renderGridSection = () => {
     if (hasGridSection) {
       return (
+        <>
+        <a className="anchor" id={section.slug}/>
         <Container className={section.grid}>
           {section.blocks.map(({ block }, i) => (
             <Block key={i} {...block} />
           ))}
         </Container>
+        </>
       );
     }
   };

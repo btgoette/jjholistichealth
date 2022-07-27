@@ -7,6 +7,11 @@ section {
     padding: 4rem 0rem;
 }
 
+.anchor {
+    position: absolute;
+    top: -200px;
+}
+
 .container {
     max-width: $container-width;
     padding-left: 1rem;

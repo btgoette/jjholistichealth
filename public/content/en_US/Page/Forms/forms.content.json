@@ -15,7 +15,8 @@
     ],
     "finalcrumb": "Forms",
     "contact": {
-        "slug": "contact pt-0",
+        "slug": "contact",
+        "class": "contact pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -41,7 +42,8 @@
         ]
     },
     "formsList": {
-        "slug": "forms-list pt-0",
+        "slug": "forms-list",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
