@@ -255,7 +255,6 @@ module.exports = {
                 destination: '/promos/kovid-kocktail',
                 permanent: true,
             },
-            
             {
                 source: '/promos/covid-cocktail',
                 destination: '/promos/kovid-kocktail',
