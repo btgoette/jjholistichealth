@@ -50,7 +50,7 @@ const JJNav = () => {
                   <Nav.Link href="/kids">J&amp;J Holistic Kids</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <NavDropdown title="About" id="basic-nav-dropdown">
+                  <NavDropdown title="About Us" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/about">
                       About J&amp;J
                     </NavDropdown.Item>
