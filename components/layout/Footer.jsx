@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "public/fonts/FontAwesome/fontawesome";
 
 // Custom Components
-import BlogSlider from "components/blog/BlogSlider";
 import Newsletter from "components/forms/NewsletterForm";
 
 // Custom Data
@@ -18,8 +17,6 @@ const Footer = () => {
 
   return (
     <footer>
-
-      <BlogSlider/>
 
       <section className={content.section1.background}>
         <Container>
