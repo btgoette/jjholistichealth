@@ -124,9 +124,9 @@ const JJKidsNav = () => {
                 <Nav.Item>
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Nav.Link href="/blog">Blog</Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
                 </Nav.Item>
