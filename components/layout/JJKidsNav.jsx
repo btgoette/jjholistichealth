@@ -89,19 +89,10 @@ const JJKidsNav = () => {
                     </NavDropdown.Item>
                     {/* <NavDropdown.Item href="/kids/services#sick-visits">
                       Sick Visits
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/kids/services#aromatherapy">
-                      Aromatherapy
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/kids/services#foot-detox">
-                      Foot Detox
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/kids/services#facials">
-                      Facials
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/kids/services#cupping">
-                      Cupping
                     </NavDropdown.Item> */}
+                    <NavDropdown.Item href="/kids/services#j-and-j-plans">
+                      J&amp;J All In Wellness Plans
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </Nav.Item>
                 {/* <Nav.Item>
@@ -115,7 +106,6 @@ const JJKidsNav = () => {
                     <NavDropdown.Item href="#">
                       Back To School
                     </NavDropdown.Item>
-              
                   </NavDropdown>
                 </Nav.Item> */}
                 <Nav.Item>
@@ -124,9 +114,9 @@ const JJKidsNav = () => {
                 <Nav.Item>
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>
                 </Nav.Item>
-                {/* <Nav.Item>
+                <Nav.Item>
                   <Nav.Link href="/blog">Blog</Nav.Link>
-                </Nav.Item> */}
+                </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
                 </Nav.Item>
