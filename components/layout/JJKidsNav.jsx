@@ -78,8 +78,14 @@ const JJKidsNav = () => {
                     <NavDropdown.Item href="/kids/services#initial-interview">
                       Pediatric Initial Interviews
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/kids/services#child-assessment">
+                    <NavDropdown.Item href="/kids/services#pediatric-full-functional-evaluation">
                       Pediatric Full Functional Evaluation
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#child-assessment">
+                      Child Assessment
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#for-preteens-and-teenagers">
+                      Teen Assessment
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/kids/services#food-intolerance-and-sensitivity-test">
                       Food Intolerance/Sensitivity Test

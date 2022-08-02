@@ -18,11 +18,12 @@ const Services = () => {
       <Hero {...page.hero} />
       <Main>
         <Section {...page.weTreatEveryIndividualUniquely} />
-        <Section {...page.forPreteensAndTeenagers} />
-        <Section {...page.adolescents} />
         <Section {...page.free15MinuteConsultation} />
         <Section {...page.initialInterview} />
+        <Section {...page.pediatricFullFunctionalEvaluation} />
         <Section {...page.childAssessment} />
+        <Section {...page.forPreteensAndTeenagers} />
+        <Section {...page.adolescents} />
         <Section {...page.foodIntoleranceAndSensitivityTest} />
         <Section {...page.personalizedMealPlanning} />
         <Section {...page.jAndJPlans} />

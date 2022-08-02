@@ -10,6 +10,12 @@ figure {
         width: 100%;
         max-width: 500px;
     }
+
+    &.full-size {
+        img {
+            max-width: unset;
+        }
+    }
 }
 
 .rounded {
