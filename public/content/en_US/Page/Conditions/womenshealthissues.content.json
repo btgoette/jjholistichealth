@@ -47,7 +47,8 @@
         ]
     },
     "bloodCount": {
-        "slug": "blood-count pt-0",
+        "slug": "blood-count",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -76,7 +77,8 @@
         ]
     },
     "bloodChemistryPanel": {
-        "slug": "blood-chemistry-panel pt-0",
+        "slug": "blood-chemistry-panel",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -105,7 +107,8 @@
         ]
     },
     "thyroidPanel": {
-        "slug": "thyroid-panel pt-0",
+        "slug": "thyroid-panel",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -134,7 +137,8 @@
         ]
     },
     "hormonePanel": {
-        "slug": "hormone-panel pt-0",
+        "slug": "hormone-panel",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -163,7 +167,8 @@
         ]
     },
     "otherTests": {
-        "slug": "other-tests pt-0",
+        "slug": "other-tests",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {

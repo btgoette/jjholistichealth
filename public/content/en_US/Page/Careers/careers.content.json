@@ -19,7 +19,8 @@
     ],
     "finalcrumb": "Careers",
     "careersForm": {
-        "slug": "careers-form pt-0",
+        "slug": "careers-form",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {

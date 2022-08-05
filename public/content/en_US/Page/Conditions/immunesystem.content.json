@@ -46,7 +46,8 @@
         ]
     },
     "chapmanReflexes": {
-        "slug": "chapman-reflexes pt-0",
+        "slug": "chapman-reflexes",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -77,7 +78,8 @@
         ]
     },
     "avoidSugar": {
-        "slug": "avoid-sugar pt-0",
+        "slug": "avoid-sugar",
+        "class": "pt-0",
         "header": "Tips To Improve Immune System Function",
         "grid": "grid-1fr-500",
         "blocks": [
@@ -107,7 +109,8 @@
         ]
     },
     "avoidHydrogenatedOils": {
-        "slug": "avoid-hydrogenated-oils pt-0",
+        "slug": "avoid-hydrogenated-oils",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -136,7 +139,8 @@
         ]
     },
     "diet": {
-        "slug": "diet pt-0",
+        "slug": "diet",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -165,7 +169,8 @@
         ]
     },
     "exercise": {
-        "slug": "exercise pt-0",
+        "slug": "exercise",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -194,7 +199,8 @@
         ]
     },
     "drinkWater": {
-        "slug": "drink-water pt-0",
+        "slug": "drink-water",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -223,7 +229,8 @@
         ]
     },
     "getEnoughRest": {
-        "slug": "get-enough-rest pt-0",
+        "slug": "get-enough-rest",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {
@@ -233,7 +240,7 @@
                     "img": {
                         "class": "rounded",
                         "src": "/images/pages/conditions/jj-sleep.webp",
-                        "alt": "A womman taking a daytime nap"
+                        "alt": "A woman taking a daytime nap"
                     }
                 }
             },

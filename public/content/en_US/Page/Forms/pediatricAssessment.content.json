@@ -20,7 +20,7 @@
     "finalcrumb": "Pediatric Assessment Form",
     "block": {
         "form": {
-            "slug": "pediatric-assesment-form",
+            "slug": "pediatric-assessment-form",
             "column": [
                 {
                     "offset": "2",
