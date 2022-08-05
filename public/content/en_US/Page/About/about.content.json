@@ -55,7 +55,8 @@
         ]
     },
     "ourStory": {
-        "slug": "pt-0",
+        "slug": "our-story",
+        "class": "pt-0",
         "grid": "block",
         "header": "Our Story",
         "blocks": [
@@ -73,7 +74,8 @@
         ]
     },
     "mission": {
-        "slug": "mission pt-0",
+        "slug": "mission",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "header": "Our Mission",
         "blocks": [
@@ -108,7 +110,8 @@
         ]
     },
     "vision": {
-        "slug": "vision pt-0",
+        "slug": "vision",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "header": "Our Vision",
         "blocks": [
@@ -137,7 +140,8 @@
         ]
     },
     "coreValues": {
-        "slug": "values pt-0",
+        "slug": "values",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "header": "Our Core Values",
         "blocks": [

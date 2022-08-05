@@ -67,10 +67,8 @@ const JobApplicationForm = () => {
               <option disabled value="">
                 Select...
               </option>
-              <option value="Barista">Barista</option>
               <option value="Receptionist">Receptionist</option>
-              <option value="Office Assistant">Office Assistant</option>
-              <option value="Sales">Sales</option>
+              <option value="Office Assistant">Nutritional Therapy Assistant</option>
             </select>
           </div>
           <div>
@@ -593,14 +591,14 @@ const JobApplicationForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="Todays_Datedate">
+            <label htmlFor="Todays_Date">
               Today&apos;s Date<span className="required">*</span>
             </label>
             <input
               name="Todays_Date"
               required
               type="date"
-              id="todaysdate"
+              id="Todays_Date"
               placeholder
             />
           </div>

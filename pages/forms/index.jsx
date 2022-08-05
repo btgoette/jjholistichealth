@@ -22,8 +22,8 @@ const Contact = () => {
           <h1>Contact Information &amp; Forms</h1>
           </Container>
         </section>
-        <Section {...page.contact} />
         <Section {...page.formsList} />
+        <Section {...page.contact} />
       </Main>
     </div>
   );

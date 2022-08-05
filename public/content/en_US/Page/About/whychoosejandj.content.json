@@ -12,7 +12,7 @@
         "title": "Why Choose J&J",
         "text": [
             {
-                "p": "At J&J Holistic Nurtional Therapy, we use a holistic approach in all consulatations with our clients. We consider all possible influencing factors, including physical,mental, emotional, and spiritual well-being."
+                "p": "At J&J Holistic Nutritional Therapy, we use a holistic approach in all consultations with our clients. We consider all possible influencing factors, including physical, mental, emotional, and spiritual well-being."
             }
         ],
         "bookNow":"true"
@@ -42,7 +42,7 @@
                             "p": "Understanding the historical and current health issues of every client about their Diet, Medication, Physical Activity, Emotional State, Lifestyle, Needs, and Desired Outcome to create the most appropriate course of action and bring their body back to its best state."
                         },
                         {
-                            "p": "We do not advocate one type of diet, like low GI, gluten-free foods, paleo, GAPS, vegan, raw, or macrobiotic diets. Similarly, we do not promote any food or suppplement related to fads or fashion."
+                            "p": "We do not advocate one type of diet, like low GI, gluten-free foods, paleo, GAPS, vegan, raw, or macrobiotic diets. Similarly, we do not promote any food or supplement related to fads or fashion."
                         }
                     ]
                 }
@@ -50,7 +50,8 @@
         ]
     },
     "weInspect21Organs": {
-        "slug": "we-inspect-21-organs pt-0",
+        "slug": "we-inspect-21-organs",
+        "class": "pt-0",
         "header": "We Inspect 21 Organs",
         "grid": "grid",
         "blocks": [
@@ -126,7 +127,8 @@
         ]
     },
     "jAndJAllInWellnessPlan": {
-        "slug": "j-and-j-all-in-wellness-plan pt-0",
+        "slug": "j-and-j-all-in-wellness-plan",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "header": "J&J All in Wellness Plan",
         "blocks": [
@@ -168,9 +170,10 @@
         ]
     },
     "childAssessment": {
-        "slug": "child-assessment pt-0",
+        "slug": "child-assessment",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
-        "header": "Child Assesssment",
+        "header": "Child Assessment",
         "blocks": [
             {
                 "block": {
@@ -207,7 +210,8 @@
         ]
     },
     "foodIntoleranceAndSensitivityTest": {
-        "slug": "food-intolerance-and-sensitivity-test  pt-0",
+        "slug": "food-intolerance-and-sensitivity-test",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "header": "Food Intolerance And Sensitivity Test",
         "blocks": [
@@ -215,7 +219,7 @@
                 "block": {
                     "row": "grid-row-1-2",
                     "column": "grid-col-1-2",
-                    "subtitle": "Testing for food intolerances and food sensitivities",
+                    "subtitle": "Testing for food intolerance and food sensitivities",
                     "list": [
                         {
                             "li": "$137 for 5 foods"
@@ -232,15 +236,16 @@
                     "column": "grid-col-2-3",
                     "img": {
                         "class": "rounded",
-                        "src": "/images/pages/about/jj-food-intolerances.webp",
-                        "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritonal Therapy"
+                        "src": "/images/pages/about/jj-food-intolerance.webp",
+                        "alt": "Food Intolerance and Sensitivity Test is one of the tests offered by J&J Holistic Nutritional Therapy"
                     }
                 }
             }
         ]
     },
     "personalizedMealPlanning": {
-        "slug": "personalized-meal-planning pt-0",
+        "slug": "personalized-meal-planning",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "header": "Personalized Meal Planning",
         "blocks": [

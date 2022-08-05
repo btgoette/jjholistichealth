@@ -1,7 +1,6 @@
 import SectionHeader from "components/layout/SectionHeader";
 import GridContainer from "components/layout/GridContainer";
 
-
 const Section = (section) => {
   let hasSectionHeader;
   if (section.header !== undefined) {
@@ -12,9 +11,7 @@ const Section = (section) => {
 
   const renderSectionHeader = () => {
     if (hasSectionHeader) {
-      return (
-        <SectionHeader {...section}/>
-      )
+      return <SectionHeader {...section} />;
     }
   };
 
@@ -28,17 +25,17 @@ const Section = (section) => {
   const renderGridContainer = () => {
     if (hasGridContainer) {
       return (
-        <GridContainer {...section} />
+          <GridContainer {...section} />
       );
     }
   };
 
   return (
-    <section className={section.slug}>
+    <section className={section.class}>
       {renderSectionHeader()}
       {renderGridContainer()}
     </section>
   );
-}
+};
 
 export default Section;

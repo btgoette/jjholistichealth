@@ -19,7 +19,8 @@
     ],
     "finalcrumb": "High Frequency Endocrine Steam",
     "highFrequencyEndocrineSteam": {
-        "slug": "pt-0",
+        "slug": "high-frequency-endocrine-steam",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -48,7 +49,8 @@
         ]
     },
     "theExperience": {
-        "slug": "pt-0",
+        "slug": "the-experience",
+        "class": "pt-0",
         "grid": "grid-500-1fr",
         "blocks": [
             {

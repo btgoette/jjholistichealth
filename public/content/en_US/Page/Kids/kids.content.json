@@ -50,7 +50,8 @@
         ]
     },
     "weAreWhatWeConsume": {
-        "slug": "we-are-what-we-consumer pt-0",
+        "slug": "we-are-what-we-consumer",
+        "class": "pt-0",
         "grid": "grid-1fr-500",
         "blocks": [
             {
@@ -85,82 +86,95 @@
         ]
     },
     "conditions": {
-        "slug": "home-conditions pt-0",
+        "slug": "kids-home-conditions",
+        "class": "pt-0",
         "header": "Which Conditions Can Nutritional Medicine Help?",
-        "grid": "kids-grid-conditions",
+        "grid": "kids-home-grid-conditions",
         "blocks": {
             "condition": [
                 {
                     "src": "/images/pages/kids/digestive.webp",
                     "alt": "A boy eating honey",
                     "name": "Digestive Issues",
-                    "content": "Flatulence, burping, bloating, IBS, constipation, diarrhea, overeating"
+                    "content": "Flatulence, burping, bloating, IBS, constipation, diarrhea, overeating",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/skin.webp",
                     "alt": "A girl squeezing pimple",
                     "name": "Skin Conditions",
-                    "content": "Eczema, rosacea, acne, psoriasis, and rash"
+                    "content": "Eczema, rosacea, acne, psoriasis, and rash",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/immunity.webp",
                     "alt": "Some children wearing masks",
                     "name": "Immunity Problems",
-                    "content": "Frequent colds, coughs, and sore throat"
+                    "content": "Frequent colds, coughs, and sore throat",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/stress.webp",
                     "alt": "An anxious teenage girl",
                     "name": "Stress Management",
-                    "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension"
+                    "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/energy.webp",
                     "alt": "A sleepy little girl",
                     "name": "Energy Problems",
-                    "content": "Erratic energy and fatigue"
+                    "content": "Erratic energy and fatigue",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/pms.webp",
                     "alt": "A teenager with PMS",
                     "name": "Reproductive Issues",
-                    "content": "PMS"
+                    "content": "PMS",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/allergies.webp",
                     "alt": "A boy in a field of flowers",
                     "name": "Allergies",
-                    "content": "Allergic Rhinitis, seasonal allergies"
+                    "content": "Allergic Rhinitis, seasonal allergies",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/weight-management.webp",
                     "alt": "A boy full of energy",
                     "name": "Weight Management",
-                    "content": ""
+                    "content": "Weight Loss",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/asthma.webp",
                     "alt": "A smiling boy",
                     "name": "Asthma",
-                    "content": ""
+                    "content": "Asthma",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/headache.webp",
                     "alt": "A boy with a headache",
                     "name": "Headaches",
-                    "content": ""
+                    "content": "Headaches",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/anemia.webp",
-                    "alt": "A girl getting a bandaid",
+                    "alt": "A girl getting a bandage",
                     "name": "Anemia",
-                    "content": ""
+                    "content": "Anemia",
+                    "href": ""
                 },
                 {
                     "src": "/images/pages/kids/pain.webp",
                     "alt": "A girl crying",
                     "name": "Pain",
-                    "content": ""
+                    "content": "Pain",
+                    "href": ""
                 }
             ]
         }

@@ -1,14 +1,14 @@
 {
-    "title": "Conditions - JJ Holistic Nutritional Therapy",
+    "title": "Conditions - JJ Kids Holistic Nutritional Therapy",
     "description": "We treat digestive issues, immunity problems, weight management, skin conditions, reproductive issues, chronic conditions, hormone imbalances, cancer, stress management, energy, allergies, and neurological conditions.",
     "slug": "conditions",
-    "href": "https://jjholistichealth.com/conditions/",
-    "image": "https://jjholistichealth.com/images/pages/conditions/fe-chart-human-anatomy.webp",
+    "href": "https://jjholistichealth.com/kids/conditions/",
+    "image": "https://jjholistichealth.com/images/pages/kids/fe-chart-human-anatomy.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
     "navigationLabel": "Health Conditions",
     "hero": {
-        "class": "hero",
+        "class": "hero-kids",
         "title": "Health Conditions",
         "text": [
             {
@@ -21,12 +21,12 @@
         "slug": "conditions-section",
         "class": "pt-0",
         "header": "Which Conditions Can Nutritional Medicine Help?",
-        "grid": "grid-conditions",
+        "grid": "kids-grid-conditions",
         "blocks": {
             "condition": [
                 {
-                    "src": "/images/pages/conditions/digestive.webp",
-                    "alt": "A woman holding her stomach",
+                    "src": "/images/pages/kids/digestive.webp",
+                    "alt": "A kid eating honey",
                     "name": "Digestive Issues",
                     "content": "Flatulence, burping, bloating, IBS, constipation, diarrhea",
                     "bullet": [
@@ -47,38 +47,55 @@
                         },
                         {
                             "li": "Diarrhea"
+                        },
+                        {
+                            "li": "Overeating"
                         }
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/reproductive.webp",
-                    "alt": "A woman happy with pregnancy test",
-                    "name": "Reproductive",
-                    "content": "PMS, PCOS, endometriosis, fertility, menopause, lowered libido",
+                    "src": "/images/pages/kids/skin.webp",
+                    "alt": "A teen with a pimple",
+                    "name": "Skin",
+                    "content": "Eczema, rosacea, acne, and psoriasis",
                     "bullet": [
                         {
-                            "li": "PMS"
+                            "li": "Eczema"
                         },
                         {
-                            "li": "PCOS"
+                            "li": "Rosacea"
                         },
                         {
-                            "li": "Endometriosis"
+                            "li": "Acne"
                         },
                         {
-                            "li": "Fertility"
+                            "li": "Psoriasis"
                         },
                         {
-                            "li": "Menopause"
-                        },
-                        {
-                            "li": "Lowered Libido"
+                            "li": "rash"
                         }
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/stress.webp",
-                    "alt": "A stressed male",
+                    "src": "/images/pages/kids/immunity.webp",
+                    "alt": "A kid wearing a mask",
+                    "name": "Immunity Problems",
+                    "content": "Frequent colds, coughs, and sore throat",
+                    "bullet": [
+                        {
+                            "li": "Frequent Colds"
+                        },
+                        {
+                            "li": "Coughs"
+                        },
+                        {
+                            "li": "Sore Throat"
+                        }
+                    ]
+                },
+                {
+                    "src": "/images/pages/kids/stress.webp",
+                    "alt": "A stressed teen female",
                     "name": "Stress",
                     "content": "Nervous system disorders such as insomnia, low mood, anxiety, nervous tension",
                     "bullet": [
@@ -100,85 +117,33 @@
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/chronic-conditions.webp",
-                    "alt": "A person with arthritic pain in hands",
-                    "name": "Chronic Conditions",
-                    "content": "Arthritis, high blood pressure, fibromyalgia, chronic fatigue syndrome, autoimmune disease",
+                    "src": "/images/pages/kids/energy.webp",
+                    "alt": "A little girl with low energy",
+                    "name": "Energy",
+                    "content": "Erratic energy and fatigue",
                     "bullet": [
                         {
-                            "li": "Arthritis"
+                            "li": "Erratic Energy"
                         },
                         {
-                            "li": "High Blood Pressure"
-                        },
-                        {
-                            "li": "Fibromyalgia"
-                        },
-                        {
-                            "li": "Chronic Fatigue Syndrome"
-                        },
-                        {
-                            "li": "Autoimmune Disease"
+                            "li": "Fatigue"
                         }
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/skin.webp",
-                    "alt": "A close up of a woman's skin blemishes",
-                    "name": "Skin",
-                    "content": "Eczema, rosacea, acne, and psoriasis",
+                    "src": "/images/pages/kids/pms.webp",
+                    "alt": "A teen with pms",
+                    "name": "Reproductive",
+                    "content": "PMS, PCOS, endometriosis, fertility, menopause, lowered libido",
                     "bullet": [
                         {
-                            "li": "Eczema"
-                        },
-                        {
-                            "li": "Rosacea"
-                        },
-                        {
-                            "li": "Acne"
-                        },
-                        {
-                            "li": "Psoriasis"
+                            "li": "PMS"
                         }
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/hormone.webp",
-                    "alt": "A woman feeling her thyroid glands",
-                    "name": "Hormone",
-                    "content": "Insulin resistance, adrenal stress, thyroid imbalance",
-                    "bullet": [
-                        {
-                            "li": "Insulin Resistance"
-                        },
-                        {
-                            "li": "Adrenal Stress"
-                        },
-                        {
-                            "li": "Thyroid Imbalances"
-                        }
-                    ]
-                },
-                {
-                    "src": "/images/pages/conditions/immunity.webp",
-                    "alt": "A sick woman in bed",
-                    "name": "Immunity Problems",
-                    "content": "Frequent colds, coughs, and allergies",
-                    "bullet": [
-                        {
-                            "li": "Frequent Colds"
-                        },
-                        {
-                            "li": "Coughs"
-                        },
-                        {
-                            "li": "Allergies"
-                        }
-                    ]
-                },
-                {
-                    "src": "/images/pages/conditions/allergies.webp",
-                    "alt": "A woman sneezing in a field of flowers",
+                    "src": "/images/pages/kids/allergies.webp",
+                    "alt": "A boy in a field of weeds",
                     "name": "Allergies",
                     "content": "Hayfever, sinusitis, rhinitis",
                     "bullet": [
@@ -194,22 +159,8 @@
                     ]
                 },
                 {
-                    "src": "/images/pages/conditions/energy.webp",
-                    "alt": "A person sleeping at work",
-                    "name": "Energy",
-                    "content": "Erratic energy and fatigue",
-                    "bullet": [
-                        {
-                            "li": "Erratic Energy"
-                        },
-                        {
-                            "li": "Fatigue"
-                        }
-                    ]
-                },
-                {
-                    "src": "/images/pages/conditions/weight-management.webp",
-                    "alt": "A woman measuring her waist",
+                    "src": "/images/pages/kids/weight-management.webp",
+                    "alt": "A kid jumping",
                     "name": "Weight Management",
                     "content": "",
                     "bullet": [
@@ -217,6 +168,34 @@
                             "li": "Weight Loss"
                         }
                     ]
+                },
+                {
+                    "src": "/images/pages/kids/asthma.webp",
+                    "alt": "A kid smiling",
+                    "name": "Asthma",
+                    "content": "",
+                    "bullet": []
+                },
+                {
+                    "src": "/images/pages/kids/headache.webp",
+                    "alt": "A kid with a headache",
+                    "name": "Headache",
+                    "content": "",
+                    "bullet": []
+                },
+                {
+                    "src": "/images/pages/kids/anemia.webp",
+                    "alt": "A kid getting her blood drawn",
+                    "name": "Anemia",
+                    "content": "",
+                    "bullet": []
+                },
+                {
+                    "src": "/images/pages/kids/pain.webp",
+                    "alt": "A girl crying",
+                    "name": "Pain",
+                    "content": "",
+                    "bullet": []
                 }
             ]
         }

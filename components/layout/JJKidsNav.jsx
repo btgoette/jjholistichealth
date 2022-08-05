@@ -3,13 +3,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import {
-  Button,
-  Navbar,
-  Nav,
-  NavDropdown,
-  Offcanvas,
-} from "react-bootstrap";
+import { Button, Navbar, Nav, NavDropdown, Offcanvas } from "react-bootstrap";
 import "public/fonts/FontAwesome/fontawesome";
 
 // Page Content
@@ -35,7 +29,7 @@ const JJKidsNav = () => {
               />
             </Navbar.Brand>
           </Link>
-          
+
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
@@ -53,19 +47,16 @@ const JJKidsNav = () => {
                   <Nav.Link href="/kids">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/">J&amp;J Holistic</Nav.Link>
+                  <Nav.Link href="/">J&amp;J Holistic Adults</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <NavDropdown title="About" id="basic-nav-dropdown">
+                  <NavDropdown title="About Us" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/kids/about">
                       About J&amp;J Kids
                     </NavDropdown.Item>
-          <NavDropdown.Divider className="d-none d-xl-block"/>
+                    <NavDropdown.Divider className="d-none d-xl-block" />
                     <NavDropdown.Item href="/kids/about/the-j-and-j-team">
                       The J&amp;J Team
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/kids/about/why-choose-j-and-j">
-                      Why Choose J&amp;J
                     </NavDropdown.Item>
                     {/* <NavDropdown.Item href="/kids/about/testimonials">
                       Testimonials
@@ -76,20 +67,68 @@ const JJKidsNav = () => {
                   <Nav.Link href="/kids/gallery">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
+                  <NavDropdown title="Services" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="/kids/services">
+                      Services
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider className="d-none d-xl-block" />
+                    <NavDropdown.Item href="/kids/services#free-15-minute-consultation">
+                      15 Minute Consultation
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#initial-interview">
+                      Pediatric Initial Interviews
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#pediatric-full-functional-evaluation">
+                      Pediatric Full Functional Evaluation
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#child-assessment">
+                      Child Assessment
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#for-preteens-and-teenagers">
+                      Teen Assessment
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#food-intolerance-and-sensitivity-test">
+                      Food Intolerance/Sensitivity Test
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/kids/services#personalized-meal-planning">
+                      Personalized Meal Menu Planning
+                    </NavDropdown.Item>
+                    {/* <NavDropdown.Item href="/kids/services#sick-visits">
+                      Sick Visits
+                    </NavDropdown.Item> */}
+                    <NavDropdown.Item href="/kids/services#j-and-j-plans">
+                      J&amp;J All In Wellness Plans
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </Nav.Item>
+                {/* <Nav.Item>
+                  <NavDropdown title="Resources" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#">
+                      Common Pediatric Ailments
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#">
+                      Stress Management
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#">
+                      Back To School
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </Nav.Item> */}
+                <Nav.Item>
+                  <Nav.Link href="/forms">Forms</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="/blog">Blog</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link href="/forms">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-none d-xl-block">
                   <Button className="">
-                  <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
+                    <Nav.Link href="/forms/book-now">Book Now</Nav.Link>
                   </Button>
                 </Nav.Item>
               </Nav>
@@ -99,6 +138,6 @@ const JJKidsNav = () => {
       ))}
     </>
   );
-}
+};
 
 export default JJKidsNav;
