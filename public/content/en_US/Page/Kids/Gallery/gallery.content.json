@@ -19,63 +19,93 @@
         "images": [
             {
                 "original": "/images/pages/about/gallery/1.jpg",
-                "thumbnail": "/images/pages/about/gallery/1-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/1-thumb.jpg",
+                "originalAlt": "Reception Window",
+                "thumbnailAlt": "Reception Window"
             },
             {
                 "original": "/images/pages/about/gallery/2.jpg",
-                "thumbnail": "/images/pages/about/gallery/2-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/2-thumb.jpg",
+                "originalAlt": "Reception Window",
+                "thumbnailAlt": "Reception Window"
             },
             {
                 "original": "/images/pages/about/gallery/3.jpg",
-                "thumbnail": "/images/pages/about/gallery/3-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/3-thumb.jpg",
+                "originalAlt": "Waiting Area",
+                "thumbnailAlt": "Waiting Area"
             },
             {
                 "original": "/images/pages/about/gallery/4.jpg",
-                "thumbnail": "/images/pages/about/gallery/4-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/4-thumb.jpg",
+                "originalAlt": "Door to clinic hallway",
+                "thumbnailAlt": "Door to clinic hallway"
             },
             {
                 "original": "/images/pages/about/gallery/5.jpg",
-                "thumbnail": "/images/pages/about/gallery/5-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/5-thumb.jpg",
+                "originalAlt": "Pediatric exam room",
+                "thumbnailAlt": "Pediatric exam room"
             },
             {
                 "original": "/images/pages/about/gallery/6.jpg",
-                "thumbnail": "/images/pages/about/gallery/6-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/6-thumb.jpg",
+                "originalAlt": "Functional Evaluation Chart",
+                "thumbnailAlt": "Functional Evaluation Chart"
             },
             {
                 "original": "/images/pages/about/gallery/7.jpg",
-                "thumbnail": "/images/pages/about/gallery/7-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/7-thumb.jpg",
+                "originalAlt": "Pediatric exam room",
+                "thumbnailAlt": "Pediatric exam room"
             },
             {
                 "original": "/images/pages/about/gallery/8.jpg",
-                "thumbnail": "/images/pages/about/gallery/8-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/8-thumb.jpg",
+                "originalAlt": "Pediatric Office",
+                "thumbnailAlt": "Pediatric Office"
             },
             {
                 "original": "/images/pages/about/gallery/9.jpg",
-                "thumbnail": "/images/pages/about/gallery/9-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/9-thumb.jpg",
+                "originalAlt": "Pediatric Scale",
+                "thumbnailAlt": "Pediatric Scale"
             },
             {
                 "original": "/images/pages/about/gallery/10.jpg",
-                "thumbnail": "/images/pages/about/gallery/10-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/10-thumb.jpg",
+                "originalAlt": "Pediatric Hallway",
+                "thumbnailAlt": "Pediatric Hallway"
             },
             {
                 "original": "/images/pages/about/gallery/14.jpg",
-                "thumbnail": "/images/pages/about/gallery/14-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/14-thumb.jpg",
+                "originalAlt": "Pediatric exam room",
+                "thumbnailAlt": "Pediatric exam room"
             },
             {
                 "original": "/images/pages/about/gallery/15.jpg",
-                "thumbnail": "/images/pages/about/gallery/15-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/15-thumb.jpg",
+                "originalAlt": "Pediatric Office",
+                "thumbnailAlt": "Pediatric Office"
             },
             {
                 "original": "/images/pages/about/gallery/16.jpg",
-                "thumbnail": "/images/pages/about/gallery/16-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/16-thumb.jpg",
+                "originalAlt": "Pediatric Office",
+                "thumbnailAlt": "Pediatric Office"
             },
             {
                 "original": "/images/pages/about/gallery/17.jpg",
-                "thumbnail": "/images/pages/about/gallery/17-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/17-thumb.jpg",
+                "originalAlt": "Pediatric Office",
+                "thumbnailAlt": "Pediatric Office"
             },
             {
                 "original": "/images/pages/about/gallery/18.jpg",
-                "thumbnail": "/images/pages/about/gallery/18-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/18-thumb.jpg",
+                "originalAlt": "Pediatric Office",
+                "thumbnailAlt": "Pediatric Office"
             }
         ]
     }
