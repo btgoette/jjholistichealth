@@ -19,43 +19,63 @@
         "images": [
             {
                 "original": "/images/pages/about/gallery/1.jpg",
-                "thumbnail": "/images/pages/about/gallery/1-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/1-thumb.jpg",
+                "originalAlt": "Reception Window",
+                "thumbnailAlt": "Reception Window"
             },
             {
                 "original": "/images/pages/about/gallery/2.jpg",
-                "thumbnail": "/images/pages/about/gallery/2-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/2-thumb.jpg",
+                "originalAlt": "Reception Window",
+                "thumbnailAlt": "Reception Window"
             },
             {
                 "original": "/images/pages/about/gallery/3.jpg",
-                "thumbnail": "/images/pages/about/gallery/3-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/3-thumb.jpg",
+                "originalAlt": "Waiting Area",
+                "thumbnailAlt": "Waiting Area"
             },
             {
                 "original": "/images/pages/about/gallery/4.jpg",
-                "thumbnail": "/images/pages/about/gallery/4-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/4-thumb.jpg",
+                "originalAlt": "Waiting Area",
+                "thumbnailAlt": "Waiting Area"
             },
             {
                 "original": "/images/pages/about/gallery/5.jpg",
-                "thumbnail": "/images/pages/about/gallery/5-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/5-thumb.jpg",
+                "originalAlt": "Door to clinic hallway",
+                "thumbnailAlt": "Door to clinic hallway"
             },
             {
                 "original": "/images/pages/about/gallery/11.jpg",
-                "thumbnail": "/images/pages/about/gallery/11-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/11-thumb.jpg",
+                "originalAlt": "Adult clinic hallway",
+                "thumbnailAlt": "Adult clinic hallway"
             },
             {
                 "original": "/images/pages/about/gallery/12.jpg",
-                "thumbnail": "/images/pages/about/gallery/12-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/12-thumb.jpg",
+                "originalAlt": "Exam Room",
+                "thumbnailAlt": "Exam Room"
             },
             {
                 "original": "/images/pages/about/gallery/13.jpg",
-                "thumbnail": "/images/pages/about/gallery/13-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/13-thumb.jpg",
+                "originalAlt": "Exam Room",
+                "thumbnailAlt": "Exam Room"
             },
             {
                 "original": "/images/pages/about/gallery/19.jpg",
-                "thumbnail": "/images/pages/about/gallery/19-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/19-thumb.jpg",
+                "originalAlt": "Scale",
+                "thumbnailAlt": "Scale"
             },
             {
                 "original": "/images/pages/about/gallery/20.jpg",
-                "thumbnail": "/images/pages/about/gallery/20-thumb.jpg"
+                "thumbnail": "/images/pages/about/gallery/20-thumb.jpg",
+                "originalAlt": "Office",
+                "thumbnailAlt": "Office"
             }
         ]
     }
