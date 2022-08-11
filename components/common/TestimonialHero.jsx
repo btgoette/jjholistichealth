@@ -8,12 +8,7 @@ const TestimonialHero = (hero) => {
   return (
     <section className="testimonials-section py-0">
       <Container>
-        <Row>
-          <Col>
-            <h1>{hero.title}</h1>
-          </Col>
-        </Row>
-        <Row className="service-testimonial">
+        <Row className="align-items-center service-testimonial">
           <Col lg={{ span: 4, order: 1 }}>
             <figure className="service-testimonial-image">
               <LazyLoadImage src={hero.img.src} alt={hero.img.alt} />

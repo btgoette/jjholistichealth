@@ -4,6 +4,7 @@
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import TestimonialHero from "components/common/TestimonialHero";
+import TestimonialVideo from "components/common/TestimonialVideo";
 import Testimonials from "components/common/Testimonials";
 import GoogleReviews from "components/common/GoogleReviews";
 import Main from "components/layout/Main";
@@ -19,6 +20,7 @@ const JJTestimonials = () => {
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
+        <TestimonialVideo />
         <TestimonialHero {...page.hero} />
         <Testimonials />
         <GoogleReviews />

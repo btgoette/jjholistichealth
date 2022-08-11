@@ -1,20 +1,20 @@
 {
-    "title": "Testimonials - JJ Holistic Nutritional Kids",
+    "title": "Testimonials - JJ Holistic Nutritional Therapy",
     "description": "Words cannot express how great I feel since I have been a client of J &amp; J Holistic Nutritional Therapy. I have been dealing with Spinal Stenosis since 2012. Following the recommendations both nutritional, dietary and with the introduction of essential oils and CDB oils l no longer take pain meds or my antidepressant. I was taking far too many prescribed and over the counter medications. Since adopting the life style changes and eliminating foods that I never knew I was allergic to I’am literally pain free, no Advil, Alieve, Benadryl. My headaches are gone.",
-    "slug": "kids testimonials",
-    "href": "https://jjholistichealth.com/kids/about/testimonials",
+    "slug": "testimonials",
+    "href": "https://jjholistichealth.com/about/testimonials",
     "image": "https://jjholistichealth.com/images/pages/about/testimonials/michelle-moore.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
-    "navigationLabel": "Kids Testimonials",
+    "navigationLabel": "Testimonials",
     "breadcrumbs": [
         {
-            "page": "Kids",
-            "link": "/kids/"
+            "page": "Home",
+            "link": "/"
         },
         {
             "page": "About",
-            "link": "/kids/about/"
+            "link": "/about"
         }
     ],
     "finalcrumb": "Testimonials",
@@ -31,7 +31,107 @@
         },
         "name": "Michelle Clement Moore"
     },
-    "block": {
-        "testimonials": {}
+    "videos": {
+        "slug": "top-testimonial",
+        "class": "pt-0",
+        "grid": "grid-1fr-1fr",
+        "blocks": [
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-column-1-2",
+                    "slug": "testimonialCongestion",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-congestion.webp",
+                        "alt": "Testimonial Congestion"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-1-2",
+                    "column": "grid-column-2-3",
+                    "slug": "testimonialMotherDaughter",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-mother-daughter.webp",
+                        "alt": "Testimonial Mother Daughter"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-2-3",
+                    "column": "grid-column-1-2",
+                    "slug": "testimonialDiet",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-diet.webp",
+                        "alt": "Testimonial Diet"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-2-3",
+                    "column": "grid-column-2-3",
+                    "slug": "testimonialStomach",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-stomach.webp",
+                        "alt": "Testimonial Stomach"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-3-4",
+                    "column": "grid-column-1-2",
+                    "slug": "testimonialThyroid",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-thyroid.webp",
+                        "alt": "Testimonial Thyroid"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-3-4",
+                    "column": "grid-column-2-3",
+                    "slug": "testimonialRash",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-rash.webp",
+                        "alt": "Testimonial Rash"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-4-5",
+                    "column": "grid-column-1-2",
+                    "slug": "testimonialHair",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-hair.webp",
+                        "alt": "Testimonial Hair"
+                    }
+                }
+            },
+            {
+                "block": {
+                    "row": "grid-row-4-5",
+                    "column": "grid-column-2-3",
+                    "slug": "testimonialSoap",
+                    "class": "d-block",
+                    "img": {
+                        "src": "/videos/posters/jj-testimonial-soap.webp",
+                        "alt": "Testimonial Soap"
+                    }
+                }
+            }
+        ]
     }
 }

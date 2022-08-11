@@ -1,4 +1,17 @@
 .testimonials {
+    .testimonial-video-section {
+        .testimonial-video-slider {
+            padding: 2rem 0;
+            margin: 0 -1rem;
+            .testimonial-video-thumbnail {
+                cursor: pointer;
+                padding: 0 0.25rem;
+                .testimonial-video-image {
+                }
+            }
+        }
+    }
+
     .testimonials-section {
         .service-testimonial {
             .service-testimonial-image {
