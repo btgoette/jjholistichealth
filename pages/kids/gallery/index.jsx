@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 // Page Components
 import Head from "components/common/Head";
 import Main from "components/layout/Main";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import ImageGallery from "react-image-gallery";
 import JJKidsNav from "components/layout/JJKidsNav.jsx";
@@ -32,6 +33,7 @@ const PhotoGalleryKids = () => {
             </div>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

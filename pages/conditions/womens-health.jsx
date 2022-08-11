@@ -4,6 +4,7 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -23,6 +24,7 @@ const WomensHealthIssues = () => {
         <Section {...page.thyroidPanel} />
         <Section {...page.hormonePanel} />
         <Section {...page.otherTests} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

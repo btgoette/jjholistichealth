@@ -4,6 +4,7 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
@@ -27,6 +28,7 @@ const Services = () => {
         <Section {...page.foodIntoleranceAndSensitivityTest} />
         <Section {...page.personalizedMealPlanning} />
         <Section {...page.jAndJPlans} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

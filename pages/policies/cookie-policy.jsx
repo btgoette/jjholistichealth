@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // Custom Components
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -221,6 +222,7 @@ const CookiePolicy = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

@@ -6,6 +6,7 @@ import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import IonicFootDetoxColorChart from "components/common/IonicFootDetoxColorChart";
 import FootDetoxIntakeForm from "components/forms/FootDetoxIntakeForm";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -44,6 +45,7 @@ const FootDetoxIntake = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

@@ -5,6 +5,7 @@ import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import FunctionalEvaluation from "components/common/FunctionalEvaluation";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -21,6 +22,7 @@ const HealthConditions = () => {
         <Main>
           <FunctionalEvaluation {...page.functionalEvaluation} />
           <Section {...page.conditions} />
+        <TestimonialVideoFooter />
         </Main>
       </div>
     </>

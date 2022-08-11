@@ -4,6 +4,7 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Main from "components/layout/Main";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Team from "components/common/Team";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -18,6 +19,7 @@ const JJTeam = () => {
       <Hero {...page.hero} />
       <Main>
         <Team {...page.team} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

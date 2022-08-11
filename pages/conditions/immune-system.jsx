@@ -4,6 +4,7 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -25,6 +26,7 @@ const ImmuneSystem = () => {
       <Section {...page.exercise} />
       <Section {...page.drinkWater} />
       <Section {...page.getEnoughRest} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

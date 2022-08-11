@@ -4,6 +4,7 @@
 import Breadcrumbs from "components/common/Breadcrumbs";
 import Head from "components/common/Head";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -19,6 +20,7 @@ const Services = () => {
         <Breadcrumbs {...page} />
         <Section {...page.highFrequencyEndocrineSteam} />
         <Section {...page.theExperience} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

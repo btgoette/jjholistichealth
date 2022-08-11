@@ -5,6 +5,7 @@ import Head from "components/common/Head";
 import Video from "components/common/Video";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -22,7 +23,8 @@ const About = () => {
         <Section {...page.ourStory} />
         <Section {...page.mission} />
         <Section {...page.vision} />
-        <Section {...page.coreValues} />
+        <Section {...page.coreValues} />        
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );
