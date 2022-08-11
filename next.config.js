@@ -62,7 +62,7 @@ module.exports = {
                 permanent: true,
             },
             {
-                source: 'about/why-choose-j-and-j',
+                source: '/about/why-choose-j-and-j',
                 destination: '/about/',
                 permanent: true,
             },
