@@ -6,7 +6,7 @@ import Hero from "components/common/Hero"
 import Section from "components/layout/Section"
 import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Conditions/stressandadrenalfunction.content"
@@ -14,7 +14,7 @@ import page from "public/content/en_US/Page/Conditions/stressandadrenalfunction.
 const StressAndAdrenalFunction = () => {
   return (
       <div className={page.slug}>
-      <JJNav/>
+      <Nav/>
         <Head {...page} />
         <Hero {...page.hero} />
         <Main>

@@ -6,7 +6,7 @@ import Breadcrumbs from "components/common/Breadcrumbs";
 import ConsentForm from "components/forms/ConsentForm";
 import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Forms/consent.content";
@@ -14,7 +14,7 @@ import page from "public/content/en_US/Page/Forms/consent.content";
 const Consent = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />

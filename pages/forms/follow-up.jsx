@@ -7,7 +7,7 @@ import Breadcrumbs from "components/common/Breadcrumbs";
 import FollowUpForm from "components/forms/FollowUpForm";
 import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Forms/followUp.content";
@@ -15,7 +15,7 @@ import page from "public/content/en_US/Page/Forms/followUp.content";
 const FollowUp = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />

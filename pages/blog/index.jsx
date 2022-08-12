@@ -8,7 +8,7 @@ import Head from "components/common/Head";
 import Main from "components/layout/Main";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import RecentPosts from "components/blog/RecentPosts";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Blog/blog.content";
@@ -26,7 +26,7 @@ export async function getStaticProps() {
 const BlogIndexPage = ({ allPostsData }) => {
   return (
     <>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
 
       <Main>
