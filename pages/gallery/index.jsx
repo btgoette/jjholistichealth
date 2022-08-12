@@ -7,7 +7,7 @@ import Main from "components/layout/Main";
 import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import ImageGallery from "react-image-gallery";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Gallery/gallery.content";
@@ -15,7 +15,7 @@ import page from "public/content/en_US/Page/Gallery/gallery.content";
 const PhotoGallery = () => {
   return (
     <div className={page.slug}>
-    <JJNav/>
+    <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />

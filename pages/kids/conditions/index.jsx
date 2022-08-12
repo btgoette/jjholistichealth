@@ -7,7 +7,7 @@ import FunctionalEvaluation from "components/common/FunctionalEvaluation";
 import Section from "components/layout/Section";
 import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
+import Nav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Kids/Conditions/conditions.content";
@@ -16,7 +16,7 @@ const KidsHealthConditions = () => {
   return (
     <>
       <div className={page.slug}>
-        <JJKidsNav />
+        <Nav/>
         <Head {...page} />
         <Hero {...page.hero} />
         <Main>

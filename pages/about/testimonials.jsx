@@ -8,7 +8,7 @@ import TestimonialVideo from "components/common/TestimonialVideo";
 import Testimonials from "components/common/Testimonials";
 import GoogleReviews from "components/common/GoogleReviews";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/About/testimonials.content";
@@ -16,7 +16,7 @@ import page from "public/content/en_US/Page/About/testimonials.content";
 const JJTestimonials = () => {
   return (
     <div className={page.slug}>
-    <JJNav/>
+    <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
