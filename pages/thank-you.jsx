@@ -3,6 +3,7 @@
 // Page Components
 import Head from "components/common/Head";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -16,6 +17,7 @@ const ThankYou = () => {
       <Head {...page} />
       <Main>
         <Section {...page.thankYou} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

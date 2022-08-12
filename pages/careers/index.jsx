@@ -4,6 +4,7 @@ import {Container} from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import Main from "components/layout/Main";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import JJNav from "components/layout/JJNav";
 import Section from "components/layout/Section"
 
@@ -23,6 +24,7 @@ const Careers = () => {
           </Container>
         </section>
         <Section {...page.careersForm} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

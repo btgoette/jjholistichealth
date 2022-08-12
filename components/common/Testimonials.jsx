@@ -72,9 +72,6 @@ const Testimonials = () => {
         <section className="py-0">
 
             <div className="testimonials-section">
-                <header>
-                    <h2>What Clients Love About J&amp;J</h2>
-                </header>
                 <Container>
                     <Row>
                         <Slider {...settings}>

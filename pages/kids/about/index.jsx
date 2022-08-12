@@ -4,6 +4,7 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJKidsNav from "components/layout/JJKidsNav.jsx";
 
@@ -21,6 +22,7 @@ const About = () => {
         <Section {...page.mission} />
         <Section {...page.vision} />
         <Section {...page.coreValues} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import ConsentForm from "components/forms/ConsentForm";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -38,6 +39,7 @@ const Consent = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

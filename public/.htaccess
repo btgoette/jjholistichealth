@@ -43,8 +43,9 @@ Options All -Indexes
 # 301 Redirects
 Redirect 301 /the-j-and-j-team about/the-j-and-j-team
 Redirect 301 /thejandjteam about/the-j-and-j-team
-Redirect 301 /why-choose-j-and-j about/why-choose-j-and-j
-Redirect 301 /whychoosejandj about/why-choose-j-and-j
+Redirect 301 /why-choose-j-and-j about/
+Redirect 301 /whychoosejandj about/
+Redirect 301 /about/whychoosejandj about/
 Redirect 301 /testimonials about/testimonials
 Redirect 301 /cardiovascular conditions/cardiovascular
 Redirect 301 /immune-system conditions/immune-system

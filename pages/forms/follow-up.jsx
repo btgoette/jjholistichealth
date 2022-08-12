@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import FollowUpForm from "components/forms/FollowUpForm";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
 import JJNav from "components/layout/JJNav.jsx";
 
@@ -39,6 +40,7 @@ const FollowUp = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

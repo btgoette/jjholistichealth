@@ -58,9 +58,9 @@ const JJKidsNav = () => {
                     <NavDropdown.Item href="/kids/about/the-j-and-j-team">
                       The J&amp;J Team
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="/kids/about/testimonials">
+                    <NavDropdown.Item href="/kids/about/testimonials">
                       Testimonials
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>

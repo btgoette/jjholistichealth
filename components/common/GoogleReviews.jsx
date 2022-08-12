@@ -3,10 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 const GoogleReviews = () => {
   return (
-    <section className="pt-0">
-      <header>
-        <h2>Our Google Reviews</h2>
-      </header>
+    <section>
       <Container>
         <Row>
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
