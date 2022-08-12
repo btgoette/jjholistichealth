@@ -4,8 +4,9 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Conditions/womenshealthissues.content";
@@ -13,7 +14,7 @@ import page from "public/content/en_US/Page/Conditions/womenshealthissues.conten
 const WomensHealthIssues = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Hero {...page.hero} />
       <Main>
@@ -23,6 +24,7 @@ const WomensHealthIssues = () => {
         <Section {...page.thyroidPanel} />
         <Section {...page.hormonePanel} />
         <Section {...page.otherTests} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

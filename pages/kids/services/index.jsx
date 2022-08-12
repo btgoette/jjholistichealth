@@ -4,8 +4,9 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Section from "components/layout/Section";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
+import Nav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Kids/Services/services.content";
@@ -13,7 +14,7 @@ import page from "public/content/en_US/Page/Kids/Services/services.content";
 const Services = () => {
   return (
     <div className={page.slug}>
-      <JJKidsNav />
+      <Nav/>
       <Head {...page} />
       <Hero {...page.hero} />
       <Main>
@@ -27,6 +28,7 @@ const Services = () => {
         <Section {...page.foodIntoleranceAndSensitivityTest} />
         <Section {...page.personalizedMealPlanning} />
         <Section {...page.jAndJPlans} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

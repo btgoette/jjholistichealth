@@ -5,15 +5,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import HerbalVSteamForm from "components/forms/HerbalVSteamForm";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 // Page Content
 import page from "public/content/en_US/Page/Forms/herbalVSteam.content";
 
 const HerbalVSteam = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
@@ -38,6 +39,7 @@ const HerbalVSteam = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

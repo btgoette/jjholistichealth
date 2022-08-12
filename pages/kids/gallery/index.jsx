@@ -4,9 +4,10 @@ import { Container } from "react-bootstrap";
 // Page Components
 import Head from "components/common/Head";
 import Main from "components/layout/Main";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import ImageGallery from "react-image-gallery";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
+import Nav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Kids/Gallery/gallery.content";
@@ -14,7 +15,7 @@ import page from "public/content/en_US/Page/Kids/Gallery/gallery.content";
 const PhotoGalleryKids = () => {
   return (
     <div className={page.slug}>
-    <JJKidsNav/>
+    <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
@@ -32,6 +33,7 @@ const PhotoGalleryKids = () => {
             </div>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

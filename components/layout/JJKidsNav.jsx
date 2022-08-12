@@ -51,24 +51,24 @@ const JJKidsNav = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="About Us" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/kids/about">
+                    <NavDropdown.Item href="/kids/about/">
                       About J&amp;J Kids
                     </NavDropdown.Item>
                     <NavDropdown.Divider className="d-none d-xl-block" />
                     <NavDropdown.Item href="/kids/about/the-j-and-j-team">
                       The J&amp;J Team
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="/kids/about/testimonials">
+                    <NavDropdown.Item href="/kids/about/testimonials">
                       Testimonials
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/kids/gallery">Photo Gallery</Nav.Link>
+                  <Nav.Link href="/kids/gallery/">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="Services" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/kids/services">
+                    <NavDropdown.Item href="/kids/services/">
                       Services
                     </NavDropdown.Item>
                     <NavDropdown.Divider className="d-none d-xl-block" />
@@ -115,7 +115,7 @@ const JJKidsNav = () => {
                   </NavDropdown>
                 </Nav.Item> */}
                 <Nav.Item>
-                  <Nav.Link href="/forms">Forms</Nav.Link>
+                  <Nav.Link href="/forms/">Forms</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="https://poporganics.net">Shop</Nav.Link>

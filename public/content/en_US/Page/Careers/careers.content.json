@@ -1,8 +1,8 @@
 {
     "title": "Careers - JJ Holistic Nutritional Therapy",
-    "description": "Job Application Form for J&J Holistic Nutritional Therapy. ",
+    "description": "Job Application Form for J&J Holistic Nutritional Therapy. Please fill out the form with all accuracy.",
     "slug": "careers",
-    "href": "https://jjholistichealth.com/forms/careers",
+    "href": "https://jjholistichealth.com/careers/",
     "image": "https://jjholistichealth.com/images/logos/jj-logo.webp",
     "imageType": "image/webp",
     "robots": "INDEX, FOLLOW",
@@ -11,10 +11,6 @@
         {
             "page": "Home",
             "href": "/"
-        },
-        {
-            "page": "Forms",
-            "href": "/forms"
         }
     ],
     "finalcrumb": "Careers",

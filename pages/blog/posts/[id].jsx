@@ -26,7 +26,7 @@ import Main from "components/layout/Main";
 import BookNowCTA from "components/common/BookNowCTA";
 import FDA from "components/common/FDA";
 import RecentPosts from "components/blog/RecentPosts";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Custom Styles, Content, and Data
 
@@ -54,7 +54,7 @@ export async function getStaticPaths() {
 const BlogPost = ({ postData }) => {
   return (
     <>
-      <JJNav />
+      <Nav/>
       <Head {...postData} />
       <Main>
         <div className="blog">

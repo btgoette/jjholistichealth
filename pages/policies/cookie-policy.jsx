@@ -4,8 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 // Custom Components
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Policies/cookiePolicy.content";
@@ -13,7 +14,7 @@ import page from "public/content/en_US/Page/Policies/cookiePolicy.content";
 const CookiePolicy = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
@@ -221,6 +222,7 @@ const CookiePolicy = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

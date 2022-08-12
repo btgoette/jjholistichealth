@@ -47,11 +47,11 @@ const JJNav = () => {
                   <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/kids">J&amp;J Holistic Kids</Nav.Link>
+                  <Nav.Link href="/kids/">J&amp;J Holistic Kids</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown title="About Us" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/about">
+                    <NavDropdown.Item href="/about/">
                       About J&amp;J
                     </NavDropdown.Item>
                     <NavDropdown.Divider className="d-none d-xl-block" />
@@ -64,14 +64,14 @@ const JJNav = () => {
                   </NavDropdown>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/gallery">Photo Gallery</Nav.Link>
+                  <Nav.Link href="/gallery/">Photo Gallery</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <NavDropdown
                     title="Services"
                     id="basic-nav-dropdown"
                   >
-                    <NavDropdown.Item href="/services">
+                    <NavDropdown.Item href="/services/">
                       Services
                     </NavDropdown.Item>
                     <NavDropdown.Divider className="d-none d-xl-block" />
@@ -85,7 +85,7 @@ const JJNav = () => {
                     title="Health Conditions"
                     id="basic-nav-dropdown"
                   >
-                    <NavDropdown.Item href="/conditions">
+                    <NavDropdown.Item href="/conditions/">
                       Health Conditions
                     </NavDropdown.Item>
                     <NavDropdown.Divider className="d-none d-xl-block" />
@@ -113,7 +113,7 @@ const JJNav = () => {
                   <Nav.Link href="/blog">Blog</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/forms">Forms</Nav.Link>
+                  <Nav.Link href="/forms/">Forms</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="d-block d-xl-none">
                   <Nav.Link href="/forms/book-now">Book Now</Nav.Link>

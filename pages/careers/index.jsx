@@ -4,7 +4,8 @@ import {Container} from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
+import Nav from "components/layout/JJNav";
 import Section from "components/layout/Section"
 
 // Page Careers
@@ -13,7 +14,7 @@ import page from "public/content/en_US/Page/Careers/careers.content";
 const Careers = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
@@ -23,6 +24,7 @@ const Careers = () => {
           </Container>
         </section>
         <Section {...page.careersForm} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

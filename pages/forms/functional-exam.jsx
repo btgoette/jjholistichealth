@@ -5,8 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "components/common/Head";
 import Breadcrumbs from "components/common/Breadcrumbs";
 import FunctionalExamForm from "components/forms/FunctionalExamForm";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import Main from "components/layout/Main";
-import JJNav from "components/layout/JJNav.jsx";
+import Nav from "components/layout/JJNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Forms/functionalExam.content";
@@ -14,7 +15,7 @@ import page from "public/content/en_US/Page/Forms/functionalExam.content";
 const FunctionalExam = () => {
   return (
     <div className={page.slug}>
-      <JJNav />
+      <Nav/>
       <Head {...page} />
       <Main>
         <Breadcrumbs {...page} />
@@ -39,6 +40,7 @@ const FunctionalExam = () => {
             </Row>
           </Container>
         </section>
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );

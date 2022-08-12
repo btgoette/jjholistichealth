@@ -4,8 +4,9 @@
 import Head from "components/common/Head";
 import Hero from "components/common/Hero";
 import Main from "components/layout/Main";
+import TestimonialVideoFooter from "components/common/TestimonialVideoFooter";
 import DigestiveSystem from "components/common/DigestiveSystem";
-import JJKidsNav from "components/layout/JJKidsNav.jsx";
+import Nav from "components/layout/JJKidsNav.jsx";
 
 // Page Content
 import page from "public/content/en_US/Page/Kids/Conditions/digestivesystem.content";
@@ -13,11 +14,12 @@ import page from "public/content/en_US/Page/Kids/Conditions/digestivesystem.cont
 const KidsDigestive = () => {
   return (
     <div className={page.slug}>
-      <JJKidsNav />
+      <Nav/>
       <Head {...page} />
       <Hero {...page.hero} />
       <Main>
         <DigestiveSystem {...page.digestiveSystem} />
+        <TestimonialVideoFooter />
       </Main>
     </div>
   );
